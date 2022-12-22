@@ -1,0 +1,27 @@
+\vskip -8pt
+\contentsline {schapter}{Introduction}{iii}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Installation}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Termux}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Platformio }{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Arduino Droid}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Seven Segment Display}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Components}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Breadboard}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Seven Segment Display}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Arduino}{6}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Display Control through Hardware }{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Powering the Display}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Controlling the Display}{7}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Display Control through Software}{8}{section.2.3}%
+\contentsline {chapter}{\numberline {3}7447}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Components}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Hardware}{11}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Software}{12}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Karnaugh Map}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Incrementing Decoder}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Karnaugh Map}{20}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Dont Care}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Don't Care Conditions}{27}{section.5.1}%
+\contentsline {chapter}{\numberline {6}7474}{33}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Components}{33}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Decade Counter}{33}{section.6.2}%

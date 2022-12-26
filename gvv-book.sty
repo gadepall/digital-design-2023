@@ -29,8 +29,10 @@
     \usepackage{lscape}     
     \usepackage{gensymb}     
 \usepackage{karnaugh-map}
+%\usepackage{mathtools}
 
 \usepackage{tikz}
+\usepackage{circuitikz}
 
 \newif\ifbibunnumbered\global\bibunnumberedtrue%
 %\DeclareOption{number}{\xdef\@biboptions{numbers}}%
@@ -2036,6 +2038,7 @@ No query.\par%
 %\newcommand{\cosec}{\,\text{cosec}\,}
 \newcommand{\sinc}{\,\text{sinc}\,}
 \newcommand{\rect}{\,\text{rect}\,}
+\providecommand{\myceil}[1]{\left \lceil #1 \right \rceil }
 %\numberwithin{equation}{section}
 %\numberwithin{equation}{subsection}
 %\numberwithin{problem}{section}

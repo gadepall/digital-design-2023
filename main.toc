@@ -17,11 +17,17 @@
 \contentsline {section}{\numberline {3.1}Components}{11}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Hardware}{11}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Software}{12}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Karnaugh Map}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Incrementing Decoder}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Karnaugh Map}{20}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Dont Care}{27}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Don't Care Conditions}{27}{section.5.1}%
-\contentsline {chapter}{\numberline {6}7474}{33}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Components}{33}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Decade Counter}{33}{section.6.2}%
+\contentsline {section}{\numberline {3.4}Problems}{17}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Karnaugh Map}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Incrementing Decoder}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Karnaugh Map}{28}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Problems}{33}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Dont Care}{43}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Don't Care Conditions}{43}{section.5.1}%
+\contentsline {chapter}{\numberline {6}7474}{49}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Components}{49}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Decade Counter}{49}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Finite State Machine}{53}{chapter.7}%
+\contentsline {section}{\numberline {7.1}The Decade Counter}{53}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Finite State Machine}{53}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Problems}{54}{section.7.3}%

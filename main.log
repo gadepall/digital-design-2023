@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  26 DEC 2022 09:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  31 DEC 2022 05:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1190,7 +1190,7 @@ LaTeX Info: Redefining \nameref on input line 25.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-<figs/logo.jpg, id=135, 642.4pt x 642.4pt>
+<figs/logo.jpg, id=139, 642.4pt x 642.4pt>
 File: figs/logo.jpg Graphic file (type jpg)
 <use figs/logo.jpg>
 Package pdftex.def Info: figs/logo.jpg  used on input line 51.
@@ -1386,7 +1386,7 @@ Package epstopdf Info: Source file: <ide/sevenseg/figs/breadboard.eps>
 rd-eps-converted-to.pdf ide/sevenseg/figs/breadboard.eps>
 (epstopdf)             \includegraphics on input line 342.
 Package epstopdf Info: Output file is already uptodate.
-<ide/sevenseg/figs/breadboard-eps-converted-to.pdf, id=284, 774.895pt x 252.945
+<ide/sevenseg/figs/breadboard-eps-converted-to.pdf, id=289, 774.895pt x 252.945
 pt>
 File: ide/sevenseg/figs/breadboard-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1537,7 +1537,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-<figs/cbse-2016.jpg, id=495, 1536.74126pt x 721.69624pt>
+<figs/cbse-2016.jpg, id=500, 1536.74126pt x 721.69624pt>
 File: figs/cbse-2016.jpg Graphic file (type jpg)
 <use figs/cbse-2016.jpg>
 Package pdftex.def Info: figs/cbse-2016.jpg  used on input line 67.
@@ -1549,7 +1549,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-<figs/2000-gate-ec-2-7.jpg, id=519, 542.025pt x 224.84pt>
+<figs/2000-gate-ec-2-7.jpg, id=524, 542.025pt x 224.84pt>
 File: figs/2000-gate-ec-2-7.jpg Graphic file (type jpg)
 <use figs/2000-gate-ec-2-7.jpg>
 Package pdftex.def Info: figs/2000-gate-ec-2-7.jpg  used on input line 116.
@@ -1570,31 +1570,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20 <./figs/2000-gate-ec-2-7.jpg>]
-<figs/2007-gate-ec-43.png, id=539, 625.33624pt x 281.05pt>
+<figs/2007-gate-ec-43.png, id=544, 625.33624pt x 281.05pt>
 File: figs/2007-gate-ec-43.png Graphic file (type png)
 <use figs/2007-gate-ec-43.png>
 Package pdftex.def Info: figs/2007-gate-ec-43.png  used on input line 189.
 (pdftex.def)             Requested size: 433.62001pt x 194.8896pt.
-<figs/2010-gate-ec-39.png, id=542, 424.58624pt x 213.04594pt>
+<figs/2010-gate-ec-39.png, id=547, 424.58624pt x 213.04594pt>
 File: figs/2010-gate-ec-39.png Graphic file (type png)
 <use figs/2010-gate-ec-39.png>
-Package pdftex.def Info: figs/2010-gate-ec-39.png  used on input line 200.
+Package pdftex.def Info: figs/2010-gate-ec-39.png  used on input line 204.
 (pdftex.def)             Requested size: 433.62001pt x 217.59004pt.
-<figs/2011-gate-ec-20.png, id=544, 652.4375pt x 301.125pt>
+<figs/2011-gate-ec-20.png, id=549, 652.4375pt x 301.125pt>
 File: figs/2011-gate-ec-20.png Graphic file (type png)
 <use figs/2011-gate-ec-20.png>
-Package pdftex.def Info: figs/2011-gate-ec-20.png  used on input line 212.
+Package pdftex.def Info: figs/2011-gate-ec-20.png  used on input line 216.
 (pdftex.def)             Requested size: 433.62001pt x 200.13992pt.
-<figs/2017-gate-ec-16.png, id=546, 323.2075pt x 261.97874pt>
+<figs/2017-gate-ec-16.png, id=551, 323.2075pt x 261.97874pt>
 File: figs/2017-gate-ec-16.png Graphic file (type png)
 <use figs/2017-gate-ec-16.png>
-Package pdftex.def Info: figs/2017-gate-ec-16.png  used on input line 224.
+Package pdftex.def Info: figs/2017-gate-ec-16.png  used on input line 228.
 (pdftex.def)             Requested size: 433.62001pt x 351.49341pt.
-<figs/2018-gate-ec-31.png, id=548, 874.26625pt x 385.44pt>
-File: figs/2018-gate-ec-31.png Graphic file (type png)
-<use figs/2018-gate-ec-31.png>
-Package pdftex.def Info: figs/2018-gate-ec-31.png  used on input line 236.
-(pdftex.def)             Requested size: 433.62001pt x 191.17273pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1602,11 +1597,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-<figs/2018-gate-ee-14.png, id=566, 200.54926pt x 72.27pt>
-File: figs/2018-gate-ee-14.png Graphic file (type png)
-<use figs/2018-gate-ee-14.png>
-Package pdftex.def Info: figs/2018-gate-ee-14.png  used on input line 248.
-(pdftex.def)             Requested size: 433.62001pt x 156.27286pt.
+<figs/2018-gate-ec-31.png, id=567, 874.26625pt x 385.44pt>
+File: figs/2018-gate-ec-31.png Graphic file (type png)
+<use figs/2018-gate-ec-31.png>
+Package pdftex.def Info: figs/2018-gate-ec-31.png  used on input line 240.
+(pdftex.def)             Requested size: 433.62001pt x 191.17273pt.
 
 Underfull \vbox (badness 3861) has occurred while \output is active []
 
@@ -1617,10 +1612,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22 <./figs/2007-gate-ec-43.png> <./figs/2010-gate-ec-39.png>]
-<figs/2019-gate-ee-36.png, id=576, 910.40125pt x 448.67625pt>
+<figs/2018-gate-ee-14.png, id=578, 200.54926pt x 72.27pt>
+File: figs/2018-gate-ee-14.png Graphic file (type png)
+<use figs/2018-gate-ee-14.png>
+Package pdftex.def Info: figs/2018-gate-ee-14.png  used on input line 252.
+(pdftex.def)             Requested size: 433.62001pt x 156.27286pt.
+<figs/2019-gate-ee-36.png, id=580, 910.40125pt x 448.67625pt>
 File: figs/2019-gate-ee-36.png Graphic file (type png)
 <use figs/2019-gate-ee-36.png>
-Package pdftex.def Info: figs/2019-gate-ee-36.png  used on input line 260.
+Package pdftex.def Info: figs/2019-gate-ee-36.png  used on input line 264.
 (pdftex.def)             Requested size: 433.62001pt x 213.70535pt.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1648,10 +1648,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26 <./figs/2019-gate-ee-36.png>]
 Chapter 4.
-(./ide/kmap/main.tex (./ide/kmap/figs/counter_decoder.tex)
-Underfull \vbox (badness 1043) has occurred while \output is active []
+(./ide/kmap/main.tex (./ide/kmap/figs/counter_decoder.tex
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1699,15 +1700,21 @@ label is specified separately. See the documentation for more details. Backward
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 2961) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
 (./ide/kmap/figs/kmap_C.tex
 
 Package karnaugh-map Warning: The API for specifying variable labels have been 
@@ -1726,12 +1733,6 @@ label is specified separately. See the documentation for more details. Backward
 \@karnaughmap@local@coordinateonecounter@=\count431
 \@karnaughmap@local@coordinatetwocounter@=\count432
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1741,7 +1742,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
 (./ide/kmap/figs/kmap_D.tex
 
 Package karnaugh-map Warning: The API for specifying variable labels have been 
@@ -1754,6 +1767,66 @@ label is specified separately. See the documentation for more details. Backward
 \@karnaughmap@local@northwest@=\count435
 \@karnaughmap@local@southeast@=\count436
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+(./ide/kmap/figs/disp_dec.tex
+\gnumericColJ=\skip97
+\gnumericColK=\skip98
+\gnumericColL=\skip99
+)) (./ide/dontcare/main.tex
+(./ide/dontcare/figs/dont_care_table.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33])
+(./ide/dontcare/figs/kmap_A_x.tex
+
+Package karnaugh-map Warning: The API for specifying variable labels have been 
+updated. You are currently using the old API(v1). In the new API each variable 
+label is specified separately. See the documentation for more details. Backward
+ compatibility may disappear in a future release. on input line 2.
+
+\@karnaughmap@local@testcaseone@=\count437
+\@karnaughmap@local@testcasetwo@=\count438
+\@karnaughmap@local@coordinateonecounter@=\count439
+\@karnaughmap@local@coordinatetwocounter@=\count440
+\@karnaughmap@local@coordinateonecounter@=\count441
+\@karnaughmap@local@coordinatetwocounter@=\count442
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 5696) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+(./ide/dontcare/figs/kmap_B_x.tex
+
+Package karnaugh-map Warning: The API for specifying variable labels have been 
+updated. You are currently using the old API(v1). In the new API each variable 
+label is specified separately. See the documentation for more details. Backward
+ compatibility may disappear in a future release. on input line 2.
+
+\@karnaughmap@local@northwest@=\count443
+\@karnaughmap@local@southeast@=\count444
+\@karnaughmap@local@northwest@=\count445
+\@karnaughmap@local@southeast@=\count446
+)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1763,55 +1836,118 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-(./ide/kmap/figs/disp_dec.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32]
-\gnumericColJ=\skip97
-\gnumericColK=\skip98
-\gnumericColL=\skip99
-))
-(./ide/kmap/problems.tex
-Underfull \vbox (badness 1184) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Underfull \vbox (badness 1097) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
+(./ide/dontcare/figs/kmap_C_x.tex
+
+Package karnaugh-map Warning: The API for specifying variable labels have been 
+updated. You are currently using the old API(v1). In the new API each variable 
+label is specified separately. See the documentation for more details. Backward
+ compatibility may disappear in a future release. on input line 2.
+
+\@karnaughmap@local@northwest@=\count447
+\@karnaughmap@local@southeast@=\count448
+\@karnaughmap@local@testcaseone@=\count449
+\@karnaughmap@local@testcasetwo@=\count450
+\@karnaughmap@local@coordinateonecounter@=\count451
+\@karnaughmap@local@coordinatetwocounter@=\count452
+\@karnaughmap@local@coordinateonecounter@=\count453
+\@karnaughmap@local@coordinatetwocounter@=\count454
+\@karnaughmap@local@testcaseone@=\count455
+\@karnaughmap@local@testcasetwo@=\count456
+\@karnaughmap@local@coordinateonecounter@=\count457
+\@karnaughmap@local@coordinatetwocounter@=\count458
+\@karnaughmap@local@coordinateonecounter@=\count459
+\@karnaughmap@local@coordinatetwocounter@=\count460
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
-<figs/2020-gate-ec-10.png, id=727, 333.49594pt x 272.51813pt>
+(./ide/dontcare/figs/kmap_D_x.tex
+
+Package karnaugh-map Warning: The API for specifying variable labels have been 
+updated. You are currently using the old API(v1). In the new API each variable 
+label is specified separately. See the documentation for more details. Backward
+ compatibility may disappear in a future release. on input line 2.
+
+\@karnaughmap@local@northwest@=\count461
+\@karnaughmap@local@southeast@=\count462
+\@karnaughmap@local@testcaseone@=\count463
+\@karnaughmap@local@testcasetwo@=\count464
+\@karnaughmap@local@coordinateonecounter@=\count465
+\@karnaughmap@local@coordinatetwocounter@=\count466
+\@karnaughmap@local@coordinateonecounter@=\count467
+\@karnaughmap@local@coordinatetwocounter@=\count468
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37])
+(./ide/kmap/problems.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 5578) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 2503) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+<figs/2020-gate-ec-10.png, id=780, 333.49594pt x 272.51813pt>
 File: figs/2020-gate-ec-10.png Graphic file (type png)
 <use figs/2020-gate-ec-10.png>
 Package pdftex.def Info: figs/2020-gate-ec-10.png  used on input line 221.
 (pdftex.def)             Requested size: 433.62001pt x 354.36084pt.
-<figs/1992-gate-ec-1-22.png, id=729, 483.8075pt x 349.305pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+<figs/1992-gate-ec-1-22.png, id=791, 483.8075pt x 349.305pt>
 File: figs/1992-gate-ec-1-22.png Graphic file (type png)
 <use figs/1992-gate-ec-1-22.png>
 Package pdftex.def Info: figs/1992-gate-ec-1-22.png  used on input line 241.
@@ -1822,183 +1958,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [43 <./figs/2020-gate-ec-10.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38 <./figs/2020-gate-ec-10.png>]
-
-LaTeX Warning: Text page 39 contains only floats.
-
-
-Underfull \vbox (badness 2469) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [39 <./figs/1992-gate-ec-1-22.png>]
+ [44 <./figs/1992-gate-ec-1-22.png>]
 
 Package karnaugh-map Warning: The API for specifying variable labels have been 
 updated. You are currently using the old API(v1). In the new API each variable 
 label is specified separately. See the documentation for more details. Backward
  compatibility may disappear in a future release. on input line 339.
 
-\@karnaughmap@local@cellcount@=\count437
+\@karnaughmap@local@cellcount@=\count469
 
-Package karnaugh-map Warning: The API for specifying variable labels have been 
-updated. You are currently using the old API(v1). In the new API each variable 
-label is specified separately. See the documentation for more details. Backward
- compatibility may disappear in a future release. on input line 347.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42
-
-]
-Chapter 5.
-(./ide/dontcare/main.tex (./ide/dontcare/figs/dont_care_table.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./ide/dontcare/figs/kmap_A_x.tex
-
-Package karnaugh-map Warning: The API for specifying variable labels have been 
-updated. You are currently using the old API(v1). In the new API each variable 
-label is specified separately. See the documentation for more details. Backward
- compatibility may disappear in a future release. on input line 2.
-
-\@karnaughmap@local@testcaseone@=\count438
-\@karnaughmap@local@testcasetwo@=\count439
-\@karnaughmap@local@coordinateonecounter@=\count440
-\@karnaughmap@local@coordinatetwocounter@=\count441
-\@karnaughmap@local@coordinateonecounter@=\count442
-\@karnaughmap@local@coordinatetwocounter@=\count443
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(./ide/dontcare/figs/kmap_B_x.tex
-
-Package karnaugh-map Warning: The API for specifying variable labels have been 
-updated. You are currently using the old API(v1). In the new API each variable 
-label is specified separately. See the documentation for more details. Backward
- compatibility may disappear in a future release. on input line 2.
-
-\@karnaughmap@local@northwest@=\count444
-\@karnaughmap@local@southeast@=\count445
-\@karnaughmap@local@northwest@=\count446
-\@karnaughmap@local@southeast@=\count447
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
-(./ide/dontcare/figs/kmap_C_x.tex
-
-Package karnaugh-map Warning: The API for specifying variable labels have been 
-updated. You are currently using the old API(v1). In the new API each variable 
-label is specified separately. See the documentation for more details. Backward
- compatibility may disappear in a future release. on input line 2.
-
-\@karnaughmap@local@northwest@=\count448
-\@karnaughmap@local@southeast@=\count449
-\@karnaughmap@local@testcaseone@=\count450
-\@karnaughmap@local@testcasetwo@=\count451
-\@karnaughmap@local@coordinateonecounter@=\count452
-\@karnaughmap@local@coordinatetwocounter@=\count453
-\@karnaughmap@local@coordinateonecounter@=\count454
-\@karnaughmap@local@coordinatetwocounter@=\count455
-\@karnaughmap@local@testcaseone@=\count456
-\@karnaughmap@local@testcasetwo@=\count457
-\@karnaughmap@local@coordinateonecounter@=\count458
-\@karnaughmap@local@coordinatetwocounter@=\count459
-\@karnaughmap@local@coordinateonecounter@=\count460
-\@karnaughmap@local@coordinatetwocounter@=\count461
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(./ide/dontcare/figs/kmap_D_x.tex
-
-Package karnaugh-map Warning: The API for specifying variable labels have been 
-updated. You are currently using the old API(v1). In the new API each variable 
-label is specified separately. See the documentation for more details. Backward
- compatibility may disappear in a future release. on input line 2.
-
-\@karnaughmap@local@northwest@=\count462
-\@karnaughmap@local@southeast@=\count463
-\@karnaughmap@local@testcaseone@=\count464
-\@karnaughmap@local@testcasetwo@=\count465
-\@karnaughmap@local@coordinateonecounter@=\count466
-\@karnaughmap@local@coordinatetwocounter@=\count467
-\@karnaughmap@local@coordinateonecounter@=\count468
-\@karnaughmap@local@coordinatetwocounter@=\count469
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45]
+
+Package karnaugh-map Warning: The API for specifying variable labels have been 
+updated. You are currently using the old API(v1). In the new API each variable 
+label is specified separately. See the documentation for more details. Backward
+ compatibility may disappear in a future release. on input line 347.
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48]
-Chapter 6.
+Chapter 5.
 (./ide/7474/main.tex (./ide/7474/figs/components.tex
 Underfull \hbox (badness 10000) in paragraph at lines 230--230
 []|\OT1/cmr/m/n/10.95 Common
@@ -2010,7 +2004,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49
+ [47
 
 ]
 (./ide/7474/figs/ff_ard_pin.tex
@@ -2085,22 +2079,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
+ [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52
+ [50
 
 ]
-Chapter 7.
+Chapter 6.
 (./ide/fsm/main.tex (./ide/fsm/figs/fsm_counter.tex
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 arrows.code.tex
@@ -2168,19 +2162,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53])
+ [51])
 (./ide/fsm/problems.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<figs/2004-gate-ee-68.jpg, id=878, 1550.79375pt x 706.64pt>
+File: figs/2004-gate-ee-68.jpg Graphic file (type jpg)
+<use figs/2004-gate-ee-68.jpg>
+Package pdftex.def Info: figs/2004-gate-ee-68.jpg  used on input line 10.
+(pdftex.def)             Requested size: 433.62001pt x 197.5775pt.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54]
-
-LaTeX Warning: Text page 55 contains only floats.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2188,23 +2179,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55])
+ [52]
+
+LaTeX Warning: Text page 53 contains only floats.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
+ [53])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54 <./figs/2004-gate-ee-68.jpg>]
 No file main.ind.
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9811DF691F9F3AA87DB63449418D6443;4014.
+(rerunfilecheck)             Checksum: EF7E5B589E1676E481714EE6EBFA44DC;4140.
  ) 
 Here is how much of TeX's memory you used:
- 46448 strings out of 478238
- 1034246 string characters out of 5850455
- 1800385 words of memory out of 5000000
- 63413 multiletter control sequences out of 15000+600000
+ 46461 strings out of 478238
+ 1034551 string characters out of 5850455
+ 1800482 words of memory out of 5000000
+ 63423 multiletter control sequences out of 15000+600000
  493165 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,19n,108p,736b,2139s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2226,10 +2230,10 @@ hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
 frm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (63 pages, 757903 bytes).
+Output written on main.pdf (61 pages, 1234568 bytes).
 PDF statistics:
- 1086 PDF objects out of 1200 (max. 8388607)
- 948 compressed objects within 10 object streams
- 434 named destinations out of 1000 (max. 500000)
- 334 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1088 PDF objects out of 1200 (max. 8388607)
+ 951 compressed objects within 10 object streams
+ 436 named destinations out of 1000 (max. 500000)
+ 347 words of extra memory for PDF output out of 10000 (max. 10000000)
 

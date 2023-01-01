@@ -217,6 +217,45 @@ in Fig.
 \caption{}
 \label{fig:2011-gate-ec-20}
 \end{figure}
+\item
+\label{prob:2016/gate/in/19}
+Find F in the Digital Circuit given in the figure below
+in Fig. \ref{fig:2016/gate/in/19}.
+\hfill (GATE IN 2016)
+\begin{figure}[!ht]
+	\centering
+\begin{tikzpicture}
+ 
+
+ 
+% Logic ports
+\node[nand port] (a) at (2,1){};
+\node[nand port] (b) at (2,4){};
+\node[nand port] (c) at (4,0){};
+\node[nand port] (d) at (6,3){};
+
+ 
+% Connection
+
+ 
+\draw (a.in 2) -| (b.in 2);
+\draw (b.out) -| (d.in 1);
+ 
+\draw (a.out) -|  (c.in 1);
+\draw (c.out) -| (d.in 2);
+\draw (d.out) -- ++(1,0) node[near end,above]{F};
+ 
+\draw (b.in 1) -- ++(-1.5,0)node[left](In1){X};
+\draw (b.in 2) -- ++(-1.5,0)node[left](In3){Y};
+\draw (c.in 2) -- ++(-1.5,0)node[left](In3){Z};
+% Jump crossing element
+1
+\end{tikzpicture}
+	\caption{}
+\label{fig:2016/gate/in/19}
+\end{figure}
+
+
 \item 
 \label{prob:2017-gate-ec-16}
 Find the logic function implemented by the circuit given below 

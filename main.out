@@ -1,33 +1,33 @@
-\BOOKMARK [0][-]{chapter*.2}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Installation}{}% 2
-\BOOKMARK [1][-]{section.1.1}{Termux}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.2}{Platformio }{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.3}{Arduino Droid}{chapter.1}% 5
-\BOOKMARK [0][-]{chapter.2}{Seven Segment Display}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Components}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.1.1}{Breadboard}{section.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.1.2}{Seven Segment Display}{section.2.1}% 9
-\BOOKMARK [2][-]{subsection.2.1.3}{Arduino}{section.2.1}% 10
-\BOOKMARK [1][-]{section.2.2}{Display Control through Hardware }{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.1}{Powering the Display}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.2}{Controlling the Display}{section.2.2}% 13
-\BOOKMARK [1][-]{section.2.3}{Display Control through Software}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{7447}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Components}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{Hardware}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.3}{Software}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.4}{Problems}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{Karnaugh Map}{}% 20
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.2}{Incrementing Decoder}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.3}{Karnaugh Map}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.4}{Dont Care}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.5}{Don't Care Conditions}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.6}{Problems}{chapter.4}% 26
-\BOOKMARK [0][-]{chapter.5}{7474}{}% 27
-\BOOKMARK [1][-]{section.5.1}{Components}{chapter.5}% 28
-\BOOKMARK [1][-]{section.5.2}{Decade Counter}{chapter.5}% 29
-\BOOKMARK [0][-]{chapter.6}{Finite State Machine}{}% 30
-\BOOKMARK [1][-]{section.6.1}{The Decade Counter}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.2}{Finite State Machine}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.3}{Problems}{chapter.6}% 33
+\BOOKMARK [0][-]{chapter*.2}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{}% 1
+\BOOKMARK [0][-]{chapter.1}{\376\377\000I\000n\000s\000t\000a\000l\000l\000a\000t\000i\000o\000n}{}% 2
+\BOOKMARK [1][-]{section.1.1}{\376\377\000T\000e\000r\000m\000u\000x}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{\376\377\000P\000l\000a\000t\000f\000o\000r\000m\000i\000o\000\040}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{\376\377\000A\000r\000d\000u\000i\000n\000o\000\040\000D\000r\000o\000i\000d}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{\376\377\000S\000e\000v\000e\000n\000\040\000S\000e\000g\000m\000e\000n\000t\000\040\000D\000i\000s\000p\000l\000a\000y}{}% 6
+\BOOKMARK [1][-]{section.2.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{\376\377\000B\000r\000e\000a\000d\000b\000o\000a\000r\000d}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{\376\377\000S\000e\000v\000e\000n\000\040\000S\000e\000g\000m\000e\000n\000t\000\040\000D\000i\000s\000p\000l\000a\000y}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.3}{\376\377\000A\000r\000d\000u\000i\000n\000o}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{\376\377\000D\000i\000s\000p\000l\000a\000y\000\040\000C\000o\000n\000t\000r\000o\000l\000\040\000t\000h\000r\000o\000u\000g\000h\000\040\000H\000a\000r\000d\000w\000a\000r\000e\000\040}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{\376\377\000P\000o\000w\000e\000r\000i\000n\000g\000\040\000t\000h\000e\000\040\000D\000i\000s\000p\000l\000a\000y}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{\376\377\000C\000o\000n\000t\000r\000o\000l\000l\000i\000n\000g\000\040\000t\000h\000e\000\040\000D\000i\000s\000p\000l\000a\000y}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{\376\377\000D\000i\000s\000p\000l\000a\000y\000\040\000C\000o\000n\000t\000r\000o\000l\000\040\000t\000h\000r\000o\000u\000g\000h\000\040\000S\000o\000f\000t\000w\000a\000r\000e}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{\376\377\0007\0004\0004\0007}{}% 15
+\BOOKMARK [1][-]{section.3.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{\376\377\000H\000a\000r\000d\000w\000a\000r\000e}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.4}{\376\377\000P\000r\000o\000b\000l\000e\000m\000s}{chapter.3}% 19
+\BOOKMARK [0][-]{chapter.4}{\376\377\000K\000a\000r\000n\000a\000u\000g\000h\000\040\000M\000a\000p}{}% 20
+\BOOKMARK [1][-]{section.4.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{\376\377\000I\000n\000c\000r\000e\000m\000e\000n\000t\000i\000n\000g\000\040\000D\000e\000c\000o\000d\000e\000r}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.3}{\376\377\000K\000a\000r\000n\000a\000u\000g\000h\000\040\000M\000a\000p}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.4}{\376\377\000D\000o\000n\000t\000\040\000C\000a\000r\000e}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.5}{\376\377\000D\000o\000n\000'\000t\000\040\000C\000a\000r\000e\000\040\000C\000o\000n\000d\000i\000t\000i\000o\000n\000s}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.6}{\376\377\000P\000r\000o\000b\000l\000e\000m\000s}{chapter.4}% 26
+\BOOKMARK [0][-]{chapter.5}{\376\377\0007\0004\0007\0004}{}% 27
+\BOOKMARK [1][-]{section.5.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.2}{\376\377\000D\000e\000c\000a\000d\000e\000\040\000C\000o\000u\000n\000t\000e\000r}{chapter.5}% 29
+\BOOKMARK [0][-]{chapter.6}{\376\377\000F\000i\000n\000i\000t\000e\000\040\000S\000t\000a\000t\000e\000\040\000M\000a\000c\000h\000i\000n\000e}{}% 30
+\BOOKMARK [1][-]{section.6.1}{\376\377\000T\000h\000e\000\040\000D\000e\000c\000a\000d\000e\000\040\000C\000o\000u\000n\000t\000e\000r}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.2}{\376\377\000F\000i\000n\000i\000t\000e\000\040\000S\000t\000a\000t\000e\000\040\000M\000a\000c\000h\000i\000n\000e}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.3}{\376\377\000P\000r\000o\000b\000l\000e\000m\000s}{chapter.6}% 33

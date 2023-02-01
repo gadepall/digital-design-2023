@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  2 JAN 2023 14:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.1)  1 FEB 2023 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1376,11 +1376,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 (./ide/sevenseg/figs/ard_breadboard.tex)
 Package epstopdf Info: Source file: <ide/sevenseg/figs/breadboard.eps>
-(epstopdf)                    date: 2022-08-08 01:12:46
+(epstopdf)                    date: 2023-02-01 16:03:08
 (epstopdf)                    size: 2106822 bytes
 (epstopdf)             Output file: <ide/sevenseg/figs/breadboard-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2022-12-22 06:40:55
+(epstopdf)                    date: 2023-02-01 16:03:08
 (epstopdf)                    size: 115496 bytes
 (epstopdf)             Command: <repstopdf --outfile=ide/sevenseg/figs/breadboa
 rd-eps-converted-to.pdf ide/sevenseg/figs/breadboard.eps>
@@ -2227,7 +2227,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  46520 strings out of 478238
- 1035402 string characters out of 5850455
+ 1035402 string characters out of 5850457
  1802027 words of memory out of 5000000
  63475 multiletter control sequences out of 15000+600000
  493165 words of font info for 122 fonts, out of 8000000 for 9000

@@ -313,9 +313,11 @@ This manual is a guide to get started with the Arduino UNO on an Android Phone
 
 \section{Termux}
 \begin{enumerate}
-	\item On your android device, install apkpure from 
+	\item On your android device, install 
+fdroid apk from
+%
 \begin{lstlisting}
-https://mapkpurecom/
+https://www.f-droid.org/
 \end{lstlisting}
 \item Install Termux from apkpure
 \item Install basic packages on termux 
@@ -357,16 +359,14 @@ pip3 install platformio
 \end{lstlisting}
 \item Execute the following on ubuntu
 \begin{lstlisting}
-cd /sdcard/Download
-svn co https://githubcom/gadepall/fwc-/trunk/ide/piosetup/codes
-cd codes
+cd ide/piosetup/codes
 pio run
 \end{lstlisting}
 \item Connect your arduino to the  laptop/rpi and type
 \begin{lstlisting}
 pio run -t nobuild -t upload
 \end{lstlisting}
-\item The LED beside pin 3 will start
+\item The LED beside pin 13 will start
 blinking
 
 \end{enumerate}
@@ -384,7 +384,7 @@ then go to your working directory and select
 pio/build/uno/firmwarehex
 \end{lstlisting}
 for uploading hex file to the Arduino Uno
-\item The LED beside pin 3 will start
+\item The LED beside pin 13 will start
 blinking
 \end{enumerate}
 

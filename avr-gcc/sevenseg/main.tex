@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 %
 \usepackage{setspace}
@@ -208,15 +209,30 @@ columns=fullflexible
 
 \title{ 
 	\logo{
-Mixing C and Assembly with Arduino
-	}
+Seven Segment Display Control through  AVR-GCC
+		}
 }
 
 
-\author{Neelmani Gautam and G V V Sharma$^{*}$ %<-this  stops a space
-\thanks{Neelmani is an undergraduate student at IIT Bhilai. email:neelmanig@iitbhilai.ac.in.  *The author is with the Department
+
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+%\title{Matrix Analysis through Octave}
+%
+%
+% author names and IEEE memberships
+% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
+% a structure at a ~ so this keeps an author's name from being broken across
+% two lines.
+% use \thanks{} to gain access to the first footnote area
+% a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
+% was not built to handle multiple paragraphs
+%
+
+\author{G V V Sharma$^{*}$% <-this % stops a space
+\thanks{*The author is with the Department
 of Electrical Engineering, Indian Institute of Technology, Hyderabad
-502285 India e-mail:  gadepall@iith.ac.in. All content in the manual released under GNU GPL.  Free to use for anything.}% <-this % stops a space
+502285 India e-mail:  gadepall@iith.ac.in. All content in this manual is released under GNU GPL.  Free and open source.}% <-this % stops a space
 %\thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
 %\thanks{Manuscript received April 19, 2005; revised January 11, 2007.}}
 }
@@ -238,45 +254,56 @@ of Electrical Engineering, Indian Institute of Technology, Hyderabad
 % this is a minor point as most people would not even notice if the said evil
 % space somehow managed to creep in.
 
+
+
+% The paper headers
+%\markboth{Journal of \LaTeX\ Class Files,~Vol.~6, No.~1, January~2007}%
+%{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Journals}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+% 
+% *** Note that you probably will NOT want to include the author's ***
+% *** name in the headers of peer review papers.                   ***
+% You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
+% you desire.
+
+
+
+
+% If you want to put a publisher's ID mark on the page you can do it like
+% this:
+%\IEEEpubid{0000--0000/00\$00.00~\copyright~2007 IEEE}
+% Remember, if you use this you must call \IEEEpubidadjcol in the second
+% column for its text to clear the IEEEpubid mark.
+
+
+
+% make the title area
 \maketitle
 
 \tableofcontents
 
 \bigskip
-
+\fi
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
 
-%\maketitle
 \begin{abstract}
-%%\boldmath
-This manual shows how write a function in assembly and call it in a C program while programming the ATMega328P microcontroller in the Arduino.  This is done by controlling an LED. 
-%
+This manual shows how to control a seven segment display  using AVR-GCC with arduino
 \end{abstract}
+%\newpage
+\iffalse
 \section{Components}
 \input{./figs/components.tex}
+\fi
 %
-\section{GCC with Assembly}
-\begin{enumerate}[1.]
-\item Download the following folder and execute \textbf{main.c}
+\section{Display Control}
+\begin{enumerate}
+\item Connect the arduino to the seven segment display 
+\item Execute the following code
 \begin{lstlisting}
-svn checkout https://github.com/gadepall/arduino/trunk/avr-gcc/gcc-assembly/codes
+avr-gcc/sevenseg/codes/main.c
 \end{lstlisting}
-\item Modify \textbf{main.c} and \textbf{Makefile} to turn the builtin led on.
-\item Repeat the above exercise to turn the LED off.
-\item Explain how the \textbf{disp\_led(0)} function is related to \textbf{Register R24} in \textbf{disp\_led} routine in \textbf{displedasm.S}.
-\solution The function argument 0 in \textbf{disp\_led(0)} is passed on to R24 in the assembly routine for further operations.  Also, the registers R18-R24 are available for storing more function arguments according to the Table \ref{table:param_pass}.  More details are avilable in official ATMEL AT1886 reference.
-\begin{table}[!h]
-\centering
-\input{./figs/param_pass.tex}
-\caption{Relationship between Register in assembly and function argument in C}
-\label{table:param_pass}
-\end{table}
-
-\item Write an assembly routine for controlling the seven segment display and call it in a C program.
-\item Build a decade counter with \textbf{main.c} calling all functions from assembly routines.
+\item Modify the above code to generate numbers between 0-9.
 \end{enumerate}
-
-\end{document}
-
 

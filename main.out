@@ -37,3 +37,21 @@
 \BOOKMARK [1][-]{section.7.3}{7447}{chapter.7}% 37
 \BOOKMARK [2][-]{subsection.7.3.1}{Components}{section.7.3}% 38
 \BOOKMARK [2][-]{subsection.7.3.2}{Boolean Operations}{section.7.3}% 39
+\BOOKMARK [2][-]{subsection.7.3.3}{Controlling the Display}{section.7.3}% 40
+\BOOKMARK [1][-]{section.7.4}{Timer}{chapter.7}% 41
+\BOOKMARK [2][-]{subsection.7.4.1}{Components}{section.7.4}% 42
+\BOOKMARK [2][-]{subsection.7.4.2}{Blink through TIMER}{section.7.4}% 43
+\BOOKMARK [2][-]{subsection.7.4.3}{Blink through Cycle Delays}{section.7.4}% 44
+\BOOKMARK [1][-]{section.7.5}{Memory}{chapter.7}% 45
+\BOOKMARK [0][-]{chapter.8}{Embedded C}{}% 46
+\BOOKMARK [1][-]{section.8.1}{Blink}{chapter.8}% 47
+\BOOKMARK [2][-]{subsection.8.1.1}{Components}{section.8.1}% 48
+\BOOKMARK [2][-]{subsection.8.1.2}{Blink}{section.8.1}% 49
+\BOOKMARK [1][-]{section.8.2}{Display Control}{chapter.8}% 50
+\BOOKMARK [1][-]{section.8.3}{Input}{chapter.8}% 51
+\BOOKMARK [1][-]{section.8.4}{GCC-Assembly}{chapter.8}% 52
+\BOOKMARK [2][-]{subsection.8.4.1}{Components}{section.8.4}% 53
+\BOOKMARK [2][-]{subsection.8.4.2}{GCC with Assembly}{section.8.4}% 54
+\BOOKMARK [1][-]{section.8.5}{LCD}{chapter.8}% 55
+\BOOKMARK [2][-]{subsection.8.5.1}{Components}{section.8.5}% 56
+\BOOKMARK [2][-]{subsection.8.5.2}{Display Number on LCD}{section.8.5}% 57

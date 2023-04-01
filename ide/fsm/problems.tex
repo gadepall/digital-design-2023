@@ -1,5 +1,4 @@
 \begin{enumerate}
-
 	\item The digital circuit shown in Fig. \ref{fig:2004-gate-ee-68} generates a modified clockpulse at the output. Sketch the output waveform.
 \label{prob:2004-gate-ee-68}
 \hfill (GATE EE 2004)
@@ -21,9 +20,60 @@
 \caption{}
 \label{fig:2019-gate-in-12}
 \end{figure}
+\item 	The state diagram of a sequence detector is shown in
+  \figref{fig:gate/ec/2020/39/1}		
+		. State $S_0$ is the initial state of the sequence detector. If the output is 1, then
+\hfill (GATE EC 2020)
+ \begin{figure}[h]
+	 \centering
+  \input{gate/ec/2020/39/figs/diagram.tex}
+  \caption{State diagram}
+  \label{fig:gate/ec/2020/39/1}		
+  \end{figure}	 
+\begin{enumerate}
+ \item the sequence 01010 is detected
+ \item the sequence 01011 is detected
+ \item the sequence 01110 is detected
+ \item the sequence 01001 is detected	 
+\end{enumerate}	
 	\item 		
 		A counter is constructed with three D flip-flops. The input-output pairs are named (D0, Q0), (D1, Q1), and (D2, Q2), where the subscript 0 denotes the least significant bit. The output sequence is desired to be the Gray-code sequence 000, 001, 011, 010, 110, 111, 101, and 100, repeating periodically. Note that the bits are listed in the Q2 Q1 Q0 format. Find the combinational logic expression for D1.
 \label{prob:2021-gate-ee-37}
-\hfill (CBSE 2021)
-
+\hfill (GATE EE 2021)
+\iffalse
+\item The propogation delay of the exclusive-OR(XOR) gate in the circuit in Fig.
+\label{prob:2021-gate-ec-46}
+\ref{fig:2021-gate-ec-46}
+is 3ns. The propogation delay of all the flip-flops is assumed to be zero. The clock(Clk) frequency provided to the circuit is 500MHz.
+\begin{figure}[!h]
+\begin{center}
+\resizebox{0.5\columnwidth}{!}{
+\input{gate/2021/46/figs/fig1.tex}
+}
+\end{center}
+	\caption{Circuit}
+\label{fig:2021-gate-ec-46}
+\end{figure}
+%
+Starting from the initial value of the flip-flop outputs $Q2Q1Q0 =111$ with $D2=1$,the minimum number of triggering clock edges after which the flip-flop outputs $Q2Q1Q0$ becomes 1 0 0\emph{(in integer)} is \line(1,0){12.5}
+\hfill (GATE EC 2021)
+\fi
+\item 
+\label{prob:2022-gate-ec-43}
+	 For the circuit shown in Fig. 
+\ref{fig:2022-gate-ec-43},
+		the clock frequency is $f_0$ and the duty cycle is $25 \%$. For the signal at the $Q$ output of the Flip-Flop,
+\begin{enumerate}
+	\item frequency of $\frac{f_0}{4}$ and duty cycle is 50$\%$
+	\item frequency of $\frac{f_0}{4}$ and duty cycle is 25$\%$
+	\item frequency of $\frac{f_0}{2}$ and duty cycle is 50$\%$
+	\item frequency of $f_0$ and duty cycle is 25$\%$ \\
+\end{enumerate}
+\begin{figure}[h]
+	\centering
+\input{gate/2022/43/figs/circuit.tex}
+	\caption{}
+\label{fig:2022-gate-ec-43}
+\end{figure}
+\hfill 	(GATE EC-2022)
 \end{enumerate}

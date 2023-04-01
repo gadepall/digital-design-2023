@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Problem}{}% 1
+\BOOKMARK [1][-]{section.2}{Components}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Arduino}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Seven Segment Display}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Implementation}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Truth Table}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{K-map}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Boolean Expression}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Hardware}{}% 9
+\BOOKMARK [1][-]{section.5}{Software}{}% 10

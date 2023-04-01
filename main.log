@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.1.3)  2 FEB 2023 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.1.3)  1 APR 2023 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,9 +735,100 @@ Package circuitikz Warning: You did not specify one of the voltage directions:
 (circuitikz)                Default directions may have changed, 
 (circuitikz)                please check the manual.
 
-\hsizevalue=\dimen331
-\vsizevalue=\dimen332
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\arrowsize=\dimen331
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodepartlowerbox=\box76
+\pgfnodeparttwobox=\box77
+\pgfnodepartthreebox=\box78
+\pgfnodepartfourbox=\box79
+\pgfnodeparttwentybox=\box80
+\pgfnodepartnineteenbox=\box81
+\pgfnodeparteighteenbox=\box82
+\pgfnodepartseventeenbox=\box83
+\pgfnodepartsixteenbox=\box84
+\pgfnodepartfifteenbox=\box85
+\pgfnodepartfourteenbox=\box86
+\pgfnodepartthirteenbox=\box87
+\pgfnodeparttwelvebox=\box88
+\pgfnodepartelevenbox=\box89
+\pgfnodeparttenbox=\box90
+\pgfnodepartninebox=\box91
+\pgfnodeparteightbox=\box92
+\pgfnodepartsevenbox=\box93
+\pgfnodepartsixbox=\box94
+\pgfnodepartfivebox=\box95
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypetri.code.tex
+File: tikzlibrarypetri.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+\hsizevalue=\dimen332
+\vsizevalue=\dimen333
 \c@temp=\count335
+
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip64
@@ -749,12 +840,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks44
-\ex@=\dimen333
+\ex@=\dimen334
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen334
+\pmbraise@=\dimen335
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -769,9 +860,9 @@ LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box76
-\strutbox@=\box77
-\big@size=\dimen335
+\Mathstrutbox@=\box96
+\strutbox@=\box97
+\big@size=\dimen336
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count341
@@ -784,12 +875,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \column@=\count346
 \maxfields@=\count347
 \andhelp@=\toks46
-\eqnshift@=\dimen336
-\alignsep@=\dimen337
-\tagshift@=\dimen338
-\tagwidth@=\dimen339
-\totwidth@=\dimen340
-\lineht@=\dimen341
+\eqnshift@=\dimen337
+\alignsep@=\dimen338
+\tagshift@=\dimen339
+\tagwidth@=\dimen340
+\totwidth@=\dimen341
+\lineht@=\dimen342
 \@envbody=\toks47
 \multlinegap=\skip65
 \multlinetaggap=\skip66
@@ -801,24 +892,24 @@ LaTeX Info: Redefining \] on input line 2924.
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count348
 \float@exts=\toks49
-\float@box=\box78
+\float@box=\box98
 \@float@everytoks=\toks50
-\@floatcapt=\box79
+\@floatcapt=\box99
 )
 (/usr/share/texlive/texmf-dist/tex/latex/boites/boites.sty
 File: boites.sty 
 Package: boites 2013/11/21 v1.1 Colored, framed and breakable across pages boxe
 s
-\bk@bxb=\box80
-\bk@bxa=\box81
+\bk@bxb=\box100
+\bk@bxa=\box101
 \bk@lcnt=\count349
 )
 (/usr/share/texlive/texmf-dist/tex/latex/boites/boites_exemples.sty
 File: boites_exemples.sty 
 Package: boites_exemples 
-\bk@hauteurcourrante=\dimen342
-\bk@hauteursuivante=\dimen343
-\bk@tempdim=\dimen344
+\bk@hauteurcourrante=\dimen343
+\bk@hauteursuivante=\dimen344
+\bk@tempdim=\dimen345
 \bk@fboxsep=\skip67
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
@@ -838,16 +929,16 @@ LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \g_MT_multlinerow_int=\count350
-\l_MT_multwidth_dim=\dimen345
+\l_MT_multwidth_dim=\dimen346
 \origjot=\skip68
-\l_MT_shortvdotswithinadjustabove_dim=\dimen346
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen347
-\l_MT_above_intertext_sep=\dimen348
-\l_MT_below_intertext_sep=\dimen349
-\l_MT_above_shortintertext_sep=\dimen350
-\l_MT_below_shortintertext_sep=\dimen351
-\xmathstrut@box=\box82
-\xmathstrut@dim=\dimen352
+\l_MT_shortvdotswithinadjustabove_dim=\dimen347
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen348
+\l_MT_above_intertext_sep=\dimen349
+\l_MT_below_intertext_sep=\dimen350
+\l_MT_above_shortintertext_sep=\dimen351
+\l_MT_below_shortintertext_sep=\dimen352
+\xmathstrut@box=\box102
+\xmathstrut@dim=\dimen353
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -929,7 +1020,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen353
+\@linkdim=\dimen354
 \Hy@linkcounter=\count354
 \Hy@pagecounter=\count355
 
@@ -959,7 +1050,7 @@ Package hyperref Info: Bookmarks ON on input line 4717.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen354
+\XeTeXLinkMargin=\dimen355
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -969,8 +1060,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count358
-\Field@Width=\dimen355
-\Fld@charsize=\dimen356
+\Field@Width=\dimen356
+\Fld@charsize=\dimen357
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -1014,7 +1105,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip72
 )
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 123.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/breakurl/breakurl.sty
 Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
@@ -1047,24 +1138,24 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 \c@definition=\count376
 \c@remark=\count377
 \c@exer=\count378
-\tabbodybox=\box83
-\chktabbodywdbox=\box84
+\tabbodybox=\box103
+\chktabbodywdbox=\box104
 \eqnarraycolsep=\skip76
-\safetymargin=\dimen357
-\safetypaperheight=\dimen358
-\safetypaperwidth=\dimen359
+\safetymargin=\dimen358
+\safetypaperheight=\dimen359
+\safetypaperwidth=\dimen360
 \blrlwd=\skip77
-\bleed=\dimen360
+\bleed=\dimen361
 \bleedruleht=\skip78
 \brlmvdn=\skip79
 \cropraisedimen=\skip80
-\margwidth=\dimen361
+\margwidth=\dimen362
 \pagecntcntr=\count379
-LaTeX Info: Redefining \emph on input line 1717.
+LaTeX Info: Redefining \emph on input line 1718.
 \temQEcnt=\count380
-\authhsize=\dimen362
+\authhsize=\dimen363
 \QueryCnt=\count381
-\aqadjdim=\dimen363
+\aqadjdim=\dimen364
 \LASTPAGENO=\count382
 \TmpCnt=\count383
 \iletterskip=\skip81
@@ -1138,13 +1229,13 @@ LaTeX Font Info:    ... okay on input line 25.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count386
-\scratchdimen=\dimen364
-\scratchbox=\box85
+\scratchdimen=\dimen365
+\scratchbox=\box105
 \nofMPsegments=\count387
 \nofMParguments=\count388
 \everyMPshowfont=\toks59
 \MPscratchCnt=\count389
-\MPscratchDim=\dimen365
+\MPscratchDim=\dimen366
 \MPnumerator=\count390
 \makeMPintoPDFobject=\count391
 \everyMPtoPDFconversion=\toks60
@@ -1505,8 +1596,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 (./ide/7447/figs/bin2dec.tex) (./ide/7447/figs/7447.tex
-\myboxA=\box86
-\myboxB=\box87
+\myboxA=\box106
+\myboxB=\box107
 \mylenA=\skip96
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1951,13 +2042,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45])
+ [45]
+(./gate/2021/31/figs/diagram.tex)
+Overfull \hbox (9.19385pt too wide) in paragraph at lines 27--366
+ [][] 
+ []
+
+(./gate/2022/19/figs/fig1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
 Chapter 5.
 (./ide/7474/main.tex (./ide/7474/figs/components.tex
 Underfull \hbox (badness 10000) in paragraph at lines 230--230
@@ -1970,7 +2083,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47
+ [49
 
 ]
 (./ide/7474/figs/ff_ard_pin.tex
@@ -2045,68 +2158,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
+ [50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [51]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50
+ [52
 
 ]
 Chapter 6.
-(./ide/fsm/main.tex (./ide/fsm/figs/fsm_counter.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
-tex
-File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\arrowsize=\dimen366
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryautomata.code.tex
-File: tikzlibraryautomata.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodepartlowerbox=\box88
-\pgfnodeparttwobox=\box89
-\pgfnodepartthreebox=\box90
-\pgfnodepartfourbox=\box91
-\pgfnodeparttwentybox=\box92
-\pgfnodepartnineteenbox=\box93
-\pgfnodeparteighteenbox=\box94
-\pgfnodepartseventeenbox=\box95
-\pgfnodepartsixteenbox=\box96
-\pgfnodepartfifteenbox=\box97
-\pgfnodepartfourteenbox=\box98
-\pgfnodepartthirteenbox=\box99
-\pgfnodeparttwelvebox=\box100
-\pgfnodepartelevenbox=\box101
-\pgfnodeparttenbox=\box102
-\pgfnodepartninebox=\box103
-\pgfnodeparteightbox=\box104
-\pgfnodepartsevenbox=\box105
-\pgfnodepartsixbox=\box106
-\pgfnodepartfivebox=\box107
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))
+(./ide/fsm/main.tex (./ide/fsm/figs/fsm_counter.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2129,21 +2197,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51])
+ [53])
 (./ide/fsm/problems.tex
-<figs/2004-gate-ee-68.jpg, id=1002, 1550.79375pt x 706.64pt>
+<figs/2004-gate-ee-68.jpg, id=1025, 1550.79375pt x 706.64pt>
 File: figs/2004-gate-ee-68.jpg Graphic file (type jpg)
 <use figs/2004-gate-ee-68.jpg>
-Package pdftex.def Info: figs/2004-gate-ee-68.jpg  used on input line 10.
+Package pdftex.def Info: figs/2004-gate-ee-68.jpg  used on input line 9.
 (pdftex.def)             Requested size: 433.62001pt x 197.5775pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/2019-gate-in-12.png, id=1003, 846.16125pt x 340.27126pt>
+<figs/2019-gate-in-12.png, id=1026, 846.16125pt x 340.27126pt>
 File: figs/2019-gate-in-12.png Graphic file (type png)
 <use figs/2019-gate-in-12.png>
-Package pdftex.def Info: figs/2019-gate-in-12.png  used on input line 19.
+Package pdftex.def Info: figs/2019-gate-in-12.png  used on input line 18.
 (pdftex.def)             Requested size: 433.62001pt x 174.37196pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2151,40 +2219,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
+ [54]
 
-LaTeX Warning: Text page 53 contains only floats.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Text page 55 contains only floats.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54 <./figs/2004-gate-ee-68.jpg> <./figs/2019-gate-in-12.png>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55]
+(./gate/ec/2020/39/figs/diagram.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56
+ [56 <./figs/2004-gate-ee-68.jpg> <./figs/2019-gate-in-12.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
-]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+(./gate/2022/43/figs/circuit.tex))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
 Chapter 7.
 (./assembly/setup/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2192,14 +2265,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57])
+ [59
+
+])
 (./assembly/sevenseg/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58]
+ [60]
 (./assembly/sevenseg/figs/pinmap.tex)
 Package epstopdf Info: Source file: <assembly/sevenseg/figs/Atmega168PinMap2.ep
 s>
@@ -2214,7 +2289,7 @@ ega168PinMap2-eps-converted-to.pdf assembly/sevenseg/figs/Atmega168PinMap2.eps>
 
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
-<assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf, id=1083, 458.713
+<assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf, id=1119, 458.713
 75pt x 306.14375pt>
 File: assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2233,14 +2308,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59 <./assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf>]
+ [61 <./assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf>]
 (./assembly/sevenseg/codes/sevenseg.asm
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]))
+ [62]))
 (./assembly/7447/count/main.tex (./assembly/7447/count/figs/components.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2250,50 +2325,50 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [63]
 (./assembly/7447/count/figs/7447_ard.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62])
+ [64])
 (./assembly/7447/io/main.tex (./assembly/7447/io/figs/7447_ard.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
+ [65]
 (./assembly/7447/io/figs/ip_7447_ard.tex)) (./assembly/timer/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
+ [66]
 (./assembly/timer/figs/components.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [66]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69]
 Overfull \hbox (13.55063pt too wide) in paragraph at lines 359--360
 \OT1/cmr/bx/n/10.95 Solution: \OT1/cmr/m/n/10.95 The w0 loop is ex-e-cuted us-i
 ng the counts in R16=$2[] + 2[] = 80$, R17=R18=$2[] =
@@ -2305,7 +2380,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+ [70]
 Overfull \hbox (12.71432pt too wide) in paragraph at lines 299--301
 \OT1/cmr/bx/n/10.95 Solution: \OT1/cmr/m/n/10.95 X=R27:R26, Y=R29:R28, and Z=R3
 1:R30 where R27:R26 rep-re-sents XH:XL.
@@ -2317,13 +2392,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
+ [71]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70
+ [72
 
 ]
 Chapter 8.
@@ -2333,14 +2408,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71])
+ [73])
 (./avr-gcc/sevenseg/main.tex) (./avr-gcc/input/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72])
+ [74])
 (./avr-gcc/gcc-assembly/main.tex (./avr-gcc/gcc-assembly/figs/components.tex
 Underfull \hbox (badness 10000) in paragraph at lines 230--230
 []|\OT1/cmr/m/n/10.95 Common
@@ -2352,7 +2427,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
+ [75]
 (./avr-gcc/gcc-assembly/figs/param_pass.tex)) (./avr-gcc/lcd/main.tex
 (./avr-gcc/lcd/figs/components.tex
 
@@ -2367,7 +2442,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74]
+ [76]
 (./avr-gcc/lcd/figs/lcd.tex) (./avr-gcc/lcd/figs/table.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2378,26 +2453,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75])
+ [77])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
+ [78]
 No file main.ind.
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 6E4A21649A93281B3A4AAAA0552C8B46;3454.
  ) 
 Here is how much of TeX's memory you used:
- 41622 strings out of 479304
- 926011 string characters out of 5869780
- 1694270 words of memory out of 5000000
- 57199 multiletter control sequences out of 15000+600000
+ 43404 strings out of 479304
+ 972279 string characters out of 5869780
+ 1761366 words of memory out of 5000000
+ 58904 multiletter control sequences out of 15000+600000
  430073 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,19n,116p,736b,2135s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,19n,116p,736b,1935s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -2421,10 +2496,10 @@ sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfss1095.pfb>
-Output written on main.pdf (84 pages, 1429270 bytes).
+Output written on main.pdf (86 pages, 1437984 bytes).
 PDF statistics:
- 1594 PDF objects out of 1728 (max. 8388607)
- 1443 compressed objects within 15 object streams
- 708 named destinations out of 1000 (max. 500000)
+ 1636 PDF objects out of 1728 (max. 8388607)
+ 1483 compressed objects within 15 object streams
+ 734 named destinations out of 1000 (max. 500000)
  549 words of extra memory for PDF output out of 10000 (max. 10000000)
 

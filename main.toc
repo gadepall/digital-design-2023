@@ -25,34 +25,34 @@
 \contentsline {section}{\numberline {4.4}Dont Care}{33}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Don't Care Conditions}{34}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Problems}{39}{section.4.6}%
-\contentsline {chapter}{\numberline {5}7474}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Components}{47}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Decade Counter}{47}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Finite State Machine}{51}{chapter.6}%
-\contentsline {section}{\numberline {6.1}The Decade Counter}{51}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Finite State Machine}{51}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Problems}{52}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Assembly Programming}{57}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Software Installation}{57}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Seven Segment Display}{59}{section.7.2}%
-\contentsline {section}{\numberline {7.3}7447}{61}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Components}{61}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Boolean Operations}{62}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Controlling the Display}{63}{subsection.7.3.3}%
-\contentsline {section}{\numberline {7.4}Timer}{65}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Components}{65}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Blink through TIMER}{65}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}Blink through Cycle Delays}{67}{subsection.7.4.3}%
-\contentsline {section}{\numberline {7.5}Memory}{68}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Embedded C}{71}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Blink}{71}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Components}{71}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Blink}{71}{subsection.8.1.2}%
-\contentsline {section}{\numberline {8.2}Display Control}{72}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Input}{72}{section.8.3}%
-\contentsline {section}{\numberline {8.4}GCC-Assembly}{73}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Components}{73}{subsection.8.4.1}%
-\contentsline {subsection}{\numberline {8.4.2}GCC with Assembly}{73}{subsection.8.4.2}%
-\contentsline {section}{\numberline {8.5}LCD}{74}{section.8.5}%
-\contentsline {subsection}{\numberline {8.5.1}Components}{75}{subsection.8.5.1}%
-\contentsline {subsection}{\numberline {8.5.2}Display Number on LCD}{75}{subsection.8.5.2}%
+\contentsline {chapter}{\numberline {5}7474}{49}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Components}{49}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Decade Counter}{49}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Finite State Machine}{53}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The Decade Counter}{53}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Finite State Machine}{53}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Problems}{54}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Assembly Programming}{59}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Software Installation}{59}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Seven Segment Display}{61}{section.7.2}%
+\contentsline {section}{\numberline {7.3}7447}{63}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Components}{63}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Boolean Operations}{64}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Controlling the Display}{65}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Timer}{67}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Components}{67}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Blink through TIMER}{67}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Blink through Cycle Delays}{69}{subsection.7.4.3}%
+\contentsline {section}{\numberline {7.5}Memory}{70}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Embedded C}{73}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Blink}{73}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Components}{73}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Blink}{73}{subsection.8.1.2}%
+\contentsline {section}{\numberline {8.2}Display Control}{74}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Input}{74}{section.8.3}%
+\contentsline {section}{\numberline {8.4}GCC-Assembly}{75}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Components}{75}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}GCC with Assembly}{75}{subsection.8.4.2}%
+\contentsline {section}{\numberline {8.5}LCD}{76}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Components}{77}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Display Number on LCD}{77}{subsection.8.5.2}%

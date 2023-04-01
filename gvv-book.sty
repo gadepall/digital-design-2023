@@ -33,6 +33,7 @@
 
 \usepackage{tikz}
 \usepackage{circuitikz}
+\usetikzlibrary{arrows,shapes,automata,petri,positioning,calc}
 
 \newif\ifbibunnumbered\global\bibunnumberedtrue%
 %\DeclareOption{number}{\xdef\@biboptions{numbers}}%
@@ -2027,6 +2028,8 @@ No query.\par%
 \providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 \newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\newcommand\figref{Fig.~\ref}
+\newcommand\tabref{Table~\ref}
 	\newcommand*{\permcomb}[4][0mu]{{{}^{#3}\mkern#1#2_{#4}}}
 \newcommand*{\perm}[1][-3mu]{\permcomb[#1]{P}}
 \newcommand*{\comb}[1][-1mu]{\permcomb[#1]{C}}

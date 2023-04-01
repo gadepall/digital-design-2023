@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{./karnaugh-map}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{capt-of}
+\usepackage{circuitikz}
+\usetikzlibrary{shapes.geometric}
+\title{Implementation of Boolean Logic in Arduino using ICs}
+\date{February 2023}
+\author{Mekala Patrick Manohar\\ patrickmanohar152001@gmail.com\\ FWC22119 IITH-Future Wireless Communications Assignment}
+\begin{document}
+\maketitle
+	\tableofcontents
+
+\section{Problem} 
+		(Gate EC-2021)\\
+Q.31. The propogation delays of the XOR gate, AND gate and multiplexer (MUX) in the circuit shown in the figure are 4 ns, 2 ns and 1 ns, respectively.\\
+\include{figs/diagram.tex}
+If all the inputs P, Q, R, S and T are applied simultaneously and held constant, the maximum propogation delay of the circuit is
+\begin{enumerate}
+	\item 3 ns \item 5 ns \item 6 ns \item 7 ns
+\end{enumerate}
+\section{Introduction}
+		In the given circuit, the output of first multiplexer can be considered as the input to the second multiplexer so that the second multiplexer can be analyzed using 7447 IC for the implementation of output (expression) of the second multplexer. Since the 7447 IC is just a seven segment display decoder, the output expression of the multiplexer can be given to the LSB representing pin (7) of the IC so that the output on the display will represent the required answer (0 or 1) with the inputs of the given circuit (P,Q,R,S,T) being given at random.
+\section{Components}
+		\include{tables/table1.tex}
+\section{Hardware}
+		\begin{enumerate}
+			\item Make Connections between the seven segment display in and the 7447 IC as shown in Table2.
+				\include{tables/table2.tex}
+			\item Connect Vcc of the IC and COM of the dispaly to 5V and the GND pins of the IC and display to the Ground of arduino.
+		\end{enumerate}
+\section{Software}
+		\begin{enumerate}
+			\item Now make the connections as per Table3.
+				\include{tables/table3.tex}
+			\item In the truth table in Table4, P,Q,R,S,T are the inputs and Y is the output.
+				\include{tables/table4.tex}
+			\item The k map for this truth table will be a five variablek map. So, two k maps can be drawn with one map having one input variable as zero and the other k map having that input variable as one as shown below.
+				\include{figs/kmap.tex}
+		\item Since, 7447 is a Seven Segment Display decoder, A represents the LSB and D represents the MSB. So giving the input to A displys either 0 or 1 on the Display.
+			\item Since, the output of th mux is either 0 or 1, this output of mux i.e, Y can begiven as input to A of the 7447 IC so that the the output of the mux can be observed directly on the display.
+			\item The boolean expression for the output (Y) of the second mux with the inputs (P,Q,R,S,T) will be simplified as \ref{eq:1}
+				\begin{align}
+					{Y} &= {RS(T'+PQ)}
+					\label{eq:1}
+				\end{align}
+				\item The code below realizes the Boolean logic for A with y being the input to A.\\
+					\fbox{\parbox{10cm}
+				{//Declaring and initializing all variables as integers\\ \\
+		int P,Q,R,S,T,Y;\\ \\
+		//the setup function runs once when you press reset or power the board\\ \\
+		void setup()$\{$ \\
+		pinMode(2,INPUT);\\
+		pinMode(3,INPUT);\\
+		pinMode(4,INPUT);\\
+		pinMode(5,INPUT);\\
+		pinMode(6,INPUT);\\
+		pinMode(13,OUTPUT);\\
+		$\}$ \\ \\
+		//the loop function runs over and over again forever\\ \\
+		void loop()$\{$ \\
+			P=digitalRead(2);\\
+			Q=digitalRead(3);\\
+			R=digitalRead(4);\\
+			S=digitalRead(5);\\
+			T=digitalRead(6);\\
+				Y=(!T$\&\&$P$\&\&$Q)$\|$(P$\&\&$Q$\&\&$R$\&\&$S$\&\&$T);\\
+			digitalWrite(13,Y);\\
+		$\}$}}
+	\item Execute the above code and compare the results of output theoretically and practically.
+	\end{enumerate}
+\end{document}

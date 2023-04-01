@@ -1,0 +1,149 @@
+\def\mytitle{IMPLEMENTATION OF RANDOM GENERATOR USING\\ D FLIP-FLOPS IN ARDUINO IDE}
+\def\mykeywords{}
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper,outer=1.5cm,inner=1.5cm,top=1.75    cm,bottom=1.5cm]{geometry}
+%  \twocolumn
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{circuitikz}
+
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage[margin=1cm]{geometry}
+\usetikzlibrary{shapes,arrows,chains,decorations.markings,intersections,calc}
+\usepackage{lipsum}
+\usetikzlibrary{positioning}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{algorithm2e}
+\usepackage{karnaugh-map}                           
+\usepackage{datetime}
+\usepackage{lipsum}
+\usepackage{amsmath}
+\usepackage{textgreek}
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usetikzlibrary{calc}                         
+\usetikzlibrary{circuits.logic.US}
+\title{\mytitle}
+ \author{MARIKUNDAM HARSHITHA\\marikundamdec@gmail.com\\FWC22120 IITH-Future Wireless Communications     Assignment-1}
+\date{}
+\sloppy
+\lstset{                                          
+language=C++,                           
+basicstyle=\ttfamily\footnotesize,   
+breaklines=true,                       
+frame=lines
+}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Problem}
+(GATE2021-QP-EC)\\
+Q.46 The propogation delay of the exclusive-OR(XOR) gate in the circuit in the figure is 3ns.The propogation delay of all the flip-flops is assumed to be zero.The clock(Clk) frequency provided to the circuit is 500MHz.\\
+\begin{figure}[!h]
+\begin{center}
+\resizebox{0.5\columnwidth}{!}{
+\input{figs/fig1.tex}
+}
+\end{center}
+	\caption{Circuit}
+\label{fig:circuit}
+\end{figure}
+
+Starting from the initial value of the flip-flop outputs $Q2Q1Q0 =111$ with $D2=1$,the minimum number of triggering clock edges after which the flip-flop outputs $Q2Q1Q0$ becomes 1 0 0\emph{(in integer)} is \line(1,0){12.5}
+
+\section{Introduction}
+A random number generator using D flip-flops is a simple digital circuit that generates a sequence of random binary numbers.To implement this type of random number generator, we use a series of D flip-flops connected in a feedback loop. The output of each flip-flop is fed back into the input of the next flip-flop,creating a circuit that generated a sequence of random binary values.\\ \\
+The feedback loop creates a delay in the circuit,which causes the circuit to exhibit unpredictable behavior.This unpredictable behavior results in a sequence of random binary values. The length of the delay can be adjusted to control the randomness of the output.
+
+\section{Components}
+\begin{table}[!h]
+\centering
+\input{tables/table1.tex}
+\caption{Components}
+\label{table:components}
+\end{table}
+\subsection{Arduino} 
+The Arduino Uno has some ground pins,analog input pins A0-A3 and digital pins D1-D13 that can be used for both input as well as output.It also has two power pins that can generate 3.3V and 5V.Inthe following exercises, we use digital pins,GND and 5V .
+\subsection{Seven Segment Display}
+The seven segment display has eight pins, \emph{a,b,c,d,e,f,g} and \emph{dot} that take an active LOW input,i.e. the LED will glow only if the input is connected to ground.Each of these pins is connected to an LED segment.The \emph{dot} pin is reserved for the LED.
+\section{Implementation}
+A 7474 IC which  has 14 pins and can store two seperate binary values.So we consider two IC's since we have three values  and connect the  D inputs of each flip-flop to the input signals of 7447 IC . Later interface 7447 IC to seven segment display for the output. The CLK input is used to trigger the flip-flop,and the Q output is used to read the stored value.When a positive edge is detected on the CLK input,the current value on the D input is stored in the flip-flop. The boolean expression of the D flip-flop is $Q(t+1) = D$
+\subsection{Truth table}
+\begin{table}[!h]
+\centering
+\input{tables/table2.tex}   
+\caption{Truth Table}
+\label{table:truth_table}
+\end{table}
+\subsection{K-map}
+Since $Q'= D$,we find the k-maps for D as outputs\\
+\begin{figure}[!h]                                
+\begin{center}                                 
+\resizebox{0.5\columnwidth}{!}{
+\input{figs/kmap1.tex}
+}                                                
+\end{center}                                     
+\caption{For D2}                                       
+\label{fig:for_D2}                             
+\end{figure}
+%
+\begin{figure}[!h]                              
+\begin{center}                                 
+\resizebox{0.5\columnwidth}{!}{
+\input{figs/kmap2.tex}
+}                                               
+\end{center}                                   
+\caption{For D1}                                     
+\label{fig:for_D1}                             
+\end{figure}
+%
+\begin{figure}[!h]                             
+\begin{center}                                
+\resizebox{0.5\columnwidth}{!}{
+\input{figs/kmap3.tex}
+}                                              
+\end{center}                              
+\caption{For D0}                                
+\label{fig:for_D1}                            
+\end{figure}                                      
+%
+\subsection{Boolean Equation}
+By solving the K-maps above we obtain as follows :
+\begin{align}
+	D2 &= \overline{Q2}Q0 + \overline{Q0}Q2 \\
+	D1 &= Q2 \\
+	D0 &= Q1 
+\end{align}
+\section{Hardware}
+\begin{enumerate}
+\item Make the connections between the seven segment display and the 7447 IC as shown in Table3
+\begin{table}[!h]                                
+\centering
+\input{tables/table3.tex}   
+\caption{7447}                               
+\label{table:7447}                       
+\end{table}
+\item Connect the Arduino,7447 and the two 7474 ICs according to Table4
+\begin{table}[!h]                                 
+\centering	
+\input{tables/table4.tex} 
+\caption{Connections}                                   
+\label{table:connections}                       
+\end{table}
+\item Make the other D input pins of 7474 grounded and supply  5V and GND from the arduino as well.
+\item When the clock edge is trigerred we observe display of random numbers.
+\end{enumerate}
+\section{Software}
+Now write the following code and upload in arduino to see the results.
+\lstinputlisting{code6.cpp}
+\end{document}

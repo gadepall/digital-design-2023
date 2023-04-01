@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{blindtext}
+\usepackage{capt-of}
+\usepackage{circuitikz}
+\usepackage{./karnaugh-map}
+\usetikzlibrary{shapes.geometric}
+\title{Implementation of 4x1 mux in Arduino using ICs}
+\date{February 2023}
+\lstset{
+	frame=single'
+	breaklines=true
+}
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\norm}[1]{\left\lvert#1\right\rVert}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\let\vec\mathbf
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+	 \section{Problem}
+	 (GATE EC-2022)\\
+
+Q.19. Consider the 2-bit multiplexer(MUX) shown in the figure.For output to be the XOR of R and S,the values for $ W,X,Y$ and $Z$ are ?\newline
+\begin{figure}[h]
+\input{figs/fig1.tex}
+\caption{mux}
+\label{fig:1}
+\end{figure}
+\begin{enumerate}
+\item $W = 0, X = 0, Y = 1, Z = 1$
+\item $W = 1, X = 0, Y = 1, Z = 0$
+\item $W = 0, X = 1, Y = 1, Z = 0$
+\item $W = 1, X = 1, Y = 0, Z = 0$
+\end{enumerate}
+\section{Introduction}
+	The above diagram is a 4:1 multiplexer where $W, X, Y, Z$ are the inputs of the multiplexer and $A$ is the output of the multiplexer.$R , S$ are the select lines of the multiplexer,which means:\newline
+\begin{enumerate}
+\item For $R = 0,S = 0$,the first input line $W$ is selected.
+\item For $R = 0,S = 1$,the second input line $X$ is selected.
+\item For $R = 1,S = 0$,the third input line $Y$ is selected.
+\item For $R = 1,S = 1$,the fourth input line $Z$ is selected.
+\end{enumerate}
+Therefore,the resultant output expression of the multiplexer is $R'S'W + R'SX + RS'Y + RSZ$.
+\section{Components}
+\begin{table}[h]
+	\input{tables/table1.tex}
+\caption{contents}
+\label{table 1}
+\end{table}
+	\pagebreak
+\section{Hardware}
+	\begin{enumerate}
+\item Connect the COM of the seven-segment display to 5V and dot of the seven-segment to the ground.
+\item Now connect any one of the pin of the seven-segment to pin no.2(digital).
+\item Pin no.s 5,6,7,8 of the arduino should be initially connected to ground.
+\item Now move pin no.s 5,6,7,8 accordingly and for the right combination the second pin of the arduino becomes high and the seven segement display glows.
+\end{enumerate}
+\begin{table}[h]
+\begin{center}
+	\input{tables/table2.tex}
+\end{center}
+\caption{truth table}
+\label{table 2}
+\end{table}
+The K-map for this truth table will be a two variable K-map and it will be as follows:
+\begin{figure}[h]
+	\input{figs/fig2.tex}
+\caption{k-map}
+\label{fig2}
+\end{figure}
+
+So,the resultant expression of A is $A = R'S + RS'$.
+\pagebreak
+\section{Software}
+
+The code below can help in solving the above problem.
+\lstinputlisting{q19.cpp}
+\end{document}

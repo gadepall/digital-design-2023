@@ -1,0 +1,28 @@
+\begin{tikzpicture}
+\ctikzset{                                   
+logic ports=ieee,                   
+logic ports/scale=0.5               
+}                                    
+\draw(-1.3,0)node[xor port,anchor=out](x) {};         
+\tikzstyle{dff}=[rectangle,draw,minimum height=7em,text width=7em,inner sep=3em]                                       
+\node[dff] (dff2) {D2};                             
+\node[dff, right=2cm of dff2] (dff1) {D1};           
+\node[dff, right=2cm of dff1] (dff0) {D0};        
+%Connecting flip-flops together                    
+\draw (dff2.out) -- ++(2,0) node[above]{};        
+\draw (dff1.out) -- ++(2,0) node[above] {};         
+\draw (dff0.out) -- ++(2,0) node[above]{};          
+\draw(dff2.out) -| (2.3,1.5) node[above]{$Q2$};        
+\draw(dff1.out) -|(6.8,1.2) node[above]{$Q1$};         
+\draw(dff0.out) -|(12.4,2) node[above]{$Q0$};          
+\draw(x.in 2) -|(-3,2)to[short] (12.4,2);              
+\draw(x.in 1)-|(-2.5,1.5)to[short](2.3,1.5);          
+\draw(-2,-2) node[above]{$Clk$} --(6,-2);            
+\draw(6,-2) node[above]{} --(9.1,-2);                 
+\draw(9.1,-2)--(9.1,-1.2) node[above]{};                 
+\draw(8.9,-1.23)--(9.1,-1)--(9.3,-1.23);               
+\draw(4.5,-2)--(4.5,-1.2) node[above]{};               
+\draw(4.3,-1.23)--(4.5,-1)--(4.7,-1.23);            
+\draw(0,-2)--(0,-1.2) node[above]{};               
+\draw(-0.2,-1.23)--(0,-1)--(0.2,-1.23);
+\end{tikzpicture}

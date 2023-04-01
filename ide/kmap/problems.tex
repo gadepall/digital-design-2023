@@ -213,7 +213,7 @@ F(P,Q,R,S) = \sum (0,1,2,3,5,6,7,10,14,15)
 \label{prob:2019/c/6/d}
 %
 \item Fig. \ref{fig:2020/gate/ec/10} below shows a muliplexer where S0 and S1 are the select lines, I0 to I3 are the input lines, EN is the enable line and F(P,Q,R) is the output. Find the boolean expression for output F as function of inputs P,Q,R using K-map. 
-
+%
 \label{prob:2020/gate/ec/10}
 \hfill (GATE EC 2020)
 \begin{figure}[ht]
@@ -351,5 +351,34 @@ F= A'B'C'+A'BC'+A'BC+ABC'
 %		\implicant{4}{14}
 %		\implicant{1}{7}
 	\end{karnaugh-map}
-
+\item The propogation delays of the XOR gate, AND gate and multiplexer (MUX) in the circuit shown in the Fig.
+\ref{fig:2021-gate-ec-31}
+	are 4 ns, 2 ns and 1 ns, respectively.
+\label{prob:2021-gate-ec-31}
+If all the inputs P, Q, R, S and T are applied simultaneously and held constant, the maximum propogation delay of the circuit is
+\hfill (Gate EC-2021)
+\begin{enumerate}
+	\item 3 ns \item 5 ns \item 6 ns \item 7 ns
+\end{enumerate}
+\begin{figure}[!htb]
+	\centering
+\input{gate/2021/31/figs/diagram.tex}
+	\caption{}
+\label{fig:2021-gate-ec-31}
+\end{figure}
+\item 
+\label{prob:2012-gate-ec-19}
+Consider the 2-bit multiplexer(MUX) shown in the figure. For output to be the XOR of R and S, the values for $ W,X,Y$ and $Z$ are ? 
+\hfill (GATE EC-2022)
+\begin{figure}[h]
+\input{gate/2022/19/figs/fig1.tex}
+\caption{}
+\label{fig:2012-gate-ec-19}
+\end{figure}
+\begin{enumerate}
+\item $W = 0, X = 0, Y = 1, Z = 1$
+\item $W = 1, X = 0, Y = 1, Z = 0$
+\item $W = 0, X = 1, Y = 1, Z = 0$
+\item $W = 1, X = 1, Y = 0, Z = 0$
+\end{enumerate}
 \end{enumerate}

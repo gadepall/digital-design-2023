@@ -1,0 +1,10 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Problem}{2}{}%
+\contentsline {section}{\numberline {2}Introduction}{2}{}%
+\contentsline {section}{\numberline {3}Components}{2}{}%
+\contentsline {section}{\numberline {4}State Table}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Truth Table}{3}{}%
+\contentsline {section}{\numberline {5}Karnaugh Map}{4}{}%
+\contentsline {section}{\numberline {6}Connections}{6}{}%
+\contentsline {section}{\numberline {7}Software}{6}{}%
+\contentsline {section}{\numberline {8}Demo Video}{7}{}%

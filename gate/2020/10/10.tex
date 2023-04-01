@@ -1,0 +1,114 @@
+\documentclass[journal,twocolumn,10pt, a4paper]{article}
+
+\usepackage[top=0.95in, bottom=1in, left=0.95in, right=0.95in]{geometry}
+\usepackage{array}
+\usepackage[colorlinks,linkcolor={black},citecolor={blue!80!black},urlcolor={blue!80!black}]{hyperref}
+\usepackage[parfill]{parskip}
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault}
+\setlength{\columnsep}{40pt}
+\usepackage{watermark}
+
+\usepackage{circuitikz}
+\usetikzlibrary{circuits.logic.IEC,calc}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usetikzlibrary{shapes, arrows, chains, decorations.markings,intersections,calc}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{algorithm2e}
+\usepackage{./karnaugh-map}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\usepackage{listings}
+\usepackage{placeins}
+
+\begin{document}
+
+\lstset{ 
+  language=C++,
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  frame=lines}
+
+
+\title{IDE ASSIGNMENT}
+\author{Tanyala Srihitha\\srihithatanyala@gmail.com}
+\maketitle
+\tableofcontents 
+
+\section{Problem}                               
+(GATE EC-2020)\\                                  
+Q.No 10    The figure(Fig.\ref{fig:Fig 1}) below shows a multiplexer where $S_1$ and $S_0$ are select lines, $I_0$ to $I_3$ are the input data lines, EN is the enable line, and $F(P,Q,R)$ is the output, $F$ is
+\begin{figure}[!h]
+\input{figs/Fig1.tex}
+\caption{}
+\label{fig:Fig 1}
+\end{figure}
+
+\begin{enumerate}
+   \item $PQ +{Q^\prime} R$
+   \item $P+Q {R^\prime}$
+   \item $P{Q^\prime} R+{P^\prime}Q$
+   \item ${Q^\prime} +PR$
+\end{enumerate}
+
+\section{Components}\\
+The components required are given in Table.\ref{tab:Components}
+\begin{table}[!h]
+\centering
+\input{tables/Table1.tex}
+\caption{}
+\label{tab:Components}
+\end{table}
+
+\subsection{Arduino}
+The Arduino Uno has some ground pins, analog input pins A0-A3 and digital pins D1-D13 that can be used for both input as well as output. It also has two power pins that can generate 3.3V and 5V.
+\subsection{Seven Segment Display}
+The seven segment display has eight pins, a, b, c, d, e, f, g and dot that take an active LOW input, i.e. the LED will glow only if the input is connected to ground. Each of these pins is connected to an LED segment. The dot pin is reserved for the · LED.
+
+\section{Implementation}
+We know that the output of a multiplexer is given as:
+\begin{align}
+F&=S_1^\prime S_0^\prime I_0+S_1^\prime S_0I_1+S_1S_0^\prime I_2+S_1S_0I_3\\ 
+F&=P^\prime Q^\prime{R}+P^\prime Q(0)+PQ^\prime R+PQ(1)\\
+F&=P^\prime Q^\prime R+PQ^\prime R+PQ
+\end{align}
+
+
+\subsection{Truth Table}\\
+From the above equation, truth table is given in Table.\ref{tab:Truth Table}
+\begin{table}[!h]
+\centering
+\input{tables/Table2.tex}
+\caption{}
+\label{tab:Truth Table}
+\end{table}\\
+
+\subsection{K-map}
+From the above truth table, Fig.\ref{fig:Fig 2} represents the K-map:
+\begin{figure}[!h]
+\input{figs/Fig2.tex}
+\caption{}
+\label{fig:Fig 2}
+\end{figure}
+\subsection{Boolean Expression}
+By Solving the above K-map, we get a boolean equation as: $F=PQ+{Q^\prime}R$
+
+\section{Hardware}
+\begin{enumerate}
+\item Connect the arduino to computer and upload the code in to the arduino.
+\item Make 2,3,4,5 as output pins and 6,7,8 as input pins.
+\item By changing inputs check the corresponding outputs.
+\end{enumerate}
+
+\section{Software}
+\lstinputlisting{src/10.cpp}
+
+\end{document}

@@ -1,0 +1,22 @@
+
+\begin{circuitikz}                                 
+\node [muxdemux, muxdemux def={NL=5, NR=1, NB=2,w=4, Lh=4, Rh=4, square pins=1}](C) at (0,0){MUX};     
+\node [right, font=\tiny] at (C.blpin 1){EN};      
+\node [right, font=\tiny] at (C.blpin 2){$I_0$};   
+\node [right, font=\tiny] at (C.blpin 3){$I_1$};   
+\node [right, font=\tiny] at (C.blpin 4){$I_2$};   
+\node [right, font=\tiny] at (C.blpin 5){$I_3$};   
+\node [right=3mm, font=\tiny] at (C.brpin 1){F};   
+\node [above, font=\tiny] at (C.bbpin 1){$S_1$};   
+\node [above, font=\tiny] at (C.bbpin 2){$S_0$};   
+\node [left=3mm, font=\tiny] at (C.blpin 1){0};    
+\node [left=3mm, font=\tiny] at (C.blpin 2){R};    
+\node [left=3mm, font=\tiny] at (C.blpin 3){0};    
+\node [left=3mm, font=\tiny] at (C.blpin 4){R};    
+\node [left=3mm, font=\tiny] at (C.blpin 5){1};    
+\node [below=3mm, font=\tiny] at (C.bbpin 1){P};   
+\node [below=3mm, font=\tiny] at (C.bbpin 2){Q};  
+\node [ocirc, anchor=0](notin2) at (C.blpin 1){};  
+%\draw (notin2.180) -- (C.bpin 1 -| extpin);       
+\end{circuitikz}
+

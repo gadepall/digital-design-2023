@@ -1,0 +1,18 @@
+\begin{tikzpicture} [node distance=2cm]
+\centering 
+\node[circle, draw, state, initial] (S0) {$S_0$};
+\node[circle, draw, state, accepting, right of=S0] (S1) {$S_1$};
+\node[circle, draw, state, accepting, right of=S1] (S2) {$S_2$};
+\node[circle, draw, state, accepting, right of=S2] (S3) {$S_3$}; 
+\node[circle, draw, state, below right of = S1] (S4) {$S_4$};
+\path[->] (S0) edge[above] node{0/0} (S1) 
+          (S0) edge[loop above] node{1/0} (S0)
+          (S1) edge[above] node{1/0} (S2)
+          (S1) edge[loop above] node{0/0} (S1)
+          (S2) edge[above] node{0/0} (S3) 
+          (S2) edge[below,bend left] node{1/0} (S0)
+          (S3) edge[below] node{1/0} (S4) 
+          (S3) edge[above,bend right] node{0/0} (S1) 
+          (S4) edge[below,bend left] node{1/0} (S0)   
+          (S4) edge[below,bend right] node{0/1} (S3); 
+\end{tikzpicture}

@@ -1,0 +1,88 @@
+\iffalse
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage[none]{hyphenat}
+\usepackage[english]{babel}
+\usepackage{caption}
+\usepackage[parfill]{parskip}
+\usepackage{hyperref}
+\usepackage{import}
+\usepackage{booktabs}
+\usepackage{circuit}%%Importing Packing circiut.sty created for circuit
+\def\inputGnumericTable{}
+\usepackage{color}                                            
+    \usepackage{array}                                            
+    \usepackage{longtable}                                        
+    \usepackage{calc}                                             
+    \usepackage{multirow}                                         
+    \usepackage{hhline}                                           
+    \usepackage{ifthen}
+\usepackage{array}
+\usepackage{amsmath}  
+\usepackage{parallel,enumitem}
+\usepackage{listings}
+\lstset{
+language=tex,
+frame=single,
+breaklines=true
+}
+ 
+\begin{document}
+\fi
+
+\section{Software}
+%
+All codes used in this document are available in the following directory 
+%निम्न जालबन्धन से इस लिख में उपयोग किए गए समस्त क्रमादेश अवाहरत करें।
+\begin{lstlisting}
+vaman/esp32/codes
+\end{lstlisting}
+\section{Flash Vaman-ESP32 using Arduino}
+
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item Do not power any devices.  Make connections as shown in \tabref{tab:vaman/uart/rpi-vaman-uart} and 
+\figref{fig:vaman/uart/1}.
+			\begin{table}[!h]
+		\input{vaman/uart/tables/rpi-vaman-uart.tex}
+		\caption{}
+		\label{tab:vaman/uart/rpi-vaman-uart}
+	\end{table}
+%\item Add the Potential Divider circuit between VAMAN and ARDUINO boards TX and RX pins as shown in Figure \ref{fig:vaman/uart/1}
+\begin{figure}
+\centering
+\input{vaman/uart/figs/circuit.tex}
+\caption{Circuit Connections}
+\label{fig:vaman/uart/1}
+\end{figure}
+\item Now power on the devices and measure the voltage across the Vaman-ESP Rx pin using a multimeter.  Comment.
+\iffalse
+\item Modify your platformio.ini file by adding the lines
+\begin{lstlisting}
+upload_protocol = esptool
+upload_port = /dev/ttyACM0
+upload_speed = 115200
+\end{lstlisting}
+\fi
+\item Execute the following
+\begin{lstlisting}
+cd vaman/esp32/codes/ide/blink
+pio run 
+pio run -t nobuild -t upload
+\end{lstlisting}
+While the dots and dashes are printed on the screen, disconnect the EN wire from GND.   Make sure that the Vaman board is not powering any device while flashing.  The Vaman-ESP should now flash.
+\item After flashing, disconnect pin 0 on Vaman-ESP from GND. Power on Vaman and the appropriate LED will blink.
+\item Open
+\begin{lstlisting}
+vaman/esp32/codes/ide/blink/src/main.cpp 
+\end{lstlisting}
+and change the delay to 
+\begin{lstlisting}
+delay(2000);
+\end{lstlisting}
+and exectute the code by following the steps above.
+\end{enumerate}

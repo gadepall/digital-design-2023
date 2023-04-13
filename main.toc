@@ -58,11 +58,4 @@
 \contentsline {subsection}{\numberline {8.5.2}Display Number on LCD}{77}{subsection.8.5.2}%
 \contentsline {chapter}{\numberline {9}Vaman-ESP32}{79}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Software}{79}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Hardware Setup}{79}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Blink LED}{80}{section.9.3}%
-\contentsline {section}{\numberline {9.4}ESP IDF}{82}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Raspberry Pi}{83}{section.9.5}%
-\contentsline {subsection}{\numberline {9.5.1}Enable Serial Communication}{83}{subsection.9.5.1}%
-\contentsline {subsection}{\numberline {9.5.2}Flash Vaman-ESP}{84}{subsection.9.5.2}%
-\contentsline {section}{\numberline {9.6}OTA}{85}{section.9.6}%
-\contentsline {section}{\numberline {9.7}OTA}{86}{section.9.7}%
+\contentsline {section}{\numberline {9.2}Flash Vaman-ESP32 using Arduino}{79}{section.9.2}%

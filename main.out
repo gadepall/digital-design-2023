@@ -57,11 +57,4 @@
 \BOOKMARK [2][-]{subsection.8.5.2}{Display Number on LCD}{section.8.5}% 57
 \BOOKMARK [0][-]{chapter.9}{Vaman-ESP32}{}% 58
 \BOOKMARK [1][-]{section.9.1}{Software}{chapter.9}% 59
-\BOOKMARK [1][-]{section.9.2}{Hardware Setup}{chapter.9}% 60
-\BOOKMARK [1][-]{section.9.3}{Blink LED}{chapter.9}% 61
-\BOOKMARK [1][-]{section.9.4}{ESP IDF}{chapter.9}% 62
-\BOOKMARK [1][-]{section.9.5}{Raspberry Pi}{chapter.9}% 63
-\BOOKMARK [2][-]{subsection.9.5.1}{Enable Serial Communication}{section.9.5}% 64
-\BOOKMARK [2][-]{subsection.9.5.2}{Flash Vaman-ESP}{section.9.5}% 65
-\BOOKMARK [1][-]{section.9.6}{OTA}{chapter.9}% 66
-\BOOKMARK [1][-]{section.9.7}{OTA}{chapter.9}% 67
+\BOOKMARK [1][-]{section.9.2}{Flash Vaman-ESP32 using Arduino}{chapter.9}% 60

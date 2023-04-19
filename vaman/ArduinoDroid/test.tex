@@ -1,0 +1,64 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{caption}
+\def\inputGnumericTable{}
+\usepackage{color}                                            
+    \usepackage{array}                                            
+    \usepackage{longtable}                                        
+    \usepackage{calc}                                             
+    \usepackage{multirow}                                         
+    \usepackage{hhline}                                           
+    \usepackage{ifthen}
+\usepackage{array}
+\usepackage{amsmath}  
+\usepackage{parallel,enumitem}
+\usepackage{listings}
+\lstset{
+language=tex,
+frame=single,
+breaklines=true
+}
+ 
+\begin{document}
+
+\section{Flash Vaman-ESP using Arduino Through ArduinoDroid Application}
+
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item Flashing the code to VAMAN board with the help Arduino UNO board through the mobile Application ArduinoDroid. Make connections as shown in Table \ref{tab:rpi-vaman-uart} and modify the circuit accordingly
+			\begin{table}[!h]
+		\input{tables/rpi-vaman-uart.tex}
+		\caption{}
+		\label{tab:rpi-vaman-uart}
+	\end{table}
+\item Add the Potential Divider circuit between VAMAN and ARDUINO boards TX and RX pins
+\item Modify your platformio.ini file by adding the lines
+\begin{lstlisting}
+upload_port = /dev/ttyACM0
+upload_speed = 115200
+\end{lstlisting}
+
+\item For compiling and genrating the bin file 
+\begin{lstlisting}
+pio run
+\end{lstlisting}
+\item For uploading bin file to Vaman through ArduinoDroid application 
+\begin{lstlisting}[language=bash]
+1. Open the Droid Application
+2. Click the three dots in the top right corner
+3. Navigate to Settings -> Board Type
+4. Select ESP32 -> DOIT ESP32 DEVKIT V1
+5. Change the upload speed to 115200
+6. Upload the generated .bin file
+\end{lstlisting}
+
+
+
+while the dots are printed on the screen, disconnect the EN wire from GND.   Make sure that the Vaman board is not powering any device while flashing.  The Vaman-ESP should now flash.
+\item After flashing, disconnect pin 0 on Vaman-ESP from GND. Power on Vaman and the appropriate LED will blink.
+\end{enumerate}
+\end{document}

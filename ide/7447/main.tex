@@ -346,9 +346,9 @@ Complete Table \ref{table:bin2dec} by generating all numbers between 0-9.
 \section{Software}
 	\begin{enumerate}
 \item
-Now make the connections as per Table \ref{table:7447_ard}  and execute the following program after downloading
+Now make the connections as per Table \ref{table:7447_ard}  and execute the following program 
 \begin{lstlisting}
-wget https://raw.githubusercontent.com/gadepall/arduino/master/7447/codes/gvv_ard_7447/gvv_ard_7447.ino
+ide/7447/codes/gvv_ard_7447/gvv_ard_7447.cpp
 \end{lstlisting}
 
 \begin{table}[!h]
@@ -371,22 +371,17 @@ Note that $0111$ results in the expression $WXYZ^{'}$ and $1000$ yields $W^{'}X^
 %
 \item
 The code below realizes the Boolean logic for B, C and D in  Table \ref{table:counter_decoder}.  Write the logic for A and verify.
-			\lstinputlisting{ide/7447/codes/inc_dec/inc_dec.ino}
-			\iffalse
 \begin{lstlisting}
-wget https://raw.githubusercontent.com/gadepall/arduino/master/7447/codes/inc_dec/inc_dec.ino
+			ide/7447/codes/inc_dec/inc_dec.ino
 \end{lstlisting}
-\fi
  
 \input{ide/7447/figs/counter_decoder.tex}
 \item
 Now make additional connections as shown in Table \ref{table:ip_7447_ard} and execute the following code.  Comment.
-			\lstinputlisting{ide/7447/codes/ip_inc_dec/ip_inc_dec.ino}
-			\iffalse
+%			\lstinputlisting{ide/7447/codes/ip_inc_dec/ip_inc_dec.ino}
 \begin{lstlisting}
-wget https://raw.githubusercontent.com/gadepall/arduino/master/7447/codes/ip_inc_dec/ip_inc_dec.ino
+ide/7447/codes/ip_inc_dec/ip_inc_dec.cpp
 \end{lstlisting}
-\fi
 
 \solution
 In this exercise, we are taking the number 5 as input to the arduino and displaying it on the seven segment display using the 7447 IC.

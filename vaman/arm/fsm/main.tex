@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 %
 \usepackage{setspace}
@@ -313,7 +314,7 @@ G V V Sharma$^{*}$% <-this % stops a space
 % For peerreview papers, this IEEEtran command inserts a page break and
 % creates the second title. It will be ignored for other modes.
 %\IEEEpeerreviewmaketitle
-
+\fi
 \begin{abstract}
   This document shows how to use the Vaman to design a decade counter using a finite state machine (FSM).
 %इस आलेख में वामन को  दशक गणित्र के रूप में उपयोग करने का विधान प्रस्तुत है।
@@ -329,7 +330,7 @@ G V V Sharma$^{*}$% <-this % stops a space
 %\section{Nomenclature}
 % \printnomenclature[1.7in]
 % \input{hindi/nomen.tex}
-\section{Software}
+\subsection{Software}
 %\section{तंत्रांश}
 All codes in this document are available at the following links. 
 %इस आलेख के समस्त क्रमादेश निम्न जालबन्धन में उपलब्ध हैं।
@@ -338,87 +339,87 @@ https://github.com/gadepall/vaman/tree/master/arm/codes/decoders
 https://github.com/gadepall/vaman/tree/master/arm/codes/fsm
 \end{lstlisting}
 %
-\section{Setup}
+\subsection{Setup}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
 
 
-\item Execute Table  \ref{table:disp_dec} using the Vaman and a seven segment display. 
+\item Execute Table  \ref{tab:vaman/arm/fsm/disp_dec} using the Vaman and a seven segment display. 
 \\
-\solution The outputs $a,b,c,d,e,f,g$ in Table  \ref{table:disp_dec}  are expressed in terms of the inputs  $A,B,C,D$ through the following
+\solution The outputs $a,b,c,d,e,f,g$ in Table  \ref{tab:vaman/arm/fsm/disp_dec}  are expressed in terms of the inputs  $A,B,C,D$ through the following
 equations. 
 %
 \begin{align}
-\label{eq:disp_a}
+\label{eq:vaman/arm/fsm/disp_a}
 a &= AB^{\prime}C^{\prime}D^{\prime}+A^{\prime}B^{\prime}CD^{\prime}
 \\
-\label{eq:disp_b}
+\label{eq:vaman/arm/fsm/disp_b}
 b &= AB^{\prime}CD^{\prime}+A^{\prime}BCD^{\prime}
 \\
-\label{eq:disp_c}
+\label{eq:vaman/arm/fsm/disp_c}
 c &= {D}^{\prime}{C}^{\prime}B{A}^{\prime}
 \\
 d &= AB^{\prime}C^{\prime}D^{\prime}+A^{\prime}B^{\prime}CD^{\prime}+ABCD^{\prime}+AB^{\prime}C^{\prime}D
-\label{eq:disp_d}
+\label{eq:vaman/arm/fsm/disp_d}
 \\
 e &= AB^{\prime}C^{\prime}D^{\prime}+ABC^{\prime}D^{\prime}+A^{\prime}B^{\prime}CD^{\prime}+AB^{\prime}CD^{\prime}
 \nonumber \\
 &\quad +ABCD^{\prime}+AB^{\prime}C^{\prime}D
-\label{eq:disp_e}
+\label{eq:vaman/arm/fsm/disp_e}
 \\
 f &= AB^{\prime}C^{\prime}D^{\prime}+A^{\prime}BC^{\prime}D^{\prime}+ABC^{\prime}D^{\prime}+ABCD^{\prime}
-\label{eq:disp_f}
+\label{eq:vaman/arm/fsm/disp_f}
 \\
 g &= A^{\prime}B^{\prime}C^{\prime}D^{\prime}+AB^{\prime}C^{\prime}D^{\prime}+ABCD^{\prime}
-\label{eq:disp_g}
+\label{eq:vaman/arm/fsm/disp_g}
 \end{align}
 \begin{table}
 \centering
-\input{./tables/disp_dec.tex}
+\input{./vaman/arm/fsm/tables/disp_dec.tex}
 \caption{Truth table for the display decoder}
-\label{table:disp_dec}
+\label{tab:vaman/arm/fsm/disp_dec}
 \end{table}
 %
 Now execute the following code.  
 \begin{lstlisting}
 codes/decoders/dispdec/main.c
 \end{lstlisting}
-%Connect $A, B, C, D$ को GND से योजित करें।  तत्पश्चात चरों के भिन्न संचय के लिये प्रदर्शी में प्राप्त अंकों को सारणी \ref{table:disp_dec}  से सत्यापित करें।
-For different values of $A,B,C,D$, execute the above code to verify Table \ref{table:disp_dec}.
+%Connect $A, B, C, D$ को GND से योजित करें।  तत्पश्चात चरों के भिन्न संचय के लिये प्रदर्शी में प्राप्त अंकों को सारणी \ref{tab:vaman/arm/fsm/disp_dec}  से सत्यापित करें।
+For different values of $A,B,C,D$, execute the above code to verify Table \ref{tab:vaman/arm/fsm/disp_dec}.
 
-%\item सारणी \ref{table:counter_decoder} में एक परवर्ती निष्कूटक के गुणधर्म का उल्लेख है।  बूलीय समीकरणों के द्वारा $A,B,C,D$ को $W,X,Y,Z$ के व्यञ्जकों में व्यक्त करें।  इसके पश्चात वामन के द्वारा परवर्ती निष्कूटक को कार्यान्वयित करें। 
+%\item सारणी \ref{tab:vaman/arm/fsm/counter_decoder} में एक परवर्ती निष्कूटक के गुणधर्म का उल्लेख है।  बूलीय समीकरणों के द्वारा $A,B,C,D$ को $W,X,Y,Z$ के व्यञ्जकों में व्यक्त करें।  इसके पश्चात वामन के द्वारा परवर्ती निष्कूटक को कार्यान्वयित करें। 
 
-\item Table \ref{table:counter_decoder} shows the logic for the incrementing decoder.  Express $A,B,C,D$ in terms of $W,X,Y,Z$.
-\label{prob:counter_decoder}
+\item Table \ref{tab:vaman/arm/fsm/counter_decoder} shows the logic for the incrementing decoder.  Express $A,B,C,D$ in terms of $W,X,Y,Z$.
+\label{prob:vaman/arm/fsm/counter_decoder}
 \begin{table}
 \centering
-\input{./tables/counter_decoder.tex}
+\input{./vaman/arm/fsm/tables/counter_decoder.tex}
 \caption{Truth table for the incrementing decoder}
-\label{table:counter_decoder}
+\label{tab:vaman/arm/fsm/counter_decoder}
 \end{table}
 \\
 \solution The desired expressions are available below. 
 \begin{align}
-\label{eq:inc_A}
+\label{eq:vaman/arm/fsm/inc_A}
 A &= W^{\prime}X^{\prime}Y^{\prime}Z^{\prime} + W^{\prime}XY^{\prime}Z^{\prime}
 +W^{\prime}X^{\prime}YZ^{\prime}
 \nonumber \\
  & \quad +W^{\prime}XYZ^{\prime}
 +W^{\prime}X^{\prime}Y^{\prime}Z
 \\
-\label{eq:inc_B}
+\label{eq:vaman/arm/fsm/inc_B}
 B &= WX^{\prime}Y^{\prime}Z^{\prime} + W^{\prime}XY^{\prime}Z^{\prime}
 \nonumber \\ 
 & \quad 
 +WX^{\prime}YZ^{\prime}
 +W^{\prime}XYZ^{\prime}
 \\
-\label{eq:inc_C}
+\label{eq:vaman/arm/fsm/inc_C}
 C &= WXY^{\prime}Z^{\prime} + W^{\prime}X^{\prime}YZ^{\prime}
 \nonumber \\ 
 & \quad 
@@ -426,7 +427,7 @@ C &= WXY^{\prime}Z^{\prime} + W^{\prime}X^{\prime}YZ^{\prime}
 +W^{\prime}XYZ^{\prime}
 \\
 D &= WXYZ^{\prime} + W^{\prime}X^{\prime}Y^{\prime}Z
-\label{eq:inc_D}
+\label{eq:vaman/arm/fsm/inc_D}
 \end{align}
 Execute the following code.  You should see the next number displayed.
 %निम्न क्रमादेश का चालयन करें। प्रदर्शी में परवर्ती अंक उत्पन्न होंगे।
@@ -435,10 +436,10 @@ Execute the following code.  You should see the next number displayed.
 codes/decoders/incdec/main.c
 \end{lstlisting}
 %
-% \item आकृति. \ref{fig:pin_sheet} में  वामन के समस्त कुशाव्यूह  प्रस्तुत हैं।  कुशाव्यूह J5 को  आकृति \ref{fig:sevenseg} में प्रदत्त सप्तांश प्रदर्शी के कुशों से सारणी \ref{table:vaman_dispdec} के द्वारा योजित करें। ध्यान  रहे कि COM एवं 3.3V के मध्य एक प्रतिरोधी अनिवार्य है।  तत्पश्चात निम्न क्रमादेश का चालयन  करें। 
+% \item आकृति. \ref{fig:vaman/arm/fsm/pin_sheet} में  वामन के समस्त कुशाव्यूह  प्रस्तुत हैं।  कुशाव्यूह J5 को  आकृति \ref{fig:vaman/arm/fsm/sevenseg} में प्रदत्त सप्तांश प्रदर्शी के कुशों से सारणी \ref{tab:vaman/arm/fsm/vaman_dispdec} के द्वारा योजित करें। ध्यान  रहे कि COM एवं 3.3V के मध्य एक प्रतिरोधी अनिवार्य है।  तत्पश्चात निम्न क्रमादेश का चालयन  करें। 
 %
-\item Fig. \ref{fig:pin_sheet} shows the pin diagram for the Vaman.  Connect the pins in bank J5 to the seven segment display using
-Fig. \ref{fig:sevenseg} and Table \ref{table:vaman_dispdec}.  Do not forget to put a resistor between COM and 3.3V.  Then execute the following code 
+\item Fig. \ref{fig:vaman/arm/fsm/pin_sheet} shows the pin diagram for the Vaman.  Connect the pins in bank J5 to the seven segment display using
+Fig. \ref{fig:vaman/arm/fsm/sevenseg} and Table \ref{tab:vaman/arm/fsm/vaman_dispdec}.  Do not forget to put a resistor between COM and 3.3V.  Then execute the following code 
 \begin{lstlisting}
 codes/fsm/dispdec/main.c
 \end{lstlisting}
@@ -448,33 +449,33 @@ codes/fsm/dispdec/main.c
 \centering
 \parbox{.45\columnwidth}{
 %\resizebox{0.5\columnwidth}{!}{
-\input{tables/pygmy_sevenseg.tex}
+\input{vaman/arm/fsm/tables/pygmy_sevenseg.tex}
 }
 \hfill
 \parbox{.45\columnwidth}{
 %\resizebox{0.5\columnwidth}{!}{
-%\input{tables/Vaman_dispdec.tex}
-\input{tables/pygmy_dispdec.tex}
+%\input{vaman/arm/fsm/tables/Vaman_dispdec.tex}
+\input{vaman/arm/fsm/tables/pygmy_dispdec.tex}
 }
 \caption{Pin connection between the Vaman and seven segment display}
-\label{table:vaman_dispdec}
+\label{tab:vaman/arm/fsm/vaman_dispdec}
 \end{table}
 
 \begin{figure}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{figs/sevenseg.tex}
+\input{vaman/arm/fsm/figs/sevenseg.tex}
 }
 \caption{Seven segment display. }
-\label{fig:sevenseg}
+\label{fig:vaman/arm/fsm/sevenseg}
 \end{figure}
 
 
 \begin{figure*}[!ht]
 \centering
-\includegraphics[width = \textwidth]{figs/pin_sheet.png}
+\includegraphics[width = \textwidth]{vaman/arm/fsm/figs/pin_sheet.png}
 \caption{Pin diagram}
-\label{fig:pin_sheet}
+\label{fig:vaman/arm/fsm/pin_sheet}
 \end{figure*}
 %
 \item Modify the above code to obtain a decade counter.
@@ -482,32 +483,31 @@ codes/fsm/dispdec/main.c
 
 %
 
-\section{Decade Counter }
+\subsection{Decade Counter }
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
-\item Use the Vaman to implement all the decoders in Fig.  \ref{fig:vaman_decade_counter}.  Implement the delay using a flip flop.  This is an 
+\item Use the Vaman to implement all the decoders in Fig.  \ref{fig:vaman/arm/fsm/vaman_decade_counter}.  Implement the delay using a flip flop.  This is an 
 example of an FSM which is implemented using a sequential circuit.
 
-% के आधार पर क्रमादेश \ref{prob:counter_decoder}
+% के आधार पर क्रमादेश \ref{prob:vaman/arm/fsm/counter_decoder}
 % में संशोधन करें एवं वामन के द्वारा दशक गणित्र का निर्माण करें।
 \begin{figure}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{figs/pygmy_decade_counter.tex}
+\input{vaman/arm/fsm/figs/pygmy_decade_counter.tex}
 }
 \caption{Block diagram of a decade counter.}
-\label{fig:vaman_decade_counter}
+\label{fig:vaman/arm/fsm/vaman_decade_counter}
 \end{figure}
 
 
 \end{enumerate}
 %
 
-\end{document}
 
 

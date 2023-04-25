@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 %
 \usepackage{setspace}
@@ -323,32 +324,30 @@ This document provides a simple introduction to ARM programming using Vaman.
 %\section{Nomenclature}
 %\printnomenclature[1.7in]
 %\input{hindi/nomen.tex}
-
-\section{Software}
+\fi
+\subsection{Software}
 %
-All codes used in this document are available at the following link
+All codes used in this document are available at  
 %निम्न जालबन्धन से इस लिख में उपयोग किए गए समस्त क्रमादेश अवाहरत करें।
 \begin{lstlisting}
-https://github.com/gadepall/vaman/tree/master/arm/codes/setup
+vaman/arm/codes/setup
 \end{lstlisting}
 
 
-\section{Setup}
+\subsection{Setup}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
-
-\item Connect the raspberry pi to Vaman through USB.
-\item On the left of the USB port, an LED and a button can be seen.  Another button is visible on
-the right of the USB port.
-\item Press the right button and immediately press the left button.  The green LED starts blinking.  The Vaman is now in download mode.
-mode.
+\item Follow the instructions at
+\begin{lstlisting}
+vaman/installation/termuxdebian/termuxdebian_arm.txt
+\end{lstlisting}
 %दक्षिण गण्ड को दबाकर शीघ्र वाम गण्ड को दबायें।  हरित दीप श्मीलित होते हुए दिखेगा।  यह संकेत हैं कि वामन
 %क्रमादेश के लिए सिद्ध है।
-
+\iffalse
 \item Open termux on android and execute the following codes
 \begin{lstlisting}
 cd ~
@@ -366,14 +365,15 @@ sudo python3 /home/pi/Vaman-dev/Vaman-sdk/TinyFPGA-Programmer-Application/tinyfp
 \end{lstlisting}
 \item Enter the appropriate USB device port above while executing.  Press the button to the right
 after the above command is successfully executed.  The LED will start blinking. 
+\fi
 %उपरोक्त आदेश में उचित पत्तन दें। तत्पश्चात यूएसबी पत्तन के दक्षिण दिशा में गण्ड को दबायें। कुछ समय पश्चचात प्रकाश उत्सर्जक श्वेत रंग  में श्मीलित होगा। 
 \end{enumerate}
 %
-\section{Delay}
+\subsection{Delay}
 
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
@@ -411,7 +411,7 @@ and execute.  Can you see any difference in the blink period?
 \item To obtain red colour, execute the following code.
 %रक्तिम रंगोत्पदन के लिए निम्न गूढ़ का चालयन करें।  
 \begin{lstlisting}
-codes/setup/red/src/main.c
+vaman/arm/codes/setup/red/src/main.c
 \end{lstlisting}
 Now obtain blue colour.
 %इदान हरित एवं नील रंग में दीप को श्मीलित करें।
@@ -421,10 +421,10 @@ Now obtain blue colour.
 \\
 \solution Execute the following code.
 \begin{lstlisting}
-codes/setup/onoff/src/main.c
+vaman/arm/codes/setup/onoff/src/main.c
 \end{lstlisting}
 %
-\item  Using Table  \ref{table:input} and Fig.  \ref{fig:pin_sheet}, use an input pin to control the onboard LED.  
+\item  Using Table  \ref{tab:vaman/arm/setup/input} and Fig.  \ref{fig:vaman/arm/setup/pin_sheet}, use an input pin to control the onboard LED.  
 %एक अन्य कुश को निर्गत रूप देकर किसी बाह्य दीप को प्रकाशोर्जित करें.
 
 \begin{table}[]
@@ -437,22 +437,21 @@ Input &  IO\_5 &  GND\\ \hline
 %निर्गत  & IO\_11  &  LED\\ \hline
 \end{tabular}
 \caption{Vaman control through external input.}
-\label{table:input}
+\label{tab:vaman/arm/setup/input}
 \end{table}
 
 \begin{figure*}[!ht]
 \centering
-\includegraphics[width = \textwidth]{figs/pin_sheet.png}
+\includegraphics[width = \textwidth]{vaman/arm/setup/figs/pin_sheet.png}
 \caption{Pin Diagram}
-\label{fig:pin_sheet}
+\label{fig:vaman/arm/setup/pin_sheet}
 \end{figure*}
 \solution Execute the following code.  You should see the LED blinking pink. Disconnecting the wire from GND will result in the LED blinking white 
 and green alternately.
 \begin{lstlisting}
-codes/setup/gpio/src/main.c
+vaman/arm/codes/setup/gpio/src/main.c
 \end{lstlisting}
 
 \end{enumerate}
-\end{document}
 
 

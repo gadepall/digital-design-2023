@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 %
 \usepackage{setspace}
@@ -305,7 +306,7 @@ G. V. V. Sharma $^{*}$% <-this % stops a space
 % For peerreview papers, this IEEEtran command inserts a page break and
 % creates the second title. It will be ignored for other modes.
 %\IEEEpeerreviewmaketitle
-
+\fi
 \begin{abstract}
 We show how to use Vaman as a decade counter.
 %इस आलेख में वामन को  दशक गणित्र के रूप में उपयोग करने का विधान प्रस्तुत है.
@@ -320,29 +321,29 @@ We show how to use Vaman as a decade counter.
 %\section{Nomenclature}
 %\printnomenclature[1.7in]
 %\input{hindi/nomen.tex}
-\section{Software}
+\subsection{Software}
 All codes used in this manual are available at the following link.
 \begin{lstlisting}
-https://github.com/gadepall/vaman/tree/master/fpga/sevenseg/codes
+vaman/fpga/sevenseg/codes
 \end{lstlisting}
 %
-\section{Setup}
+\subsection{Setup}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
 
-\item The pin sheet for the Vaman is available in Fig.  \ref{fig:pin_sheet}.  
+\item The pin sheet for the Vaman is available in Fig.  \ref{fig:vaman/fpga/sevenseg/pin_sheet}.  
 Connect the pins in the bank J5 of the Vaman with the seven segment display  shown in 
-Fig.  \ref{fig:sevenseg} according to Table \ref{table:sevenseg}.  Ensure that the COM pin
+Fig.  \ref{fig:vaman/fpga/sevenseg/sevenseg} according to Table \ref{table:sevenseg}.  Ensure that the COM pin
 is connected to 3.3V through a resistor.
 \begin{table}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{tables/pygmy_sevenseg.tex}
+\input{vaman/fpga/sevenseg/tables/pygmy_sevenseg.tex}
 }
 \caption{Seven segment display - Vaman connection.}
 \label{table:sevenseg}
@@ -351,26 +352,26 @@ is connected to 3.3V through a resistor.
 \begin{figure}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{figs/sevenseg.tex}
+\input{vaman/fpga/sevenseg/figs/sevenseg.tex}
 }
 \caption{seven segment display }
-\label{fig:sevenseg}
+\label{fig:vaman/fpga/sevenseg/sevenseg}
 \end{figure}
 \begin{figure}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{figs/sevenseg12.tex}
+\input{vaman/fpga/sevenseg/figs/sevenseg12.tex}
 }
 \caption{Companion figure for Table \ref{table:arduinoport}. }
-\label{fig:sevenseg12}
+\label{fig:vaman/fpga/sevenseg/sevenseg12}
 \end{figure}
 
 
 \begin{figure*}[!ht]
 \centering
-\includegraphics[width = \textwidth]{figs/pin_sheet.png}
+\includegraphics[width = \textwidth]{vaman/fpga/sevenseg/figs/pin_sheet.png}
 \caption{Pin Diagram }
-\label{fig:pin_sheet}
+\label{fig:vaman/fpga/sevenseg/pin_sheet}
 \end{figure*}
 
 
@@ -392,22 +393,22 @@ assign     f=0;
 assign     g=0;
 \end{lstlisting}
 \item Modify the above code appropriately 
-with the help of  Table \ref{table:arduinoport} and  Fig.  \ref{fig:sevenseg12} 
+with the help of  Table \ref{table:arduinoport} and  Fig.  \ref{fig:vaman/fpga/sevenseg/sevenseg12} 
 to generate the numbers from 0-9 on the display.
 \begin{table}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{tables/arduinoport.tex}
+\input{vaman/fpga/sevenseg/tables/arduinoport.tex}
 }
 \caption{Pin values used for generating decimal numbers on the seven segment display. }
 \label{table:arduinoport}
 \end{table}
 \end{enumerate}
 %
-\section{Examples}
+\subsection{Examples}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
@@ -415,7 +416,7 @@ to generate the numbers from 0-9 on the display.
 
 
 \item  Table \ref{table:sevenseg} and
-the PU 64 table in Fig. \ref{fig:pins}  explain the pin numbering in the following file.
+the PU 64 table in Fig. \ref{fig:vaman/fpga/sevenseg/pins}  explain the pin numbering in the following file.
 \begin{lstlisting}
 codes/static/Vaman.pcf
 \end{lstlisting}
@@ -431,9 +432,9 @@ gpio_out=7'b0100100;
 \end{lstlisting}
 \begin{figure*}[!ht]
 \centering
-\includegraphics[width = \textwidth]{figs/pins.jpg}
+\includegraphics[width = \textwidth]{vaman/fpga/sevenseg/figs/pins.jpg}
 \caption{Pin Definitions}
-\label{fig:pins}
+\label{fig:vaman/fpga/sevenseg/pins}
 \end{figure*}
 \item Use a verilog function that takes a decimal input and display it on the seven segement
 display. 
@@ -451,6 +452,6 @@ codes/loop/decade_counter.v
 \end{enumerate}
 %%
 
-\end{document}
+%\end{document}
 
 

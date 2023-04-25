@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 %
 \usepackage{setspace}
@@ -306,7 +307,7 @@ Introduction to Vaman
 % For peerreview papers, this IEEEtran command inserts a page break and
 % creates the second title. It will be ignored for other modes.
 %\IEEEpeerreviewmaketitle
-
+\fi
 \begin{abstract}
 This document provides a simple introduction to software and hardware using the Vaman FPGA/microcontroller board.  The exercises provided here are suitable for students from primary school till college.
 
@@ -320,28 +321,30 @@ This document provides a simple introduction to software and hardware using the 
 %\printnomenclature[1.7in]
 %\input{hindi/nomen.tex}
 %
-\section{Software}
-Download codes from the following link
+\subsection{Software}
+The codes are available at 
 \begin{lstlisting}
-https://github.com/gadepall/vaman/tree/master/fpga/setup/codes/
+vaman/fpga/setup/codes/
 \end{lstlisting}
 %%
-\section{Setup}
+\subsection{Setup}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
-
-\item Connect the Vaman to the Raspberry Pi through USB.
-\item There is a button and an LED to the left of the USB port on the Vaman.  There is another button to the right of teh LED.
-\item Press the right button first and immediately press the left button.  The LED will be blinking green.  The Vaman is now in bootloader mode.
-%
-\item Login to termux-ubuntu on the android device and execute the following commands
+\item Follow the instructions in 
 \begin{lstlisting}
-cd /storage/emulated/0/Download
-svn co https://github.com/gadepall/Vaman/trunk/installation/blink
+vaman/installation/termuxdebian/termux_debian_fpga.txt
+\end{lstlisting}
+%
+\iffalse
+\item Login to termux-debian on the android device and execute the following commands
+\begin{lstlisting}
+cd /sdcard/Downloads
+mkdir -p fpga-examples
+cd/vaman/blink
 ql_symbiflow -compile -src /storage/emulated/0/Download/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary
 scp /storage/emulated/0/Download/blink/helloworldfpga.bin pi@192.168.0.114:
 \end{lstlisting}
@@ -351,18 +354,19 @@ Make sure that the appropriate IP address for the raspberry pi is given in the a
 python3 /root/Vaman-dev/Vaman-sdk/TinyFPGA-Programmer-Application/tinyfpga-programmer-gui.py --port /dev/ttyACM0 --appfpga /home/pi/helloworldfpga.bin --mode fpga
 \end{lstlisting}
 \item Make sure that the correct USB port address is given in the above command.  Then press the button to the right of the USB port.  After some time, the LED will start blinking red.
+	\fi
 \end{enumerate}
 %%
-\section{Frequency}
+\subsection{Frequency}
 %
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 \item In the following verilog program, 
-\label{eq:program}
+\label{eq:vaman/fpga/setup/program}
 \begin{lstlisting}
 codes/blink/helloworldfpga.v
 \end{lstlisting}
@@ -378,8 +382,8 @@ end
 \end{lstlisting}
 %%
 It may be deduced from the above that the blink frequency is 20 MHz.
-\item In instruction  \ref{eq:program}, replace
-\label{eq:binary}
+\item In instruction  \ref{eq:vaman/fpga/setup/program}, replace
+\label{eq:vaman/fpga/setup/binary}
 \begin{lstlisting}
 if(delay > 20000000)
 \end{lstlisting}
@@ -399,11 +403,11 @@ so that the blink period becomes 0.5s.
 \end{align}
 \item Obtain the above answer using a Python code.
 \\
-\solution Exeucte the following code and compare with instruction  \ref{eq:binary}.
+\solution Exeucte the following code and compare with instruction  \ref{eq:vaman/fpga/setup/binary}.
 \begin{lstlisting}
 codes/blink/freq_count.py
 \end{lstlisting}
-\item Replace  the following line in the code in instruciton  \ref{eq:program} 
+\item Replace  the following line in the code in instruciton  \ref{eq:vaman/fpga/setup/program} 
 \begin{lstlisting}
 assign redled = led; //If you want to change led colour to red,
 \end{lstlisting}
@@ -413,14 +417,14 @@ assign blueled = led;
 \end{lstlisting}
 and execute the code.
 \item Ensure that the LED stays on in green colour.
+	\\
 \solution  Execute the following code
 \begin{lstlisting}
-codes/blink/onoff.v
+vaman/setup/codes/blink/onoff.v
 \end{lstlisting}
-\item  Using Table \ref{table:input} and Fig.  \ref{fig:pin_sheet}, control the onboard LED
+\item  Using Table \ref{tab:vaman/fpga/setup/input} and Fig.  \ref{fig:vaman/fpga/setup/pin_sheet}, control the onboard LED
 through an external input. Connect an external LED and control it using an output pin as well.
-
-
+%
 \begin{table}[]
 \centering
 \begin{tabular}{|l|l|l|}
@@ -430,25 +434,24 @@ Input &  IO\_28 &  GND\\ \hline
 Output  & IO\_11  &  LED\\ \hline
 \end{tabular}
 \caption{Vaman Input/Output.}
-\label{table:input}
+\label{tab:vaman/fpga/setup/input}
 \end{table}
 
 \begin{figure*}[!ht]
 \centering
-\includegraphics[width = \textwidth]{figs/pin_sheet.png}
-\caption{कुश आरेख}
-\label{fig:pin_sheet}
+\includegraphics[width = \textwidth]{vaman/fpga/setup/figs/pin_sheet.png}
+\caption{Pin diagram}
+%\caption{कुश आरेख}
+\label{fig:vaman/fpga/setup/pin_sheet}
 \end{figure*}
 \solution Execute the following code and take out the input pin connect to GND. Plug it again.
 Do this repeatedly.
 
 \begin{lstlisting}
-codes/input/blink_ip.v
-codes/input/pygmy.pcf
+vaman/setup/codes/input/blink_ip.v
+vaman/setup/codes/input/pygmy.pcf
 \end{lstlisting}
 
 
 \end{enumerate}
-\end{document}
-
 

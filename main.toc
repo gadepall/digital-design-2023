@@ -56,6 +56,34 @@
 \contentsline {section}{\numberline {8.5}LCD}{74}{section.8.5}%
 \contentsline {subsection}{\numberline {8.5.1}Components}{75}{subsection.8.5.1}%
 \contentsline {subsection}{\numberline {8.5.2}Display Number on LCD}{75}{subsection.8.5.2}%
-\contentsline {chapter}{\numberline {9}Vaman-ESP32}{77}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Software}{77}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Flash Vaman-ESP32 using Arduino}{77}{section.9.2}%
+\contentsline {chapter}{\numberline {9}Vaman-FPGA}{77}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Setup}{77}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Software}{77}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Setup}{77}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Frequency}{78}{subsection.9.1.3}%
+\contentsline {section}{\numberline {9.2}Seven Segment Display}{81}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Software}{81}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Setup}{81}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Examples}{83}{subsection.9.2.3}%
+\contentsline {section}{\numberline {9.3}Boolean Logic}{83}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Software}{84}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Setup}{84}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.3}Decade Counter}{87}{subsection.9.3.3}%
+\contentsline {chapter}{\numberline {10}Vaman-ARM}{95}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Setup}{95}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Software}{95}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Setup}{95}{subsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.1.3}Delay}{95}{subsection.10.1.3}%
+\contentsline {section}{\numberline {10.2}Seven Segment Display}{97}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Software}{97}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Setup}{97}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}Examples}{100}{subsection.10.2.3}%
+\contentsline {section}{\numberline {10.3}FSM}{101}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Software}{101}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Setup}{101}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}Decade Counter }{104}{subsection.10.3.3}%
+\contentsline {chapter}{\numberline {11}Vaman-ESP32}{113}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Software}{113}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Flash Vaman-ESP32 using Arduino}{113}{section.11.2}%
+\contentsline {section}{\numberline {11.3}OTA}{115}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Onboard LED}{116}{section.11.4}%

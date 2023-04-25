@@ -1,4 +1,4 @@
-proot-distro login ubuntu-20.04
+proot-distro login debian
 apt update 
 apt upgrade
 
@@ -37,10 +37,17 @@ sudo apt install python3-pip
 sudo pip3 install tinyfpgab pyserial
 sudo reboot
 
+Connect the raspberry pi to Vaman through USB.
+
+On the left of the USB port, an LED and a button can be seen.  Another button is visible on
+the right of the USB port.
+
+Press the right button and immediately press the left button.  The green LED starts blinking.  The Vaman is now in download mode.
+mode.
 #This will flash the .bin file to the pygmy
 sudo python3 /home/pi/TinyFPGA-Programmer-Application/tinyfpga-programmer-gui.py --port /dev/ttyACM0  --m4app  blink.bin --mode m4
 
-#On termuxubuntu, the source c file is located at
+#On termuxdebian, the source c file is located at
 blink/src/main.c
 
 #You may make changes here to modify the colour of the led etc..
@@ -49,14 +56,12 @@ blink/src/main.c
 #End ARM testing
 
 #In case the default arm-gcc does not work 
-##For RPI4 in 64 -bit mode (Ubuntu 20.04):
-##OR for Termux on Android (ubuntu 20.04 proot)#Download and unzip:
+##For RPI4 in 64 -bit mode (debian 20.04):
+##OR for Termux on Android (debian 20.04 proot)#Download and unzip:
 #cd $INSTALL_DIR
 #wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-aarch64-linux.tar.bz2
 #tar -xvjf  gcc-arm-none-eabi-9-2020-q2-update-aarch64-linux.tar.bz2
 #export PATH=$INSTALL_DIR/gcc-arm-none-eabi-9-2020-q2-update/bin:$PATH
-
-
 
 
 

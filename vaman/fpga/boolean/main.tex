@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 %
 \usepackage{setspace}
@@ -304,7 +305,7 @@ Digital Design through Vaman
 % For peerreview papers, this IEEEtran command inserts a page break and
 % creates the second title. It will be ignored for other modes.
 %\IEEEpeerreviewmaketitle
-
+\fi
 \begin{abstract}
 In this document we show how to design a decade counter using Vaman and
 boolean logic.
@@ -319,160 +320,160 @@ boolean logic.
 %\section{Nomenclature}
 %\printnomenclature[1.7in]
 %\input{hindi/nomen.tex}
-\section{Software}
+\subsection{Software}
 All codes used in this manual are available at the following link.
 \begin{lstlisting}
-https://github.com/gadepall/vaman/tree/master/fpga/boolean/codes
+vaman/fpga/boolean/codes
 \end{lstlisting}
 %
-\section{Setup}
+\subsection{Setup}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
 
-\item Fig. \ref{fig:pin_sheet} shows the pin diagram for the Vaman.  Using the bank J5, connect the pins of  the seven segment display in Fig. \ref{fig:sevenseg} to the Vaman according to Table  \ref{table:vaman_dispdec}.  Make sure that the COM pin is connected to 3.3V through a resistor.
+\item Fig. \ref{fig:vaman/fpga/boolean/pin_sheet} shows the pin diagram for the Vaman.  Using the bank J5, connect the pins of  the seven segment display in Fig. \ref{fig:vaman/fpga/boolean/sevenseg} to the Vaman according to Table  \ref{tab:vaman/fpga/boolean/vaman_dispdec}.  Make sure that the COM pin is connected to 3.3V through a resistor.
 \begin{table}[!ht]
 \centering
 \parbox{.45\columnwidth}{
 %\resizebox{0.5\columnwidth}{!}{
-\input{tables/pygmy_sevenseg.tex}
+\input{vaman/fpga/boolean/tables/pygmy_sevenseg.tex}
 }
 \hfill
 \parbox{.45\columnwidth}{
 %\resizebox{0.5\columnwidth}{!}{
-\input{tables/pygmy_dispdec.tex}
+\input{vaman/fpga/boolean/tables/pygmy_dispdec.tex}
 }
 \caption{Pin connections between Vaman and the display.}
-\label{table:vaman_dispdec}
+\label{tab:vaman/fpga/boolean/vaman_dispdec}
 \end{table}
 
 \begin{figure}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{figs/sevenseg.tex}
+\input{vaman/fpga/boolean/figs/sevenseg.tex}
 }
 \caption{Seven segement display}
-\label{fig:sevenseg}
+\label{fig:vaman/fpga/boolean/sevenseg}
 \end{figure}
 
 
 \begin{figure*}[!ht]
 \centering
-\includegraphics[width = \textwidth]{figs/pin_sheet.png}
+\includegraphics[width = \textwidth]{vaman/fpga/boolean/figs/pin_sheet.png}
 \caption{Pin diagram}
-\label{fig:pin_sheet}
+\label{fig:vaman/fpga/boolean/pin_sheet}
 \end{figure*}
 
-\item Implement  Table \ref{table:disp_dec} using the Vaman and the display.
+\item Implement  Table \ref{tab:vaman/fpga/boolean/disp_dec} using the Vaman and the display.
 \\
-\solution In Table \ref{table:disp_dec}, the output variables   $a,b,c,d,e,f,g$ can be expressed
+\solution In Table \ref{tab:vaman/fpga/boolean/disp_dec}, the output variables   $a,b,c,d,e,f,g$ can be expressed
 in terms of the input variables $W,X,Y,Z$ as
 %
 \begin{align}
-\label{eq:disp_a}
+\label{eq:vaman/fpga/boolean/disp_a}
 a &= WX^{\prime}Y^{\prime}Z^{\prime}+W^{\prime}X^{\prime}YZ^{\prime}
 \\
-\label{eq:disp_b}
+\label{eq:vaman/fpga/boolean/disp_b}
 b &= WX^{\prime}YZ^{\prime}+W^{\prime}XYZ^{\prime}
 \\
-\label{eq:disp_c}
+\label{eq:vaman/fpga/boolean/disp_c}
 c &= {Z}^{\prime}{Y}^{\prime}X{W}^{\prime}
 \\
 d &= WX^{\prime}Y^{\prime}Z^{\prime}+W^{\prime}X^{\prime}YZ^{\prime}+WXYZ^{\prime}+WX^{\prime}Y^{\prime}Z
-\label{eq:disp_d}
+\label{eq:vaman/fpga/boolean/disp_d}
 \\
 e &= WX^{\prime}Y^{\prime}Z^{\prime}+WXY^{\prime}Z^{\prime}+W^{\prime}X^{\prime}YZ^{\prime}+WX^{\prime}YZ^{\prime}
-\nonumber \\
-&\quad +WXYZ^{\prime}+WX^{\prime}Y^{\prime}Z
-\label{eq:disp_e}
+%\nonumber \\
+%&\quad 
+	+WXYZ^{\prime}+WX^{\prime}Y^{\prime}Z
+\label{eq:vaman/fpga/boolean/disp_e}
 \\
 f &= WX^{\prime}Y^{\prime}Z^{\prime}+W^{\prime}XY^{\prime}Z^{\prime}+WXY^{\prime}Z^{\prime}+WXYZ^{\prime}
-\label{eq:disp_f}
+\label{eq:vaman/fpga/boolean/disp_f}
 \\
 g &= W^{\prime}X^{\prime}Y^{\prime}Z^{\prime}+WX^{\prime}Y^{\prime}Z^{\prime}+WXYZ^{\prime}
-\label{eq:disp_g}
+\label{eq:vaman/fpga/boolean/disp_g}
 \end{align}
 \begin{table}
 \centering
-\input{./tables/disp_dec.tex}
+\input{./vaman/fpga/boolean/tables/disp_dec.tex}
 \caption{Truth table for the display decoder.}
-\label{table:disp_dec}
+\label{tab:vaman/fpga/boolean/disp_dec}
 \end{table}
 %
 Execute the following program.
 \begin{lstlisting}
-codes/decoders/dispdec.v
-codes/decoders/Vaman.pcf
+vaman/fpga/boolean/codes/decoders/dispdec.v
+vaman/fpga/boolean/codes/decoders/Vaman.pcf
 \end{lstlisting}
 Connect $W, X, Y, Z$ to GND.  For different values of the input variables, verify the output
-in on the display using Table \ref{table:disp_dec}.
-\item Table  \ref{table:counter_decoder} describes the properties of the incrementing decoder.
+in on the display using Table \ref{tab:vaman/fpga/boolean/disp_dec}.
+\item Table  \ref{tab:vaman/fpga/boolean/counter_decoder} describes the properties of the incrementing decoder.
 Using Boolean logic, express $A,B,C,D$ in terms of  $W,X,Y,Z$.  Subsequently, implement this decoder by implementing the the expressions so obtained in the Vaman using verilog.
 \label{prob:counter_decoder}
 \begin{table}
 \centering
-\input{./tables/counter_decoder.tex}
+\input{./vaman/fpga/boolean/tables/counter_decoder.tex}
 \caption{Truth table for the incrementing decoder.}
-\label{table:counter_decoder}
+\label{tab:vaman/fpga/boolean/counter_decoder}
 \end{table}
 \\
 \solution The following equations contain the desired expressions.
 \begin{align}
-\label{eq:inc_A}
+\label{eq:vaman/fpga/boolean/inc_A}
 A &= W^{\prime}X^{\prime}Y^{\prime}Z^{\prime} + W^{\prime}XY^{\prime}Z^{\prime}
 +W^{\prime}X^{\prime}YZ^{\prime}
-\nonumber \\
- & \quad +W^{\prime}XYZ^{\prime}
+%\nonumber \\
+% & \quad +W^{\prime}XYZ^{\prime}
 +W^{\prime}X^{\prime}Y^{\prime}Z
 \\
-\label{eq:inc_B}
+\label{eq:vaman/fpga/boolean/inc_B}
 B &= WX^{\prime}Y^{\prime}Z^{\prime} + W^{\prime}XY^{\prime}Z^{\prime}
-\nonumber \\ 
-& \quad 
+%\nonumber \\ 
+%& \quad 
 +WX^{\prime}YZ^{\prime}
 +W^{\prime}XYZ^{\prime}
 \\
-\label{eq:inc_C}
+\label{eq:vaman/fpga/boolean/inc_C}
 C &= WXY^{\prime}Z^{\prime} + W^{\prime}X^{\prime}YZ^{\prime}
-\nonumber \\ 
-& \quad 
+%\nonumber \\ 
+%& \quad 
 +WX^{\prime}YZ^{\prime}
 +W^{\prime}XYZ^{\prime}
 \\
 D &= WXYZ^{\prime} + W^{\prime}X^{\prime}Y^{\prime}Z
-\label{eq:inc_D}
+\label{eq:vaman/fpga/boolean/inc_D}
 \end{align}
 Execute the following code.  The next number should be displayed.
 \begin{lstlisting}
-codes/decoders/incdec.v
+vaman/fpga/boolean/codes/decoders/incdec.v
 \end{lstlisting}
 \end{enumerate}
 %
-\section{Decade Counter}
+\subsection{Decade Counter}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
-\item Using Fig. \ref{fig:vaman_decade_counter} and modifying the code in Problem \ref{prob:counter_decoder}, design the decade counter.
+\item Using Fig. \ref{fig:vaman/fpga/boolean/vaman_decade_counter} and modifying the code in Problem \ref{prob:counter_decoder}, design the decade counter.
 \begin{figure}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{figs/pygmy_decade_counter.tex}
+\input{vaman/fpga/boolean/figs/pygmy_decade_counter.tex}
 }
 \caption{Block diagram of the decade counter.}
-\label{fig:vaman_decade_counter}
+\label{fig:vaman/fpga/boolean/vaman_decade_counter}
 \end{figure}
 \item Design and implement the down counter.
 \end{enumerate}
 %
 
-\end{document}
 
 

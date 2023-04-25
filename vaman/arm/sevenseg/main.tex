@@ -1,3 +1,4 @@
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 %
 \usepackage{setspace}
@@ -310,7 +311,7 @@ G V V Sharma$^{*}$% <-this % stops a space
 % For peerreview papers, this IEEEtran command inserts a page break and
 % creates the second title. It will be ignored for other modes.
 %\IEEEpeerreviewmaketitle
-
+\fi
 \begin{abstract}
 This document shows how to implement a decade counter using arm-gcc on Vaman.
 %इस आलेख में वामन को  दशक गणित्र के रूप में उपयोग करने का विधान प्रस्तुत है.
@@ -325,63 +326,63 @@ This document shows how to implement a decade counter using arm-gcc on Vaman.
 %\section{Nomenclature}
 %\printnomenclature[1.7in]
 %\input{hindi/nomen.tex}
-\section{Software}
+\subsection{Software}
 All codes used in this document are available at the following link
 \begin{lstlisting}
-https://github.com/gadepall/vaman/tree/master/arm/codes/sevenseg/
+https://github.com/gadepall/vaman/tree/master/arm/vaman/arm/codes/sevenseg/
 \end{lstlisting}
 %
-\section{Setup}
+\subsection{Setup}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
-\item Fig.\ref{fig:pin_sheet} shows all the pin banks of the Vaman. Connect the pins of the
-display in Fig.  \ref{fig:sevenseg} to bank J5 of the Vaman using Table \ref{table:sevenseg}.
+\item Fig.\ref{fig:vaman/arm/sevenseg/pin_sheet} shows all the pin banks of the Vaman. Connect the pins of the
+display in Fig.  \ref{fig:vaman/arm/sevenseg/sevenseg} to bank J5 of the Vaman using Table \ref{tab:vaman/arm/sevenseg/sevenseg}.
 The COM pin should be connected to 3.3V through a resistor.
 \begin{table}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{tables/Vaman_sevenseg.tex}
+\input{vaman/arm/sevenseg/tables/Vaman_sevenseg.tex}
 }
 \caption{Display-Vaman connection.}
-\label{table:sevenseg}
+\label{tab:vaman/arm/sevenseg/sevenseg}
 \end{table}
 
 \begin{figure}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{figs/sevenseg.tex}
+\input{vaman/arm/sevenseg/figs/sevenseg.tex}
 }
 \caption{Seven Segment Display}
-\label{fig:sevenseg}
+\label{fig:vaman/arm/sevenseg/sevenseg}
 \end{figure}
 \begin{figure}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{figs/sevenseg12.tex}
+\input{vaman/arm/sevenseg/figs/sevenseg12.tex}
 }
-\caption{Pictorial representation of Table \ref{table:arduinoport}.}
-\label{fig:sevenseg12}
+\caption{Pictorial representation of Table \ref{tab:vaman/arm/sevenseg/arduinoport}.}
+\label{fig:vaman/arm/sevenseg/sevenseg12}
 \end{figure}
 
 
 \begin{figure*}[!ht]
 \centering
-\includegraphics[width = \textwidth]{figs/pin_sheet.png}
+\includegraphics[width = \textwidth]{vaman/arm/sevenseg/figs/pin_sheet.png}
 \caption{Pin Diagram}
-\label{fig:pin_sheet}
+\label{fig:vaman/arm/sevenseg/pin_sheet}
 \end{figure*}
 
 
 
 \item Now execute the following code
-\label{code:sevenseg}
+\label{code:vaman/arm/sevenseg/sevenseg}
 \begin{lstlisting}
-codes/sevenseg/static/src/main.c
+vaman/arm/codes/sevenseg/static/src/main.c
 \end{lstlisting}
 Flash static.bin obtained upon execution of the above code to the Vaman.  You should see the number 7 on the display.  The following function generates this number.
 \begin{lstlisting}
@@ -399,53 +400,52 @@ void sevenseg(int a, int b, int c, int d, int e, int f, int g)
 }
 }
 \end{lstlisting}
-\item Modify the above program using Table \ref{table:arduinoport} and Fig. \ref{fig:sevenseg12} 
+\item Modify the above program using Table \ref{tab:vaman/arm/sevenseg/arduinoport} and Fig. \ref{fig:vaman/arm/sevenseg/sevenseg12} 
 to display 0-9.
 \begin{table}[!ht]
 \centering
 \resizebox{\columnwidth}{!}{
-\input{tables/arduinoport.tex}
+\input{vaman/arm/sevenseg/tables/arduinoport.tex}
 }
 \caption{Decimal number generation on the display. }
-\label{table:arduinoport}
+\label{tab:vaman/arm/sevenseg/arduinoport}
 \end{table}
 \end{enumerate}
 %
-\section{Examples}
+\subsection{Examples}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
 
 
-\item   Table \ref{table:sevenseg} and PU 64 Table in 
-Fig.  \ref{fig:pins}  show how to use the pins of the Vaman to drive the seven segment display.
-%इसमें संशोधन कर वामन के कुशों के अनेक संचय के लिए क्रमादेश \ref{code:sevenseg} का चालयन करें.
+\item   Table \ref{tab:vaman/arm/sevenseg/sevenseg} and PU 64 Table in 
+Fig.  \ref{fig:vaman/arm/sevenseg/pins}  show how to use the pins of the Vaman to drive the seven segment display.
+%इसमें संशोधन कर वामन के कुशों के अनेक संचय के लिए क्रमादेश \ref{code:vaman/arm/sevenseg/sevenseg} का चालयन करें.
 \begin{figure*}[!ht]
 \centering
-\includegraphics[width = \textwidth]{figs/pins.jpg}
+\includegraphics[width = \textwidth]{vaman/arm/sevenseg/figs/pins.jpg}
 \caption{Pin map.}
-\label{fig:pins}
+\label{fig:vaman/arm/sevenseg/pins}
 \end{figure*}
-\item Use a function taking decimal input in the code in  \ref{code:sevenseg} to generate 
+\item Use a function taking decimal input in the code in  \ref{code:vaman/arm/sevenseg/sevenseg} to generate 
 numbers on the display.
 \\
 \solution  Execute the following file.
 \begin{lstlisting}
-codes/sevenseg/decimal/main.c
+vaman/arm/codes/sevenseg/decimal/main.c
 \end{lstlisting}
 \item Program the Vaman to function as a decade counter.
 \\
 \solution Execute the following code.
 \begin{lstlisting}
-codes/sevenseg/loop/main.c
+vaman/arm/codes/sevenseg/loop/main.c
 \end{lstlisting}
 \end{enumerate}
 %
 
-\end{document}
 
 

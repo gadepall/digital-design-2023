@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.1.3)  20 APR 2023 12:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.1.3)  25 APR 2023 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1299,7 +1299,7 @@ LaTeX Info: Redefining \nameref on input line 26.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-<figs/logo.jpg, id=248, 642.4pt x 642.4pt>
+<figs/logo.jpg, id=360, 642.4pt x 642.4pt>
 File: figs/logo.jpg Graphic file (type jpg)
 <use figs/logo.jpg>
 Package pdftex.def Info: figs/logo.jpg  used on input line 52.
@@ -1371,7 +1371,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4])
+ [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1413,7 +1425,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 \mainmatter
+l.200 \mainmatter
                   [3
 
 ]
@@ -1426,7 +1438,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 \mainmatter
+l.200 \mainmatter
                   [4
 
 ]
@@ -1501,7 +1513,7 @@ Package epstopdf Info: Source file: <ide/sevenseg/figs/breadboard.eps>
 rd-eps-converted-to.pdf ide/sevenseg/figs/breadboard.eps>
 (epstopdf)             \includegraphics on input line 342.
 Package epstopdf Info: Output file is already uptodate.
-<ide/sevenseg/figs/breadboard-eps-converted-to.pdf, id=427, 774.895pt x 252.945
+<ide/sevenseg/figs/breadboard-eps-converted-to.pdf, id=576, 774.895pt x 252.945
 pt>
 File: ide/sevenseg/figs/breadboard-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1618,7 +1630,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-<figs/cbse-2016.jpg, id=535, 1536.74126pt x 721.69624pt>
+<figs/cbse-2016.jpg, id=684, 1536.74126pt x 721.69624pt>
 File: figs/cbse-2016.jpg Graphic file (type jpg)
 <use figs/cbse-2016.jpg>
 Package pdftex.def Info: figs/cbse-2016.jpg  used on input line 67.
@@ -1636,7 +1648,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16 <./figs/cbse-2016.jpg>]
-<figs/2000-gate-ec-2-7.jpg, id=566, 542.025pt x 224.84pt>
+<figs/2000-gate-ec-2-7.jpg, id=715, 542.025pt x 224.84pt>
 File: figs/2000-gate-ec-2-7.jpg Graphic file (type jpg)
 <use figs/2000-gate-ec-2-7.jpg>
 Package pdftex.def Info: figs/2000-gate-ec-2-7.jpg  used on input line 116.
@@ -1648,17 +1660,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17 <./figs/2000-gate-ec-2-7.jpg>]
-<figs/2007-gate-ec-43.png, id=579, 625.33624pt x 281.05pt>
+<figs/2007-gate-ec-43.png, id=728, 625.33624pt x 281.05pt>
 File: figs/2007-gate-ec-43.png Graphic file (type png)
 <use figs/2007-gate-ec-43.png>
 Package pdftex.def Info: figs/2007-gate-ec-43.png  used on input line 189.
 (pdftex.def)             Requested size: 433.62001pt x 194.8896pt.
-<figs/2010-gate-ec-39.png, id=582, 424.58624pt x 213.04594pt>
+<figs/2010-gate-ec-39.png, id=731, 424.58624pt x 213.04594pt>
 File: figs/2010-gate-ec-39.png Graphic file (type png)
 <use figs/2010-gate-ec-39.png>
 Package pdftex.def Info: figs/2010-gate-ec-39.png  used on input line 204.
 (pdftex.def)             Requested size: 433.62001pt x 217.59004pt.
-<figs/2011-gate-ec-20.png, id=584, 652.4375pt x 301.125pt>
+<figs/2011-gate-ec-20.png, id=733, 652.4375pt x 301.125pt>
 File: figs/2011-gate-ec-20.png Graphic file (type png)
 <use figs/2011-gate-ec-20.png>
 Package pdftex.def Info: figs/2011-gate-ec-20.png  used on input line 216.
@@ -1671,7 +1683,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-<figs/2017-gate-ec-16.png, id=601, 323.2075pt x 261.97874pt>
+<figs/2017-gate-ec-16.png, id=750, 323.2075pt x 261.97874pt>
 File: figs/2017-gate-ec-16.png Graphic file (type png)
 <use figs/2017-gate-ec-16.png>
 Package pdftex.def Info: figs/2017-gate-ec-16.png  used on input line 267.
@@ -1686,17 +1698,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <./figs/2007-gate-ec-43.png> <./figs/2010-gate-ec-39.png>]
-<figs/2018-gate-ec-31.png, id=613, 874.26625pt x 385.44pt>
+<figs/2018-gate-ec-31.png, id=762, 874.26625pt x 385.44pt>
 File: figs/2018-gate-ec-31.png Graphic file (type png)
 <use figs/2018-gate-ec-31.png>
 Package pdftex.def Info: figs/2018-gate-ec-31.png  used on input line 279.
 (pdftex.def)             Requested size: 433.62001pt x 191.17273pt.
-<figs/2018-gate-ee-14.png, id=615, 200.54926pt x 72.27pt>
+<figs/2018-gate-ee-14.png, id=764, 200.54926pt x 72.27pt>
 File: figs/2018-gate-ee-14.png Graphic file (type png)
 <use figs/2018-gate-ee-14.png>
 Package pdftex.def Info: figs/2018-gate-ee-14.png  used on input line 291.
 (pdftex.def)             Requested size: 433.62001pt x 156.27286pt.
-<figs/2019-gate-ee-36.png, id=617, 910.40125pt x 448.67625pt>
+<figs/2019-gate-ee-36.png, id=766, 910.40125pt x 448.67625pt>
 File: figs/2019-gate-ee-36.png Graphic file (type png)
 <use figs/2019-gate-ee-36.png>
 Package pdftex.def Info: figs/2019-gate-ee-36.png  used on input line 303.
@@ -1972,7 +1984,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
-<figs/2020-gate-ec-10.png, id=822, 333.49594pt x 272.51813pt>
+<figs/2020-gate-ec-10.png, id=972, 333.49594pt x 272.51813pt>
 File: figs/2020-gate-ec-10.png Graphic file (type png)
 <use figs/2020-gate-ec-10.png>
 Package pdftex.def Info: figs/2020-gate-ec-10.png  used on input line 221.
@@ -1984,7 +1996,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
-<figs/1992-gate-ec-1-22.png, id=832, 483.8075pt x 349.305pt>
+<figs/1992-gate-ec-1-22.png, id=982, 483.8075pt x 349.305pt>
 File: figs/1992-gate-ec-1-22.png Graphic file (type png)
 <use figs/1992-gate-ec-1-22.png>
 Package pdftex.def Info: figs/1992-gate-ec-1-22.png  used on input line 241.
@@ -2166,7 +2178,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51])
 (./ide/fsm/problems.tex
-<figs/2004-gate-ee-68.jpg, id=941, 1550.79375pt x 706.64pt>
+<figs/2004-gate-ee-68.jpg, id=1091, 1550.79375pt x 706.64pt>
 File: figs/2004-gate-ee-68.jpg Graphic file (type jpg)
 <use figs/2004-gate-ee-68.jpg>
 Package pdftex.def Info: figs/2004-gate-ee-68.jpg  used on input line 9.
@@ -2175,7 +2187,7 @@ Package pdftex.def Info: figs/2004-gate-ee-68.jpg  used on input line 9.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/2019-gate-in-12.png, id=942, 846.16125pt x 340.27126pt>
+<figs/2019-gate-in-12.png, id=1092, 846.16125pt x 340.27126pt>
 File: figs/2019-gate-in-12.png Graphic file (type png)
 <use figs/2019-gate-in-12.png>
 Package pdftex.def Info: figs/2019-gate-in-12.png  used on input line 18.
@@ -2265,7 +2277,7 @@ ega168PinMap2-eps-converted-to.pdf assembly/sevenseg/figs/Atmega168PinMap2.eps>
 
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
-<assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf, id=1036, 458.713
+<assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf, id=1186, 458.713
 75pt x 306.14375pt>
 File: assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2437,13 +2449,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [76]
 Chapter 9.
-(./vaman/uart/main.tex (./vaman/uart/tables/rpi-vaman-uart.tex)
-(./vaman/uart/figs/circuit.tex
-Overfull \hbox (50.57666pt too wide) in paragraph at lines 25--26
- [][] 
- []
+(./vaman/fpga/setup/main.tex
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2452,18 +2461,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [77
 
 ]
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78])
+ [78]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 428.
+
+<vaman/fpga/setup/figs/pin_sheet.png, id=1505, 702.6615pt x 688.2075pt>
+File: vaman/fpga/setup/figs/pin_sheet.png Graphic file (type png)
+<use vaman/fpga/setup/figs/pin_sheet.png>
+Package pdftex.def Info: vaman/fpga/setup/figs/pin_sheet.png  used on input lin
+e 442.
+(pdftex.def)             Requested size: 433.62001pt x 424.69952pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2475,22 +2489,490 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80
+ [80 <./vaman/fpga/setup/figs/pin_sheet.png>]) (./vaman/fpga/sevenseg/main.tex
+(./vaman/fpga/sevenseg/tables/pygmy_sevenseg.tex)
+(./vaman/fpga/sevenseg/figs/sevenseg.tex)
+
+LaTeX Warning: Float too large for page by 329.9321pt on input line 359.
+
+(./vaman/fpga/sevenseg/figs/sevenseg12.tex)
+<vaman/fpga/sevenseg/figs/pin_sheet.png, id=1537, 702.6615pt x 688.2075pt>
+File: vaman/fpga/sevenseg/figs/pin_sheet.png Graphic file (type png)
+<use vaman/fpga/sevenseg/figs/pin_sheet.png>
+Package pdftex.def Info: vaman/fpga/sevenseg/figs/pin_sheet.png  used on input 
+line 372.
+(pdftex.def)             Requested size: 433.62001pt x 424.69952pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
+(./vaman/fpga/sevenseg/tables/arduinoport.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
+<vaman/fpga/sevenseg/figs/pins.jpg, id=1572, 342.27875pt x 416.05438pt>
+File: vaman/fpga/sevenseg/figs/pins.jpg Graphic file (type jpg)
+<use vaman/fpga/sevenseg/figs/pins.jpg>
+Package pdftex.def Info: vaman/fpga/sevenseg/figs/pins.jpg  used on input line 
+435.
+(pdftex.def)             Requested size: 433.62001pt x 527.12619pt.
+)
+(./vaman/fpga/boolean/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83]
+(./vaman/fpga/boolean/tables/pygmy_sevenseg.tex)
+(./vaman/fpga/boolean/tables/pygmy_dispdec.tex)
+(./vaman/fpga/boolean/figs/sevenseg.tex)
+
+LaTeX Warning: Float too large for page by 329.9321pt on input line 361.
+
+<vaman/fpga/boolean/figs/pin_sheet.png, id=1595, 702.6615pt x 688.2075pt>
+File: vaman/fpga/boolean/figs/pin_sheet.png Graphic file (type png)
+<use vaman/fpga/boolean/figs/pin_sheet.png>
+Package pdftex.def Info: vaman/fpga/boolean/figs/pin_sheet.png  used on input l
+ine 366.
+(pdftex.def)             Requested size: 433.62001pt x 424.69952pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+(./vaman/fpga/boolean/tables/disp_dec.tex
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 157--157
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 158--158
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 159--159
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 160--160
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 161--161
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 162--162
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 163--163
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 164--164
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 165--165
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 166--166
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 167--167
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85]
+(./vaman/fpga/boolean/tables/counter_decoder.tex)
+(./vaman/fpga/boolean/figs/pygmy_decade_counter.tex)
+
+LaTeX Warning: Float too large for page by 9.88237pt on input line 473.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90 <./vaman/fpga/sevenseg/figs/pin_sheet.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91 <./vaman/fpga/sevenseg/figs/pins.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93 <./vaman/fpga/boolean/figs/pin_sheet.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94]
+Chapter 10.
+(./vaman/arm/setup/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95
+
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 430.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
+<vaman/arm/setup/figs/pin_sheet.png, id=1719, 2947.50415pt x 3115.39293pt>
+File: vaman/arm/setup/figs/pin_sheet.png Graphic file (type png)
+<use vaman/arm/setup/figs/pin_sheet.png>
+Package pdftex.def Info: vaman/arm/setup/figs/pin_sheet.png  used on input line
+ 445.
+(pdftex.def)             Requested size: 433.62001pt x 458.30429pt.
+)
+(./vaman/arm/sevenseg/main.tex (./vaman/arm/sevenseg/tables/vaman_sevenseg.tex)
+(./vaman/arm/sevenseg/figs/sevenseg.tex)
+
+LaTeX Warning: Float too large for page by 329.9321pt on input line 362.
+
+(./vaman/arm/sevenseg/figs/sevenseg12.tex)
+<vaman/arm/sevenseg/figs/pin_sheet.png, id=1724, 2947.50415pt x 3115.39293pt>
+File: vaman/arm/sevenseg/figs/pin_sheet.png Graphic file (type png)
+<use vaman/arm/sevenseg/figs/pin_sheet.png>
+Package pdftex.def Info: vaman/arm/sevenseg/figs/pin_sheet.png  used on input l
+ine 375.
+(pdftex.def)             Requested size: 433.62001pt x 458.30429pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98 <./vaman/arm/setup/figs/pin_sheet.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+(./vaman/arm/sevenseg/tables/arduinoport.tex)
+<vaman/arm/sevenseg/figs/pins.jpg, id=1769, 342.27875pt x 416.05438pt>
+File: vaman/arm/sevenseg/figs/pins.jpg Graphic file (type jpg)
+<use vaman/arm/sevenseg/figs/pins.jpg>
+Package pdftex.def Info: vaman/arm/sevenseg/figs/pins.jpg  used on input line 4
+30.
+(pdftex.def)             Requested size: 433.62001pt x 527.12619pt.
+) (./vaman/arm/fsm/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100]
+(./vaman/arm/fsm/tables/disp_dec.tex
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 157--157
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 158--158
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 159--159
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 160--160
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 161--161
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 162--162
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 163--163
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 164--164
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 165--165
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 166--166
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+
+Overfull \hbox (0.77919pt too wide) in paragraph at lines 167--167
+[]|\OT1/cmr/m/n/10.95 x| 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101]
+(./vaman/arm/fsm/tables/counter_decoder.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]
+(./vaman/arm/fsm/tables/pygmy_sevenseg.tex)
+(./vaman/arm/fsm/tables/pygmy_dispdec.tex) (./vaman/arm/fsm/figs/sevenseg.tex)
+
+LaTeX Warning: Float too large for page by 329.9321pt on input line 471.
+
+<vaman/arm/fsm/figs/pin_sheet.png, id=1834, 2947.50415pt x 3115.39293pt>
+File: vaman/arm/fsm/figs/pin_sheet.png Graphic file (type png)
+<use vaman/arm/fsm/figs/pin_sheet.png>
+Package pdftex.def Info: vaman/arm/fsm/figs/pin_sheet.png  used on input line 4
+76.
+(pdftex.def)             Requested size: 433.62001pt x 458.30429pt.
+(./vaman/arm/fsm/figs/pygmy_decade_counter.tex)
+
+LaTeX Warning: Float too large for page by 9.88237pt on input line 506.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [107 <./vaman/arm/sevenseg/figs/pin_sheet.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [108 <./vaman/arm/sevenseg/figs/pins.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [109]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110 <./vaman/arm/fsm/figs/pin_sheet.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [112
+
+]
+Chapter 11.
+(./vaman/uart/main.tex (./vaman/uart/tables/rpi-vaman-uart.tex)
+(./vaman/uart/figs/circuit.tex
+Overfull \hbox (50.57666pt too wide) in paragraph at lines 25--26
+ [][] 
+ []
+
+)
+Overfull \hbox (8.30424pt too wide) in paragraph at lines 48--62
+[]\OT1/cmr/m/n/10.95 Do not power any de-vices. Make con-nec-tions as shown in 
+Ta-ble []11.2.1.1[] and Fig. []11.2.1.1[].
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [113]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114])
+(./vaman/esp32/setup/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [115]
+(./vaman/esp32/setup/tables/onboard.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [117]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [118
 
 ]
 No file main.ind.
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B7EE560086B78A1411BA0B41B01A1820;3634.
+(rerunfilecheck)             Checksum: C54D8B19FC9A519C09777125B47A25FB;5326.
  ) 
 Here is how much of TeX's memory you used:
- 43707 strings out of 479304
- 978431 string characters out of 5869780
- 1877979 words of memory out of 5000000
- 59261 multiletter control sequences out of 15000+600000
+ 44267 strings out of 479304
+ 989976 string characters out of 5869780
+ 1883875 words of memory out of 5000000
+ 59445 multiletter control sequences out of 15000+600000
  430073 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,19n,116p,683b,1923s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,19n,116p,778b,1923s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -2514,10 +2996,10 @@ sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfss1095.pfb>
-Output written on main.pdf (88 pages, 1439199 bytes).
+Output written on main.pdf (128 pages, 15892900 bytes).
 PDF statistics:
- 1584 PDF objects out of 1728 (max. 8388607)
- 1429 compressed objects within 15 object streams
- 674 named destinations out of 1000 (max. 500000)
- 573 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2237 PDF objects out of 2487 (max. 8388607)
+ 2022 compressed objects within 21 object streams
+ 966 named destinations out of 1000 (max. 500000)
+ 837 words of extra memory for PDF output out of 10000 (max. 10000000)
 

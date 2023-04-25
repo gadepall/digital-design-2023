@@ -327,7 +327,6 @@ This document provides a simple introduction to programming the ESP32 on Vaman u
 %\section{Nomenclature}
 %\printnomenclature[1.7in]
 %\input{hindi/nomen.tex}
-\fi
 %
 \section{Hardware Setup}
 \renewcommand{\theequation}{\theenumi}
@@ -477,6 +476,7 @@ pio run -t nobuild -t upload
 while the dots and dashes are printed on the screen, disconnect the EN wire from GND.   Make sure that the Vaman board is not powering any device while flashing.  The Vaman-ESP should now flash.
 \item After flashing, disconnect pin 0 on Vaman-ESP from GND. Power on Vaman and the appropriate LED will blink.
 \end{enumerate}
+\fi
 
 \section{OTA}
 \renewcommand{\theequation}{\theenumi}
@@ -485,7 +485,7 @@ while the dots and dashes are printed on the screen, disconnect the EN wire from
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
-\item Flash the following code through USB-UART using a laptop.  We faced some issues with RPi.
+\item Flash the following code through USB-UART.  
 \begin{lstlisting}
 vaman/esp32/codes/ide/ota/setup
 \end{lstlisting}
@@ -513,7 +513,7 @@ pio run -t nobuild -t upload --upload-port 192.168.231.245
 where you may replace the above ip address with the ip address of your vaman-esp.
 \item Connect pin 2 to an LED  to see it blinking.
 \end{enumerate}
-\section{OTA}
+\section{Onboard LED}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
 \begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]

@@ -1,0 +1,9 @@
+//LCD_E:IO_9 ,LCD_RS:IO_10 ,DATA(7):IO_11 ,DATA(6):IO_12 ,DATA(5):IO_13 ,DATA(4):IO_14
+set_io LCD_E 60
+set_io LCD_RS 59
+set_io DATA(7) 57
+set_io DATA(6) 56
+set_io DATA(5) 55
+set_io DATA(4) 54
+
+

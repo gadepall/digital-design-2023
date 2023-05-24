@@ -335,7 +335,7 @@ vaman/fpga/boolean/codes
 \numberwithin{table}{enumi}
 
 
-\item Fig. \ref{fig:vaman/fpga/boolean/pin_sheet} shows the pin diagram for the Vaman.  Using the bank J5, connect the pins of  the seven segment display in Fig. \ref{fig:vaman/fpga/boolean/sevenseg} to the Vaman according to Table  \ref{tab:vaman/fpga/boolean/vaman_dispdec}.  Make sure that the COM pin is connected to 3.3V through a resistor.
+\item Fig. \ref{fig:vaman/fpga/setup/pin_sheet} shows the pin diagram for the Vaman.  Using the bank J5, connect the pins of  the seven segment display in Fig. \ref{fig:vaman/fpga/boolean/sevenseg} to the Vaman according to Table  \ref{tab:vaman/fpga/boolean/vaman_dispdec}.  Make sure that the COM pin is connected to 3.3V through a resistor.
 \begin{table}[!ht]
 \centering
 \parbox{.45\columnwidth}{
@@ -360,13 +360,14 @@ vaman/fpga/boolean/codes
 \label{fig:vaman/fpga/boolean/sevenseg}
 \end{figure}
 
-
+\iffalse
 \begin{figure*}[!ht]
 \centering
 \includegraphics[width = \textwidth]{vaman/fpga/boolean/figs/pin_sheet.png}
 \caption{Pin diagram}
 \label{fig:vaman/fpga/boolean/pin_sheet}
 \end{figure*}
+\fi
 
 \item Implement  Table \ref{tab:vaman/fpga/boolean/disp_dec} using the Vaman and the display.
 \\

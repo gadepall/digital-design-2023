@@ -340,7 +340,7 @@ https://github.com/gadepall/vaman/tree/master/arm/vaman/arm/codes/sevenseg/
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
-\item Fig.\ref{fig:vaman/arm/sevenseg/pin_sheet} shows all the pin banks of the Vaman. Connect the pins of the
+\item Fig.\ref{fig:vaman/fpga/setup/pin_sheet} shows all the pin banks of the Vaman. Connect the pins of the
 display in Fig.  \ref{fig:vaman/arm/sevenseg/sevenseg} to bank J5 of the Vaman using Table \ref{tab:vaman/arm/sevenseg/sevenseg}.
 The COM pin should be connected to 3.3V through a resistor.
 \begin{table}[!ht]
@@ -369,13 +369,14 @@ The COM pin should be connected to 3.3V through a resistor.
 \label{fig:vaman/arm/sevenseg/sevenseg12}
 \end{figure}
 
-
+\iffalse
 \begin{figure*}[!ht]
 \centering
 \includegraphics[width = \textwidth]{vaman/arm/sevenseg/figs/pin_sheet.png}
 \caption{Pin Diagram}
 \label{fig:vaman/arm/sevenseg/pin_sheet}
 \end{figure*}
+\fi
 
 
 
@@ -423,14 +424,16 @@ to display 0-9.
 
 
 \item   Table \ref{tab:vaman/arm/sevenseg/sevenseg} and PU 64 Table in 
-Fig.  \ref{fig:vaman/arm/sevenseg/pins}  show how to use the pins of the Vaman to drive the seven segment display.
+Fig.  \ref{fig:vaman/fpga/sevenseg/pins}  show how to use the pins of the Vaman to drive the seven segment display.
 %इसमें संशोधन कर वामन के कुशों के अनेक संचय के लिए क्रमादेश \ref{code:vaman/arm/sevenseg/sevenseg} का चालयन करें.
+\iffalse
 \begin{figure*}[!ht]
 \centering
 \includegraphics[width = \textwidth]{vaman/arm/sevenseg/figs/pins.jpg}
 \caption{Pin map.}
 \label{fig:vaman/arm/sevenseg/pins}
 \end{figure*}
+\fi
 \item Use a function taking decimal input in the code in  \ref{code:vaman/arm/sevenseg/sevenseg} to generate 
 numbers on the display.
 \\

@@ -46,19 +46,28 @@ vaman/esp32/codes
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 \item Do not power any devices.  Make connections as shown in \tabref{tab:vaman/uart/rpi-vaman-uart} and 
-\figref{fig:vaman/uart/1}.
-			\begin{table}[!h]
-		\input{vaman/uart/tables/rpi-vaman-uart.tex}
-		\caption{}
-		\label{tab:vaman/uart/rpi-vaman-uart}
-	\end{table}
-%\item Add the Potential Divider circuit between VAMAN and ARDUINO boards TX and RX pins as shown in Figure \ref{fig:vaman/uart/1}
+\figref{fig:vaman/uart/1}. 
+		The Vaman pin diagram is available in 
+\figref{fig:vaman/fpga/setup/pin_sheet}
 \begin{figure}
 \centering
 \input{vaman/uart/figs/circuit.tex}
 \caption{Circuit Connections}
 \label{fig:vaman/uart/1}
 \end{figure}
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width = \textwidth]{vaman/fpga/setup/figs/pin_sheet.png}
+\caption{Pin diagram}
+%\caption{कुश आरेख}
+\label{fig:vaman/fpga/setup/pin_sheet}
+\end{figure*}
+			\begin{table}[!h]
+		\input{vaman/uart/tables/rpi-vaman-uart.tex}
+		\caption{}
+		\label{tab:vaman/uart/rpi-vaman-uart}
+	\end{table}
+%\item Add the Potential Divider circuit between VAMAN and ARDUINO boards TX and RX pins as shown in Figure \ref{fig:vaman/uart/1}
 %\item Now power on the devices and measure the voltage across the Vaman-ESP Rx pin using a multimeter.  Comment.
 \iffalse
 \item Modify your platformio.ini file by adding the lines

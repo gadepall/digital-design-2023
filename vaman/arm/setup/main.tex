@@ -424,7 +424,7 @@ Now obtain blue colour.
 vaman/arm/codes/setup/onoff/src/main.c
 \end{lstlisting}
 %
-\item  Using Table  \ref{tab:vaman/arm/setup/input} and Fig.  \ref{fig:vaman/arm/setup/pin_sheet}, use an input pin to control the onboard LED.  
+\item  Using Table  \ref{tab:vaman/arm/setup/input} and Fig.  \ref{fig:vaman/fpga/setup/pin_sheet}, use an input pin to control the onboard LED.  
 %एक अन्य कुश को निर्गत रूप देकर किसी बाह्य दीप को प्रकाशोर्जित करें.
 
 \begin{table}[]
@@ -439,13 +439,14 @@ Input &  IO\_5 &  GND\\ \hline
 \caption{Vaman control through external input.}
 \label{tab:vaman/arm/setup/input}
 \end{table}
-
+\iffalse
 \begin{figure*}[!ht]
 \centering
 \includegraphics[width = \textwidth]{vaman/arm/setup/figs/pin_sheet.png}
 \caption{Pin Diagram}
 \label{fig:vaman/arm/setup/pin_sheet}
 \end{figure*}
+\fi
 \solution Execute the following code.  You should see the LED blinking pink. Disconnecting the wire from GND will result in the LED blinking white 
 and green alternately.
 \begin{lstlisting}

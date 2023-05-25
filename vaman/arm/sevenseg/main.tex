@@ -341,7 +341,7 @@ https://github.com/gadepall/vaman/tree/master/arm/vaman/arm/codes/sevenseg/
 \numberwithin{table}{enumi}
 
 \item Fig.\ref{fig:vaman/fpga/setup/pin_sheet} shows all the pin banks of the Vaman. Connect the pins of the
-display in Fig.  \ref{fig:vaman/arm/sevenseg/sevenseg} to bank J5 of the Vaman using Table \ref{tab:vaman/arm/sevenseg/sevenseg}.
+display in Fig.  \ref{fig:sevenseg} to bank J5 of the Vaman using Table \ref{tab:vaman/arm/sevenseg/sevenseg}.
 The COM pin should be connected to 3.3V through a resistor.
 \begin{table}[!ht]
 \centering
@@ -352,30 +352,30 @@ The COM pin should be connected to 3.3V through a resistor.
 \label{tab:vaman/arm/sevenseg/sevenseg}
 \end{table}
 
-\begin{figure}[!ht]
-\centering
-\resizebox{\columnwidth}{!}{
-\input{vaman/arm/sevenseg/figs/sevenseg.tex}
-}
-\caption{Seven Segment Display}
-\label{fig:vaman/arm/sevenseg/sevenseg}
-\end{figure}
-\begin{figure}[!ht]
-\centering
-\resizebox{\columnwidth}{!}{
-\input{vaman/arm/sevenseg/figs/sevenseg12.tex}
-}
-\caption{Pictorial representation of Table \ref{tab:vaman/arm/sevenseg/arduinoport}.}
-\label{fig:vaman/arm/sevenseg/sevenseg12}
-\end{figure}
+%\begin{figure}[!ht]
+%\centering
+%\resizebox{\columnwidth}{!}{
+%\input{vaman/arm/sevenseg/figs/sevenseg.tex}
+%}
+%\caption{Seven Segment Display}
+%\label{fig:vaman/arm/sevenseg/sevenseg}
+%\end{figure}
+%\begin{figure}[!ht]
+%\centering
+%\resizebox{\columnwidth}{!}{
+%\input{vaman/arm/sevenseg/figs/sevenseg12.tex}
+%}
+%\caption{Pictorial representation of Table \ref{tab:vaman/arm/sevenseg/arduinoport}.}
+%\label{fig:vaman/arm/sevenseg/sevenseg12}
+%\end{figure}
 
 \iffalse
-\begin{figure*}[!ht]
-\centering
-\includegraphics[width = \textwidth]{vaman/arm/sevenseg/figs/pin_sheet.png}
-\caption{Pin Diagram}
-\label{fig:vaman/arm/sevenseg/pin_sheet}
-\end{figure*}
+%\begin{figure*}[!ht]
+%\centering
+%\includegraphics[width = \textwidth]{vaman/arm/sevenseg/figs/pin_sheet.png}
+%\caption{Pin Diagram}
+%\label{fig:vaman/arm/sevenseg/pin_sheet}
+%\end{figure*}
 \fi
 
 
@@ -401,7 +401,7 @@ void sevenseg(int a, int b, int c, int d, int e, int f, int g)
 }
 }
 \end{lstlisting}
-\item Modify the above program using Table \ref{tab:vaman/arm/sevenseg/arduinoport} and Fig. \ref{fig:vaman/arm/sevenseg/sevenseg12} 
+\item Modify the above program using Table \ref{tab:vaman/arm/sevenseg/arduinoport} and Fig. \ref{fig:sevenseg12}
 to display 0-9.
 \begin{table}[!ht]
 \centering

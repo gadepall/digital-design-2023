@@ -357,7 +357,7 @@ ide/7447/codes/gvv_ard_7447/gvv_ard_7447.cpp
 \caption{}
 \label{table:7447_ard}
 \end{table}
-In the  truth table in Table \ref{table:counter_decoder},  $W,X,Y,Z$ are the inputs
+In the  truth table in Table \ref{tab:ide/7447/counter_decoder},  $W,X,Y,Z$ are the inputs
 and $A,B,C,D$ are the outputs. This table represents the system that increments the numbers 0-8 by 1 and resets the number 9 to 0
 %
 Note that  $D = 1$ for the inputs $0111$ and $1000$.  Using {\em boolean} logic,
@@ -370,12 +370,20 @@ D = WXYZ^{'} + W^{'}X^{'}Y^{'}Z
 Note that $0111$ results in the expression $WXYZ^{'}$ and $1000$ yields $W^{'}X^{'}Y^{'}Z$. 
 %
 \item
-The code below realizes the Boolean logic for B, C and D in  Table \ref{table:counter_decoder}.  Write the logic for A and verify.
+The code below realizes the Boolean logic for B, C and D in  Table \ref{tab:ide/7447/counter_decoder}.  Write the logic for A and verify.
 \begin{lstlisting}
 			ide/7447/codes/inc_dec/inc_dec.ino
 \end{lstlisting}
- 
+
+\begin{table}
+\centering
+{
+%\resizebox{0.5\columnwidth}{!}{ 
 \input{ide/7447/figs/counter_decoder.tex}
+}
+\caption{Truth table for incrementing Decoder.}
+\label{tab:ide/7447/counter_decoder}
+\end{table}
 \item
 Now make additional connections as shown in Table \ref{table:ip_7447_ard} and execute the following code.  Comment.
 %			\lstinputlisting{ide/7447/codes/ip_inc_dec/ip_inc_dec.ino}
@@ -399,7 +407,7 @@ Now write a program where
 \begin{enumerate}
 \item the binary inputs are given by
 connecting to 0 and 1 on the breadboard
-\item incremented by 1 using Table \ref{table:counter_decoder} and
+\item incremented by 1 using Table \ref{tab:ide/7447/counter_decoder}and
 \item the incremented value is displayed on the seven segment display.
 \end{enumerate}
 

@@ -338,7 +338,7 @@ vaman/fpga/sevenseg/codes
 
 \item The pin sheet for the Vaman is available in Fig.  \ref{fig:vaman/fpga/setup/pin_sheet}.  
 Connect the pins in the bank J5 of the Vaman with the seven segment display  shown in 
-Fig.  \ref{fig:vaman/fpga/sevenseg/sevenseg} according to Table \ref{table:sevenseg}.  Ensure that the COM pin
+Fig.  \ref{fig:sevenseg} according to Table \ref{table:sevenseg}.  Ensure that the COM pin
 is connected to 3.3V through a resistor.
 \begin{table}[!ht]
 \centering
@@ -349,22 +349,22 @@ is connected to 3.3V through a resistor.
 \label{table:sevenseg}
 \end{table}
 
-\begin{figure}[!ht]
-\centering
-\resizebox{\columnwidth}{!}{
-\input{vaman/fpga/sevenseg/figs/sevenseg.tex}
-}
-\caption{seven segment display }
-\label{fig:vaman/fpga/sevenseg/sevenseg}
-\end{figure}
-\begin{figure}[!ht]
-\centering
-\resizebox{\columnwidth}{!}{
-\input{vaman/fpga/sevenseg/figs/sevenseg12.tex}
-}
-\caption{Companion figure for Table \ref{table:arduinoport}. }
-\label{fig:vaman/fpga/sevenseg/sevenseg12}
-\end{figure}
+%\begin{figure}[!ht]
+%\centering
+%\resizebox{\columnwidth}{!}{
+%\input{vaman/fpga/sevenseg/figs/sevenseg.tex}
+%}
+%\caption{seven segment display }
+%\label{fig:vaman/fpga/sevenseg/sevenseg}
+%\end{figure}
+%\begin{figure}[!ht]
+%\centering
+%\resizebox{\columnwidth}{!}{
+%\input{vaman/fpga/sevenseg/figs/sevenseg12.tex}
+%}
+%\caption{Companion figure for Table \ref{table:arduinoport}. }
+%\label{fig:vaman/fpga/sevenseg/sevenseg12}
+%\end{figure}
 
 \iffalse
 \begin{figure*}[!ht]
@@ -394,7 +394,7 @@ assign     f=0;
 assign     g=0;
 \end{lstlisting}
 \item Modify the above code appropriately 
-with the help of  Table \ref{table:arduinoport} and  Fig.  \ref{fig:vaman/fpga/sevenseg/sevenseg12} 
+with the help of  Table \ref{table:arduinoport} and  Fig.  \ref{fig:sevenseg12} 
 to generate the numbers from 0-9 on the display.
 \begin{table}[!ht]
 \centering

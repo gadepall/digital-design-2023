@@ -3,10 +3,6 @@
 %
 \usepackage{setspace}
 \usepackage{gensymb}
-\usepackage{xcolor}
-\usepackage{caption}
-\usepackage[hyphens,spaces,obeyspaces]{url}
-%\usepackage{subcaption}
 %\doublespacing
 \singlespacing
 
@@ -14,7 +10,7 @@
 %\usepackage{amssymb}
 %\usepackage{relsize}
 \usepackage[cmex10]{amsmath}
-\usepackage{mathtools}
+\usepackage{siunitx}
 %\usepackage{amsthm}
 %\interdisplaylinepenalty=2500
 %\savesymbol{iint}
@@ -22,9 +18,13 @@
 %\restoresymbol{TXF}{iint}
 %\usepackage{wasysym}
 \usepackage{amsthm}
+%\usepackage{iithtlc}
 \usepackage{mathrsfs}
 \usepackage{txfonts}
 \usepackage{stfloats}
+\usepackage{steinmetz}
+\usepackage{supertabular}
+%\usepackage{bm}
 \usepackage{cite}
 \usepackage{cases}
 \usepackage{subfig}
@@ -33,14 +33,19 @@
 \usepackage{multirow}
 %\usepackage{algorithm}
 %\usepackage{algpseudocode}
-\usepackage{enumerate}
+\usepackage{enumitem}
 \usepackage{mathtools}
-\usepackage{eenrc}
-%\usepackage[framemethod=tikz]{mdframed}
-\usepackage[breaklinks]{hyperref}
-%\usepackage{breakcites}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{verbatim}
+\usepackage{tfrupee}
+\usepackage[breaklinks=true]{hyperref}
+%\usepackage{stmaryrd}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+%\usetkzobj{all}
+\usetikzlibrary{calc,math}
+\usetikzlibrary{fadings}
 \usepackage{listings}
-    \usepackage[latin1]{inputenc}                                 %%
     \usepackage{color}                                            %%
     \usepackage{array}                                            %%
     \usepackage{longtable}                                        %%
@@ -50,22 +55,22 @@
     \usepackage{ifthen}                                           %%
   %optionally (for landscape tables embedded in another document): %%
     \usepackage{lscape}     
-
-\usepackage{tikz}
-\usepackage{circuitikz}
+\usepackage{multicol}
+\usepackage{chngcntr}
+\usepackage{blkarray}
 \usepackage{karnaugh-map}
-\usepackage{pgf}
-\usepackage[hyphenbreaks]{breakurl}
+\usepackage{fontspec}
+\usepackage[intoc]{nomencl}
+\makenomenclature
 
-%\usepackage{url}
-%\def\UrlBreaks{\do\/\do-}
+%\usetikzlibrary{arrows, shapes.gates.logic.US, calc}
+\usetikzlibrary{arrows,shapes.gates.logic.US,shapes.gates.logic.IEC,calc}
+\setmainfont{Sanskrit_2003.ttf}
+%\setmainfont{Nakula.ttf}
+%\setmainfont{Lohit-Devanagari.ttf}
 
 
-
-
-
-%\usepackage{stmaryrd}
-
+%\usepackage{enumerate}
 
 %\usepackage{wasysym}
 %\newcounter{MYtempeqncnt}
@@ -81,48 +86,37 @@
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
+\def\inputGnumericTable{}                                 %%
 
+
+\lstset{
+%language=shell,
+%language = Prolog,
+frame=single, 
+breaklines=true,
+%showstringspaces=false,
+columns=fullflexible
+literate = {-}{-}1
+}
 %\lstset{
-%language=C,
+%language=tex,
 %frame=single, 
 %breaklines=true
 %}
 
-%\lstset{
-	%%basicstyle=\small\ttfamily\bfseries,
-	%%numberstyle=\small\ttfamily,
-	%language=Octave,
-	%backgroundcolor=\color{white},
-	%%frame=single,
-	%%keywordstyle=\bfseries,
-	%%breaklines=true,
-	%%showstringspaces=false,
-	%%xleftmargin=-10mm,
-	%%aboveskip=-1mm,
-	%%belowskip=0mm
-%}
-
-%\surroundwithmdframed[width=\columnwidth]{lstlisting}
-\def\inputGnumericTable{}                                 %%
-\lstset{
-%language=C,
-frame=single, 
-breaklines=true,
-columns=fullflexible
-}
- 
-
 \begin{document}
 %
 
-\theoremstyle{definition}
+
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{problem}{Problem}
 \newtheorem{proposition}{Proposition}[section]
 \newtheorem{lemma}{Lemma}[section]
 \newtheorem{corollary}[theorem]{Corollary}
 \newtheorem{example}{Example}[section]
-\newtheorem{definition}{Definition}[section]
+\newtheorem{definition}[problem]{Definition}
+%\newtheorem{thm}{Theorem}[section] 
+%\newtheorem{defn}[thm]{Definition}
 %\newtheorem{algorithm}{Algorithm}[section]
 %\newtheorem{cor}{Corollary}
 \newcommand{\BEQA}{\begin{eqnarray}}
@@ -132,8 +126,7 @@ columns=fullflexible
 \bibliographystyle{IEEEtran}
 %\bibliographystyle{ieeetr}
 
-\providecommand{\nCr}[2]{\,^{#1}C_{#2}} % nCr
-\providecommand{\nPr}[2]{\,^{#1}P_{#2}} % nPr
+
 \providecommand{\mbf}{\mathbf}
 \providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
 \providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
@@ -146,12 +139,14 @@ columns=fullflexible
 \providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
 \providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
 \providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+\providecommand{\ceil}[1]{\left \lceil #1 \right \rceil }
 \theoremstyle{remark}
 \newtheorem{rem}{Remark}
 \newcommand{\sgn}{\mathop{\mathrm{sgn}}}
 \providecommand{\abs}[1]{\left\vert#1\right\vert}
 \providecommand{\res}[1]{\Res\displaylimits_{#1}} 
-\providecommand{\norm}[1]{\lVert#1\rVert}
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+%\providecommand{\norm}[1]{\lVert#1\rVert}
 \providecommand{\mtx}[1]{\mathbf{#1}}
 \providecommand{\mean}[1]{E\left[ #1 \right]}
 \providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
@@ -159,53 +154,49 @@ columns=fullflexible
 \providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
 	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
 \newcommand{\solution}{\noindent \textbf{Solution: }}
+\newcommand{\cosec}{\,\text{cosec}\,}
 \providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
-%\numberwithin{equation}{subsection}
-\numberwithin{equation}{section}
-%\numberwithin{problem}{subsection}
-%\numberwithin{definition}{subsection}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+%\numberwithin{equation}{section}
+\numberwithin{equation}{subsection}
+%\numberwithin{problem}{section}
+%\numberwithin{definition}{section}
 \makeatletter
 \@addtoreset{figure}{problem}
 \makeatother
 
 \let\StandardTheFigure\thefigure
+\let\vec\mathbf
 %\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
-\renewcommand{\thefigure}{\theproblem}
-
-
-%\numberwithin{figure}{subsection}
-
-%\numberwithin{equation}{subsection}
-%\numberwithin{equation}{section}
-%%\numberwithin{equation}{problem}
-%%\numberwithin{problem}{subsection}
-\numberwithin{problem}{section}
-%%\numberwithin{definition}{subsection}
-%\makeatletter
-%\@addtoreset{figure}{problem}
-%\makeatother
-\makeatletter
-\@addtoreset{table}{problem}
-\makeatother
-
-\let\StandardTheFigure\thefigure
-\let\StandardTheTable\thetable
-%%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
 %\renewcommand{\thefigure}{\theproblem}
-\renewcommand{\thetable}{\theproblem}
-%%\numberwithin{figure}{section}
+\renewcommand{\thefigure}{\thesection}
+%\setlist[enumerate,1]{before=\renewcommand\theequation{\theenumi.\arabic{equation}}
+%\counterwithin{equation}{enumi}
 
-%%\numberwithin{figure}{subsection}
 
+%\renewcommand{\theequation}{\arabic{subsection}.\arabic{equation}}
 
+\def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
+     \def\rightbox#1{\makebox[0in][r]{#1}}
+     \def\centbox#1{\makebox[0in]{#1}}
+     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
+     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
 
 \vspace{3cm}
 
-\title{ 
-	\logo{
-	Interfacing LCD with Arduino using AVR-GCC
-	}
+\title{
+%	\logo{
+Digital Design through Vaman
+%	}
 }
+\author{ G. V. V. Sharma $^{*}$% <-this % stops a space
+	\thanks{*The author is with the Department of Electrical Engineering, IIT Hyderabad, 502285, India. email: gadepall@ee.iith.ac.in.  All material in this document is released under GNU GPL.  Free to use for anything.}
+	
+}	
+%\title{
+%	\logo{Matrix Analysis through Octave}{\begin{center}\includegraphics[scale=.24]{tlc}\end{center}}{}{HAMDSP}
+%}
 
 
 % paper title
@@ -222,13 +213,9 @@ columns=fullflexible
 % was not built to handle multiple paragraphs
 %
 
-\author{Arpita Mishra and G V V Sharma$^{*}$ %<-this  stops a space
-\thanks{Arpita Mishra was an intern with the TLC, IIT Hyderabad.  *The author is with the Department
-of Electrical Engineering, Indian Institute of Technology, Hyderabad
-502285 India e-mail:  gadepall@iith.ac.in. All content in the manual released under GNU GPL.  Free to use for anything.}% <-this % stops a space
-%\thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
-%\thanks{Manuscript received April 19, 2005; revised January 11, 2007.}}
-}
+%\author{<-this % stops a space
+%\thanks{}}
+%}
 % note the % following the last \IEEEmembership and also \thanks - 
 % these prevent an unwanted space from occurring between the last author name
 % and the end of the author line. i.e., if you had this:
@@ -249,16 +236,76 @@ of Electrical Engineering, Indian Institute of Technology, Hyderabad
 
 
 
+% The paper headers
+%\markboth{Journal of \LaTeX\ Class Files,~Vol.~6, No.~1, January~2007}%
+%{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Journals}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+% 
+% *** Note that you probably will NOT want to include the author's ***
+% *** name in the headers of peer review papers.                   ***
+% You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
+% you desire.
+
+
+
+
+% If you want to put a publisher's ID mark on the page you can do it like
+% this:
+%\IEEEpubid{0000--0000/00\$00.00~\copyright~2007 IEEE}
+% Remember, if you use this you must call \IEEEpubidadjcol in the second
+% column for its text to clear the IEEEpubid mark.
+
+
+
+% make the title area
 \maketitle
+
+\newpage
 
 \tableofcontents
 
+
 \bigskip
-\fi
 
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
+%\renewcommand{\abstractname}{सार}
+%\renewcommand{\nomname}{नामकरण}
+%\renewcommand{\solution}{हल: }
+%\renewcommand{\figurename}{आकृति.}
+%\renewcommand{\tablename}{सारणी.}
+%\renewcommand{\theequation}{\theenumi}
 
+%\begin{abstract}
+%%\boldmath
+%In this letter, an algorithm for evaluating the exact analytical bit error rate  (BER)  for the piecewise linear (PL) combiner for  multiple relays is presented. Previous results were available only for upto three relays. The algorithm is unique in the sense that  the actual mathematical expressions, that are prohibitively large, need not be explicitly obtained. The diversity gain due to multiple relays is shown through plots of the analytical BER, well supported by simulations. 
+%
+%\end{abstract}
+% IEEEtran.cls defaults to using nonbold math in the Abstract.
+% This preserves the distinction between vectors and scalars. However,
+% if the journal you are submitting to favors bold math in the abstract,
+% then you can use LaTeX's standard command \boldmath at the very start
+% of the abstract to achieve this. Many IEEE journals frown on math
+% in the abstract anyway.
+
+% Note that keywords are not normally used for peerreview papers.
+%\begin{IEEEkeywords}
+%Cooperative diversity, decode and forward, piecewise linear
+%\end{IEEEkeywords}
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+%\IEEEpeerreviewmaketitle
+\fi
 
 \begin{abstract}
 %%\boldmath
@@ -270,7 +317,12 @@ This manual shows how to interface an Arduino to a $16 \times 2$ LCD display usi
 %
 \subsection{Display Number on LCD}
 %
-\begin{enumerate}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
 \item Plug the LCD in Fig. \ref{fig:avr-gcc/lcd/lcd} to the breadboard.
 \item Connect the Arduino pins to LCD pins as per Table \ref{table:lcd pins}.
 %

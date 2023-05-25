@@ -76,16 +76,16 @@
 \contentsline {subsection}{\numberline {10.3.3}Decade Counter}{92}{subsection.10.3.3}%
 \contentsline {section}{\numberline {10.4}LCD}{92}{section.10.4}%
 \contentsline {subsection}{\numberline {10.4.1}Display the addition of two numbers on LCD}{92}{subsection.10.4.1}%
-\contentsline {chapter}{\numberline {11}Vaman-ARM}{101}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Setup}{101}{section.11.1}%
-\contentsline {subsection}{\numberline {11.1.1}Software}{101}{subsection.11.1.1}%
-\contentsline {subsection}{\numberline {11.1.2}Setup}{101}{subsection.11.1.2}%
-\contentsline {subsection}{\numberline {11.1.3}Delay}{101}{subsection.11.1.3}%
-\contentsline {section}{\numberline {11.2}Seven Segment Display}{103}{section.11.2}%
-\contentsline {subsection}{\numberline {11.2.1}Software}{103}{subsection.11.2.1}%
-\contentsline {subsection}{\numberline {11.2.2}Setup}{103}{subsection.11.2.2}%
-\contentsline {subsection}{\numberline {11.2.3}Examples}{105}{subsection.11.2.3}%
-\contentsline {section}{\numberline {11.3}FSM}{106}{section.11.3}%
-\contentsline {subsection}{\numberline {11.3.1}Software}{106}{subsection.11.3.1}%
-\contentsline {subsection}{\numberline {11.3.2}Setup}{106}{subsection.11.3.2}%
-\contentsline {subsection}{\numberline {11.3.3}Decade Counter }{109}{subsection.11.3.3}%
+\contentsline {chapter}{\numberline {11}Vaman-ARM}{97}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Setup}{97}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}Software}{97}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.1.2}Setup}{97}{subsection.11.1.2}%
+\contentsline {subsection}{\numberline {11.1.3}Delay}{97}{subsection.11.1.3}%
+\contentsline {section}{\numberline {11.2}Seven Segment Display}{99}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Software}{99}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Setup}{99}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}Examples}{101}{subsection.11.2.3}%
+\contentsline {section}{\numberline {11.3}FSM}{102}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}Software}{102}{subsection.11.3.1}%
+\contentsline {subsection}{\numberline {11.3.2}Setup}{102}{subsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.3.3}Decade Counter }{105}{subsection.11.3.3}%

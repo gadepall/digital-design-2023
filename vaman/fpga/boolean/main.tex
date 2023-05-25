@@ -335,7 +335,7 @@ vaman/fpga/boolean/codes
 \numberwithin{table}{enumi}
 
 
-\item Fig. \ref{fig:vaman/fpga/setup/pin_sheet} shows the pin diagram for the Vaman.  Using the bank J5, connect the pins of  the seven segment display in Fig. \ref{fig:vaman/fpga/boolean/sevenseg} to the Vaman according to Table  \ref{tab:vaman/fpga/boolean/vaman_dispdec}.  Make sure that the COM pin is connected to 3.3V through a resistor.
+\item Fig. \ref{fig:vaman/fpga/setup/pin_sheet} shows the pin diagram for the Vaman.  Using the bank J5, connect the pins of  the seven segment display in Fig. \ref{fig:sevenseg} to the Vaman according to Table  \ref{tab:vaman/fpga/boolean/vaman_dispdec}.  Make sure that the COM pin is connected to 3.3V through a resistor.
 \begin{table}[!ht]
 \centering
 \parbox{.45\columnwidth}{
@@ -351,14 +351,14 @@ vaman/fpga/boolean/codes
 \label{tab:vaman/fpga/boolean/vaman_dispdec}
 \end{table}
 
-\begin{figure}[!ht]
-\centering
-\resizebox{\columnwidth}{!}{
-\input{vaman/fpga/boolean/figs/sevenseg.tex}
-}
-\caption{Seven segement display}
-\label{fig:vaman/fpga/boolean/sevenseg}
-\end{figure}
+%\begin{figure}[!ht]
+%\centering
+%\resizebox{\columnwidth}{!}{
+%\input{vaman/fpga/boolean/figs/sevenseg.tex}
+%}
+%\caption{Seven segement display}
+%\label{fig:vaman/fpga/boolean/sevenseg}
+%\end{figure}
 
 \iffalse
 \begin{figure*}[!ht]
@@ -463,15 +463,15 @@ vaman/fpga/boolean/codes/decoders/incdec.v
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
-\item Using Fig. \ref{fig:vaman/fpga/boolean/vaman_decade_counter} and modifying the code in Problem \ref{prob:counter_decoder}, design the decade counter.
-\begin{figure}[!ht]
-\centering
-\resizebox{\columnwidth}{!}{
-\input{vaman/fpga/boolean/figs/pygmy_decade_counter.tex}
-}
-\caption{Block diagram of the decade counter.}
-\label{fig:vaman/fpga/boolean/vaman_decade_counter}
-\end{figure}
+\item Using Fig. \ref{fig:decade_counter} and modifying the code in Problem \ref{prob:counter_decoder}, design the decade counter.
+%\begin{figure}[!ht]
+%\centering
+%\resizebox{\columnwidth}{!}{
+%\input{vaman/fpga/boolean/figs/pygmy_decade_counter.tex}
+%}
+%\caption{Block diagram of the decade counter.}
+%\label{fig:vaman/fpga/boolean/vaman_decade_counter}
+%\end{figure}
 \item Design and implement the down counter.
 \end{enumerate}
 %

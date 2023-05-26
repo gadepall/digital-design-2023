@@ -280,13 +280,19 @@ of Electrical Engineering, Indian Institute of Technology, Hyderabad
 This manual shows how to program the 7447 BCD-Seven segment
 display decoder through AVR-Assembly.
 %\newpage
-\renewcommand{\thefigure}{\theenumi}
-\renewcommand{\thetable}{\theenumi}
+%\renewcommand{\thefigure}{\theenumi}
+%\renewcommand{\thetable}{\theenumi}
 \subsection{Components}
 \input{./assembly/7447/count/figs/components.tex}
 \subsection{Boolean Operations}
 %
-\begin{enumerate}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
 \item Verify the AND,OR and XOR operations in assembly using the following code and making pin connections according to Table \ref{table:assembly/7447/count/7447_ard}.
 \begin{lstlisting}
 wget https://raw.githubusercontent.com/gadepall/arduino/master/assembly/7447/count/codes/and_or_xor.asm
@@ -295,7 +301,7 @@ wget https://raw.githubusercontent.com/gadepall/arduino/master/assembly/7447/cou
 \begin{table}[!h]
 \centering
 \input{./assembly/7447/count/figs/7447_ard.tex}
-\caption{}
+\caption{Arduino and 7447 IC connections}
 \label{table:assembly/7447/count/7447_ard}
 \end{table}
 %

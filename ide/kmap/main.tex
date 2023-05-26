@@ -289,12 +289,12 @@ logic functions for the incrementing decoder
 %
 \section{Incrementing Decoder}
 The incrementing decoder   takes the numbers $0,,\dots,9$ in binary as inputs and generates
-the consecutive number as output  The corresponding truth table is available in Table \ref{table:counter-kmap_decoder}
-\input{ide/kmap/figs/counter_decoder}
+the consecutive number as output  The corresponding truth table is available in Table \ref{tab:ide/7447/counter_decoder}
+%\input{ide/kmap/figs/counter_decoder}
 \section{Karnaugh Map}
 
 %
-Using Boolean logic, output $A$  in Table \ref{table:counter-kmap_decoder} can be expressed in terms of the inputs $W,X,Y,Z$ as
+Using Boolean logic, output $A$  in Table \ref{tab:ide/7447/counter_decoder} can be expressed in terms of the inputs $W,X,Y,Z$ as
 \begin{multline}
 \label{eq:A}
 A = W^{\prime}X^{\prime}Y^{\prime}Z^{\prime} + W^{\prime}XY^{\prime}Z^{\prime}
@@ -337,7 +337,7 @@ derive \eqref{eq:kmap_A} from \eqref{eq:A} algebraically
 \end{figure}
 %
 \item K-Map for $B$:
-From Table \ref{table:counter-kmap_decoder}, using boolean logic,
+From Table \ref{tab:ide/7447/counter_decoder}, using boolean logic,
 \begin{equation}
 \label{eq:B}
 B = WX^{\prime}Y^{\prime}Z^{\prime} + W^{\prime}XY^{\prime}Z^{\prime}
@@ -363,7 +363,7 @@ using Fig \ref{fig:kmap_B}
 %
 %
 \item {K-Map for $C$: }
-From Table \ref{table:counter-kmap_decoder}, using boolean logic,
+From Table \ref{tab:ide/7447/counter_decoder}, using boolean logic,
 \begin{equation}
 \label{eq:C}
 C = WXY^{\prime}Z^{\prime} + W^{\prime}X^{\prime}YZ^{\prime}
@@ -391,7 +391,7 @@ using Fig \ref{fig:kmap_C}
 Derive \eqref{eq:kmap_C} from \eqref{eq:C} algebraically using \eqref{eq:boolean}
 %
 \item {K-Map for $D$: }
-From Table \ref{table:counter-kmap_decoder}, using boolean logic,
+From Table \ref{tab:ide/7447/counter_decoder}, using boolean logic,
 \begin{equation}
 \label{eq:D}
 D = WXYZ^{\prime} + W^{\prime}X^{\prime}Y^{\prime}Z

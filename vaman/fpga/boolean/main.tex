@@ -369,9 +369,9 @@ vaman/fpga/boolean/codes
 \end{figure*}
 \fi
 
-\item Implement  Table \ref{tab:vaman/fpga/boolean/disp_dec} using the Vaman and the display.
+\item Implement  Table \ref{table:disp_dec} using the Vaman and the display.
 \\
-\solution In Table \ref{tab:vaman/fpga/boolean/disp_dec}, the output variables   $a,b,c,d,e,f,g$ can be expressed
+\solution In Table \ref{table:disp_dec}, the output variables   $a,b,c,d,e,f,g$ can be expressed
 in terms of the input variables $W,X,Y,Z$ as
 %
 \begin{align}
@@ -399,12 +399,12 @@ f &= WX^{\prime}Y^{\prime}Z^{\prime}+W^{\prime}XY^{\prime}Z^{\prime}+WXY^{\prime
 g &= W^{\prime}X^{\prime}Y^{\prime}Z^{\prime}+WX^{\prime}Y^{\prime}Z^{\prime}+WXYZ^{\prime}
 \label{eq:vaman/fpga/boolean/disp_g}
 \end{align}
-\begin{table}
-\centering
-\input{./vaman/fpga/boolean/tables/disp_dec.tex}
-\caption{Truth table for the display decoder.}
-\label{tab:vaman/fpga/boolean/disp_dec}
-\end{table}
+%\begin{table}
+%\centering
+%\input{./vaman/fpga/boolean/tables/disp_dec.tex}
+%\caption{Truth table for the display decoder.}
+%\label{tab:vaman/fpga/boolean/disp_dec}
+%\end{table}
 %
 Execute the following program.
 \begin{lstlisting}
@@ -412,16 +412,16 @@ vaman/fpga/boolean/codes/decoders/dispdec.v
 vaman/fpga/boolean/codes/decoders/Vaman.pcf
 \end{lstlisting}
 Connect $W, X, Y, Z$ to GND.  For different values of the input variables, verify the output
-in on the display using Table \ref{tab:vaman/fpga/boolean/disp_dec}.
-\item Table  \ref{tab:vaman/fpga/boolean/counter_decoder} describes the properties of the incrementing decoder.
+in on the display using Table \ref{table:disp_dec}.
+\item Table  \ref{tab:ide/7447/counter_decoder} describes the properties of the incrementing decoder.
 Using Boolean logic, express $A,B,C,D$ in terms of  $W,X,Y,Z$.  Subsequently, implement this decoder by implementing the the expressions so obtained in the Vaman using verilog.
 \label{prob:counter_decoder}
-\begin{table}
-\centering
-\input{./vaman/fpga/boolean/tables/counter_decoder.tex}
-\caption{Truth table for the incrementing decoder.}
-\label{tab:vaman/fpga/boolean/counter_decoder}
-\end{table}
+%\begin{table}
+%\centering
+%\input{./vaman/fpga/boolean/tables/counter_decoder.tex}
+%\caption{Truth table for the incrementing decoder.}
+%\label{tab:vaman/fpga/boolean/counter_decoder}
+%\end{table}
 \\
 \solution The following equations contain the desired expressions.
 \begin{align}

@@ -123,16 +123,20 @@
 \setlongtables
 
 \setlength\gnumericTableWidth{%
-	33pt+%
-	33pt+%
-	33pt+%
-	33pt+%
-	33pt+%
-	33pt+%
-	33pt+%
-	33pt+%
+	5pt+%
+	5pt+%
+	5pt+%
+	5pt+%
+	5pt+%
+	5pt+%
+	5pt+%
+	5pt+%
+	5pt+%
+	5pt+%
+	5pt+%
+	10pt+%
 0pt}
-\def\gumericNumCols{8}
+\def\gumericNumCols{12}
 \setlength\gnumericTableWidthComplete{\gnumericTableWidth+%
          \tabcolsep*\gumericNumCols*2+\arrayrulewidth*\gumericNumCols}
 \ifthenelse{\lengthtest{\gnumericTableWidthComplete > \linewidth}}%
@@ -150,16 +154,20 @@
 %%                                                                  %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifthenelse{\isundefined{\gnumericColA}}{\newlength{\gnumericColA}}{}\settowidth{\gnumericColA}{\begin{tabular}{@{}p{33pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColB}}{\newlength{\gnumericColB}}{}\settowidth{\gnumericColB}{\begin{tabular}{@{}p{33pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColC}}{\newlength{\gnumericColC}}{}\settowidth{\gnumericColC}{\begin{tabular}{@{}p{33pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColD}}{\newlength{\gnumericColD}}{}\settowidth{\gnumericColD}{\begin{tabular}{@{}p{33pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColE}}{\newlength{\gnumericColE}}{}\settowidth{\gnumericColE}{\begin{tabular}{@{}p{33pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColF}}{\newlength{\gnumericColF}}{}\settowidth{\gnumericColF}{\begin{tabular}{@{}p{33pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColG}}{\newlength{\gnumericColG}}{}\settowidth{\gnumericColG}{\begin{tabular}{@{}p{33pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColH}}{\newlength{\gnumericColH}}{}\settowidth{\gnumericColH}{\begin{tabular}{@{}p{33pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColA}}{\newlength{\gnumericColA}}{}\settowidth{\gnumericColA}{\begin{tabular}{@{}p{5pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColB}}{\newlength{\gnumericColB}}{}\settowidth{\gnumericColB}{\begin{tabular}{@{}p{5pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColC}}{\newlength{\gnumericColC}}{}\settowidth{\gnumericColC}{\begin{tabular}{@{}p{5pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColD}}{\newlength{\gnumericColD}}{}\settowidth{\gnumericColD}{\begin{tabular}{@{}p{5pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColE}}{\newlength{\gnumericColE}}{}\settowidth{\gnumericColE}{\begin{tabular}{@{}p{5pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColF}}{\newlength{\gnumericColF}}{}\settowidth{\gnumericColF}{\begin{tabular}{@{}p{5pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColG}}{\newlength{\gnumericColG}}{}\settowidth{\gnumericColG}{\begin{tabular}{@{}p{5pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColH}}{\newlength{\gnumericColH}}{}\settowidth{\gnumericColH}{\begin{tabular}{@{}p{5pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColI}}{\newlength{\gnumericColI}}{}\settowidth{\gnumericColI}{\begin{tabular}{@{}p{5pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColJ}}{\newlength{\gnumericColJ}}{}\settowidth{\gnumericColJ}{\begin{tabular}{@{}p{5pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColK}}{\newlength{\gnumericColK}}{}\settowidth{\gnumericColK}{\begin{tabular}{@{}p{5pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColL}}{\newlength{\gnumericColL}}{}\settowidth{\gnumericColL}{\begin{tabular}{@{}p{10pt*\gnumericScale}@{}}x\end{tabular}}
 
-\begin{tabular}{
+\begin{tabular}[c]{%
 %\begin{longtable}[c]{%
 	b{\gnumericColA}%
 	b{\gnumericColB}%
@@ -169,6 +177,10 @@
 	b{\gnumericColF}%
 	b{\gnumericColG}%
 	b{\gnumericColH}%
+	b{\gnumericColI}%
+	b{\gnumericColJ}%
+	b{\gnumericColK}%
+	b{\gnumericColL}%
 	}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -179,7 +191,7 @@
 %%  the first, last or every page. Use \multicolumn if you want.    %%
 
 %%  Header for the first page.                                      %%
-%	\multicolumn{8}{c}{The First Header} \\ \hline 
+%	\multicolumn{12}{c}{The First Header} \\ \hline 
 %	\multicolumn{1}{c}{colTag}	%Column 1
 %	&\multicolumn{1}{c}{colTag}	%Column 2
 %	&\multicolumn{1}{c}{colTag}	%Column 3
@@ -187,12 +199,16 @@
 %	&\multicolumn{1}{c}{colTag}	%Column 5
 %	&\multicolumn{1}{c}{colTag}	%Column 6
 %	&\multicolumn{1}{c}{colTag}	%Column 7
+%	&\multicolumn{1}{c}{colTag}	%Column 8
+%	&\multicolumn{1}{c}{colTag}	%Column 9
+%	&\multicolumn{1}{c}{colTag}	%Column 10
+%	&\multicolumn{1}{c}{colTag}	%Column 11
 %	&\multicolumn{1}{c}{colTag}	\\ \hline %Last column
 %	\endfirsthead
 
 %%  The running header definition.                                  %%
 %	\hline
-%	\multicolumn{8}{l}{\ldots\small\slshape continued} \\ \hline
+%	\multicolumn{12}{l}{\ldots\small\slshape continued} \\ \hline
 %	\multicolumn{1}{c}{colTag}	%Column 1
 %	&\multicolumn{1}{c}{colTag}	%Column 2
 %	&\multicolumn{1}{c}{colTag}	%Column 3
@@ -200,56 +216,50 @@
 %	&\multicolumn{1}{c}{colTag}	%Column 5
 %	&\multicolumn{1}{c}{colTag}	%Column 6
 %	&\multicolumn{1}{c}{colTag}	%Column 7
+%	&\multicolumn{1}{c}{colTag}	%Column 8
+%	&\multicolumn{1}{c}{colTag}	%Column 9
+%	&\multicolumn{1}{c}{colTag}	%Column 10
+%	&\multicolumn{1}{c}{colTag}	%Column 11
 %	&\multicolumn{1}{c}{colTag}	\\ \hline %Last column
 %	\endhead
 
 %%  The running footer definition.                                  %%
 %	\hline
-%	\multicolumn{8}{r}{\small\slshape continued\ldots} \\
+%	\multicolumn{12}{r}{\small\slshape continued\ldots} \\
 %	\endfoot
 
 %%  The ending footer definition.                                   %%
-%	\multicolumn{8}{c}{That's all folks} \\ \hline 
+%	\multicolumn{12}{c}{That's all folks} \\ \hline 
 %	\endlastfoot
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\hhline{|-|-|-|-|-|-|-|-}
+\hhline{|-|-|-|-|-|-|-|-|-|-|-|-}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{Z}}
+	{\gnumericPB{\centering}\gnumbox{D}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
-	{\gnumericPB{\centering}\gnumbox{Y}}
+	{\gnumericPB{\centering}\gnumbox{C}}
 	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\gnumbox{X}}
+	{\gnumericPB{\centering}\gnumbox{B}}
 	&\multicolumn{1}{p{\gnumericColD}|}%
-	{\gnumericPB{\centering}\gnumbox{W}}
+	{\gnumericPB{\centering}\gnumbox{A}}
 	&\multicolumn{1}{p{\gnumericColE}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{D}}}
+	{\gnumericPB{\centering}\gnumbox{\textbf{a}}}
 	&\multicolumn{1}{p{\gnumericColF}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{C}}}
+	{\gnumericPB{\centering}\gnumbox{\textbf{b}}}
 	&\multicolumn{1}{p{\gnumericColG}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{B}}}
+	{\gnumericPB{\centering}\gnumbox{\textbf{c}}}
 	&\multicolumn{1}{p{\gnumericColH}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{A}}}
+	{\gnumericPB{\centering}\gnumbox{\textbf{d}}}
+	&\multicolumn{1}{p{\gnumericColI}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{e}}}
+	&\multicolumn{1}{p{\gnumericColJ}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{f}}}
+	&\multicolumn{1}{p{\gnumericColK}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{g}}}
+	&\multicolumn{1}{p{\gnumericColL}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{\tiny Decimal}}}
 \\
-\hhline{|--------|}
-	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColB}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColD}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColE}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-	&\multicolumn{1}{p{\gnumericColF}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-	&\multicolumn{1}{p{\gnumericColG}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-	&\multicolumn{1}{p{\gnumericColH}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
-\\
-\hhline{|--------|}
+\hhline{|------------|}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
 	{\gnumericPB{\centering}\gnumbox{0}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
@@ -257,113 +267,31 @@
 	&\multicolumn{1}{p{\gnumericColC}|}%
 	{\gnumericPB{\centering}\gnumbox{0}}
 	&\multicolumn{1}{p{\gnumericColD}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
-	&\multicolumn{1}{p{\gnumericColE}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-	&\multicolumn{1}{p{\gnumericColF}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-	&\multicolumn{1}{p{\gnumericColG}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
-	&\multicolumn{1}{p{\gnumericColH}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-\\
-\hhline{|--------|}
-	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColB}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
-	&\multicolumn{1}{p{\gnumericColD}|}%
 	{\gnumericPB{\centering}\gnumbox{0}}
 	&\multicolumn{1}{p{\gnumericColE}|}%
 	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
 	&\multicolumn{1}{p{\gnumericColF}|}%
 	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
 	&\multicolumn{1}{p{\gnumericColG}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
 	&\multicolumn{1}{p{\gnumericColH}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColI}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColJ}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColK}|}%
 	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColL}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
 \\
-\hhline{|--------|}
+\hhline{|------------|}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
 	{\gnumericPB{\centering}\gnumbox{0}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
 	{\gnumericPB{\centering}\gnumbox{0}}
 	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
-	&\multicolumn{1}{p{\gnumericColD}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
-	&\multicolumn{1}{p{\gnumericColE}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-	&\multicolumn{1}{p{\gnumericColF}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
-	&\multicolumn{1}{p{\gnumericColG}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-	&\multicolumn{1}{p{\gnumericColH}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-\\
-\hhline{|--------|}
-	 \multicolumn{1}{|p{\gnumericColA}|}%
 	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColB}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
-	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColD}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColE}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-	&\multicolumn{1}{p{\gnumericColF}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
-	&\multicolumn{1}{p{\gnumericColG}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-	&\multicolumn{1}{p{\gnumericColH}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
-\\
-\hhline{|--------|}
-	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColB}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
-	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColD}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
-	&\multicolumn{1}{p{\gnumericColE}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-	&\multicolumn{1}{p{\gnumericColF}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
-	&\multicolumn{1}{p{\gnumericColG}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
-	&\multicolumn{1}{p{\gnumericColH}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-\\
-\hhline{|--------|}
-	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColB}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
-	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
-	&\multicolumn{1}{p{\gnumericColD}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColE}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-	&\multicolumn{1}{p{\gnumericColF}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
-	&\multicolumn{1}{p{\gnumericColG}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
-	&\multicolumn{1}{p{\gnumericColH}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
-\\
-\hhline{|--------|}
-	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{0}}
-	&\multicolumn{1}{p{\gnumericColB}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
-	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
 	&\multicolumn{1}{p{\gnumericColD}|}%
 	{\gnumericPB{\centering}\gnumbox{1}}
 	&\multicolumn{1}{p{\gnumericColE}|}%
@@ -373,13 +301,73 @@
 	&\multicolumn{1}{p{\gnumericColG}|}%
 	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
 	&\multicolumn{1}{p{\gnumericColH}|}%
-	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
-\\
-\hhline{|--------|}
-	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColI}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColJ}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColK}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColL}|}%
 	{\gnumericPB{\centering}\gnumbox{1}}
+\\
+\hhline{|------------|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
 	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColE}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColF}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColG}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColH}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColI}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColJ}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColK}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColL}|}%
+	{\gnumericPB{\centering}\gnumbox{2}}
+\\
+\hhline{|------------|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
+	&\multicolumn{1}{p{\gnumericColE}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColF}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColG}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColH}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColI}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColJ}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColK}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColL}|}%
+	{\gnumericPB{\centering}\gnumbox{3}}
+\\
+\hhline{|------------|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
 	&\multicolumn{1}{p{\gnumericColC}|}%
 	{\gnumericPB{\centering}\gnumbox{0}}
 	&\multicolumn{1}{p{\gnumericColD}|}%
@@ -392,8 +380,120 @@
 	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
 	&\multicolumn{1}{p{\gnumericColH}|}%
 	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColI}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColJ}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColK}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColL}|}%
+	{\gnumericPB{\centering}\gnumbox{4}}
 \\
-\hhline{|--------|}
+\hhline{|------------|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
+	&\multicolumn{1}{p{\gnumericColE}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColF}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColG}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColH}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColI}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColJ}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColK}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColL}|}%
+	{\gnumericPB{\centering}\gnumbox{5}}
+\\
+\hhline{|------------|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColE}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColF}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColG}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColH}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColI}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColJ}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColK}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColL}|}%
+	{\gnumericPB{\centering}\gnumbox{6}}
+\\
+\hhline{|------------|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
+	&\multicolumn{1}{p{\gnumericColE}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColF}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColG}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColH}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColI}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColJ}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColK}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColL}|}%
+	{\gnumericPB{\centering}\gnumbox{7}}
+\\
+\hhline{|------------|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\centering}\gnumbox{1}}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\centering}\gnumbox{0}}
+	&\multicolumn{1}{p{\gnumericColE}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColF}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColG}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColH}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColI}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColJ}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColK}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColL}|}%
+	{\gnumericPB{\centering}\gnumbox{8}}
+\\
+\hhline{|------------|}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
 	{\gnumericPB{\centering}\gnumbox{1}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
@@ -409,12 +509,19 @@
 	&\multicolumn{1}{p{\gnumericColG}|}%
 	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
 	&\multicolumn{1}{p{\gnumericColH}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColI}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{1}}}
+	&\multicolumn{1}{p{\gnumericColJ}|}%
 	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColK}|}%
+	{\gnumericPB{\centering}\gnumbox{\textbf{0}}}
+	&\multicolumn{1}{p{\gnumericColL}|}%
+	{\gnumericPB{\centering}\gnumbox{9}}
 \\
-\hhline{|-|-|-|-|-|-|-|-|}
+\hhline{|-|-|-|-|-|-|-|-|-|-|-|-|}
 %\end{longtable}
 \end{tabular}
-
 
 
 \ifthenelse{\isundefined{\languageshorthands}}{}{\languageshorthands{\languagename}}

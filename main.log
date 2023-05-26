@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.5.22)  26 MAY 2023 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.5.22)  26 MAY 2023 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1151,7 +1151,7 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 \cropraisedimen=\skip80
 \margwidth=\dimen362
 \pagecntcntr=\count379
-LaTeX Info: Redefining \emph on input line 1718.
+LaTeX Info: Redefining \emph on input line 1717.
 \temQEcnt=\count380
 \authhsize=\dimen363
 \QueryCnt=\count381
@@ -1159,8 +1159,7 @@ LaTeX Info: Redefining \emph on input line 1718.
 \LASTPAGENO=\count382
 \TmpCnt=\count383
 \iletterskip=\skip81
-\c@rem=\count384
-) (./vaman/uart/figs/circuit.sty
+) (./gvv.sty) (./vaman/uart/figs/circuit.sty
 
 LaTeX Warning: You have requested package `vaman/uart/figs/circuit',
                but the package provides `circuit'.
@@ -1171,7 +1170,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip82
 \bibsep=\skip83
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count385
+\c@NAT@ctr=\count384
 )
 \@indexfile=\write4
 \openout4 = `main.idx'.
@@ -1181,22 +1180,22 @@ Writing index file main.idx
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1234,16 +1233,16 @@ LaTeX Font Info:    ... okay on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count386
+\scratchcounter=\count385
 \scratchdimen=\dimen365
 \scratchbox=\box105
-\nofMPsegments=\count387
-\nofMParguments=\count388
+\nofMPsegments=\count386
+\nofMParguments=\count387
 \everyMPshowfont=\toks59
-\MPscratchCnt=\count389
+\MPscratchCnt=\count388
 \MPscratchDim=\dimen366
-\MPnumerator=\count390
-\makeMPintoPDFobject=\count391
+\MPnumerator=\count389
+\makeMPintoPDFobject=\count390
 \everyMPtoPDFconversion=\toks60
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1262,23 +1261,23 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count392
-LaTeX Info: Redefining \celsius on input line 26.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 26.
+\c@lstlisting=\count391
+LaTeX Info: Redefining \celsius on input line 27.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 27.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 26.
-Package gensymb Info: Using \Omega for \ohm on input line 26.
+LaTeX Info: Redefining \ohm on input line 27.
+Package gensymb Info: Using \Omega for \ohm on input line 27.
 
 Package gensymb Warning: Not defining \micro.
 
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1289,11 +1288,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count393
+\c@section@level=\count392
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -1302,7 +1301,7 @@ LaTeX Info: Redefining \nameref on input line 26.
 <figs/logo.jpg, id=368, 642.4pt x 642.4pt>
 File: figs/logo.jpg Graphic file (type jpg)
 <use figs/logo.jpg>
-Package pdftex.def Info: figs/logo.jpg  used on input line 52.
+Package pdftex.def Info: figs/logo.jpg  used on input line 53.
 (pdftex.def)             Requested size: 128.47772pt x 128.47772pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1397,7 +1396,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.196 \begin{introduction}
+l.197 \begin{introduction}
                            [1]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1408,7 +1407,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.196 \begin{introduction}
+l.197 \begin{introduction}
                            [2
 
 ]
@@ -1425,7 +1424,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.200 \mainmatter
+l.201 \mainmatter
                   [3
 
 ]
@@ -1438,7 +1437,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.200 \mainmatter
+l.201 \mainmatter
                   [4
 
 ]
@@ -1755,42 +1754,42 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
 (./ide/kmap/figs/kmap_A.tex
-\@karnaughmap@local@testcaseone@=\count394
-\@karnaughmap@local@testcasetwo@=\count395
-\@karnaughmap@local@coordinateonecounter@=\count396
-\@karnaughmap@local@coordinatetwocounter@=\count397
-\@karnaughmap@local@coordinateonecounter@=\count398
-\@karnaughmap@local@coordinatetwocounter@=\count399
-\@karnaughmap@local@testcaseone@=\count400
-\@karnaughmap@local@testcasetwo@=\count401
-\@karnaughmap@local@coordinateonecounter@=\count402
-\@karnaughmap@local@coordinatetwocounter@=\count403
-\@karnaughmap@local@coordinateonecounter@=\count404
-\@karnaughmap@local@coordinatetwocounter@=\count405
+\@karnaughmap@local@testcaseone@=\count393
+\@karnaughmap@local@testcasetwo@=\count394
+\@karnaughmap@local@coordinateonecounter@=\count395
+\@karnaughmap@local@coordinatetwocounter@=\count396
+\@karnaughmap@local@coordinateonecounter@=\count397
+\@karnaughmap@local@coordinatetwocounter@=\count398
+\@karnaughmap@local@testcaseone@=\count399
+\@karnaughmap@local@testcasetwo@=\count400
+\@karnaughmap@local@coordinateonecounter@=\count401
+\@karnaughmap@local@coordinatetwocounter@=\count402
+\@karnaughmap@local@coordinateonecounter@=\count403
+\@karnaughmap@local@coordinatetwocounter@=\count404
 )
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (./ide/kmap/figs/kmap_B.tex
-\@karnaughmap@local@northwest@=\count406
-\@karnaughmap@local@southeast@=\count407
-\@karnaughmap@local@northwest@=\count408
-\@karnaughmap@local@southeast@=\count409
+\@karnaughmap@local@northwest@=\count405
+\@karnaughmap@local@southeast@=\count406
+\@karnaughmap@local@northwest@=\count407
+\@karnaughmap@local@southeast@=\count408
 )
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (./ide/kmap/figs/kmap_C.tex
-\@karnaughmap@local@northwest@=\count410
-\@karnaughmap@local@southeast@=\count411
-\@karnaughmap@local@northwest@=\count412
-\@karnaughmap@local@southeast@=\count413
-\@karnaughmap@local@testcaseone@=\count414
-\@karnaughmap@local@testcasetwo@=\count415
-\@karnaughmap@local@coordinateonecounter@=\count416
-\@karnaughmap@local@coordinatetwocounter@=\count417
-\@karnaughmap@local@coordinateonecounter@=\count418
-\@karnaughmap@local@coordinatetwocounter@=\count419
+\@karnaughmap@local@northwest@=\count409
+\@karnaughmap@local@southeast@=\count410
+\@karnaughmap@local@northwest@=\count411
+\@karnaughmap@local@southeast@=\count412
+\@karnaughmap@local@testcaseone@=\count413
+\@karnaughmap@local@testcasetwo@=\count414
+\@karnaughmap@local@coordinateonecounter@=\count415
+\@karnaughmap@local@coordinatetwocounter@=\count416
+\@karnaughmap@local@coordinateonecounter@=\count417
+\@karnaughmap@local@coordinatetwocounter@=\count418
 )
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1812,10 +1811,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
 (./ide/kmap/figs/kmap_D.tex
-\@karnaughmap@local@northwest@=\count420
-\@karnaughmap@local@southeast@=\count421
-\@karnaughmap@local@northwest@=\count422
-\@karnaughmap@local@southeast@=\count423
+\@karnaughmap@local@northwest@=\count419
+\@karnaughmap@local@southeast@=\count420
+\@karnaughmap@local@northwest@=\count421
+\@karnaughmap@local@southeast@=\count422
 )
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1852,21 +1851,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (./ide/dontcare/figs/kmap_A_x.tex
-\@karnaughmap@local@testcaseone@=\count424
-\@karnaughmap@local@testcasetwo@=\count425
-\@karnaughmap@local@coordinateonecounter@=\count426
-\@karnaughmap@local@coordinatetwocounter@=\count427
-\@karnaughmap@local@coordinateonecounter@=\count428
-\@karnaughmap@local@coordinatetwocounter@=\count429
+\@karnaughmap@local@testcaseone@=\count423
+\@karnaughmap@local@testcasetwo@=\count424
+\@karnaughmap@local@coordinateonecounter@=\count425
+\@karnaughmap@local@coordinatetwocounter@=\count426
+\@karnaughmap@local@coordinateonecounter@=\count427
+\@karnaughmap@local@coordinatetwocounter@=\count428
 )
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (./ide/dontcare/figs/kmap_B_x.tex
-\@karnaughmap@local@northwest@=\count430
-\@karnaughmap@local@southeast@=\count431
-\@karnaughmap@local@northwest@=\count432
-\@karnaughmap@local@southeast@=\count433
+\@karnaughmap@local@northwest@=\count429
+\@karnaughmap@local@southeast@=\count430
+\@karnaughmap@local@northwest@=\count431
+\@karnaughmap@local@southeast@=\count432
 )
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1879,33 +1878,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
 (./ide/dontcare/figs/kmap_C_x.tex
-\@karnaughmap@local@northwest@=\count434
-\@karnaughmap@local@southeast@=\count435
-\@karnaughmap@local@testcaseone@=\count436
-\@karnaughmap@local@testcasetwo@=\count437
-\@karnaughmap@local@coordinateonecounter@=\count438
-\@karnaughmap@local@coordinatetwocounter@=\count439
-\@karnaughmap@local@coordinateonecounter@=\count440
-\@karnaughmap@local@coordinatetwocounter@=\count441
-\@karnaughmap@local@testcaseone@=\count442
-\@karnaughmap@local@testcasetwo@=\count443
-\@karnaughmap@local@coordinateonecounter@=\count444
-\@karnaughmap@local@coordinatetwocounter@=\count445
-\@karnaughmap@local@coordinateonecounter@=\count446
-\@karnaughmap@local@coordinatetwocounter@=\count447
+\@karnaughmap@local@northwest@=\count433
+\@karnaughmap@local@southeast@=\count434
+\@karnaughmap@local@testcaseone@=\count435
+\@karnaughmap@local@testcasetwo@=\count436
+\@karnaughmap@local@coordinateonecounter@=\count437
+\@karnaughmap@local@coordinatetwocounter@=\count438
+\@karnaughmap@local@coordinateonecounter@=\count439
+\@karnaughmap@local@coordinatetwocounter@=\count440
+\@karnaughmap@local@testcaseone@=\count441
+\@karnaughmap@local@testcasetwo@=\count442
+\@karnaughmap@local@coordinateonecounter@=\count443
+\@karnaughmap@local@coordinatetwocounter@=\count444
+\@karnaughmap@local@coordinateonecounter@=\count445
+\@karnaughmap@local@coordinatetwocounter@=\count446
 )
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (./ide/dontcare/figs/kmap_D_x.tex
-\@karnaughmap@local@northwest@=\count448
-\@karnaughmap@local@southeast@=\count449
-\@karnaughmap@local@testcaseone@=\count450
-\@karnaughmap@local@testcasetwo@=\count451
-\@karnaughmap@local@coordinateonecounter@=\count452
-\@karnaughmap@local@coordinatetwocounter@=\count453
-\@karnaughmap@local@coordinateonecounter@=\count454
-\@karnaughmap@local@coordinatetwocounter@=\count455
+\@karnaughmap@local@northwest@=\count447
+\@karnaughmap@local@southeast@=\count448
+\@karnaughmap@local@testcaseone@=\count449
+\@karnaughmap@local@testcasetwo@=\count450
+\@karnaughmap@local@coordinateonecounter@=\count451
+\@karnaughmap@local@coordinatetwocounter@=\count452
+\@karnaughmap@local@coordinateonecounter@=\count453
+\@karnaughmap@local@coordinatetwocounter@=\count454
 )
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1996,7 +1995,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41 <./figs/1992-gate-ec-1-22.png>]
-\@karnaughmap@local@cellcount@=\count456
+\@karnaughmap@local@cellcount@=\count455
 
 Underfull \vbox (badness 2608) has occurred while \output is active []
 
@@ -2678,12 +2677,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 76CD3BFC4BFE13D465DE9F289DEFFD42;5492.
  ) 
 Here is how much of TeX's memory you used:
- 44252 strings out of 479304
- 988066 string characters out of 5869779
- 1882805 words of memory out of 5000000
- 59484 multiletter control sequences out of 15000+600000
+ 44259 strings out of 479304
+ 988172 string characters out of 5869779
+ 1882963 words of memory out of 5000000
+ 59485 multiletter control sequences out of 15000+600000
  430073 words of font info for 132 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 1144 hyphenation exceptions out of 8191
  117i,19n,116p,778b,1923s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex

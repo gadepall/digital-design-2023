@@ -89,3 +89,36 @@
 \contentsline {subsection}{\numberline {11.3.1}Software}{100}{subsection.11.3.1}%
 \contentsline {subsection}{\numberline {11.3.2}Setup}{100}{subsection.11.3.2}%
 \contentsline {subsection}{\numberline {11.3.3}Decade Counter }{102}{subsection.11.3.3}%
+\contentsline {chapter}{\numberline {12}STM-32}{103}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Setup}{103}{section.12.1}%
+\contentsline {subsection}{\numberline {12.1.1}Software}{103}{subsection.12.1.1}%
+\contentsline {section}{\numberline {12.2}Seven Segment Display}{105}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}Components}{105}{subsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.2.2}Hardware}{105}{subsection.12.2.2}%
+\contentsline {subsection}{\numberline {12.2.3}Software}{107}{subsection.12.2.3}%
+\contentsline {section}{\numberline {12.3}Timers}{108}{section.12.3}%
+\contentsline {subsection}{\numberline {12.3.1}Components}{109}{subsection.12.3.1}%
+\contentsline {subsection}{\numberline {12.3.2}Systick timer}{109}{subsection.12.3.2}%
+\contentsline {subsection}{\numberline {12.3.3}TIM1}{112}{subsection.12.3.3}%
+\contentsline {subsection}{\numberline {12.3.4}TIM2}{115}{subsection.12.3.4}%
+\contentsline {subsection}{\numberline {12.3.5}Master-Slave Configuration}{116}{subsection.12.3.5}%
+\contentsline {subsubsection}{\numberline {12.3.5.1}Blink}{116}{subsubsection.12.3.5.1}%
+\contentsline {subsubsection}{\numberline {12.3.5.2}Decade Counter}{117}{subsubsection.12.3.5.2}%
+\contentsline {section}{\numberline {12.4}ADC}{117}{section.12.4}%
+\contentsline {subsection}{\numberline {12.4.1}Components}{118}{subsection.12.4.1}%
+\contentsline {subsection}{\numberline {12.4.2}Internal Temperature Sensor}{118}{subsection.12.4.2}%
+\contentsline {subsection}{\numberline {12.4.3}Measuring an Unkown Resistance}{121}{subsection.12.4.3}%
+\contentsline {section}{\numberline {12.5}Clocks}{122}{section.12.5}%
+\contentsline {subsection}{\numberline {12.5.1}Components}{122}{subsection.12.5.1}%
+\contentsline {subsection}{\numberline {12.5.2}HSE}{123}{subsection.12.5.2}%
+\contentsline {subsection}{\numberline {12.5.3}PLL}{124}{subsection.12.5.3}%
+\contentsline {section}{\numberline {12.6}GPIO}{125}{section.12.6}%
+\contentsline {subsection}{\numberline {12.6.1}Components}{125}{subsection.12.6.1}%
+\contentsline {subsection}{\numberline {12.6.2}Hardware Setup}{125}{subsection.12.6.2}%
+\contentsline {subsection}{\numberline {12.6.3}GPIO Output}{126}{subsection.12.6.3}%
+\contentsline {subsection}{\numberline {12.6.4}GPIO Input}{128}{subsection.12.6.4}%
+\contentsline {section}{\numberline {12.7}LCD}{129}{section.12.7}%
+\contentsline {subsection}{\numberline {12.7.1}Components}{129}{subsection.12.7.1}%
+\contentsline {subsection}{\numberline {12.7.2}Hardware}{129}{subsection.12.7.2}%
+\contentsline {subsection}{\numberline {12.7.3}Software}{130}{subsection.12.7.3}%
+\contentsline {subsection}{\numberline {12.7.4}Project}{132}{subsection.12.7.4}%

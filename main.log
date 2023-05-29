@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.20)  30 MAY 2023 00:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.20)  30 MAY 2023 01:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2881,15 +2881,15 @@ rted-to.pdf>
 (epstopdf)                    size: 13873 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/systic
 k_ctrl-eps-converted-to.pdf ./stm32/timers/figs/systick_ctrl.eps>
-(epstopdf)             \includegraphics on input line 397.
+(epstopdf)             \includegraphics on input line 398.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf, id=2171, 913.4125pt x 2
+<./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf, id=2173, 913.4125pt x 2
 05.76875pt>
 File: ./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use ./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf 
- used on input line 397.
+ used on input line 398.
 (pdftex.def)             Requested size: 433.62001pt x 97.6815pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2907,14 +2907,14 @@ pdf>
 (epstopdf)                    size: 9997 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/smcr-e
 ps-converted-to.pdf ./stm32/timers/figs/smcr.eps>
-(epstopdf)             \includegraphics on input line 433.
+(epstopdf)             \includegraphics on input line 435.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/smcr-eps-converted-to.pdf, id=2191, 882.29625pt x 76.285pt
+<./stm32/timers/figs/smcr-eps-converted-to.pdf, id=2193, 882.29625pt x 76.285pt
 >
 File: ./stm32/timers/figs/smcr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/smcr-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/smcr-eps-converted-to.pdf  used on
- input line 433.
+ input line 435.
 (pdftex.def)             Requested size: 433.62001pt x 37.49171pt.
 Package epstopdf Info: Source file: <./stm32/timers/figs/cr1.eps>
 (epstopdf)                    date: 2023-05-28 00:32:50
@@ -2925,14 +2925,14 @@ df>
 (epstopdf)                    size: 10452 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/cr1-ep
 s-converted-to.pdf ./stm32/timers/figs/cr1.eps>
-(epstopdf)             \includegraphics on input line 444.
+(epstopdf)             \includegraphics on input line 446.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/cr1-eps-converted-to.pdf, id=2193, 884.30376pt x 79.29625p
+<./stm32/timers/figs/cr1-eps-converted-to.pdf, id=2195, 884.30376pt x 79.29625p
 t>
 File: ./stm32/timers/figs/cr1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/cr1-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/cr1-eps-converted-to.pdf  used on 
-input line 444.
+input line 446.
 (pdftex.def)             Requested size: 433.62001pt x 38.88332pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2950,14 +2950,14 @@ df>
 (epstopdf)                    size: 7454 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/psc-ep
 s-converted-to.pdf ./stm32/timers/figs/psc.eps>
-(epstopdf)             \includegraphics on input line 461.
+(epstopdf)             \includegraphics on input line 463.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/psc-eps-converted-to.pdf, id=2216, 884.30376pt x 84.315pt>
+<./stm32/timers/figs/psc-eps-converted-to.pdf, id=2219, 884.30376pt x 84.315pt>
 
 File: ./stm32/timers/figs/psc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/psc-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/psc-eps-converted-to.pdf  used on 
-input line 461.
+input line 463.
 (pdftex.def)             Requested size: 433.62001pt x 41.34428pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2976,14 +2976,14 @@ df>
 (epstopdf)                    size: 7630 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/rcr-ep
 s-converted-to.pdf ./stm32/timers/figs/rcr.eps>
-(epstopdf)             \includegraphics on input line 511.
+(epstopdf)             \includegraphics on input line 513.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/rcr-eps-converted-to.pdf, id=2239, 885.3075pt x 85.31876pt
+<./stm32/timers/figs/rcr-eps-converted-to.pdf, id=2242, 885.3075pt x 85.31876pt
 >
 File: ./stm32/timers/figs/rcr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/rcr-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/rcr-eps-converted-to.pdf  used on 
-input line 511.
+input line 513.
 (pdftex.def)             Requested size: 433.62001pt x 41.78961pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3001,13 +3001,13 @@ f>
 (epstopdf)                    size: 11980 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/sr-eps
 -converted-to.pdf ./stm32/timers/figs/sr.eps>
-(epstopdf)             \includegraphics on input line 522.
+(epstopdf)             \includegraphics on input line 524.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/sr-eps-converted-to.pdf, id=2257, 883.3pt x 87.32625pt>
+<./stm32/timers/figs/sr-eps-converted-to.pdf, id=2260, 883.3pt x 87.32625pt>
 File: ./stm32/timers/figs/sr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/sr-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/sr-eps-converted-to.pdf  used on i
-nput line 522.
+nput line 524.
 (pdftex.def)             Requested size: 433.62001pt x 42.86885pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3017,7 +3017,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [115 <./stm32/timers/figs/rcr-eps-converted-to.pdf> <./stm32/timers/figs/sr-ep
 s-converted-to.pdf>]
-Overfull \hbox (1.64267pt too wide) in paragraph at lines 539--542
+Overfull \hbox (1.64267pt too wide) in paragraph at lines 542--545
 \OT1/cmr/bx/n/10.95 Solution: \OT1/cmr/m/n/10.95 Ad-vanced Pe-riph-eral Bus 1 (
 APB1) and Ad-vanced Pe-riph-eral Bus 2 (APB2)
  []
@@ -3038,13 +3038,13 @@ df>
 (epstopdf)                    size: 8517 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/cr2-ep
 s-converted-to.pdf ./stm32/timers/figs/cr2.eps>
-(epstopdf)             \includegraphics on input line 562.
+(epstopdf)             \includegraphics on input line 566.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/cr2-eps-converted-to.pdf, id=2291, 865.2325pt x 76.285pt>
+<./stm32/timers/figs/cr2-eps-converted-to.pdf, id=2296, 865.2325pt x 76.285pt>
 File: ./stm32/timers/figs/cr2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/cr2-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/cr2-eps-converted-to.pdf  used on 
-input line 562.
+input line 566.
 (pdftex.def)             Requested size: 433.62001pt x 38.23087pt.
 )
 (./stm32/adc/main.tex
@@ -3083,14 +3083,14 @@ f>
 (epstopdf)                    size: 18251 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/adc/figs/smpr1-eps
 -converted-to.pdf ./stm32/adc/figs/smpr1.eps>
-(epstopdf)             \includegraphics on input line 385.
+(epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/adc/figs/smpr1-eps-converted-to.pdf, id=2331, 846.16125pt x 157.58875p
+<./stm32/adc/figs/smpr1-eps-converted-to.pdf, id=2338, 846.16125pt x 157.58875p
 t>
 File: ./stm32/adc/figs/smpr1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/adc/figs/smpr1-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/adc/figs/smpr1-eps-converted-to.pdf  used on i
-nput line 385.
+nput line 386.
 (pdftex.def)             Requested size: 433.62001pt x 80.75633pt.
 Package epstopdf Info: Source file: <./stm32/adc/figs/sqr3.eps>
 (epstopdf)                    date: 2023-05-28 00:32:50
@@ -3101,14 +3101,14 @@ Package epstopdf Info: Source file: <./stm32/adc/figs/sqr3.eps>
 (epstopdf)                    size: 15621 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/adc/figs/sqr3-eps-
 converted-to.pdf ./stm32/adc/figs/sqr3.eps>
-(epstopdf)             \includegraphics on input line 408.
+(epstopdf)             \includegraphics on input line 409.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/adc/figs/sqr3-eps-converted-to.pdf, id=2333, 709.65125pt x 127.47626pt
+<./stm32/adc/figs/sqr3-eps-converted-to.pdf, id=2340, 709.65125pt x 127.47626pt
 >
 File: ./stm32/adc/figs/sqr3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/adc/figs/sqr3-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/adc/figs/sqr3-eps-converted-to.pdf  used on in
-put line 408.
+put line 409.
 (pdftex.def)             Requested size: 433.62001pt x 77.8946pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3136,17 +3136,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [122]
-<./stm32/clocks/figs/rcc_cr.png, id=2378, 901.11656pt x 193.47281pt>
+<./stm32/clocks/figs/rcc_cr.png, id=2386, 901.11656pt x 193.47281pt>
 File: ./stm32/clocks/figs/rcc_cr.png Graphic file (type png)
 <use ./stm32/clocks/figs/rcc_cr.png>
-Package pdftex.def Info: ./stm32/clocks/figs/rcc_cr.png  used on input line 362
+Package pdftex.def Info: ./stm32/clocks/figs/rcc_cr.png  used on input line 363
 .
 (pdftex.def)             Requested size: 433.62001pt x 93.0991pt.
-<./stm32/clocks/figs/rcc_cfgr.png, id=2380, 898.10532pt x 174.6525pt>
+<./stm32/clocks/figs/rcc_cfgr.png, id=2388, 898.10532pt x 174.6525pt>
 File: ./stm32/clocks/figs/rcc_cfgr.png Graphic file (type png)
 <use ./stm32/clocks/figs/rcc_cfgr.png>
 Package pdftex.def Info: ./stm32/clocks/figs/rcc_cfgr.png  used on input line 3
-75.
+76.
 (pdftex.def)             Requested size: 433.62001pt x 84.32526pt.
 
 
@@ -3177,7 +3177,7 @@ Overfull \vbox (1.88889pt too high) detected at line 224
  []
 
 )
-Overfull \vbox (94.60748pt too high) has occurred while \output is active []
+Overfull \vbox (94.6075pt too high) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3228,7 +3228,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [129]
-Underfull \hbox (badness 10000) in paragraph at lines 352--356
+Underfull \hbox (badness 10000) in paragraph at lines 353--357
 
  []
 
@@ -3256,14 +3256,20 @@ No file main.ind.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9A85D3C35785C0D06AABC7793A6E8C51;14304.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 9A85D3C35785C0D06AABC7793A6E8C51;14304
+(rerunfilecheck)             After:  C1DF1CBAE19D506BA0E1416C83456D26;14334.
  ) 
 Here is how much of TeX's memory you used:
- 50586 strings out of 478287
- 1129303 string characters out of 5849288
+ 50595 strings out of 478287
+ 1129456 string characters out of 5849288
  1990340 words of memory out of 5000000
- 66365 multiletter control sequences out of 15000+600000
+ 66362 multiletter control sequences out of 15000+600000
  496503 words of font info for 135 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,19n,108p,778b,1939s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3291,10 +3297,10 @@ sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfss1095.pfb>
-Output written on main.pdf (143 pages, 4297930 bytes).
+Output written on main.pdf (143 pages, 4297596 bytes).
 PDF statistics:
- 2893 PDF objects out of 2984 (max. 8388607)
- 2620 compressed objects within 27 object streams
- 1284 named destinations out of 1440 (max. 500000)
+ 2907 PDF objects out of 2984 (max. 8388607)
+ 2634 compressed objects within 27 object streams
+ 1296 named destinations out of 1440 (max. 500000)
  1131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

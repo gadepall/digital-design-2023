@@ -99,8 +99,8 @@
 \contentsline {section}{\numberline {12.3}Timers}{108}{section.12.3}%
 \contentsline {subsection}{\numberline {12.3.1}Components}{109}{subsection.12.3.1}%
 \contentsline {subsection}{\numberline {12.3.2}Systick timer}{109}{subsection.12.3.2}%
-\contentsline {subsection}{\numberline {12.3.3}TIM1}{112}{subsection.12.3.3}%
-\contentsline {subsection}{\numberline {12.3.4}TIM2}{115}{subsection.12.3.4}%
+\contentsline {subsection}{\numberline {12.3.3}TIMER-1}{112}{subsection.12.3.3}%
+\contentsline {subsection}{\numberline {12.3.4}TIMER-2}{115}{subsection.12.3.4}%
 \contentsline {subsection}{\numberline {12.3.5}Master-Slave Configuration}{116}{subsection.12.3.5}%
 \contentsline {subsubsection}{\numberline {12.3.5.1}Blink}{116}{subsubsection.12.3.5.1}%
 \contentsline {subsubsection}{\numberline {12.3.5.2}Decade Counter}{117}{subsubsection.12.3.5.2}%

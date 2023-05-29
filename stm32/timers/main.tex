@@ -358,7 +358,8 @@ This manual shows how to program timers in arm using STM32F103C8T6.
 
 \item Execute the program in 
 \begin{lstlisting}
-https://github.com/gadepall/STM32F103C8T6/blob/master/examples/timer/blink_systick.c
+cd timers/blink_systick.c
+pio run
 \end{lstlisting}
 \item The default clock is the HSI 8MHz RC.  Find the number of clock cycles required for a 1 s delay.
 \\
@@ -411,10 +412,11 @@ SysTick->CTRL = 0x00000005;	//8MHz clock
 SysTick->CTRL = 0x00000001;	//1MHz clock
 \end{lstlisting}
 \item Obtain a delay of 1 second using the 1 MHz clock.
-\subsection{TIM1}
+\subsection{TIMER-1}
 \item Make the connections according to Table \ref{table:systick_pins}.  Execute the following program
 \begin{lstlisting}
-https://github.com/gadepall/STM32F103C8T6/blob/master/examples/timer/timer1_blink.c
+cd /timers/timer1_blink.c
+pio run
 \end{lstlisting}
 \label{prob:APB2_TIM1}
 \item Enable Timer1 through RCC.
@@ -525,12 +527,13 @@ TIM1$->$RCR keeps track of the number of times the counter has overflowed. Fig. 
 \label{fig:sr}
 \end{figure}
 
-\subsection{TIM2}
+\subsection{TIMER-2}
 \item Blink an LED with TIM2.
 \\
 \solution 
 \begin{lstlisting}
-https://github.com/gadepall/STM32F103C8T6/blob/master/examples/timer/timer2_blink.c	
+cd timers/timer2_blink.c
+pio run	
 \end{lstlisting}
 \item In the above code, 
 \begin{lstlisting}
@@ -546,7 +549,8 @@ is used for enabling TIM2. Note that for TIM1, APB2 was used instead of APB1 in 
 \subsubsection{Blink}
 \item Execute the following program.
 \begin{lstlisting}
-https://github.com/gadepall/STM32F103C8T6/blob/master/examples/timer/master1_slave2_blink.c
+cd timers/master1_slave2_blink.c
+pio run
 \end{lstlisting}
 \item List the instructions for setting up TIM1 as master and TIM2 as slave. TIM1 should be a prescalar for TIM2.
 \\
@@ -568,7 +572,8 @@ TIM2->SMCR	= 0x0007;//TS = 000, SMS = 111
 \subsubsection{Decade Counter}
 \item Execute the following program.
 \begin{lstlisting}
-https://github.com/gadepall/STM32F103C8T6/blob/master/examples/timer/decade_counter.c
+cd timers/decade_counter.c
+pio run
 \end{lstlisting}
 %
 \item If TIM2$->$ARR = 9, TIM2$->$CNT = ?

@@ -346,7 +346,8 @@ This manual shows how to interface the $16 \times 2$ HD44780-controlled LCD usin
 \end{table}
 \item Execute the following program
 \begin{lstlisting}
-https://github.com/gadepall/STM32F103C8T6/blob/master/examples/adc/internal_temp.c
+cd /adc/internal_temp.c
+pio run
 \end{lstlisting}
 \item What do you observe?
 \\
@@ -436,7 +437,8 @@ ADC1->SQR3 = 0x000000120
 \solution Connect PB1 (Fig. \ref{table:pin_channel}) to 3.3 V of the STM 32 and execute the following
 code.
 \begin{lstlisting}
-https://github.com/gadepall/STM32F103C8T6/blob/master/examples/adc/3_3V.c
+cd /adc/3_3V.c
+pio run
 \end{lstlisting}
 %\section{Project}
 \item Measure an unkown resistance using the STM32 and display the result on the LCD.

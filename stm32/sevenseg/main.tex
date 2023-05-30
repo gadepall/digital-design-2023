@@ -317,7 +317,7 @@ The objective of this manual is to introduce beginners to arm embedded programmi
 \input{./stm32/sevenseg/figs/components.tex}
 \end{center}
 \caption{}
-\label{table:components}
+\label{tabel:stm32/sevenseg/components}
 \end{table}
 \subsection{Hardware}
 
@@ -436,7 +436,7 @@ pio run
 \begin{lstlisting}
 GPIOB->ODR = 0xFC08;
 \end{lstlisting}
-\solution ODR is the Output Data Register, which is used to write outputs to the GPIO pins. The 16 bit number 0xFC08 on the RHS represents the pin configuration for the pins of port B of STM32F103C8T6, which are numbered PB15-PB0 in that order.  See Table \ref{table:stm_ssd}, 
+\solution ODR is the Output Data Register, which is used to write outputs to the GPIO pins. The 16 bit number 0xFC08 on the RHS represents the pin configuration for the pins of port B of STM32F103C8T6, which are numbered PB15-PB0 in that order.  See Table \ref{table:stm_ssd}.
 \\
 \item Repeat the above exercise to generate the numbers 1-9 on the display.
 \item The previous instructions set the bits in the unused ports PB15-PB10 and PB2-PB0. This may be undesirable in some cases. Generate 0 by not disturbing 

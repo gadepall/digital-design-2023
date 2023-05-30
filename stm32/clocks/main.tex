@@ -311,7 +311,12 @@ This manual shows how to manage clocks in arm using STM32F103C8T6.
 \end{abstract}
 %\newpage
 \subsection{Components}
+\begin{table}[!ht]
+\centering
 \input{./stm32/clocks/figs/components.tex}
+\caption{Components}
+\label{table:/stm32/clocks/components}
+\end{table}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
 \begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
@@ -327,12 +332,12 @@ This manual shows how to manage clocks in arm using STM32F103C8T6.
 \caption{STM32F103C8T6 Clock Types}
 \label{table:clocks}
 \end{table}
-\item Make connections as shown in Table \ref{table:systick_pins}.
+\item Make connections as shown in Table \ref{table:/clocks/systick_pins}.
 \begin{table}[!ht]
 \footnotesize
 \input{./stm32/clocks/figs/systick_pins.tex}
 \caption{Pin Connections}
-\label{table:systick_pins}
+\label{table:/clocks/systick_pins}
 \end{table}
 
 %\begin{problem}

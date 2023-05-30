@@ -351,10 +351,10 @@ This manual shows how to manage clocks in arm using STM32F103C8T6.
 %\label{table:stm32_timers}
 %\end{table}
 \subsection{HSE}
+\item Before flashing code to STM32 set the STM32 board to Programming mode as shown in Fig. \ref{fig:programming_mode}, then change the mode to Operating mode as shown in Fig. \ref{fig:programming_mode} after flashing the code inorder to run your program from main memory.
 \item Execute the following program
 \begin{lstlisting}
 cd /clocks/hse_systick_blink.c
-pio run
 \end{lstlisting}
 \item Explain the following instruction
 \begin{lstlisting}
@@ -402,10 +402,9 @@ RCC->CFGR =0x00010010;
 RCC->CR =0x01010000;
 \end{lstlisting}
 %
-Execute the following code.
+\item Execute the following code.
 \begin{lstlisting}
 cd /clocks/pll_systick_blink.c
-pio run
 \end{lstlisting}
 \item Make the PLL output = 24 MHz.
 \end{enumerate}

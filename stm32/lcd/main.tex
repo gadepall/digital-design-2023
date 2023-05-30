@@ -310,12 +310,14 @@ Digital Design through Vaman
 \begin{abstract}
 This manual shows how to interface the $16 \times 2$ HD44780-controlled LCD using STM32F103C8T6.
 \end{abstract}
-%\newpage
 \subsection{Components}
-\begin{table}[!h]
+%\newpage
+\begin{table}[!ht]
 \begin{center}
 \input{./stm32/lcd/figs/components.tex}
 \end{center}
+\caption{Components}
+\label{tabel:stm32/lcd/components}
 \end{table}
 
 %\begin{problem}
@@ -343,10 +345,10 @@ This manual shows how to interface the $16 \times 2$ HD44780-controlled LCD usin
 \label{table:pins}
 \end{table}
 \subsection{Software}
+\item Before flashing code to STM32 set the STM32 board to Programming mode as shown in Fig. \ref{fig:programming_mode}, then change the mode to Operating mode as shown in Fig. \ref{fig:programming_mode} after flashing the code inorder to run your program from main memory.
 Execute the following program
 \begin{lstlisting}
 cd /lcd/lcd_example.c
-pio run
 \end{lstlisting}
 The following problems explain how to display the string \textbf{0} on the screen using
 the above code.

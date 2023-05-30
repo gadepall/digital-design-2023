@@ -326,7 +326,7 @@ This manual shows how to use the GPIO pins on the STM32F103C8T6 to control an LE
 \end{table}
 %
 \subsection{Hardware Setup}
-\item Connect the STLINK to a USB port of the Raspberry Pi.  Fig. \ref{fig:stm_blue} shows the {\em blue pill} board. The hardware connections between the STLINK, STM32 and LED are available in Table \ref{table:/gpio/pins}. Make sure that the LED is connected to PB4 through the resistor.
+\item Connect the USB-UART to STM32.  Fig. \ref{fig:stm_blue} shows the {\em blue pill} board. The hardware connections between the USB-UART, STM32 and LED are available in Table \ref{table:/gpio/pins}. Make sure that the LED is connected to PB4 through the resistor.
 \begin{table}[!ht]
 \centering
 \input{./stm32/gpio/figs/pins.tex}
@@ -343,6 +343,7 @@ This manual shows how to use the GPIO pins on the STM32F103C8T6 to control an LE
 
 \subsection{GPIO Output}
 %
+\item Before flashing code to STM32 set the STM32 board to Programming mode as shown in Fig. \ref{fig:programming_mode}, then change the mode to Operating mode as shown in Fig. \ref{fig:programming_mode} after flashing the code inorder to run your program from main memory.
 \item Execute 
 \begin{lstlisting}
 cd /gpio/gpio_example.c
@@ -400,7 +401,6 @@ GPIOB->BSRR = GPIO_BSRR_BR4;
 \item Connect PB7 to GND and execute the following code
 \begin{lstlisting}
 cd /gpio/gpio_input_example.c
-pio run
 \end{lstlisting}
 \item What does the following instruction do?
 \begin{lstlisting}

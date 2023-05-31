@@ -342,8 +342,15 @@ cd codes
 pio run
 \end{lstlisting}
 \item By this .bin file will be genrated and all the necessary packages will be installed
-\item Before flashing, make sure that STM32 board is in bootloader mode
-\item To make the stm32 board into bootloader mode, by setting the BOOT0 pin of stm32 board to LOW (connected to GND). This configuration will ensure that the microcontroller enters the system memory bootloader on reset.
+\item Before flashing, make sure that STM32 board is in Programming mode
+\item To make the stm32 board into Programming mode, by setting the alligners to programming mode as shown in Fig \ref{fig:programming_mode}. This configuration will ensure that the microcontroller enters the system memory programmer on reset.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=\columnwidth]{./stm32/setup/figs/programming_mode.png}
+\end{center}
+\caption{STM32 Operating and Programming mode}
+\label{fig:programming_mode}
+\end{figure}
 \item After executing 
 \begin{lstlisting}
 Install STM-Utils from playstore
@@ -354,7 +361,7 @@ Now upload the .bin file to the STM32 board
 \end{lstlisting}
 \item By these above mentioned steps the blink code will be flashed to the STM32 board 
 \item The inbuilt LED present on the stm32f103c8 will start blinking.
-\item After flashing, the inbuilt LED present on the stm32f103c8 will start blinking and then remove the BOOT0-GND connection after you have completed the bootloader operations and can run your code from the main flash memory.
+\item After flashing, the inbuilt LED present on the stm32f103c8 will start blinking and then change the STM32 board to operating mode as shown in Fig \ref{fig:programming_mode} inorder run your code from the main flash memory.
 \end{enumerate}
 
 

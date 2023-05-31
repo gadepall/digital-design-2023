@@ -313,6 +313,7 @@ This manual shows how to interface the $16 \times 2$ HD44780-controlled LCD usin
 %\newpage
 \subsection{Components}
 \begin{table}[!ht]
+\centering
 %\footnotesize
 \input{./stm32/adc/figs/components.tex} 
 \caption{Components}
@@ -344,10 +345,10 @@ This manual shows how to interface the $16 \times 2$ HD44780-controlled LCD usin
 \caption{Pin Connections}
 \label{table:/adc/pins}
 \end{table}
+\item Make sure to set the STM32 board to Programming mode as shown in Fig. \ref{fig:programming_mode} then after flashing the code set the STM32 board to Operating mode as shown in Fig. \ref{fig:programming_mode} to run your program from main memory.
 \item Execute the following program
 \begin{lstlisting}
 cd /adc/internal_temp.c
-pio run
 \end{lstlisting}
 \item What do you observe?
 \\
@@ -436,9 +437,9 @@ ADC1->SQR3 = 0x000000120
 \\
 \solution Connect PB1 (Fig. \ref{table:pin_channel}) to 3.3 V of the STM 32 and execute the following
 code.
+\item Before flashing code to STM32 set the STM32 board to Programming mode as shown in Fig. \ref{fig:programming_mode}, then change the mode to Operating mode as shown in Fig. \ref{fig:programming_mode} after flashing the code inorder to run your program from main memory.
 \begin{lstlisting}
 cd /adc/3_3V.c
-pio run
 \end{lstlisting}
 %\section{Project}
 \item Measure an unkown resistance using the STM32 and display the result on the LCD.

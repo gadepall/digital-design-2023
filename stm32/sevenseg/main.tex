@@ -386,11 +386,10 @@ The objective of this manual is to introduce beginners to arm embedded programmi
 
 \subsection{Software}
 %
-\item Execute 
+\item Before flashing code to STM32 set the STM32 board to Programming mode as shown in Fig. \ref{fig:programming_mode}, then change the mode to Operating mode as shown in Fig. \ref{fig:programming_mode} after flashing the code inorder to run your program from main memory.
+\item Execute the following code 
 \begin{lstlisting}
-cd stm32/sevenseg
-cd codes
-pio run
+cd stm32/sevenseg/codes/sevenseg_example.c
 \end{lstlisting}
 
 %\begin{problem}
@@ -457,6 +456,5 @@ GPIOB->BSRR = (1<<3); // (Led OFF)
 can be displayed by slightly modifying the code.
 \begin{lstlisting}
 cd codes/bin2dec_example.c
-pio run
 \end{lstlisting}
 \end{enumerate}

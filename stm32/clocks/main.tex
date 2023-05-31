@@ -309,26 +309,27 @@ Digital Design through Vaman
 \begin{abstract}
 This manual shows how to manage clocks in arm using STM32F103C8T6.
 \end{abstract}
-%\newpage
 \subsection{Components}
-\begin{table}[!ht]
-\centering
-\input{./stm32/clocks/figs/components.tex}
-\caption{Components}
-\label{table:/stm32/clocks/components}
-\end{table}
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
 \begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
+\item The necessary components for this manual are listed in Table \ref{table:/stm32/clocks/components}.
+\begin{table}[!ht]
+\centering
+\input{./stm32/clocks/figs/components.tex}
+\caption{Components}
+\label{table:/stm32/clocks/components}
+\end{table}
 \item List all available clocks in the STM32F103C8T6 blue pill.
 \\
 \solution See Table \ref{table:clocks}.
 \begin{table}[!ht]
-\centering
+\begin{center}
 \input{./stm32/clocks/figs/clocks.tex}
+\end{center}
 \caption{STM32F103C8T6 Clock Types}
 \label{table:clocks}
 \end{table}

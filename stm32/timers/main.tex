@@ -311,7 +311,13 @@ Digital Design through Vaman
 This manual shows how to program timers in arm using STM32F103C8T6.
 \end{abstract}
 \subsection{Components}
-%\newpage
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item The necessary components for this manual are listed in Table \ref{tabel:stm32/timers/components}.
 \begin{table}[!ht]
 \begin{center}
 \input{./stm32/timers/figs/components.tex}
@@ -328,12 +334,6 @@ This manual shows how to program timers in arm using STM32F103C8T6.
 %\caption{STM32F103C8T6 Clock Types}
 %\label{table:clocks}
 %\end{table}
-\renewcommand{\theequation}{\theenumi}
-\renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
-\numberwithin{figure}{enumi}
-\numberwithin{table}{enumi}
 \item List all the available timers in the STM32F103C8T6 blue pill.
 \\
 \solution  See Table \ref{table:stm32_timers}

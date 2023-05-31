@@ -317,11 +317,11 @@ This manual shows how to use the GPIO pins on the STM32F103C8T6 to control an LE
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
-\item The necessary components for this manual are listed in Table \ref{table:components}.
-\begin{table}[!h]
+\item The necessary components for this manual are listed in Table \ref{table:stm32/gpio/components}.
+\begin{table}[!ht]
 \centering
 \input{./stm32/gpio/figs/components.tex}
-\caption{}
+\caption{Components}
 \label{table:stm32/gpio/components}
 \end{table}
 %
@@ -330,7 +330,7 @@ This manual shows how to use the GPIO pins on the STM32F103C8T6 to control an LE
 \begin{table}[!ht]
 \centering
 \input{./stm32/gpio/figs/pins.tex}
-\caption{}
+\caption{USB-UART to STM32 connections}
 \label{table:/gpio/pins}
 \end{table}
 %
@@ -368,7 +368,7 @@ See Tables \ref{table:gpio_enable}.
 %\resizebox{\textwidth}{!}{
 \input{./stm32/gpio/figs/gpio_enable.tex}
 %}
-\caption{}
+\caption{GPIO Enable pins}
 \label{table:gpio_enable}
 \end{table}
 \item Explain the significance of the number (nibble) 0x3 corresponding to PB4 in Table \ref{table:gpio_enable}.
@@ -382,7 +382,7 @@ says that PB4 is  capable of a maximum output speed of 50 MHz.
 %\resizebox{\textwidth}{!}{
 \input{./stm32/gpio/figs/gpio_output.tex}
 %}
-\caption{}
+\caption{GPIO Output configuration}
 \label{table:gpio_output}
 \end{table}
 \item What does the following instruction do?
@@ -415,7 +415,7 @@ input and the first two bits 10 are used for pull-up/pull-down.
 %\resizebox{\textwidth}{!}{
 \input{./stm32/gpio/figs/gpio_input.tex}
 %}
-\caption{}
+\caption{GPIO Input configuration}
 \label{table:gpio_input}
 \end{table}
 \item Explain the following instruction.

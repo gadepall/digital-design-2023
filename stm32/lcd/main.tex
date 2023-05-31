@@ -311,13 +311,19 @@ Digital Design through Vaman
 This manual shows how to interface the $16 \times 2$ HD44780-controlled LCD using STM32F103C8T6.
 \end{abstract}
 \subsection{Components}
-%\newpage
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item The necessary components for this manual are listed in Table \ref{tabel:stm32_lcd_components}.
 \begin{table}[!ht]
 \begin{center}
 \input{./stm32/lcd/figs/components.tex}
 \end{center}
 \caption{Components}
-\label{tabel:stm32/lcd/components}
+\label{tabel:stm32_lcd_components}
 \end{table}
 
 %\begin{problem}
@@ -331,18 +337,12 @@ This manual shows how to interface the $16 \times 2$ HD44780-controlled LCD usin
 %\label{table:stm32_timers}
 %\end{table}
 \subsection{Hardware}
-\renewcommand{\theequation}{\theenumi}
-\renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
-\numberwithin{figure}{enumi}
-\numberwithin{table}{enumi}
-\item Make connections as shown in Table \ref{table:pins}.
+\item Make connections as shown in Table \ref{table:lcd_pins}.
 \begin{table}[!h]
 \footnotesize
 \input{./stm32/lcd/figs/pins.tex}
 \caption{Pin Connections}
-\label{table:pins}
+\label{table:lcd_pins}
 \end{table}
 \subsection{Software}
 \item Before flashing code to STM32 set the STM32 board to Programming mode as shown in Fig. \ref{fig:programming_mode}, then change the mode to Operating mode as shown in Fig. \ref{fig:programming_mode} after flashing the code inorder to run your program from main memory.

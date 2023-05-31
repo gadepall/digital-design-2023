@@ -1,121 +1,121 @@
-\BOOKMARK [0][-]{chapter*.2}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Installation}{}% 2
-\BOOKMARK [1][-]{section.1.1}{Termux}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.2}{Platformio }{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.3}{Arduino Droid}{chapter.1}% 5
-\BOOKMARK [0][-]{chapter.2}{Seven Segment Display}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Components}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.1.1}{Breadboard}{section.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.1.2}{Seven Segment Display}{section.2.1}% 9
-\BOOKMARK [2][-]{subsection.2.1.3}{Arduino}{section.2.1}% 10
-\BOOKMARK [1][-]{section.2.2}{Display Control through Hardware }{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.1}{Powering the Display}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.2}{Controlling the Display}{section.2.2}% 13
-\BOOKMARK [1][-]{section.2.3}{Display Control through Software}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{7447}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Components}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{Hardware}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.3}{Software}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.4}{Problems}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{Karnaugh Map}{}% 20
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.2}{Incrementing Decoder}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.3}{Karnaugh Map}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.4}{Dont Care}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.5}{Don't Care Conditions}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.6}{Problems}{chapter.4}% 26
-\BOOKMARK [0][-]{chapter.5}{7474}{}% 27
-\BOOKMARK [1][-]{section.5.1}{Components}{chapter.5}% 28
-\BOOKMARK [1][-]{section.5.2}{Decade Counter}{chapter.5}% 29
-\BOOKMARK [0][-]{chapter.6}{Finite State Machine}{}% 30
-\BOOKMARK [1][-]{section.6.1}{The Decade Counter}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.2}{Finite State Machine}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.3}{Problems}{chapter.6}% 33
-\BOOKMARK [0][-]{chapter.7}{Assembly Programming}{}% 34
-\BOOKMARK [1][-]{section.7.1}{Software Installation}{chapter.7}% 35
-\BOOKMARK [1][-]{section.7.2}{Seven Segment Display}{chapter.7}% 36
-\BOOKMARK [1][-]{section.7.3}{7447}{chapter.7}% 37
-\BOOKMARK [2][-]{subsection.7.3.1}{Components}{section.7.3}% 38
-\BOOKMARK [2][-]{subsection.7.3.2}{Boolean Operations}{section.7.3}% 39
-\BOOKMARK [2][-]{subsection.7.3.3}{Controlling the Display}{section.7.3}% 40
-\BOOKMARK [1][-]{section.7.4}{Timer}{chapter.7}% 41
-\BOOKMARK [2][-]{subsection.7.4.1}{Components}{section.7.4}% 42
-\BOOKMARK [2][-]{subsection.7.4.2}{Blink through TIMER}{section.7.4}% 43
-\BOOKMARK [2][-]{subsection.7.4.3}{Blink through Cycle Delays}{section.7.4}% 44
-\BOOKMARK [1][-]{section.7.5}{Memory}{chapter.7}% 45
-\BOOKMARK [0][-]{chapter.8}{Embedded C}{}% 46
-\BOOKMARK [1][-]{section.8.1}{Blink}{chapter.8}% 47
-\BOOKMARK [2][-]{subsection.8.1.1}{Components}{section.8.1}% 48
-\BOOKMARK [2][-]{subsection.8.1.2}{Blink}{section.8.1}% 49
-\BOOKMARK [1][-]{section.8.2}{Display Control}{chapter.8}% 50
-\BOOKMARK [1][-]{section.8.3}{Input}{chapter.8}% 51
-\BOOKMARK [1][-]{section.8.4}{GCC-Assembly}{chapter.8}% 52
-\BOOKMARK [2][-]{subsection.8.4.1}{Components}{section.8.4}% 53
-\BOOKMARK [2][-]{subsection.8.4.2}{GCC with Assembly}{section.8.4}% 54
-\BOOKMARK [1][-]{section.8.5}{LCD}{chapter.8}% 55
-\BOOKMARK [2][-]{subsection.8.5.1}{Components}{section.8.5}% 56
-\BOOKMARK [2][-]{subsection.8.5.2}{Display Number on LCD}{section.8.5}% 57
-\BOOKMARK [0][-]{chapter.9}{Vaman-ESP32}{}% 58
-\BOOKMARK [1][-]{section.9.1}{Software}{chapter.9}% 59
-\BOOKMARK [1][-]{section.9.2}{Flash Vaman-ESP32 using Arduino}{chapter.9}% 60
-\BOOKMARK [1][-]{section.9.3}{OTA}{chapter.9}% 61
-\BOOKMARK [1][-]{section.9.4}{Onboard LED}{chapter.9}% 62
-\BOOKMARK [0][-]{chapter.10}{Vaman-FPGA}{}% 63
-\BOOKMARK [1][-]{section.10.1}{Setup}{chapter.10}% 64
-\BOOKMARK [2][-]{subsection.10.1.1}{Software}{section.10.1}% 65
-\BOOKMARK [2][-]{subsection.10.1.2}{Setup}{section.10.1}% 66
-\BOOKMARK [2][-]{subsection.10.1.3}{Frequency}{section.10.1}% 67
-\BOOKMARK [1][-]{section.10.2}{Seven Segment Display}{chapter.10}% 68
-\BOOKMARK [2][-]{subsection.10.2.1}{Software}{section.10.2}% 69
-\BOOKMARK [2][-]{subsection.10.2.2}{Setup}{section.10.2}% 70
-\BOOKMARK [2][-]{subsection.10.2.3}{Examples}{section.10.2}% 71
-\BOOKMARK [1][-]{section.10.3}{Boolean Logic}{chapter.10}% 72
-\BOOKMARK [2][-]{subsection.10.3.1}{Software}{section.10.3}% 73
-\BOOKMARK [2][-]{subsection.10.3.2}{Setup}{section.10.3}% 74
-\BOOKMARK [2][-]{subsection.10.3.3}{Decade Counter}{section.10.3}% 75
-\BOOKMARK [1][-]{section.10.4}{LCD}{chapter.10}% 76
-\BOOKMARK [2][-]{subsection.10.4.1}{Display the addition of two numbers on LCD}{section.10.4}% 77
-\BOOKMARK [0][-]{chapter.11}{Vaman-ARM}{}% 78
-\BOOKMARK [1][-]{section.11.1}{Setup}{chapter.11}% 79
-\BOOKMARK [2][-]{subsection.11.1.1}{Software}{section.11.1}% 80
-\BOOKMARK [2][-]{subsection.11.1.2}{Setup}{section.11.1}% 81
-\BOOKMARK [2][-]{subsection.11.1.3}{Delay}{section.11.1}% 82
-\BOOKMARK [1][-]{section.11.2}{Seven Segment Display}{chapter.11}% 83
-\BOOKMARK [2][-]{subsection.11.2.1}{Software}{section.11.2}% 84
-\BOOKMARK [2][-]{subsection.11.2.2}{Setup}{section.11.2}% 85
-\BOOKMARK [2][-]{subsection.11.2.3}{Examples}{section.11.2}% 86
-\BOOKMARK [1][-]{section.11.3}{FSM}{chapter.11}% 87
-\BOOKMARK [2][-]{subsection.11.3.1}{Software}{section.11.3}% 88
-\BOOKMARK [2][-]{subsection.11.3.2}{Setup}{section.11.3}% 89
-\BOOKMARK [2][-]{subsection.11.3.3}{Decade Counter }{section.11.3}% 90
-\BOOKMARK [0][-]{chapter.12}{STM-32}{}% 91
-\BOOKMARK [1][-]{section.12.1}{Setup}{chapter.12}% 92
-\BOOKMARK [2][-]{subsection.12.1.1}{Software}{section.12.1}% 93
-\BOOKMARK [1][-]{section.12.2}{Seven Segment Display}{chapter.12}% 94
-\BOOKMARK [2][-]{subsection.12.2.1}{Components}{section.12.2}% 95
-\BOOKMARK [2][-]{subsection.12.2.2}{Hardware}{section.12.2}% 96
-\BOOKMARK [2][-]{subsection.12.2.3}{Software}{section.12.2}% 97
-\BOOKMARK [1][-]{section.12.3}{Timers}{chapter.12}% 98
-\BOOKMARK [2][-]{subsection.12.3.1}{Components}{section.12.3}% 99
-\BOOKMARK [2][-]{subsection.12.3.2}{Systick timer}{section.12.3}% 100
-\BOOKMARK [2][-]{subsection.12.3.3}{TIMER-1}{section.12.3}% 101
-\BOOKMARK [2][-]{subsection.12.3.4}{TIMER-2}{section.12.3}% 102
-\BOOKMARK [2][-]{subsection.12.3.5}{Master-Slave Configuration}{section.12.3}% 103
-\BOOKMARK [1][-]{section.12.4}{Clocks}{chapter.12}% 104
-\BOOKMARK [2][-]{subsection.12.4.1}{Components}{section.12.4}% 105
-\BOOKMARK [2][-]{subsection.12.4.2}{HSE}{section.12.4}% 106
-\BOOKMARK [2][-]{subsection.12.4.3}{PLL}{section.12.4}% 107
-\BOOKMARK [1][-]{section.12.5}{GPIO}{chapter.12}% 108
-\BOOKMARK [2][-]{subsection.12.5.1}{Components}{section.12.5}% 109
-\BOOKMARK [2][-]{subsection.12.5.2}{Hardware Setup}{section.12.5}% 110
-\BOOKMARK [2][-]{subsection.12.5.3}{GPIO Output}{section.12.5}% 111
-\BOOKMARK [2][-]{subsection.12.5.4}{GPIO Input}{section.12.5}% 112
-\BOOKMARK [1][-]{section.12.6}{LCD}{chapter.12}% 113
-\BOOKMARK [2][-]{subsection.12.6.1}{Components}{section.12.6}% 114
-\BOOKMARK [2][-]{subsection.12.6.2}{Hardware}{section.12.6}% 115
-\BOOKMARK [2][-]{subsection.12.6.3}{Software}{section.12.6}% 116
-\BOOKMARK [2][-]{subsection.12.6.4}{Project}{section.12.6}% 117
-\BOOKMARK [1][-]{section.12.7}{ADC}{chapter.12}% 118
-\BOOKMARK [2][-]{subsection.12.7.1}{Components}{section.12.7}% 119
-\BOOKMARK [2][-]{subsection.12.7.2}{Internal Temperature Sensor}{section.12.7}% 120
-\BOOKMARK [2][-]{subsection.12.7.3}{Measuring an Unkown Resistance}{section.12.7}% 121
+\BOOKMARK [0][-]{chapter*.2}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{}% 1
+\BOOKMARK [0][-]{chapter.1}{\376\377\000I\000n\000s\000t\000a\000l\000l\000a\000t\000i\000o\000n}{}% 2
+\BOOKMARK [1][-]{section.1.1}{\376\377\000T\000e\000r\000m\000u\000x}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{\376\377\000P\000l\000a\000t\000f\000o\000r\000m\000i\000o\000\040}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{\376\377\000A\000r\000d\000u\000i\000n\000o\000\040\000D\000r\000o\000i\000d}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{\376\377\000S\000e\000v\000e\000n\000\040\000S\000e\000g\000m\000e\000n\000t\000\040\000D\000i\000s\000p\000l\000a\000y}{}% 6
+\BOOKMARK [1][-]{section.2.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{\376\377\000B\000r\000e\000a\000d\000b\000o\000a\000r\000d}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{\376\377\000S\000e\000v\000e\000n\000\040\000S\000e\000g\000m\000e\000n\000t\000\040\000D\000i\000s\000p\000l\000a\000y}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.3}{\376\377\000A\000r\000d\000u\000i\000n\000o}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{\376\377\000D\000i\000s\000p\000l\000a\000y\000\040\000C\000o\000n\000t\000r\000o\000l\000\040\000t\000h\000r\000o\000u\000g\000h\000\040\000H\000a\000r\000d\000w\000a\000r\000e\000\040}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{\376\377\000P\000o\000w\000e\000r\000i\000n\000g\000\040\000t\000h\000e\000\040\000D\000i\000s\000p\000l\000a\000y}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{\376\377\000C\000o\000n\000t\000r\000o\000l\000l\000i\000n\000g\000\040\000t\000h\000e\000\040\000D\000i\000s\000p\000l\000a\000y}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{\376\377\000D\000i\000s\000p\000l\000a\000y\000\040\000C\000o\000n\000t\000r\000o\000l\000\040\000t\000h\000r\000o\000u\000g\000h\000\040\000S\000o\000f\000t\000w\000a\000r\000e}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{\376\377\0007\0004\0004\0007}{}% 15
+\BOOKMARK [1][-]{section.3.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{\376\377\000H\000a\000r\000d\000w\000a\000r\000e}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.4}{\376\377\000P\000r\000o\000b\000l\000e\000m\000s}{chapter.3}% 19
+\BOOKMARK [0][-]{chapter.4}{\376\377\000K\000a\000r\000n\000a\000u\000g\000h\000\040\000M\000a\000p}{}% 20
+\BOOKMARK [1][-]{section.4.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{\376\377\000I\000n\000c\000r\000e\000m\000e\000n\000t\000i\000n\000g\000\040\000D\000e\000c\000o\000d\000e\000r}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.3}{\376\377\000K\000a\000r\000n\000a\000u\000g\000h\000\040\000M\000a\000p}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.4}{\376\377\000D\000o\000n\000t\000\040\000C\000a\000r\000e}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.5}{\376\377\000D\000o\000n\000'\000t\000\040\000C\000a\000r\000e\000\040\000C\000o\000n\000d\000i\000t\000i\000o\000n\000s}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.6}{\376\377\000P\000r\000o\000b\000l\000e\000m\000s}{chapter.4}% 26
+\BOOKMARK [0][-]{chapter.5}{\376\377\0007\0004\0007\0004}{}% 27
+\BOOKMARK [1][-]{section.5.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.2}{\376\377\000D\000e\000c\000a\000d\000e\000\040\000C\000o\000u\000n\000t\000e\000r}{chapter.5}% 29
+\BOOKMARK [0][-]{chapter.6}{\376\377\000F\000i\000n\000i\000t\000e\000\040\000S\000t\000a\000t\000e\000\040\000M\000a\000c\000h\000i\000n\000e}{}% 30
+\BOOKMARK [1][-]{section.6.1}{\376\377\000T\000h\000e\000\040\000D\000e\000c\000a\000d\000e\000\040\000C\000o\000u\000n\000t\000e\000r}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.2}{\376\377\000F\000i\000n\000i\000t\000e\000\040\000S\000t\000a\000t\000e\000\040\000M\000a\000c\000h\000i\000n\000e}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.3}{\376\377\000P\000r\000o\000b\000l\000e\000m\000s}{chapter.6}% 33
+\BOOKMARK [0][-]{chapter.7}{\376\377\000A\000s\000s\000e\000m\000b\000l\000y\000\040\000P\000r\000o\000g\000r\000a\000m\000m\000i\000n\000g}{}% 34
+\BOOKMARK [1][-]{section.7.1}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e\000\040\000I\000n\000s\000t\000a\000l\000l\000a\000t\000i\000o\000n}{chapter.7}% 35
+\BOOKMARK [1][-]{section.7.2}{\376\377\000S\000e\000v\000e\000n\000\040\000S\000e\000g\000m\000e\000n\000t\000\040\000D\000i\000s\000p\000l\000a\000y}{chapter.7}% 36
+\BOOKMARK [1][-]{section.7.3}{\376\377\0007\0004\0004\0007}{chapter.7}% 37
+\BOOKMARK [2][-]{subsection.7.3.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{section.7.3}% 38
+\BOOKMARK [2][-]{subsection.7.3.2}{\376\377\000B\000o\000o\000l\000e\000a\000n\000\040\000O\000p\000e\000r\000a\000t\000i\000o\000n\000s}{section.7.3}% 39
+\BOOKMARK [2][-]{subsection.7.3.3}{\376\377\000C\000o\000n\000t\000r\000o\000l\000l\000i\000n\000g\000\040\000t\000h\000e\000\040\000D\000i\000s\000p\000l\000a\000y}{section.7.3}% 40
+\BOOKMARK [1][-]{section.7.4}{\376\377\000T\000i\000m\000e\000r}{chapter.7}% 41
+\BOOKMARK [2][-]{subsection.7.4.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{section.7.4}% 42
+\BOOKMARK [2][-]{subsection.7.4.2}{\376\377\000B\000l\000i\000n\000k\000\040\000t\000h\000r\000o\000u\000g\000h\000\040\000T\000I\000M\000E\000R}{section.7.4}% 43
+\BOOKMARK [2][-]{subsection.7.4.3}{\376\377\000B\000l\000i\000n\000k\000\040\000t\000h\000r\000o\000u\000g\000h\000\040\000C\000y\000c\000l\000e\000\040\000D\000e\000l\000a\000y\000s}{section.7.4}% 44
+\BOOKMARK [1][-]{section.7.5}{\376\377\000M\000e\000m\000o\000r\000y}{chapter.7}% 45
+\BOOKMARK [0][-]{chapter.8}{\376\377\000E\000m\000b\000e\000d\000d\000e\000d\000\040\000C}{}% 46
+\BOOKMARK [1][-]{section.8.1}{\376\377\000B\000l\000i\000n\000k}{chapter.8}% 47
+\BOOKMARK [2][-]{subsection.8.1.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{section.8.1}% 48
+\BOOKMARK [2][-]{subsection.8.1.2}{\376\377\000B\000l\000i\000n\000k}{section.8.1}% 49
+\BOOKMARK [1][-]{section.8.2}{\376\377\000D\000i\000s\000p\000l\000a\000y\000\040\000C\000o\000n\000t\000r\000o\000l}{chapter.8}% 50
+\BOOKMARK [1][-]{section.8.3}{\376\377\000I\000n\000p\000u\000t}{chapter.8}% 51
+\BOOKMARK [1][-]{section.8.4}{\376\377\000G\000C\000C\000-\000A\000s\000s\000e\000m\000b\000l\000y}{chapter.8}% 52
+\BOOKMARK [2][-]{subsection.8.4.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{section.8.4}% 53
+\BOOKMARK [2][-]{subsection.8.4.2}{\376\377\000G\000C\000C\000\040\000w\000i\000t\000h\000\040\000A\000s\000s\000e\000m\000b\000l\000y}{section.8.4}% 54
+\BOOKMARK [1][-]{section.8.5}{\376\377\000L\000C\000D}{chapter.8}% 55
+\BOOKMARK [2][-]{subsection.8.5.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{section.8.5}% 56
+\BOOKMARK [2][-]{subsection.8.5.2}{\376\377\000D\000i\000s\000p\000l\000a\000y\000\040\000N\000u\000m\000b\000e\000r\000\040\000o\000n\000\040\000L\000C\000D}{section.8.5}% 57
+\BOOKMARK [0][-]{chapter.9}{\376\377\000V\000a\000m\000a\000n\000-\000E\000S\000P\0003\0002}{}% 58
+\BOOKMARK [1][-]{section.9.1}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{chapter.9}% 59
+\BOOKMARK [1][-]{section.9.2}{\376\377\000F\000l\000a\000s\000h\000\040\000V\000a\000m\000a\000n\000-\000E\000S\000P\0003\0002\000\040\000u\000s\000i\000n\000g\000\040\000A\000r\000d\000u\000i\000n\000o}{chapter.9}% 60
+\BOOKMARK [1][-]{section.9.3}{\376\377\000O\000T\000A}{chapter.9}% 61
+\BOOKMARK [1][-]{section.9.4}{\376\377\000O\000n\000b\000o\000a\000r\000d\000\040\000L\000E\000D}{chapter.9}% 62
+\BOOKMARK [0][-]{chapter.10}{\376\377\000V\000a\000m\000a\000n\000-\000F\000P\000G\000A}{}% 63
+\BOOKMARK [1][-]{section.10.1}{\376\377\000S\000e\000t\000u\000p}{chapter.10}% 64
+\BOOKMARK [2][-]{subsection.10.1.1}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{section.10.1}% 65
+\BOOKMARK [2][-]{subsection.10.1.2}{\376\377\000S\000e\000t\000u\000p}{section.10.1}% 66
+\BOOKMARK [2][-]{subsection.10.1.3}{\376\377\000F\000r\000e\000q\000u\000e\000n\000c\000y}{section.10.1}% 67
+\BOOKMARK [1][-]{section.10.2}{\376\377\000S\000e\000v\000e\000n\000\040\000S\000e\000g\000m\000e\000n\000t\000\040\000D\000i\000s\000p\000l\000a\000y}{chapter.10}% 68
+\BOOKMARK [2][-]{subsection.10.2.1}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{section.10.2}% 69
+\BOOKMARK [2][-]{subsection.10.2.2}{\376\377\000S\000e\000t\000u\000p}{section.10.2}% 70
+\BOOKMARK [2][-]{subsection.10.2.3}{\376\377\000E\000x\000a\000m\000p\000l\000e\000s}{section.10.2}% 71
+\BOOKMARK [1][-]{section.10.3}{\376\377\000B\000o\000o\000l\000e\000a\000n\000\040\000L\000o\000g\000i\000c}{chapter.10}% 72
+\BOOKMARK [2][-]{subsection.10.3.1}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{section.10.3}% 73
+\BOOKMARK [2][-]{subsection.10.3.2}{\376\377\000S\000e\000t\000u\000p}{section.10.3}% 74
+\BOOKMARK [2][-]{subsection.10.3.3}{\376\377\000D\000e\000c\000a\000d\000e\000\040\000C\000o\000u\000n\000t\000e\000r}{section.10.3}% 75
+\BOOKMARK [1][-]{section.10.4}{\376\377\000L\000C\000D}{chapter.10}% 76
+\BOOKMARK [2][-]{subsection.10.4.1}{\376\377\000D\000i\000s\000p\000l\000a\000y\000\040\000t\000h\000e\000\040\000a\000d\000d\000i\000t\000i\000o\000n\000\040\000o\000f\000\040\000t\000w\000o\000\040\000n\000u\000m\000b\000e\000r\000s\000\040\000o\000n\000\040\000L\000C\000D}{section.10.4}% 77
+\BOOKMARK [0][-]{chapter.11}{\376\377\000V\000a\000m\000a\000n\000-\000A\000R\000M}{}% 78
+\BOOKMARK [1][-]{section.11.1}{\376\377\000S\000e\000t\000u\000p}{chapter.11}% 79
+\BOOKMARK [2][-]{subsection.11.1.1}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{section.11.1}% 80
+\BOOKMARK [2][-]{subsection.11.1.2}{\376\377\000S\000e\000t\000u\000p}{section.11.1}% 81
+\BOOKMARK [2][-]{subsection.11.1.3}{\376\377\000D\000e\000l\000a\000y}{section.11.1}% 82
+\BOOKMARK [1][-]{section.11.2}{\376\377\000S\000e\000v\000e\000n\000\040\000S\000e\000g\000m\000e\000n\000t\000\040\000D\000i\000s\000p\000l\000a\000y}{chapter.11}% 83
+\BOOKMARK [2][-]{subsection.11.2.1}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{section.11.2}% 84
+\BOOKMARK [2][-]{subsection.11.2.2}{\376\377\000S\000e\000t\000u\000p}{section.11.2}% 85
+\BOOKMARK [2][-]{subsection.11.2.3}{\376\377\000E\000x\000a\000m\000p\000l\000e\000s}{section.11.2}% 86
+\BOOKMARK [1][-]{section.11.3}{\376\377\000F\000S\000M}{chapter.11}% 87
+\BOOKMARK [2][-]{subsection.11.3.1}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{section.11.3}% 88
+\BOOKMARK [2][-]{subsection.11.3.2}{\376\377\000S\000e\000t\000u\000p}{section.11.3}% 89
+\BOOKMARK [2][-]{subsection.11.3.3}{\376\377\000D\000e\000c\000a\000d\000e\000\040\000C\000o\000u\000n\000t\000e\000r\000\040}{section.11.3}% 90
+\BOOKMARK [0][-]{chapter.12}{\376\377\000S\000T\000M\000-\0003\0002}{}% 91
+\BOOKMARK [1][-]{section.12.1}{\376\377\000S\000e\000t\000u\000p}{chapter.12}% 92
+\BOOKMARK [2][-]{subsection.12.1.1}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{section.12.1}% 93
+\BOOKMARK [1][-]{section.12.2}{\376\377\000S\000e\000v\000e\000n\000\040\000S\000e\000g\000m\000e\000n\000t\000\040\000D\000i\000s\000p\000l\000a\000y}{chapter.12}% 94
+\BOOKMARK [2][-]{subsection.12.2.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{section.12.2}% 95
+\BOOKMARK [2][-]{subsection.12.2.2}{\376\377\000H\000a\000r\000d\000w\000a\000r\000e}{section.12.2}% 96
+\BOOKMARK [2][-]{subsection.12.2.3}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{section.12.2}% 97
+\BOOKMARK [1][-]{section.12.3}{\376\377\000T\000i\000m\000e\000r\000s}{chapter.12}% 98
+\BOOKMARK [2][-]{subsection.12.3.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{section.12.3}% 99
+\BOOKMARK [2][-]{subsection.12.3.2}{\376\377\000S\000y\000s\000t\000i\000c\000k\000\040\000t\000i\000m\000e\000r}{section.12.3}% 100
+\BOOKMARK [2][-]{subsection.12.3.3}{\376\377\000T\000I\000M\000E\000R\000-\0001}{section.12.3}% 101
+\BOOKMARK [2][-]{subsection.12.3.4}{\376\377\000T\000I\000M\000E\000R\000-\0002}{section.12.3}% 102
+\BOOKMARK [2][-]{subsection.12.3.5}{\376\377\000M\000a\000s\000t\000e\000r\000-\000S\000l\000a\000v\000e\000\040\000C\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n}{section.12.3}% 103
+\BOOKMARK [1][-]{section.12.4}{\376\377\000C\000l\000o\000c\000k\000s}{chapter.12}% 104
+\BOOKMARK [2][-]{subsection.12.4.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{section.12.4}% 105
+\BOOKMARK [2][-]{subsection.12.4.2}{\376\377\000H\000S\000E}{section.12.4}% 106
+\BOOKMARK [2][-]{subsection.12.4.3}{\376\377\000P\000L\000L}{section.12.4}% 107
+\BOOKMARK [1][-]{section.12.5}{\376\377\000G\000P\000I\000O}{chapter.12}% 108
+\BOOKMARK [2][-]{subsection.12.5.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{section.12.5}% 109
+\BOOKMARK [2][-]{subsection.12.5.2}{\376\377\000H\000a\000r\000d\000w\000a\000r\000e\000\040\000S\000e\000t\000u\000p}{section.12.5}% 110
+\BOOKMARK [2][-]{subsection.12.5.3}{\376\377\000G\000P\000I\000O\000\040\000O\000u\000t\000p\000u\000t}{section.12.5}% 111
+\BOOKMARK [2][-]{subsection.12.5.4}{\376\377\000G\000P\000I\000O\000\040\000I\000n\000p\000u\000t}{section.12.5}% 112
+\BOOKMARK [1][-]{section.12.6}{\376\377\000L\000C\000D}{chapter.12}% 113
+\BOOKMARK [2][-]{subsection.12.6.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{section.12.6}% 114
+\BOOKMARK [2][-]{subsection.12.6.2}{\376\377\000H\000a\000r\000d\000w\000a\000r\000e}{section.12.6}% 115
+\BOOKMARK [2][-]{subsection.12.6.3}{\376\377\000S\000o\000f\000t\000w\000a\000r\000e}{section.12.6}% 116
+\BOOKMARK [2][-]{subsection.12.6.4}{\376\377\000P\000r\000o\000j\000e\000c\000t}{section.12.6}% 117
+\BOOKMARK [1][-]{section.12.7}{\376\377\000A\000D\000C}{chapter.12}% 118
+\BOOKMARK [2][-]{subsection.12.7.1}{\376\377\000C\000o\000m\000p\000o\000n\000e\000n\000t\000s}{section.12.7}% 119
+\BOOKMARK [2][-]{subsection.12.7.2}{\376\377\000I\000n\000t\000e\000r\000n\000a\000l\000\040\000T\000e\000m\000p\000e\000r\000a\000t\000u\000r\000e\000\040\000S\000e\000n\000s\000o\000r}{section.12.7}% 120
+\BOOKMARK [2][-]{subsection.12.7.3}{\376\377\000M\000e\000a\000s\000u\000r\000i\000n\000g\000\040\000a\000n\000\040\000U\000n\000k\000o\000w\000n\000\040\000R\000e\000s\000i\000s\000t\000a\000n\000c\000e}{section.12.7}% 121

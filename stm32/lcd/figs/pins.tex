@@ -83,7 +83,7 @@
 %       \begin{landscape}
 
 
-%%  End f the else clause for this file being \input.              %%
+%%  End of the else clause for this file being \input.              %%
 \fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -123,15 +123,16 @@
 \setlongtables
 
 \setlength\gnumericTableWidth{%
-	133pt+%
-	53pt+%
-	57pt+%
+	51pt+%
+	34pt+%
+	41pt+%
+	84pt+%
 0pt}
-\def\gumericNumCols{3}
+\def\gumericNumCols{4}
 \setlength\gnumericTableWidthComplete{\gnumericTableWidth+%
          \tabcolsep*\gumericNumCols*2+\arrayrulewidth*\gumericNumCols}
 \ifthenelse{\lengthtest{\gnumericTableWidthComplete > \linewidth}}%
-         {\def\gnumericScale{\ratio{\linewidth-%
+         {\def\gnumericScale{1*\ratio{\linewidth-%
                         \tabcolsep*\gumericNumCols*2-%
                         \arrayrulewidth*\gumericNumCols}%
 {\gnumericTableWidth}}}%
@@ -145,16 +146,16 @@
 %%                                                                  %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifthenelse{\isundefined{\gnumericColA}}{\newlength{\gnumericColA}}{}\settowidth{\gnumericColA}{\begin{tabular}{@{}p{100pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColB}}{\newlength{\gnumericColB}}{}\settowidth{\gnumericColB}{\begin{tabular}{@{}p{50pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColC}}{\newlength{\gnumericColC}}{}\settowidth{\gnumericColC}{\begin{tabular}{@{}p{70pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColA}}{\newlength{\gnumericColA}}{}\settowidth{\gnumericColA}{\begin{tabular}{@{}p{51pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColB}}{\newlength{\gnumericColB}}{}\settowidth{\gnumericColB}{\begin{tabular}{@{}p{34pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColC}}{\newlength{\gnumericColC}}{}\settowidth{\gnumericColC}{\begin{tabular}{@{}p{41pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColD}}{\newlength{\gnumericColD}}{}\settowidth{\gnumericColD}{\begin{tabular}{@{}p{84pt*\gnumericScale}@{}}x\end{tabular}}
 
-%\begin{longtable}[c]{%
-
-\begin{tabular}[c]{
+\begin{longtable}[c]{%
 	b{\gnumericColA}%
 	b{\gnumericColB}%
 	b{\gnumericColC}%
+	b{\gnumericColD}%
 	}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -165,115 +166,167 @@
 %%  the first, last or every page. Use \multicolumn if you want.    %%
 
 %%  Header for the first page.                                      %%
-%	\multicolumn{3}{c}{The First Header} \\ \hline 
+%	\multicolumn{4}{c}{The First Header} \\ \hline 
 %	\multicolumn{1}{c}{colTag}	%Column 1
 %	&\multicolumn{1}{c}{colTag}	%Column 2
+%	&\multicolumn{1}{c}{colTag}	%Column 3
 %	&\multicolumn{1}{c}{colTag}	\\ \hline %Last column
 %	\endfirsthead
 
 %%  The running header definition.                                  %%
 %	\hline
-%	\multicolumn{3}{l}{\ldots\small\slshape continued} \\ \hline
+%	\multicolumn{4}{l}{\ldots\small\slshape continued} \\ \hline
 %	\multicolumn{1}{c}{colTag}	%Column 1
 %	&\multicolumn{1}{c}{colTag}	%Column 2
+%	&\multicolumn{1}{c}{colTag}	%Column 3
 %	&\multicolumn{1}{c}{colTag}	\\ \hline %Last column
 %	\endhead
 
 %%  The running footer definition.                                  %%
 %	\hline
-%	\multicolumn{3}{r}{\small\slshape continued\ldots} \\
+%	\multicolumn{4}{r}{\small\slshape continued\ldots} \\
 %	\endfoot
 
 %%  The ending footer definition.                                   %%
-%	\multicolumn{3}{c}{That's all folks} \\ \hline 
+%	\multicolumn{4}{c}{That's all folks} \\ \hline 
 %	\endlastfoot
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\hhline{|-|-|-}
+\hhline{|-|-|-|-}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\textbf{Component}}
+	{\gnumericPB{\raggedright}\textbf{STM32}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
-	{\gnumericPB{\raggedright}\textbf{Value}}
+	{\gnumericPB{\raggedright}\textbf{LCD Pins}}
 	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\textbf{Quantity}}
+	{\gnumericPB{\raggedright}\textbf{LCD Pin Label}}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\raggedright}\textbf{LCD Pin Description}}
 \\
-\hhline{|---|}
+\hhline{|----|}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}Breadboard}
+	{\gnumericPB{\raggedright}GND}
 	&\multicolumn{1}{p{\gnumericColB}|}%
-	{\gnumericPB{\raggedright}}
+	{\gnumericPB{\raggedright}1}
 	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}1}
-%\\
-%\hhline{|---|}
-%	 \multicolumn{1}{|p{\gnumericColA}|}%
-%	{\gnumericPB{\centering}Resistor}
-%	&\multicolumn{1}{p{\gnumericColB}|}%
-%	{\gnumericPB{\raggedright}220 $\Omega$}
-%	&\multicolumn{1}{p{\gnumericColC}|}%
-%	{\gnumericPB{\centering}1}
+	{\gnumericPB{\raggedright}GND}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\setlength{\gnumericMultiRowLength}{0pt}%
+	 \addtolength{\gnumericMultiRowLength}{\gnumericColD}%
+	 \multirow{2}[1]{\gnumericMultiRowLength}{%
+	 }}
 \\
-\hhline{|---|}
+\hhline{|---|~}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}STM32F103C8T6}
+	{\gnumericPB{\raggedright}3.3V}
 	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\raggedright}2}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\raggedright}Vcc}
+	&\multicolumn{1}{p{\gnumericColD}|}%
 	{}
-	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}1}
-%\\
-%\hhline{|---|}
-%	 \multicolumn{1}{|p{\gnumericColA}|}%
-%	{\gnumericPB{\centering}Seven Segment Display}
-%	&\multicolumn{1}{p{\gnumericColB}|}%
-%	{Common Anode}
-%	&\multicolumn{1}{p{\gnumericColC}|}%
-%	{\gnumericPB{\centering}1}
-%\\
-%\hhline{|---|}
-%	 \multicolumn{1}{|p{\gnumericColA}|}%
-%	{\gnumericPB{\centering}Decoder}
-%	&\multicolumn{1}{p{\gnumericColB}|}%
-%	{\gnumericPB{\raggedright}7447}
-%	&\multicolumn{1}{p{\gnumericColC}|}%
-%	{\gnumericPB{\centering}1}
-%\\
-%\hhline{|---|}
-%	 \multicolumn{1}{|p{\gnumericColA}|}%
-%	{\gnumericPB{\centering}\gnumbox{Flip Flop}}
-%	&\multicolumn{1}{p{\gnumericColB}|}%
-%	{\gnumericPB{\raggedright}\gnumbox[l]{7474}}
-%	&\multicolumn{1}{p{\gnumericColC}|}%
-%	{\gnumericPB{\centering}\gnumbox{2}}
 \\
-\hhline{|---|}
+\hhline{|----|}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{LCD}}
+	{\gnumericPB{\raggedright}\gnumbox[l]{GND}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
-	{$16 \times 2$ HD44780}
+	{\gnumericPB{\raggedright}3}
 	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\gnumbox{1}}
-
+	{\gnumericPB{\raggedright}Vee}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\raggedright}Contrast}
 \\
-\hhline{|---|}
+\hhline{|----|}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{Jumper Wires}}
+	{\gnumericPB{\raggedright}A0}
 	&\multicolumn{1}{p{\gnumericColB}|}%
-	{F-F}
+	{\gnumericPB{\raggedright}4}
 	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\gnumbox{20}}
+	{\gnumericPB{\raggedright}RS}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\raggedright}Register Select}
 \\
-\hhline{|---|}
+\hhline{|----|}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{Jumper Wires}}
+	{\gnumericPB{\raggedright}\gnumbox[l]{GND}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
-	{M-F}
+	{\gnumericPB{\raggedright}5}
 	&\multicolumn{1}{p{\gnumericColC}|}%
-	{\gnumericPB{\centering}\gnumbox{20}}
+	{\gnumericPB{\raggedright}R/W}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\raggedright}Read/Write}
 \\
-\hhline{|-|-|-|}
-%\end{longtable}
-\end{tabular}
-
+\hhline{|----|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\raggedright}A1}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\raggedright}6}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\raggedright}EN}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\raggedright}Enable}
+\\
+\hhline{|----|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\raggedright}A2}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\raggedright}11}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\raggedright}DB4}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\raggedright}Serial Connection}
+\\
+\hhline{|----|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\raggedright}A3}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\raggedright}12}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\raggedright}DB5}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\raggedright}Serial Connection}
+\\
+\hhline{|----|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\raggedright}A4}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\raggedright}13}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\raggedright}DB6}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\raggedright}Serial Connection}
+\\
+\hhline{|----|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\raggedright}A5}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\raggedright}14}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\raggedright}DB7}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\raggedright}Serial Connection}
+\\
+\hhline{|----|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\raggedright}3.3V}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\raggedright}15}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\raggedright}LED+}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\raggedright}Backlight}
+\\
+\hhline{|----|}
+	 \multicolumn{1}{|p{\gnumericColA}|}%
+	{\gnumericPB{\raggedright}GND}
+	&\multicolumn{1}{p{\gnumericColB}|}%
+	{\gnumericPB{\raggedright}16}
+	&\multicolumn{1}{p{\gnumericColC}|}%
+	{\gnumericPB{\raggedright}LED-}
+	&\multicolumn{1}{p{\gnumericColD}|}%
+	{\gnumericPB{\raggedright}Backlight}
+\\
+\hhline{|-|-|-|-|}
+\end{longtable}
 
 \ifthenelse{\isundefined{\languageshorthands}}{}{\languageshorthands{\languagename}}
 \gnumericTableEnd

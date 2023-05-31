@@ -110,15 +110,15 @@
 \contentsline {subsection}{\numberline {12.4.3}PLL}{120}{subsection.12.4.3}%
 \contentsline {section}{\numberline {12.5}GPIO}{121}{section.12.5}%
 \contentsline {subsection}{\numberline {12.5.1}Components}{121}{subsection.12.5.1}%
-\contentsline {subsection}{\numberline {12.5.2}Hardware Setup}{122}{subsection.12.5.2}%
+\contentsline {subsection}{\numberline {12.5.2}Hardware Setup}{121}{subsection.12.5.2}%
 \contentsline {subsection}{\numberline {12.5.3}GPIO Output}{122}{subsection.12.5.3}%
 \contentsline {subsection}{\numberline {12.5.4}GPIO Input}{124}{subsection.12.5.4}%
 \contentsline {section}{\numberline {12.6}LCD}{125}{section.12.6}%
 \contentsline {subsection}{\numberline {12.6.1}Components}{126}{subsection.12.6.1}%
 \contentsline {subsection}{\numberline {12.6.2}Hardware}{126}{subsection.12.6.2}%
-\contentsline {subsection}{\numberline {12.6.3}Software}{126}{subsection.12.6.3}%
+\contentsline {subsection}{\numberline {12.6.3}Software}{127}{subsection.12.6.3}%
 \contentsline {subsection}{\numberline {12.6.4}Project}{129}{subsection.12.6.4}%
 \contentsline {section}{\numberline {12.7}ADC}{129}{section.12.7}%
 \contentsline {subsection}{\numberline {12.7.1}Components}{129}{subsection.12.7.1}%
-\contentsline {subsection}{\numberline {12.7.2}Internal Temperature Sensor}{129}{subsection.12.7.2}%
+\contentsline {subsection}{\numberline {12.7.2}Internal Temperature Sensor}{130}{subsection.12.7.2}%
 \contentsline {subsection}{\numberline {12.7.3}Measuring an Unkown Resistance}{132}{subsection.12.7.3}%

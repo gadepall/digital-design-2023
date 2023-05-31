@@ -310,13 +310,19 @@ Digital Design through Vaman
 \begin{abstract}
 The objective of this manual is to introduce beginners to arm embedded programming by powering a seven segment display.
 \end{abstract}
-%\newpage
 \subsection{Components}
-\begin{table}[!h]
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item The necessary components for this manual are listed in Table \ref{tabel:stm32/sevenseg/components}.
+\begin{table}[!ht]
 \begin{center}
 \input{./stm32/sevenseg/figs/components.tex}
 \end{center}
-\caption{}
+\caption{Components}
 \label{tabel:stm32/sevenseg/components}
 \end{table}
 \subsection{Hardware}
@@ -334,12 +340,6 @@ The objective of this manual is to introduce beginners to arm embedded programmi
 %\caption{}
 %\label{fig:breadboard}
 %\end{figure}
-\renewcommand{\theequation}{\theenumi}
-\renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
-\numberwithin{figure}{enumi}
-\numberwithin{table}{enumi}
 \item The seven segment display in Fig. \ref{fig:sevenseg} has eight pins, $a, b, c, d, e, f, g$ and $dot$ that take an active LOW input, i.e.  the LED will glow only if the input is connected to ground.  Each of these pins is connected to an LED segment.  The $dot$ pin is  reserved for the $\cdot$ LED.  
 
 %

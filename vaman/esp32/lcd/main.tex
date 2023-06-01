@@ -1,13 +1,8 @@
-
-\let\negmedspace\undefined
-\let\negthickspace\undefined
+\iffalse
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 %
 \usepackage{setspace}
 \usepackage{gensymb}
-\usepackage{xcolor}
-\usepackage{caption}
-%\usepackage{subcaption}
 %\doublespacing
 \singlespacing
 
@@ -15,7 +10,7 @@
 %\usepackage{amssymb}
 %\usepackage{relsize}
 \usepackage[cmex10]{amsmath}
-\usepackage{mathtools}
+\usepackage{siunitx}
 %\usepackage{amsthm}
 %\interdisplaylinepenalty=2500
 %\savesymbol{iint}
@@ -23,9 +18,13 @@
 %\restoresymbol{TXF}{iint}
 %\usepackage{wasysym}
 \usepackage{amsthm}
+%\usepackage{iithtlc}
 \usepackage{mathrsfs}
 \usepackage{txfonts}
 \usepackage{stfloats}
+\usepackage{steinmetz}
+\usepackage{supertabular}
+%\usepackage{bm}
 \usepackage{cite}
 \usepackage{cases}
 \usepackage{subfig}
@@ -36,11 +35,17 @@
 %\usepackage{algpseudocode}
 \usepackage{enumitem}
 \usepackage{mathtools}
-
-%\usepackage[framemethod=tikz]{mdframed}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{verbatim}
+\usepackage{tfrupee}
+\usepackage[breaklinks=true]{hyperref}
+%\usepackage{stmaryrd}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+%\usetkzobj{all}
+\usetikzlibrary{calc,math}
+\usetikzlibrary{fadings}
 \usepackage{listings}
-\usepackage{listings}
-    \usepackage[latin1]{inputenc}                                 %%
     \usepackage{color}                                            %%
     \usepackage{array}                                            %%
     \usepackage{longtable}                                        %%
@@ -50,14 +55,22 @@
     \usepackage{ifthen}                                           %%
   %optionally (for landscape tables embedded in another document): %%
     \usepackage{lscape}     
+\usepackage{multicol}
+\usepackage{chngcntr}
+\usepackage{blkarray}
+\usepackage{karnaugh-map}
+\usepackage{fontspec}
+\usepackage[intoc]{nomencl}
+\makenomenclature
+
+%\usetikzlibrary{arrows, shapes.gates.logic.US, calc}
+\usetikzlibrary{arrows,shapes.gates.logic.US,shapes.gates.logic.IEC,calc}
+\setmainfont{Sanskrit_2003.ttf}
+%\setmainfont{Nakula.ttf}
+%\setmainfont{Lohit-Devanagari.ttf}
 
 
-%\usepackage{iithtlc}
-\usepackage{tikz}
-\usepackage{circuitikz}
-
-%\usepackage{stmaryrd}
-
+%\usepackage{enumerate}
 
 %\usepackage{wasysym}
 %\newcounter{MYtempeqncnt}
@@ -73,47 +86,37 @@
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
-
-\lstset{
-language=C,
-frame=single, 
-breaklines=true
-}
-
-%\lstset{
-	%%basicstyle=\small\ttfamily\bfseries,
-	%%numberstyle=\small\ttfamily,
-	%language=Octave,
-	%backgroundcolor=\color{white},
-	%%frame=single,
-	%%keywordstyle=\bfseries,
-	%%breaklines=true,
-	%%showstringspaces=false,
-	%%xleftmargin=-10mm,
-	%%aboveskip=-1mm,
-	%%belowskip=0mm
-%}
-
-%\surroundwithmdframed[width=\columnwidth]{lstlisting}
 \def\inputGnumericTable{}                                 %%
+
+
 \lstset{
-language=C,
+%language=shell,
+%language = Prolog,
 frame=single, 
-breaklines=true
+breaklines=true,
+%showstringspaces=false,
+columns=fullflexible
+literate = {-}{-}1
 }
- 
+%\lstset{
+%language=tex,
+%frame=single, 
+%breaklines=true
+%}
 
 \begin{document}
 %
 
-\theoremstyle{definition}
+
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{problem}{Problem}
 \newtheorem{proposition}{Proposition}[section]
 \newtheorem{lemma}{Lemma}[section]
 \newtheorem{corollary}[theorem]{Corollary}
 \newtheorem{example}{Example}[section]
-\newtheorem{definition}{Definition}[section]
+\newtheorem{definition}[problem]{Definition}
+%\newtheorem{thm}{Theorem}[section] 
+%\newtheorem{defn}[thm]{Definition}
 %\newtheorem{algorithm}{Algorithm}[section]
 %\newtheorem{cor}{Corollary}
 \newcommand{\BEQA}{\begin{eqnarray}}
@@ -123,8 +126,7 @@ breaklines=true
 \bibliographystyle{IEEEtran}
 %\bibliographystyle{ieeetr}
 
-\providecommand{\nCr}[2]{\,^{#1}C_{#2}} % nCr
-\providecommand{\nPr}[2]{\,^{#1}P_{#2}} % nPr
+
 \providecommand{\mbf}{\mathbf}
 \providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
 \providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
@@ -137,12 +139,14 @@ breaklines=true
 \providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
 \providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
 \providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+\providecommand{\ceil}[1]{\left \lceil #1 \right \rceil }
 \theoremstyle{remark}
 \newtheorem{rem}{Remark}
 \newcommand{\sgn}{\mathop{\mathrm{sgn}}}
 \providecommand{\abs}[1]{\left\vert#1\right\vert}
 \providecommand{\res}[1]{\Res\displaylimits_{#1}} 
-\providecommand{\norm}[1]{\lVert#1\rVert}
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+%\providecommand{\norm}[1]{\lVert#1\rVert}
 \providecommand{\mtx}[1]{\mathbf{#1}}
 \providecommand{\mean}[1]{E\left[ #1 \right]}
 \providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
@@ -150,45 +154,28 @@ breaklines=true
 \providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
 	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
 \newcommand{\solution}{\noindent \textbf{Solution: }}
+\newcommand{\cosec}{\,\text{cosec}\,}
 \providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
-%\numberwithin{equation}{subsection}
-\numberwithin{equation}{problem}
-%\numberwithin{problem}{subsection}
-%\numberwithin{definition}{subsection}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+%\numberwithin{equation}{section}
+\numberwithin{equation}{subsection}
+%\numberwithin{problem}{section}
+%\numberwithin{definition}{section}
 \makeatletter
 \@addtoreset{figure}{problem}
 \makeatother
 
 \let\StandardTheFigure\thefigure
+\let\vec\mathbf
 %\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
-\renewcommand{\thefigure}{\theproblem}
-
-
-%\numberwithin{figure}{subsection}
-
-%\numberwithin{equation}{subsection}
-%\numberwithin{equation}{section}
-%%\numberwithin{equation}{problem}
-%%\numberwithin{problem}{subsection}
-%\numberwithin{problem}{section}
-%%\numberwithin{definition}{subsection}
-%\makeatletter
-%\@addtoreset{figure}{problem}
-%\makeatother
-%\makeatletter
-%\@addtoreset{table}{problem}
-%\makeatother
-
-%\let\StandardTheFigure\thefigure
-%\let\StandardTheTable\thetable
-%%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
 %\renewcommand{\thefigure}{\theproblem}
-%\renewcommand{\thetable}{\theproblem}
-%%\numberwithin{figure}{section}
+\renewcommand{\thefigure}{\thesection}
+%\setlist[enumerate,1]{before=\renewcommand\theequation{\theenumi.\arabic{equation}}
+%\counterwithin{equation}{enumi}
 
-%%\numberwithin{figure}{subsection}
-\numberwithin{table}{subsection}
 
+%\renewcommand{\theequation}{\arabic{subsection}.\arabic{equation}}
 
 \def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
      \def\rightbox#1{\makebox[0in][r]{#1}}
@@ -198,11 +185,15 @@ breaklines=true
 
 \vspace{3cm}
 
-\title{ 
+\title{
 %	\logo{
-	Measuring Unkown Resistance Using ESP32
+Digital Design through Vaman
 %	}
 }
+\author{ G. V. V. Sharma $^{*}$% <-this % stops a space
+	\thanks{*The author is with the Department of Electrical Engineering, IIT Hyderabad, 502285, India. email: gadepall@ee.iith.ac.in.  All material in this document is released under GNU GPL.  Free to use for anything.}
+	
+}	
 %\title{
 %	\logo{Matrix Analysis through Octave}{\begin{center}\includegraphics[scale=.24]{tlc}\end{center}}{}{HAMDSP}
 %}
@@ -222,13 +213,9 @@ breaklines=true
 % was not built to handle multiple paragraphs
 %
 
-\author{G V V Sharma$^{*}$ %<-this  stops a space
-\thanks{*The author is with the Department
-of Electrical Engineering, Indian Institute of Technology, Hyderabad
-502285 India e-mail:  gadepall@iith.ac.in. All content in the manual released under GNU GPL.  Free to use for anything.}% <-this % stops a space
-%\thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
-%\thanks{Manuscript received April 19, 2005; revised January 11, 2007.}}
-}
+%\author{<-this % stops a space
+%\thanks{}}
+%}
 % note the % following the last \IEEEmembership and also \thanks - 
 % these prevent an unwanted space from occurring between the last author name
 % and the end of the author line. i.e., if you had this:
@@ -274,10 +261,21 @@ of Electrical Engineering, Indian Institute of Technology, Hyderabad
 % make the title area
 \maketitle
 
-%\newpage
+\newpage
 
-%\tableofcontents
+\tableofcontents
 
+
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+%\renewcommand{\abstractname}{सार}
+%\renewcommand{\nomname}{नामकरण}
+%\renewcommand{\solution}{हल: }
+%\renewcommand{\figurename}{आकृति.}
+%\renewcommand{\tablename}{सारणी.}
+%\renewcommand{\theequation}{\theenumi}
 
 %\begin{abstract}
 %%\boldmath
@@ -306,51 +304,13 @@ of Electrical Engineering, Indian Institute of Technology, Hyderabad
 %
 % For peerreview papers, this IEEEtran command inserts a page break and
 % creates the second title. It will be ignored for other modes.
-\IEEEpeerreviewmaketitle
+%\IEEEpeerreviewmaketitle
+\fi
 
-
-%\documentclass{article}
-%\usepackage[utf8]{inputenc}
-%\usepackage{listings}
-%\usepackage{graphicx}
-
-%\usepackage{color}
-%\definecolor{codegreen}{rgb}{0,0.6,0}
-%\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-%\definecolor{codepurple}{rgb}{0.58,0,0.82}
-%\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-%\lstdefinestyle{mystyle}{
-    %backgroundcolor=\color{backcolour},   
-    %commentstyle=\color{codegreen},
-    %keywordstyle=\color{magenta},
-    %numberstyle=\tiny\color{codegray},
-    %stringstyle=\color{codepurple},
-    %basicstyle=\footnotesize,
-    %breakatwhitespace=false,         
-    %breaklines=true,                 
-    %captionpos=b,                    
-    %keepspaces=true,                 
-    %numbers=left,                    
-    %numbersep=5pt,                  
-    %showspaces=false,                
-    %showstringspaces=false,
-    %showtabs=false,                  
-    %tabsize=2
-%}
- 
-%\lstset{style=mystyle}
-
-
-%\title{Analog Design Through ESP32}
-%\author{G V V Sharma* }
-
-%\begin{document}
-
-%\maketitle
 \begin{abstract}
 Through this manual, we learn how to measure an unknown resistance through ESP32 and display it on an LCD.
 \end{abstract}
-\section{Components}
+\subsection{Components}
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 %\numberwithin{table}{enumi}
@@ -359,24 +319,24 @@ Through this manual, we learn how to measure an unknown resistance through ESP32
 
 \begin{table}[!h]
 \centering
-\input{./figs/components7.tex}
+\input{./vaman/esp32/lcd/figs/components7.tex}
 \caption{}
-\label{table:components}
+\label{table:components-lcd}
 \end{table}
-\section{Setting up the Display}
+\subsection{Setting up the Display}
 \begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 \item
-Plug the LCD in Fig. \ref{fig:lcd} to the breadboard.
+Plug the LCD in Fig. \ref{fig:lcd_figure} to the breadboard.
 
 %
 \begin{figure}
 \centering
-\includegraphics[width=\columnwidth]{./figs/lcd.eps}
+\includegraphics[width=\columnwidth]{./vaman/esp32/lcd/figs/lcd.eps}
 \caption{lcd}
-\label{fig:lcd}
+\label{fig:lcd_figure}
 \end{figure}
 
 %
@@ -393,18 +353,18 @@ Plug the LCD in Fig. \ref{fig:lcd} to the breadboard.
 %Connect pin 3 of the LCD to GND.  This is required for contrast.
 %
 \item
-Connect the ESP32 pins to LCD pins as per Table \ref{Table:1}. Make sure that all 5V sources are connected to the LCD through a 220 $\Omega$ resistance.
+Connect the ESP32 pins to LCD pins as per Table \ref{Table:1_LCD}. Make sure that all 5V sources are connected to the LCD through a 220 $\Omega$ resistance.
 \begin{table}[h]
 \centering
-\input{./figs/table1.tex}
+\input{./vaman/esp32/lcd/figs/table1.tex}
 \caption{Make sure that all 5V sources are connected to the LCD through a 220 $\Omega$ resistance.}
-\label{Table:1}
+\label{Table:1_LCD}
 \end{table}
 
 \item Execute the following code after editing the wifi credentials
 
 \begin{lstlisting}
-https://github.com/gadepall/vaman/tree/master/esp32/codes/ide/lcd/setup
+esp32/lcd/codes/setup
 \end{lstlisting}
 You should see the following  message
 \begin{lstlisting}
@@ -413,7 +373,7 @@ This is CSP Lab
 \end{lstlisting}
 \item Modify the above code to display your name.
 \end{enumerate}
-\section{Measuring the resistance}
+\subsection{Measuring the resistance}
 \begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
@@ -424,12 +384,12 @@ Connect the 5V pin of the ESP32 to an extreme pin of the Breadboard shown in Fig
 
 %
 %
-\begin{figure}
-\centering
-\includegraphics[width=\columnwidth]{./figs/breadboard.eps}
-\caption{Breadboard}
-\label{fig:breadboard}
-\end{figure}
+%\begin{figure}
+%\centering
+%\includegraphics[width=\columnwidth]{./vaman/esp32/lcd/figs/breadboard.eps}
+%\caption{Breadboard}
+%\label{fig:breadboard}
+%\end{figure}
 %
 \item
 Connect the GND pin of the ESP32 to the opposite extreme pin of the Breadboard.
@@ -447,7 +407,7 @@ to $V_{cc}$ and $R_2$ is connected to GND. Refer to Fig. \ref{fig:voltage_divide
 %\includegraphics[width=\columnwidth]{./figs/voltage_divider.eps}
 \resizebox {\columnwidth} {!} {
 %\input{./figs/collpits.tex}
-\input{./figs/vrr.tex}
+\input{./vaman/esp32/lcd/figs/vrr.tex}
 }
 %\input{./figs/vrr.tex}
 %\includegraphics[width=\columnwidth]{./figs/voltage_divider.eps}
@@ -476,14 +436,14 @@ Connect the ESP32 to the computer so that it is powered.
 Execute the following code after editing the wifi credentials
 
 \begin{lstlisting}
-https://github.com/gadepall/vaman/tree/master/esp32/codes/ide/lcd/resistance
+esp32/lcd/codes/resistance
 \end{lstlisting}
 %\solution 
 %%
 %\lstinputlisting{./codes/ESP32 _LCD/src/main.cpp}
 
 \end{enumerate}
-\section{Explanation}
+\subsection{Explanation}
 \begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
@@ -509,7 +469,5 @@ In the above, $V_{in} = 5$V, $R_1 = 220 \Omega$.
 \item Repeat the exercise with another unknown resistance.
 \end{enumerate}
 
-
-\end{document}
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.5.22)  22 JUN 2023 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.5.22)  22 JUN 2023 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2228,7 +2228,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55]
-(./gate/2022/43/figs/circuit.tex))
+(./gate/2022/43/figs/circuit.tex)
+Overfull \hbox (36.98672pt too wide) in paragraph at lines 80--82
+\OT1/cmr/m/n/10.95 se-quences de-tectable. For the se-quence $(1\OML/cmm/m/it/1
+0.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1)$ and in-
+put data $(1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT
+1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 
+; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/1
+0.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m
+/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/
+cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1
+\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10
+.95 0)$,
+ []
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2275,7 +2289,7 @@ ega168PinMap2-eps-converted-to.pdf assembly/sevenseg/figs/Atmega168PinMap2.eps>
 
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
-<assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf, id=1387, 458.713
+<assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf, id=1392, 458.713
 75pt x 306.14375pt>
 File: assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2457,7 +2471,7 @@ Overfull \hbox (50.57666pt too wide) in paragraph at lines 26--27
  []
 
 )
-<vaman/fpga/setup/figs/pin_sheet.png, id=1673, 2055.68pt x 1474.50874pt>
+<vaman/fpga/setup/figs/pin_sheet.png, id=1678, 2055.68pt x 1474.50874pt>
 File: vaman/fpga/setup/figs/pin_sheet.png Graphic file (type png)
 <use vaman/fpga/setup/figs/pin_sheet.png>
 Package pdftex.def Info: vaman/fpga/setup/figs/pin_sheet.png  used on input lin
@@ -2515,7 +2529,7 @@ o.pdf>
 -eps-converted-to.pdf ./vaman/esp32/lcd/figs/lcd.eps>
 (epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
-<./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf, id=1753, 592.2125pt x 303.132
+<./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf, id=1758, 592.2125pt x 303.132
 5pt>
 File: ./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf Graphic file (type pdf)
 <use ./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf>
@@ -2609,7 +2623,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91]
-<vaman/fpga/sevenseg/figs/pins.jpg, id=1902, 342.27875pt x 416.05438pt>
+<vaman/fpga/sevenseg/figs/pins.jpg, id=1907, 342.27875pt x 416.05438pt>
 File: vaman/fpga/sevenseg/figs/pins.jpg Graphic file (type jpg)
 <use vaman/fpga/sevenseg/figs/pins.jpg>
 Package pdftex.def Info: vaman/fpga/sevenseg/figs/pins.jpg  used on input line 
@@ -2741,7 +2755,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [107
 
 ]
-<./stm32/setup/figs/programming_mode.png, id=2145, 2055.68pt x 1208.515pt>
+<./stm32/setup/figs/programming_mode.png, id=2150, 2055.68pt x 1208.515pt>
 File: ./stm32/setup/figs/programming_mode.png Graphic file (type png)
 <use ./stm32/setup/figs/programming_mode.png>
 Package pdftex.def Info: ./stm32/setup/figs/programming_mode.png  used on input
@@ -2784,7 +2798,7 @@ ed-to.pdf>
 blue-eps-converted-to.pdf ./stm32/sevenseg/figs/stm_blue.eps>
 (epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/sevenseg/figs/stm_blue-eps-converted-to.pdf, id=2187, 602.25pt x 338.2
+<./stm32/sevenseg/figs/stm_blue-eps-converted-to.pdf, id=2192, 602.25pt x 338.2
 6375pt>
 File: ./stm32/sevenseg/figs/stm_blue-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2858,7 +2872,7 @@ rted-to.pdf>
 k_ctrl-eps-converted-to.pdf ./stm32/timers/figs/systick_ctrl.eps>
 (epstopdf)             \includegraphics on input line 397.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf, id=2259, 913.4125pt x 2
+<./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf, id=2264, 913.4125pt x 2
 05.76875pt>
 File: ./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2890,7 +2904,7 @@ pdf>
 ps-converted-to.pdf ./stm32/timers/figs/smcr.eps>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/smcr-eps-converted-to.pdf, id=2297, 882.29625pt x 76.285pt
+<./stm32/timers/figs/smcr-eps-converted-to.pdf, id=2302, 882.29625pt x 76.285pt
 >
 File: ./stm32/timers/figs/smcr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/smcr-eps-converted-to.pdf>
@@ -2908,7 +2922,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/cr1.eps>
 (epstopdf)             \includegraphics on input line 444.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/cr1-eps-converted-to.pdf, id=2299, 884.30376pt x 79.29625p
+<./stm32/timers/figs/cr1-eps-converted-to.pdf, id=2304, 884.30376pt x 79.29625p
 t>
 File: ./stm32/timers/figs/cr1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/cr1-eps-converted-to.pdf>
@@ -2926,7 +2940,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/psc.eps>
 (epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/psc-eps-converted-to.pdf, id=2301, 884.30376pt x 84.315pt>
+<./stm32/timers/figs/psc-eps-converted-to.pdf, id=2306, 884.30376pt x 84.315pt>
 
 File: ./stm32/timers/figs/psc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/psc-eps-converted-to.pdf>
@@ -2958,7 +2972,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/rcr.eps>
 (epstopdf)             \includegraphics on input line 511.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/rcr-eps-converted-to.pdf, id=2344, 885.3075pt x 85.31876pt
+<./stm32/timers/figs/rcr-eps-converted-to.pdf, id=2349, 885.3075pt x 85.31876pt
 >
 File: ./stm32/timers/figs/rcr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/rcr-eps-converted-to.pdf>
@@ -2983,7 +2997,7 @@ f>
 -converted-to.pdf ./stm32/timers/figs/sr.eps>
 (epstopdf)             \includegraphics on input line 522.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/sr-eps-converted-to.pdf, id=2362, 883.3pt x 87.32625pt>
+<./stm32/timers/figs/sr-eps-converted-to.pdf, id=2367, 883.3pt x 87.32625pt>
 File: ./stm32/timers/figs/sr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/sr-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/sr-eps-converted-to.pdf  used on i
@@ -3013,7 +3027,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/cr2.eps>
 (epstopdf)             \includegraphics on input line 562.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/cr2-eps-converted-to.pdf, id=2381, 865.2325pt x 76.285pt>
+<./stm32/timers/figs/cr2-eps-converted-to.pdf, id=2386, 865.2325pt x 76.285pt>
 File: ./stm32/timers/figs/cr2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/cr2-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/cr2-eps-converted-to.pdf  used on 
@@ -3039,7 +3053,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [122]
-<./stm32/clocks/figs/rcc_cr.png, id=2421, 901.11656pt x 193.47281pt>
+<./stm32/clocks/figs/rcc_cr.png, id=2426, 901.11656pt x 193.47281pt>
 File: ./stm32/clocks/figs/rcc_cr.png Graphic file (type png)
 <use ./stm32/clocks/figs/rcc_cr.png>
 Package pdftex.def Info: ./stm32/clocks/figs/rcc_cr.png  used on input line 369
@@ -3049,7 +3063,7 @@ Package pdftex.def Info: ./stm32/clocks/figs/rcc_cr.png  used on input line 369
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./stm32/clocks/figs/rcc_cfgr.png, id=2423, 898.10532pt x 174.6525pt>
+<./stm32/clocks/figs/rcc_cfgr.png, id=2428, 898.10532pt x 174.6525pt>
 File: ./stm32/clocks/figs/rcc_cfgr.png Graphic file (type png)
 <use ./stm32/clocks/figs/rcc_cfgr.png>
 Package pdftex.def Info: ./stm32/clocks/figs/rcc_cfgr.png  used on input line 3
@@ -3194,7 +3208,7 @@ f>
 -converted-to.pdf ./stm32/adc/figs/smpr1.eps>
 (epstopdf)             \includegraphics on input line 387.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/adc/figs/smpr1-eps-converted-to.pdf, id=2601, 846.16125pt x 157.58875p
+<./stm32/adc/figs/smpr1-eps-converted-to.pdf, id=2607, 846.16125pt x 157.58875p
 t>
 File: ./stm32/adc/figs/smpr1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/adc/figs/smpr1-eps-converted-to.pdf>
@@ -3212,7 +3226,7 @@ Package epstopdf Info: Source file: <./stm32/adc/figs/sqr3.eps>
 converted-to.pdf ./stm32/adc/figs/sqr3.eps>
 (epstopdf)             \includegraphics on input line 410.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/adc/figs/sqr3-eps-converted-to.pdf, id=2603, 709.65125pt x 127.47626pt
+<./stm32/adc/figs/sqr3-eps-converted-to.pdf, id=2609, 709.65125pt x 127.47626pt
 >
 File: ./stm32/adc/figs/sqr3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/adc/figs/sqr3-eps-converted-to.pdf>
@@ -3253,8 +3267,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BABDABF0B68C6117F43DC8FF685A08F8;7888.
  ) 
 Here is how much of TeX's memory you used:
- 45237 strings out of 479304
- 1007119 string characters out of 5869779
+ 45242 strings out of 479304
+ 1007159 string characters out of 5869779
  1885620 words of memory out of 5000000
  59965 multiletter control sequences out of 15000+600000
  430674 words of font info for 134 fonts, out of 8000000 for 9000
@@ -3284,10 +3298,10 @@ sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfss1095.pfb>
-Output written on main.pdf (149 pages, 7209367 bytes).
+Output written on main.pdf (149 pages, 7209856 bytes).
 PDF statistics:
- 3012 PDF objects out of 3580 (max. 8388607)
- 2753 compressed objects within 28 object streams
- 1338 named destinations out of 1440 (max. 500000)
+ 3018 PDF objects out of 3580 (max. 8388607)
+ 2759 compressed objects within 28 object streams
+ 1343 named destinations out of 1440 (max. 500000)
  1189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

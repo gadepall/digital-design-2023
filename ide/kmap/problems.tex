@@ -381,4 +381,44 @@ Consider the 2-bit multiplexer(MUX) shown in the figure. For output to be the XO
 \item $W = 0, X = 1, Y = 1, Z = 0$
 \item $W = 1, X = 1, Y = 0, Z = 0$
 \end{enumerate}
+\item The logic block shown has an output F given by \underline{\phantom{GATE2022IN}}
+                \label{prob:2022/gate/in/21}
+                \hfill(GATE IN 2022)
+        \begin{figure}[h!]
+                \centering
+                \begin{circuitikz}
+                        \draw
+                        (0,0)
+                        node[label=left:$B$] {}
+                        -- (7,0)
+                        (3,0.75)
+                        node[not port, anchor=out, scale=0.75] (not1) {}
+                        (1,0) to[short, *-] (1,0.75) -- (not1.in)
+                        (0,-2) node[label=left:$A$] {} -- (7,-2)
+                        (3,-1.25) node[not port, anchor=out, scale=0.75] (not2) {}
+                        (1,-2) to[short, *-] (1,-1.25) -- (not2.in)
+                        (3,0.75) -- (7,0.75)
+                        (3,-1.25) -- (7,-1.25)
+                        (3.5,-1.25) to[short, *-] (3.5,-3.5)
+                        (3.5,-3.5) node[nor port, rotate=270, anchor=in 2] (gate1) {}
+                        (gate1.in 1)
+                        to[short, -*] ++(0,4.25)
+                        (5.5,-2) to[short, *-] (5.5,-3.5)
+                        (5.5,-3.5) node[nor port, rotate=270, anchor=in 2] (gate2) {}
+                        (gate2.in 1)
+                        to[short, -*] ++(0,4.25)
+                        (4.75,-6.5) node[nor port, rotate=270] (gate3) {}
+                        (gate3.in 2) |- (gate1.out)
+                        (gate3.in 1) |- (gate2.out)
+                        (gate3.out) -- (4.75,-7) node[label=below:$F$] {};
+                \end{circuitikz}
+                \caption{Circuit}
+                \label{fig:circuit}
+        \end{figure}
+        \begin{enumerate}
+                \item $ A + B $
+                \item $ A. \bar{B} $
+                \item $ A + \bar{B} $
+                \item $ \bar{B} $
+        \end{enumerate}
 \end{enumerate}

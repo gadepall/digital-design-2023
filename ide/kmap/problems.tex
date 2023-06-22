@@ -381,4 +381,54 @@ Consider the 2-bit multiplexer(MUX) shown in the figure. For output to be the XO
 \item $W = 0, X = 1, Y = 1, Z = 0$
 \item $W = 1, X = 1, Y = 0, Z = 0$
 \end{enumerate}
+\item In the circuit shown below , X and Y are digital inputs, and Z is a digital output. The quivalent 
+		circuit is a  
+		\label{prob:2019 EE 36}
+		\hfill(GATE EE 2019)
+\begin{figure}[htbp]
+\begin{center}
+    \centering
+    \begin{circuitikz}[scale=1]
+    % 1st not
+        \draw (0,0) node[not port,scale=0.8 ] (not) {};
+        \draw (3,-0.28) node[and port] (and) {};
+        
+        \draw (not.in 1) -- ++(-1,0) node[left] {$X$};
+        \draw (not.out) -- ++(0,0) coordinate (and.in 1);
+        \draw (not.in 1) -- ++(0,-1.7) node[below] {$ $};
+    % 1st And
+        \draw (and.in 1) -- ++(-1.2,0) node[left] {$ $};
+        \draw (and.in 2) -- ++(-3.3,0) node[left] {$Y$};
+        \draw (and.out) -- ++(0,0) node[right] {$ $};
+
+        \draw (and.in 2) -- ++(-3,0) coordinate (point);
+        \draw (point) -- ++(0,-1.7) -- ++(1,0) node[below] {$ $};
+        \draw (and.out) -- ++(0,-0.47) node[below] {$ $};
+    %2nd not
+        \draw (0,-2.28) node[not port ,scale=0.8] (not) {};
+        \draw (not.in 1) -- ++(-0.8,0) node[left] {$ $};
+        \draw (not.out) -- ++(0,0) coordinate (and.in 2);
+   %2nd ANd
+        \draw (3,-2) node[and port] (and) {};
+        \draw (and.in 1) -- ++(-2.2,0) node[left] {$ $} ;
+        \draw (and.in 2) -- ++(-1.2,0) node[left] {$ $} ;
+        \draw (and.out) -- ++(0,0) node[right] {$ $};
+          \draw (and.out) -- ++(0,0.7) node[above] {$ $};
+    %or
+        \draw (6,-1) node[or port] (or) {};
+        \draw (or.in 1) -- ++(-1.48,0) node[left] {$ $} ;
+        \draw (or.in 2) -- ++(-1.48,0) node[left] {$ $} ;
+        \draw (or.out) -- ++(1,0) node[right] {$Z$};
+     \end{circuitikz}
+	\caption{ }
+	\label{fig}
+\end{center}
+\end{figure}
+    \begin{enumerate}
+        \item NAND gate
+        \item NOR gate
+        \item XOR gate
+        \item XNOR gate
+    \end{enumerate}
+
 \end{enumerate}

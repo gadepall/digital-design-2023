@@ -28,6 +28,7 @@
 \contentsline {chapter}{\numberline {5}7474}{47}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Components}{47}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Decade Counter}{47}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Problems}{49}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Finite State Machine}{51}{chapter.6}%
 \contentsline {section}{\numberline {6.1}The Decade Counter}{51}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Finite State Machine}{51}{section.6.2}%

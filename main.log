@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.5.22)  23 JUN 2023 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.5.22)  23 JUN 2023 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2257,13 +2257,27 @@ cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1
 .95 0)$,
  []
 
-)
+(./gate/2020/40/tflip-flop.tex (./gate/2020/40/figs/figureTFF.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58]
+ [58]))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60
+
+]
 Chapter 7.
 (./assembly/setup/main.tex
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
@@ -2280,16 +2294,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59
-
-])
+ [61])
 (./assembly/sevenseg/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
+ [62]
 (./assembly/sevenseg/figs/pinmap.tex)
 Package epstopdf Info: Source file: <assembly/sevenseg/figs/Atmega168PinMap2.ep
 s>
@@ -2304,7 +2316,7 @@ ega168PinMap2-eps-converted-to.pdf assembly/sevenseg/figs/Atmega168PinMap2.eps>
 
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
-<assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf, id=1413, 458.713
+<assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf, id=1425, 458.713
 75pt x 306.14375pt>
 File: assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2323,14 +2335,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61 <./assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf>]
+ [63 <./assembly/sevenseg/figs/Atmega168PinMap2-eps-converted-to.pdf>]
 (./assembly/sevenseg/codes/sevenseg.asm
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]))
+ [64]))
 (./assembly/7447/count/main.tex (./assembly/7447/count/figs/components.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2340,21 +2352,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
+ [65]
 (./assembly/7447/count/figs/7447_ard.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64])
+ [66])
 (./assembly/7447/io/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
+ [67]
 (./assembly/7447/io/figs/ip_7447_ard.tex)) (./assembly/timer/main.tex
 (./assembly/timer/figs/components.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2362,13 +2374,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
+ [68]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
+ [69]
 Underfull \vbox (badness 2005) has occurred while \output is active []
 
 
@@ -2377,7 +2389,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+ [70]
 Overfull \hbox (13.55063pt too wide) in paragraph at lines 359--360
 \OT1/cmr/bx/n/10.95 Solution: \OT1/cmr/m/n/10.95 The w0 loop is ex-e-cuted us-i
 ng the counts in R16=$2[] + 2[] = 80$, R17=R18=$2[] =
@@ -2392,7 +2404,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69])
+ [71])
 (./assembly/memory/main.tex
 Overfull \hbox (12.71432pt too wide) in paragraph at lines 299--301
 \OT1/cmr/bx/n/10.95 Solution: \OT1/cmr/m/n/10.95 X=R27:R26, Y=R29:R28, and Z=R3
@@ -2405,19 +2417,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70])
+ [72])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+ [73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72
+ [74
 
 ]
 Chapter 8.
@@ -2427,14 +2439,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73])
+ [75])
 (./avr-gcc/sevenseg/main.tex) (./avr-gcc/input/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74])
+ [76])
 (./avr-gcc/gcc-assembly/main.tex (./avr-gcc/gcc-assembly/figs/components.tex
 Underfull \hbox (badness 10000) in paragraph at lines 230--230
 []|\OT1/cmr/m/n/10.95 Common
@@ -2446,7 +2458,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75]
+ [77]
 (./avr-gcc/gcc-assembly/figs/param_pass.tex)) (./avr-gcc/lcd/main.tex
 (./avr-gcc/lcd/figs/components.tex
 
@@ -2461,7 +2473,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
+ [78]
 (./avr-gcc/lcd/figs/lcd.tex) (./avr-gcc/lcd/figs/table.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2472,13 +2484,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77])
+ [79])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78]
+ [80]
 Chapter 9.
 (./vaman/uart/main.tex (./vaman/uart/figs/circuit.tex
 Overfull \hbox (50.57666pt too wide) in paragraph at lines 26--27
@@ -2486,7 +2498,7 @@ Overfull \hbox (50.57666pt too wide) in paragraph at lines 26--27
  []
 
 )
-<vaman/fpga/setup/figs/pin_sheet.png, id=1699, 2055.68pt x 1474.50874pt>
+<vaman/fpga/setup/figs/pin_sheet.png, id=1711, 2055.68pt x 1474.50874pt>
 File: vaman/fpga/setup/figs/pin_sheet.png Graphic file (type png)
 <use vaman/fpga/setup/figs/pin_sheet.png>
 Package pdftex.def Info: vaman/fpga/setup/figs/pin_sheet.png  used on input lin
@@ -2498,7 +2510,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79
+ [81
 
 ]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -2512,26 +2524,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [81 <./vaman/fpga/setup/figs/pin_sheet.png>]) (./vaman/esp32/setup/main.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [82]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83 <./vaman/fpga/setup/figs/pin_sheet.png>]) (./vaman/esp32/setup/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
 (./vaman/esp32/setup/tables/onboard.tex)) (./vaman/esp32/lcd/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83]
+ [85]
 (./vaman/esp32/lcd/figs/components7.tex)
 Package epstopdf Info: Source file: <./vaman/esp32/lcd/figs/lcd.eps>
 (epstopdf)                    date: 2023-03-27 13:33:43
@@ -2544,7 +2556,7 @@ o.pdf>
 -eps-converted-to.pdf ./vaman/esp32/lcd/figs/lcd.eps>
 (epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
-<./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf, id=1780, 592.2125pt x 303.132
+<./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf, id=1791, 592.2125pt x 303.132
 5pt>
 File: ./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf Graphic file (type pdf)
 <use ./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf>
@@ -2561,35 +2573,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84]
+ [86]
 (./vaman/esp32/lcd/figs/vrr.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85 <./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [86]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [87])
+ [87 <./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
 Chapter 10.
 (./vaman/fpga/setup/main.tex
 Underfull \vbox (badness 1394) has occurred while \output is active []
@@ -2600,7 +2612,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89
+ [91
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2608,7 +2620,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90]
+ [92]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 428.
@@ -2619,7 +2631,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91])
+ [93])
 (./vaman/fpga/sevenseg/main.tex
 (./vaman/fpga/sevenseg/tables/pygmy_sevenseg.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2627,7 +2639,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92]
+ [94]
 (./vaman/fpga/sevenseg/tables/arduinoport.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2637,8 +2649,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
-<vaman/fpga/sevenseg/figs/pins.jpg, id=1929, 342.27875pt x 416.05438pt>
+ [95]
+<vaman/fpga/sevenseg/figs/pins.jpg, id=1940, 342.27875pt x 416.05438pt>
 File: vaman/fpga/sevenseg/figs/pins.jpg Graphic file (type jpg)
 <use vaman/fpga/sevenseg/figs/pins.jpg>
 Package pdftex.def Info: vaman/fpga/sevenseg/figs/pins.jpg  used on input line 
@@ -2650,7 +2662,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94])
+ [96])
 (./vaman/fpga/boolean/main.tex (./vaman/fpga/boolean/tables/pygmy_sevenseg.tex)
 (./vaman/fpga/boolean/tables/pygmy_dispdec.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2661,13 +2673,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95]
+ [97]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96])
+ [98])
 (./vaman/fpga/lcd/main.tex
 Underfull \vbox (badness 5578) has occurred while \output is active []
 
@@ -2677,26 +2689,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97]
+ [99]
 (./vaman/fpga/lcd/figs/table.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98])
+ [100])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99]
+ [101]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100 <./vaman/fpga/sevenseg/figs/pins.jpg>]
+ [102 <./vaman/fpga/sevenseg/figs/pins.jpg>]
 Chapter 11.
 (./vaman/arm/setup/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2704,7 +2716,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101
+ [103
 
 ]
 
@@ -2717,22 +2729,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102])
+ [104])
 (./vaman/arm/sevenseg/main.tex (./vaman/arm/sevenseg/tables/vaman_sevenseg.tex)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [103]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [104])
-(./vaman/arm/fsm/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2744,22 +2743,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [106]
+ [106])
+(./vaman/arm/fsm/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [107])
+ [107]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [108]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [109])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110]
 Chapter 12.
 (./stm32/setup/main.tex (./stm32/setup/tables/connections.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2767,10 +2779,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [109
+ [111
 
 ]
-<./stm32/setup/figs/programming_mode.png, id=2171, 2055.68pt x 1208.515pt>
+<./stm32/setup/figs/programming_mode.png, id=2184, 2055.68pt x 1208.515pt>
 File: ./stm32/setup/figs/programming_mode.png Graphic file (type png)
 <use ./stm32/setup/figs/programming_mode.png>
 Package pdftex.def Info: ./stm32/setup/figs/programming_mode.png  used on input
@@ -2786,7 +2798,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110])
+ [112])
 (./stm32/sevenseg/main.tex (./stm32/sevenseg/figs/components.tex
 Underfull \hbox (badness 10000) in paragraph at lines 228--228
 []|\OT1/cmr/m/n/10.95 Common
@@ -2801,7 +2813,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [111 <./stm32/setup/figs/programming_mode.png>]
+ [113 <./stm32/setup/figs/programming_mode.png>]
 Package epstopdf Info: Source file: <./stm32/sevenseg/figs/stm_blue.eps>
 (epstopdf)                    date: 2023-05-30 09:12:17
 (epstopdf)                    size: 2188535 bytes
@@ -2813,7 +2825,7 @@ ed-to.pdf>
 blue-eps-converted-to.pdf ./stm32/sevenseg/figs/stm_blue.eps>
 (epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/sevenseg/figs/stm_blue-eps-converted-to.pdf, id=2214, 602.25pt x 338.2
+<./stm32/sevenseg/figs/stm_blue-eps-converted-to.pdf, id=2225, 602.25pt x 338.2
 6375pt>
 File: ./stm32/sevenseg/figs/stm_blue-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2835,7 +2847,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [112]
+ [114]
 Underfull \hbox (badness 10000) in paragraph at lines 438--440
 
  []
@@ -2846,13 +2858,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113 <./stm32/sevenseg/figs/stm_blue-eps-converted-to.pdf>]
+ [115 <./stm32/sevenseg/figs/stm_blue-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114])
+ [116])
 (./stm32/timers/main.tex (./stm32/timers/figs/components.tex
 Underfull \hbox (badness 10000) in paragraph at lines 228--228
 []|\OT1/cmr/m/n/10.95 Common
@@ -2867,14 +2879,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [115]
+ [117]
 (./stm32/timers/figs/systick_pins.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [116]
+ [118]
 (./stm32/timers/figs/systick_reg.tex)
 Package epstopdf Info: Source file: <./stm32/timers/figs/systick_ctrl.eps>
 (epstopdf)                    date: 2023-05-30 09:12:17
@@ -2887,7 +2899,7 @@ rted-to.pdf>
 k_ctrl-eps-converted-to.pdf ./stm32/timers/figs/systick_ctrl.eps>
 (epstopdf)             \includegraphics on input line 397.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf, id=2287, 913.4125pt x 2
+<./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf, id=2298, 913.4125pt x 2
 05.76875pt>
 File: ./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2901,13 +2913,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117]
+ [119]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118 <./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf>]
+ [120 <./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./stm32/timers/figs/smcr.eps>
 (epstopdf)                    date: 2023-05-30 09:12:17
 (epstopdf)                    size: 255499 bytes
@@ -2919,7 +2931,7 @@ pdf>
 ps-converted-to.pdf ./stm32/timers/figs/smcr.eps>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/smcr-eps-converted-to.pdf, id=2323, 882.29625pt x 76.285pt
+<./stm32/timers/figs/smcr-eps-converted-to.pdf, id=2334, 882.29625pt x 76.285pt
 >
 File: ./stm32/timers/figs/smcr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/smcr-eps-converted-to.pdf>
@@ -2937,7 +2949,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/cr1.eps>
 (epstopdf)             \includegraphics on input line 444.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/cr1-eps-converted-to.pdf, id=2325, 884.30376pt x 79.29625p
+<./stm32/timers/figs/cr1-eps-converted-to.pdf, id=2336, 884.30376pt x 79.29625p
 t>
 File: ./stm32/timers/figs/cr1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/cr1-eps-converted-to.pdf>
@@ -2955,7 +2967,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/psc.eps>
 (epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/psc-eps-converted-to.pdf, id=2327, 884.30376pt x 84.315pt>
+<./stm32/timers/figs/psc-eps-converted-to.pdf, id=2338, 884.30376pt x 84.315pt>
 
 File: ./stm32/timers/figs/psc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/psc-eps-converted-to.pdf>
@@ -2968,14 +2980,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [119 <./stm32/timers/figs/smcr-eps-converted-to.pdf> <./stm32/timers/figs/cr1-
+ [121 <./stm32/timers/figs/smcr-eps-converted-to.pdf> <./stm32/timers/figs/cr1-
 eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120 <./stm32/timers/figs/psc-eps-converted-to.pdf>]
+ [122 <./stm32/timers/figs/psc-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./stm32/timers/figs/rcr.eps>
 (epstopdf)                    date: 2023-05-30 09:12:17
 (epstopdf)                    size: 287967 bytes
@@ -2987,7 +2999,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/rcr.eps>
 (epstopdf)             \includegraphics on input line 511.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/rcr-eps-converted-to.pdf, id=2370, 885.3075pt x 85.31876pt
+<./stm32/timers/figs/rcr-eps-converted-to.pdf, id=2382, 885.3075pt x 85.31876pt
 >
 File: ./stm32/timers/figs/rcr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/rcr-eps-converted-to.pdf>
@@ -3000,7 +3012,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [121 <./stm32/timers/figs/rcr-eps-converted-to.pdf>]
+ [123 <./stm32/timers/figs/rcr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./stm32/timers/figs/sr.eps>
 (epstopdf)                    date: 2023-05-30 09:12:17
 (epstopdf)                    size: 292354 bytes
@@ -3012,7 +3024,7 @@ f>
 -converted-to.pdf ./stm32/timers/figs/sr.eps>
 (epstopdf)             \includegraphics on input line 522.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/sr-eps-converted-to.pdf, id=2388, 883.3pt x 87.32625pt>
+<./stm32/timers/figs/sr-eps-converted-to.pdf, id=2400, 883.3pt x 87.32625pt>
 File: ./stm32/timers/figs/sr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/sr-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/sr-eps-converted-to.pdf  used on i
@@ -3030,7 +3042,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [122 <./stm32/timers/figs/sr-eps-converted-to.pdf>]
+ [124 <./stm32/timers/figs/sr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./stm32/timers/figs/cr2.eps>
 (epstopdf)                    date: 2023-05-30 09:12:17
 (epstopdf)                    size: 262985 bytes
@@ -3042,7 +3054,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/cr2.eps>
 (epstopdf)             \includegraphics on input line 562.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/cr2-eps-converted-to.pdf, id=2409, 865.2325pt x 76.285pt>
+<./stm32/timers/figs/cr2-eps-converted-to.pdf, id=2420, 865.2325pt x 76.285pt>
 File: ./stm32/timers/figs/cr2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/cr2-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/cr2-eps-converted-to.pdf  used on 
@@ -3054,7 +3066,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [123 <./stm32/timers/figs/cr2-eps-converted-to.pdf>]) (./stm32/clocks/main.tex
+ [125 <./stm32/timers/figs/cr2-eps-converted-to.pdf>]) (./stm32/clocks/main.tex
 
 (./stm32/clocks/figs/components.tex
 Underfull \hbox (badness 10000) in paragraph at lines 229--229
@@ -3067,8 +3079,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [124]
-<./stm32/clocks/figs/rcc_cr.png, id=2447, 901.11656pt x 193.47281pt>
+ [126]
+<./stm32/clocks/figs/rcc_cr.png, id=2458, 901.11656pt x 193.47281pt>
 File: ./stm32/clocks/figs/rcc_cr.png Graphic file (type png)
 <use ./stm32/clocks/figs/rcc_cr.png>
 Package pdftex.def Info: ./stm32/clocks/figs/rcc_cr.png  used on input line 369
@@ -3078,7 +3090,7 @@ Package pdftex.def Info: ./stm32/clocks/figs/rcc_cr.png  used on input line 369
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./stm32/clocks/figs/rcc_cfgr.png, id=2449, 898.10532pt x 174.6525pt>
+<./stm32/clocks/figs/rcc_cfgr.png, id=2460, 898.10532pt x 174.6525pt>
 File: ./stm32/clocks/figs/rcc_cfgr.png Graphic file (type png)
 <use ./stm32/clocks/figs/rcc_cfgr.png>
 Package pdftex.def Info: ./stm32/clocks/figs/rcc_cfgr.png  used on input line 3
@@ -3090,13 +3102,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [125]
+ [127]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126 <./stm32/clocks/figs/rcc_cr.png> <./stm32/clocks/figs/rcc_cfgr.png>])
+ [128 <./stm32/clocks/figs/rcc_cr.png> <./stm32/clocks/figs/rcc_cfgr.png>])
 (./stm32/gpio/main.tex (./stm32/gpio/figs/components.tex)
 (./stm32/gpio/figs/pins.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3104,13 +3116,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [127]
+ [129]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [128]
+ [130]
 (./stm32/gpio/figs/gpio_enable.tex
 Underfull \vbox (badness 10000) detected at line 261
  []
@@ -3130,14 +3142,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129]
+ [131]
 (./stm32/gpio/figs/gpio_input.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [130])
+ [132])
 (./stm32/lcd/main.tex
 Overfull \hbox (23.8804pt too wide) in paragraph at lines 311--312
  \OT1/cmr/bx/n/9 T:\OT1/cmr/m/n/9 his man-ual shows how to in-ter-face the $16 
@@ -3159,7 +3171,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [131]
+ [133]
 (./stm32/lcd/figs/pins.tex
 Underfull \vbox (badness 10000) detected at line 329
  []
@@ -3170,7 +3182,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [132]
+ [134]
 Underfull \hbox (badness 10000) in paragraph at lines 355--359
 
  []
@@ -3181,13 +3193,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [133]
+ [135]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134])
+ [136])
 (./stm32/adc/main.tex
 Overfull \hbox (23.8804pt too wide) in paragraph at lines 311--312
  \OT1/cmr/bx/n/9 T:\OT1/cmr/m/n/9 his man-ual shows how to in-ter-face the $16 
@@ -3204,14 +3216,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [135]
+ [137]
 (./stm32/adc/figs/sensor.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [136]
+ [138]
 Package epstopdf Info: Source file: <./stm32/adc/figs/smpr1.eps>
 (epstopdf)                    date: 2023-05-30 09:12:17
 (epstopdf)                    size: 543204 bytes
@@ -3223,7 +3235,7 @@ f>
 -converted-to.pdf ./stm32/adc/figs/smpr1.eps>
 (epstopdf)             \includegraphics on input line 387.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/adc/figs/smpr1-eps-converted-to.pdf, id=2628, 846.16125pt x 157.58875p
+<./stm32/adc/figs/smpr1-eps-converted-to.pdf, id=2639, 846.16125pt x 157.58875p
 t>
 File: ./stm32/adc/figs/smpr1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/adc/figs/smpr1-eps-converted-to.pdf>
@@ -3241,7 +3253,7 @@ Package epstopdf Info: Source file: <./stm32/adc/figs/sqr3.eps>
 converted-to.pdf ./stm32/adc/figs/sqr3.eps>
 (epstopdf)             \includegraphics on input line 410.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/adc/figs/sqr3-eps-converted-to.pdf, id=2630, 709.65125pt x 127.47626pt
+<./stm32/adc/figs/sqr3-eps-converted-to.pdf, id=2641, 709.65125pt x 127.47626pt
 >
 File: ./stm32/adc/figs/sqr3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/adc/figs/sqr3-eps-converted-to.pdf>
@@ -3254,26 +3266,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [137 <./stm32/adc/figs/smpr1-eps-converted-to.pdf>] (./stm32/adc/figs/pin_chan
+ [139 <./stm32/adc/figs/smpr1-eps-converted-to.pdf>] (./stm32/adc/figs/pin_chan
 nel.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [138 <./stm32/adc/figs/sqr3-eps-converted-to.pdf>])
+ [140 <./stm32/adc/figs/sqr3-eps-converted-to.pdf>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [139]
+ [141]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140
+ [142
 
 ]
 No file main.ind.
@@ -3282,10 +3294,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BABDABF0B68C6117F43DC8FF685A08F8;7888.
  ) 
 Here is how much of TeX's memory you used:
- 45646 strings out of 479304
- 1017206 string characters out of 5869779
- 1892496 words of memory out of 5000000
- 60354 multiletter control sequences out of 15000+600000
+ 45677 strings out of 479304
+ 1017703 string characters out of 5869779
+ 1893172 words of memory out of 5000000
+ 60373 multiletter control sequences out of 15000+600000
  431020 words of font info for 135 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  117i,19n,116p,778b,1923s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3314,10 +3326,10 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
 texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pu
 blic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss10
 95.pfb>
-Output written on main.pdf (151 pages, 7225129 bytes).
+Output written on main.pdf (153 pages, 7227563 bytes).
 PDF statistics:
- 3046 PDF objects out of 3580 (max. 8388607)
- 2784 compressed objects within 28 object streams
- 1357 named destinations out of 1440 (max. 500000)
+ 3057 PDF objects out of 3580 (max. 8388607)
+ 2793 compressed objects within 28 object streams
+ 1361 named destinations out of 1440 (max. 500000)
  1189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -304,4 +304,38 @@ in Fig.
 \caption{}
 \label{fig:2019-gate-ee-36}
 \end{figure}
+\item The propogation delays of the XOR gate, AND gate and multiplexer (MUX) in the circuit shown in the figure are 4 ns, 2 ns and 1 ns, respectively.\\
+\label{gate-ec-2021-31}
+\hfill (GATE EC 2021)
+\begin{circuitikz}                                   
+  \node[and port] (a) at (1,6){};                       
+  \node[xor port] (b) at (1,4){};                       
+  \node[and port] (c) at (1,2){};                       
+  \node[and port] (e) at (7,3){};                       
+  \draw(-1,6.23) node[above]{$P$} -- (0.25,6.23);       
+  \draw(-1,5.23) node[above]{$Q$} -- (0.17,5.23);       
+  \draw(-1,2.95) node[above]{$R$} -- (0.17,2.95);       
+  \draw(-1,1.77) node[above]{$S$} -- (0.25,1.77);       
+  \draw(a.in 2) -| (b.in 1);                            
+  \draw(b.in 2) -| (c.in 1);                            
+  \draw(b.out) -- ++(1.4,0) node{0};                   
+  \draw(c.out) -- ++(1.4,0) node{1};                    
+  \draw(e.out) -- ++(0.4,0) node{1};                    
+  \draw(a.out) -- ++(6.4,0) node{0};                    
+  \draw(6.15,3.25) -- (6.15,6);                         
+  \draw(4.95,2.78) -- (6.15,2.78);                              
+  \draw(0,0) node[above]{$T$} -- (10,0);                
+  \draw(10,0) -- (10,0.5) node[above]{$S0$};           
+  \draw(4,0) -- (4,1.25) node[above]{$S0$};             
+  \draw(11.87,4.5) -- (14,4.5) node[above]{$Y$};                                                            
+  \tikzstyle{mux} = [rectangle, draw, minimum height = 10em, text width = 5em]                      
+  \node[mux] (d) at (4,3) {MUX};                                
+  \tikzstyle{mux}=[rectangle,draw,minimum height=20em,text width=10em]                                      
+  \node[mux] (f) at (10,4){MUX};
+  \end{circuitikz}
+  
+If all the inputs P, Q, R, S and T are applied simultaneously and held constant, the maximum propogation delay of the circuit is
+\begin{enumerate}
+  \item 3 ns \item 5 ns \item 6 ns \item 7 ns
+\end{enumerate}
 \end{enumerate}

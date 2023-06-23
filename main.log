@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.2.2)  23 JUN 2023 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.2.2)  23 JUN 2023 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2483,7 +2483,7 @@ Overfull \hbox (50.57666pt too wide) in paragraph at lines 26--27
  []
 
 )
-<vaman/fpga/setup/figs/pin_sheet.png, id=1698, 2055.68pt x 1474.50874pt>
+<vaman/fpga/setup/figs/pin_sheet.png, id=1693, 2055.68pt x 1474.50874pt>
 File: vaman/fpga/setup/figs/pin_sheet.png Graphic file (type png)
 <use vaman/fpga/setup/figs/pin_sheet.png>
 Package pdftex.def Info: vaman/fpga/setup/figs/pin_sheet.png  used on input lin
@@ -2541,7 +2541,7 @@ o.pdf>
 -eps-converted-to.pdf ./vaman/esp32/lcd/figs/lcd.eps>
 (epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
-<./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf, id=1780, 592.2125pt x 303.132
+<./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf, id=1773, 592.2125pt x 303.132
 5pt>
 File: ./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf Graphic file (type pdf)
 <use ./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf>
@@ -2635,7 +2635,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [93]
-<vaman/fpga/sevenseg/figs/pins.jpg, id=1934, 342.27875pt x 416.05438pt>
+<vaman/fpga/sevenseg/figs/pins.jpg, id=1923, 342.27875pt x 416.05438pt>
 File: vaman/fpga/sevenseg/figs/pins.jpg Graphic file (type jpg)
 <use vaman/fpga/sevenseg/figs/pins.jpg>
 Package pdftex.def Info: vaman/fpga/sevenseg/figs/pins.jpg  used on input line 
@@ -2767,7 +2767,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [109
 
 ]
-<./stm32/setup/figs/programming_mode.png, id=2182, 2055.68pt x 1208.515pt>
+<./stm32/setup/figs/programming_mode.png, id=2165, 2055.68pt x 1208.515pt>
 File: ./stm32/setup/figs/programming_mode.png Graphic file (type png)
 <use ./stm32/setup/figs/programming_mode.png>
 Package pdftex.def Info: ./stm32/setup/figs/programming_mode.png  used on input
@@ -2810,7 +2810,7 @@ ed-to.pdf>
 blue-eps-converted-to.pdf ./stm32/sevenseg/figs/stm_blue.eps>
 (epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/sevenseg/figs/stm_blue-eps-converted-to.pdf, id=2226, 602.25pt x 338.2
+<./stm32/sevenseg/figs/stm_blue-eps-converted-to.pdf, id=2208, 602.25pt x 338.2
 6375pt>
 File: ./stm32/sevenseg/figs/stm_blue-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2884,7 +2884,7 @@ rted-to.pdf>
 k_ctrl-eps-converted-to.pdf ./stm32/timers/figs/systick_ctrl.eps>
 (epstopdf)             \includegraphics on input line 397.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf, id=2304, 913.4125pt x 2
+<./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf, id=2280, 913.4125pt x 2
 05.76875pt>
 File: ./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2916,7 +2916,7 @@ pdf>
 ps-converted-to.pdf ./stm32/timers/figs/smcr.eps>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/smcr-eps-converted-to.pdf, id=2342, 882.29625pt x 76.285pt
+<./stm32/timers/figs/smcr-eps-converted-to.pdf, id=2317, 882.29625pt x 76.285pt
 >
 File: ./stm32/timers/figs/smcr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/smcr-eps-converted-to.pdf>
@@ -2934,7 +2934,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/cr1.eps>
 (epstopdf)             \includegraphics on input line 444.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/cr1-eps-converted-to.pdf, id=2344, 884.30376pt x 79.29625p
+<./stm32/timers/figs/cr1-eps-converted-to.pdf, id=2319, 884.30376pt x 79.29625p
 t>
 File: ./stm32/timers/figs/cr1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/cr1-eps-converted-to.pdf>
@@ -2952,7 +2952,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/psc.eps>
 (epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/psc-eps-converted-to.pdf, id=2346, 884.30376pt x 84.315pt>
+<./stm32/timers/figs/psc-eps-converted-to.pdf, id=2321, 884.30376pt x 84.315pt>
 
 File: ./stm32/timers/figs/psc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/psc-eps-converted-to.pdf>
@@ -2984,7 +2984,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/rcr.eps>
 (epstopdf)             \includegraphics on input line 511.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/rcr-eps-converted-to.pdf, id=2391, 885.3075pt x 85.31876pt
+<./stm32/timers/figs/rcr-eps-converted-to.pdf, id=2364, 885.3075pt x 85.31876pt
 >
 File: ./stm32/timers/figs/rcr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/rcr-eps-converted-to.pdf>
@@ -3009,7 +3009,7 @@ f>
 -converted-to.pdf ./stm32/timers/figs/sr.eps>
 (epstopdf)             \includegraphics on input line 522.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/sr-eps-converted-to.pdf, id=2409, 883.3pt x 87.32625pt>
+<./stm32/timers/figs/sr-eps-converted-to.pdf, id=2382, 883.3pt x 87.32625pt>
 File: ./stm32/timers/figs/sr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/sr-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/sr-eps-converted-to.pdf  used on i
@@ -3039,7 +3039,7 @@ df>
 s-converted-to.pdf ./stm32/timers/figs/cr2.eps>
 (epstopdf)             \includegraphics on input line 562.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/cr2-eps-converted-to.pdf, id=2431, 865.2325pt x 76.285pt>
+<./stm32/timers/figs/cr2-eps-converted-to.pdf, id=2403, 865.2325pt x 76.285pt>
 File: ./stm32/timers/figs/cr2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/cr2-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/cr2-eps-converted-to.pdf  used on 
@@ -3065,7 +3065,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [124]
-<./stm32/clocks/figs/rcc_cr.png, id=2471, 901.11656pt x 193.47281pt>
+<./stm32/clocks/figs/rcc_cr.png, id=2441, 901.11656pt x 193.47281pt>
 File: ./stm32/clocks/figs/rcc_cr.png Graphic file (type png)
 <use ./stm32/clocks/figs/rcc_cr.png>
 Package pdftex.def Info: ./stm32/clocks/figs/rcc_cr.png  used on input line 369
@@ -3075,7 +3075,7 @@ Package pdftex.def Info: ./stm32/clocks/figs/rcc_cr.png  used on input line 369
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./stm32/clocks/figs/rcc_cfgr.png, id=2473, 898.10532pt x 174.6525pt>
+<./stm32/clocks/figs/rcc_cfgr.png, id=2443, 898.10532pt x 174.6525pt>
 File: ./stm32/clocks/figs/rcc_cfgr.png Graphic file (type png)
 <use ./stm32/clocks/figs/rcc_cfgr.png>
 Package pdftex.def Info: ./stm32/clocks/figs/rcc_cfgr.png  used on input line 3
@@ -3220,7 +3220,7 @@ f>
 -converted-to.pdf ./stm32/adc/figs/smpr1.eps>
 (epstopdf)             \includegraphics on input line 387.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/adc/figs/smpr1-eps-converted-to.pdf, id=2661, 846.16125pt x 157.58875p
+<./stm32/adc/figs/smpr1-eps-converted-to.pdf, id=2622, 846.16125pt x 157.58875p
 t>
 File: ./stm32/adc/figs/smpr1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/adc/figs/smpr1-eps-converted-to.pdf>
@@ -3238,7 +3238,7 @@ Package epstopdf Info: Source file: <./stm32/adc/figs/sqr3.eps>
 converted-to.pdf ./stm32/adc/figs/sqr3.eps>
 (epstopdf)             \includegraphics on input line 410.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/adc/figs/sqr3-eps-converted-to.pdf, id=2663, 709.65125pt x 127.47626pt
+<./stm32/adc/figs/sqr3-eps-converted-to.pdf, id=2624, 709.65125pt x 127.47626pt
 >
 File: ./stm32/adc/figs/sqr3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/adc/figs/sqr3-eps-converted-to.pdf>
@@ -3275,175 +3275,46 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 No file main.ind.
 (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BABDABF0B68C6117F43DC8FF685A08F8;7888.
  ) 
 Here is how much of TeX's memory you used:
- 45486 strings out of 479304
- 1012598 string characters out of 5869780
- 1887947 words of memory out of 5000000
- 60158 multiletter control sequences out of 15000+600000
+ 45433 strings out of 479304
+ 1011802 string characters out of 5869780
+ 1888088 words of memory out of 5000000
+ 60147 multiletter control sequences out of 15000+600000
  431020 words of font info for 135 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  117i,19n,116p,778b,1923s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.384.1} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.382.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.380.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.364.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.363.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.355.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.350.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.349.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.342.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.341.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.338.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.337.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.336.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.333.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.328.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.321.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.320.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.313.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.307.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.305.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.304.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.297.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.297.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.293.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.288.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.282.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.271.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.270.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.252.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.249.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.247.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.245.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.244.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.222.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.221.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.218.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.208.2} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.202.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.202.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.198.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.170.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.160.1} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095
-.pfb>
-Output written on main.pdf (151 pages, 7223428 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss10
+95.pfb>
+Output written on main.pdf (151 pages, 7222628 bytes).
 PDF statistics:
- 3090 PDF objects out of 3580 (max. 8388607)
- 2827 compressed objects within 29 object streams
- 1393 named destinations out of 1440 (max. 500000)
+ 3039 PDF objects out of 3580 (max. 8388607)
+ 2777 compressed objects within 28 object streams
+ 1351 named destinations out of 1440 (max. 500000)
  1189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

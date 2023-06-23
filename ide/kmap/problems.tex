@@ -384,4 +384,45 @@ Consider the 2-bit multiplexer(MUX) shown in the figure. For output to be the XO
 \item $A=a_1a_0$ and $B=b_1b_0$ are two 2-bit unsigned binary numbers. If $F(a_1,a_0,b_1,b_0)$ is a Boolean function such that $F = 1$ only when $A>B$, and $F=0$ otherwise, then $F$ can be minimized to the form \rule{9mm}{0.4pt}.
 \label{prob:2022-gate-in-48}
 \hfill(GATE IN-2022)
+\item 
+	\label{prob:2022/gate/in/21}
+	The logic block shown has an output F given by \rule{10mm}{0.4pt}.	
+		\hfill(GATE IN 2022)
+	\begin{figure}[H]
+                \centering
+                \begin{circuitikz}
+                        \draw
+                        (0,0) 
+                        node[label=left:$B$] {}
+                        -- (7,0)
+                        (3,0.75) 
+                        node[not port, anchor=out, scale=0.75] (not1) {}
+                        (1,0) to[short, *-] (1,0.75) -- (not1.in)
+                        (0,-2) node[label=left:$A$] {} -- (7,-2)
+                        (3,-1.25) node[not port, anchor=out, scale=0.75] (not2) {}
+                        (1,-2) to[short, *-] (1,-1.25) -- (not2.in)
+                        (3,0.75) -- (7,0.75)
+                        (3,-1.25) -- (7,-1.25)
+                        (3.5,-1.25) to[short, *-] (3.5,-3.5)
+                        (3.5,-3.5) node[nor port, rotate=270, anchor=in 2] (gate1) {}
+                        (gate1.in 1)
+                        to[short, -*] ++(0,4.25)
+                        (5.5,-2) to[short, *-] (5.5,-3.5)
+                        (5.5,-3.5) node[nor port, rotate=270, anchor=in 2] (gate2) {}
+                        (gate2.in 1)
+                        to[short, -*] ++(0,4.25)
+                        (4.75,-6.5) node[nor port, rotate=270] (gate3) {}
+                        (gate3.in 2) |- (gate1.out)
+                        (gate3.in 1) |- (gate2.out)
+                        (gate3.out) -- (4.75,-7) node[label=below:$F$] {};
+                \end{circuitikz}
+                \caption{Circuit}
+                \label{fig:circuit}
+	\end{figure}
+        \begin{enumerate}
+                \item $ A + B $
+                \item $ A. \bar{B} $
+                \item $ A + \bar{B} $
+                \item $ \bar{B} $
+        \end{enumerate}
 \end{enumerate}

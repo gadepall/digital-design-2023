@@ -1,0 +1,47 @@
+\begin{tikzpicture}
+  \draw (0,0) rectangle (2,3);
+
+  \draw (-4,2.25) -- (0,2.25);
+  \draw (-0.5,0.75) -- (0,0.75);
+  \node[left] at (0.75,2.25) {$T_B$};
+  \node[left] at (1.1,0.75) {$clk$};
+
+  \draw (2,2.25) -- (4,2.25);
+  \node[left] at (2,2.25) {$B$};
+  
+
+  \draw (0,0.4) -- (0.4,0.75) -- (0,1.1);
+
+  \draw (0,4) rectangle (2,7);
+  
+  \draw (-0.5,6.25) -- (0,6.25);
+  \draw (-0.5,4.75) -- (0,4.75);
+  \node[left] at (0.75,6.25) {$T_A$};
+  \node[left] at (1.1,4.75) {$clk$};
+
+  \draw (-1.5,6.25) node[nand port] (nand) {};
+  \draw (-4.5,6.525) -- (nand.in 1);
+  \node[left] at (-4.5,6.525) {$x$};
+  \draw (-2.9,3.5) -- (nand.in 2) ;
+  \draw (nand.out) -- (-0.5,6.25) ;
+  \draw (-4,2.25) -- (-4,6.525) ;
+  \draw (-2.9,3.5) -- (3.5,3.5) ;
+  \draw (3.5,3.5) -- (3.5,2.25) ;
+  \filldraw (3.5,2.25) circle (2pt) ;
+  \filldraw (-4,6.525) circle (2pt) ;
+  \filldraw (-0.5,0.75) circle (2pt);
+
+  \draw (5.5,5.965) node[or port] (or) {};
+  \draw (4,6.25) -- (or.in 1) ;
+  \draw (4,2.25) -- (4,5.685) ;
+  \draw (4,5.685) -- (or.in 2) ;
+  \node[right] at (or.out) {$y$} ;
+  \draw (-0.5,4.75) -- (-0.5,-1.) ;
+  \node[below] at (-0.5,-1.) {$clk$};
+  
+  \draw (2,6.25) -- (4,6.25);
+  \node[left] at (2,6.25) {$A$};
+
+  \draw (0,4.4) -- (0.4,4.75) -- (0,5.1);
+  
+\end{tikzpicture}

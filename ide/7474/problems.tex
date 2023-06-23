@@ -57,4 +57,38 @@ logic ports/scale=0.5
     \item does not function as a counter due to disjoint cycles of states 
 \end{enumerate}
 \hfill{GATE IN 2022}
+\item The propogation delay of the exclusive-OR(XOR) gate in the circuit in the figure is 3ns.The propogation delay of all the flip-flops is assumed to be zero.The clock(Clk) frequency provided to the circuit is 500MHz.
+\label{prob:gate-ec-46.2021}
+\hfill (GATE EC 2021)
+
+\begin{circuitikz}                                
+\draw(-1.3,-0.56)node[xor port,anchor=out](x) {};  
+\draw (-1.3,-1.3) rectangle (0,0);
+\draw(-1,-0.6) node{$D2$};
+\draw(0.7,-1.3) rectangle (2,0);
+\draw(1,-0.6) node{$D1$};
+\draw(2.7,-1.3) rectangle (4,0);
+\draw(3,-0.6) node{$D0$};
+\draw(0,-0.6) -- (0.7,-0.6);
+\draw(2,-0.6) -- (2.7,-0.6);
+\draw(4,-0.6) -- (4.35,-0.6);
+\draw(-1.5,-2) node[above]{$clk$} -- (3.35,-2); 
+\draw(-0.65,-2) -- (-0.65,-1.3);
+\draw(1.35,-2) -- (1.35,-1.3);
+\draw(3.35,-2) -- (3.35,-1.3);
+\draw(-0.5,-1.3) -- (-0.65,-1.1) -- (-0.8,-1.3);
+\draw(1.2,-1.3) -- (1.35,-1.1) -- (1.5,-1.3);
+\draw(3.2,-1.3) -- (3.35,-1.1) -- (3.5,-1.3);
+\draw(0.35,-0.6) --(0.35,0.3);
+\draw(2.35,-0.6) --(2.35,0.35);
+\draw(4.35,-0.6) --(4.35,0.9);
+\draw(4.35,0.9) -- (-3,0.9);
+\draw(0.35,0.3) -- (-2.5,0.3);
+\draw(x.in 2) -|(-3,-0.7)to[short](-3,0.9);
+\draw(x.in 1) -|(-2.5,-0.3)to[short](-2.5,0.3);
+\draw(0.35,0.5)node{$Q2$};
+\draw(2.35,0.45)node{$Q1$};
+\draw(4.35,1)node{$Q0$};
+\end{circuitikz}
+Starting from the initial value of the flip-flop outputs $Q2Q1Q0 =111$ with $D2=1$,the minimum number of triggering clock edges after which the flip-flop outputs $Q2Q1Q0$ becomes 1 0 0\emph{(in integer)} is \line(1,0){12.5} 
 \end{enumerate}

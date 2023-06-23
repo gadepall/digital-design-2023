@@ -2,4 +2,33 @@
 \item The maximum clock frequency in MHz of a 4-stage ripple counter, utilizing flip-flops, with each flip-flop having a propagation delay of 20 ns, is \rule{1cm}{0.10mm}. (round off to one decimal place)
 \label{gate-ee-2022-29}
 \hfill (GATE EE 2022)
+\item For the circuit shown, the clock frequency is $f_0$ and the duty cycle is $25\%$. For the signal at the $Q$ output of the Flip-Flop,
+\label{prob:2022/gate/ec/43}
+\hfill (GATE EC-2022)
+
+\begin{tikzpicture}
+    \draw (2,2) rectangle (5,5);
+    \draw (3.5,5) node[above]{$2$ $Bit$ $binary$ $counter$};
+    \draw (3.3,2) -- (3.5,2.2) -- (3.7,2);
+    \draw (7,2) rectangle (10,5);
+    \draw (8.5,5) node[above]{$Flip-Flop$};
+    \draw (8.3,2) -- (8.5,2.2) -- (8.7,2);
+    \draw (5,3) -- (5.5,3) node[above]{$MSB$} -- (6,3);
+    \draw (7.25,3) node{$K$};
+    \draw (5,4) -- (5.5,4) node[above]{$LSB$} -- (7,4);
+    \draw (7.25,4) node{$J$};
+    \draw (6.75,4) -- (6.75,3) -- (7,3);
+    \draw (0,0) node[above]{$clock$} -- (8.5,0);
+    \draw (3.5,0) -- (3.5,2);
+    \draw (8.5,0) -- (8.5,2);
+    \draw (10,3) -- (11,3);
+    \draw (9.75,4) node{$Q$} (10,4) -- (11,4);
+\end{tikzpicture}
+
+\begin{enumerate}
+  \item frequency of $\frac{f_0}{4}$ and duty cycle is 50$\%$
+  \item frequency of $\frac{f_0}{4}$ and duty cycle is 25$\%$
+  \item frequency of $\frac{f_0}{2}$ and duty cycle is 50$\%$
+  \item frequency of $f_0$ and duty cycle is 25$\%$ \\
+\end{enumerate}
 \end{enumerate}

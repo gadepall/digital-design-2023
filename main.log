@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.2.3)  25 JUN 2023 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.2.3)  25 JUN 2023 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1507,11 +1507,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 (./ide/sevenseg/figs/ard_breadboard.tex)
 Package epstopdf Info: Source file: <ide/sevenseg/figs/breadboard.eps>
-(epstopdf)                    date: 2023-06-25 14:51:05
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 2106822 bytes
 (epstopdf)             Output file: <ide/sevenseg/figs/breadboard-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2023-06-25 14:51:05
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 115496 bytes
 (epstopdf)             Command: <repstopdf --outfile=ide/sevenseg/figs/breadboa
 rd-eps-converted-to.pdf ide/sevenseg/figs/breadboard.eps>
@@ -2316,11 +2316,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./assembly/sevenseg/figs/pinmap.tex)
 Package epstopdf Info: Source file: <assembly/sevenseg/figs/Atmega168PinMap2.ep
 s>
-(epstopdf)                    date: 2023-06-25 14:51:04
+(epstopdf)                    date: 2023-06-25 15:17:17
 (epstopdf)                    size: 1512009 bytes
 (epstopdf)             Output file: <assembly/sevenseg/figs/Atmega168PinMap2-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2023-06-25 14:51:04
+(epstopdf)                    date: 2023-06-25 15:17:17
 (epstopdf)                    size: 117576 bytes
 (epstopdf)             Command: <repstopdf --outfile=assembly/sevenseg/figs/Atm
 ega168PinMap2-eps-converted-to.pdf assembly/sevenseg/figs/Atmega168PinMap2.eps>
@@ -2509,7 +2509,7 @@ Overfull \hbox (50.57666pt too wide) in paragraph at lines 26--27
  []
 
 )
-<vaman/fpga/setup/figs/pin_sheet.png, id=1717, 2055.68pt x 1474.50874pt>
+<vaman/fpga/setup/figs/pin_sheet.png, id=1716, 2055.68pt x 1474.50874pt>
 File: vaman/fpga/setup/figs/pin_sheet.png Graphic file (type png)
 <use vaman/fpga/setup/figs/pin_sheet.png>
 Package pdftex.def Info: vaman/fpga/setup/figs/pin_sheet.png  used on input lin
@@ -2557,17 +2557,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [85]
 (./vaman/esp32/lcd/figs/components7.tex)
 Package epstopdf Info: Source file: <./vaman/esp32/lcd/figs/lcd.eps>
-(epstopdf)                    date: 2023-06-25 14:51:09
+(epstopdf)                    date: 2023-06-25 15:17:21
 (epstopdf)                    size: 1088526 bytes
 (epstopdf)             Output file: <./vaman/esp32/lcd/figs/lcd-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2023-06-25 14:51:09
+(epstopdf)                    date: 2023-06-25 15:17:21
 (epstopdf)                    size: 11754 bytes
 (epstopdf)             Command: <repstopdf --outfile=./vaman/esp32/lcd/figs/lcd
 -eps-converted-to.pdf ./vaman/esp32/lcd/figs/lcd.eps>
 (epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
-<./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf, id=1801, 592.2125pt x 303.132
+<./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf, id=1800, 592.2125pt x 303.132
 5pt>
 File: ./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf Graphic file (type pdf)
 <use ./vaman/esp32/lcd/figs/lcd-eps-converted-to.pdf>
@@ -2661,7 +2661,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [95]
-<vaman/fpga/sevenseg/figs/pins.jpg, id=1954, 342.27875pt x 416.05438pt>
+<vaman/fpga/sevenseg/figs/pins.jpg, id=1953, 342.27875pt x 416.05438pt>
 File: vaman/fpga/sevenseg/figs/pins.jpg Graphic file (type jpg)
 <use vaman/fpga/sevenseg/figs/pins.jpg>
 Package pdftex.def Info: vaman/fpga/sevenseg/figs/pins.jpg  used on input line 
@@ -2826,11 +2826,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [113 <./stm32/setup/figs/programming_mode.png>]
 Package epstopdf Info: Source file: <./stm32/sevenseg/figs/stm_blue.eps>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 2188535 bytes
 (epstopdf)             Output file: <./stm32/sevenseg/figs/stm_blue-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 225490 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/sevenseg/figs/stm_
 blue-eps-converted-to.pdf ./stm32/sevenseg/figs/stm_blue.eps>
@@ -2900,11 +2900,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [118]
 (./stm32/timers/figs/systick_reg.tex)
 Package epstopdf Info: Source file: <./stm32/timers/figs/systick_ctrl.eps>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 680224 bytes
 (epstopdf)             Output file: <./stm32/timers/figs/systick_ctrl-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 13873 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/systic
 k_ctrl-eps-converted-to.pdf ./stm32/timers/figs/systick_ctrl.eps>
@@ -2932,17 +2932,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [120 <./stm32/timers/figs/systick_ctrl-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./stm32/timers/figs/smcr.eps>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 255499 bytes
 (epstopdf)             Output file: <./stm32/timers/figs/smcr-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 9997 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/smcr-e
 ps-converted-to.pdf ./stm32/timers/figs/smcr.eps>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/smcr-eps-converted-to.pdf, id=2362, 882.29625pt x 76.285pt
+<./stm32/timers/figs/smcr-eps-converted-to.pdf, id=2361, 882.29625pt x 76.285pt
 >
 File: ./stm32/timers/figs/smcr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/smcr-eps-converted-to.pdf>
@@ -2950,17 +2950,17 @@ Package pdftex.def Info: ./stm32/timers/figs/smcr-eps-converted-to.pdf  used on
  input line 433.
 (pdftex.def)             Requested size: 433.62001pt x 37.49171pt.
 Package epstopdf Info: Source file: <./stm32/timers/figs/cr1.eps>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 265850 bytes
 (epstopdf)             Output file: <./stm32/timers/figs/cr1-eps-converted-to.p
 df>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 10452 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/cr1-ep
 s-converted-to.pdf ./stm32/timers/figs/cr1.eps>
 (epstopdf)             \includegraphics on input line 444.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/cr1-eps-converted-to.pdf, id=2364, 884.30376pt x 79.29625p
+<./stm32/timers/figs/cr1-eps-converted-to.pdf, id=2363, 884.30376pt x 79.29625p
 t>
 File: ./stm32/timers/figs/cr1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/cr1-eps-converted-to.pdf>
@@ -2968,17 +2968,17 @@ Package pdftex.def Info: ./stm32/timers/figs/cr1-eps-converted-to.pdf  used on
 input line 444.
 (pdftex.def)             Requested size: 433.62001pt x 38.88332pt.
 Package epstopdf Info: Source file: <./stm32/timers/figs/psc.eps>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 282869 bytes
 (epstopdf)             Output file: <./stm32/timers/figs/psc-eps-converted-to.p
 df>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 7454 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/psc-ep
 s-converted-to.pdf ./stm32/timers/figs/psc.eps>
 (epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/psc-eps-converted-to.pdf, id=2366, 884.30376pt x 84.315pt>
+<./stm32/timers/figs/psc-eps-converted-to.pdf, id=2365, 884.30376pt x 84.315pt>
 
 File: ./stm32/timers/figs/psc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/psc-eps-converted-to.pdf>
@@ -3000,17 +3000,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [122 <./stm32/timers/figs/psc-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./stm32/timers/figs/rcr.eps>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 287967 bytes
 (epstopdf)             Output file: <./stm32/timers/figs/rcr-eps-converted-to.p
 df>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 7630 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/rcr-ep
 s-converted-to.pdf ./stm32/timers/figs/rcr.eps>
 (epstopdf)             \includegraphics on input line 511.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/rcr-eps-converted-to.pdf, id=2411, 885.3075pt x 85.31876pt
+<./stm32/timers/figs/rcr-eps-converted-to.pdf, id=2412, 885.3075pt x 85.31876pt
 >
 File: ./stm32/timers/figs/rcr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/rcr-eps-converted-to.pdf>
@@ -3025,17 +3025,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [123 <./stm32/timers/figs/rcr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./stm32/timers/figs/sr.eps>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 292354 bytes
 (epstopdf)             Output file: <./stm32/timers/figs/sr-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 11980 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/sr-eps
 -converted-to.pdf ./stm32/timers/figs/sr.eps>
 (epstopdf)             \includegraphics on input line 522.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/sr-eps-converted-to.pdf, id=2431, 883.3pt x 87.32625pt>
+<./stm32/timers/figs/sr-eps-converted-to.pdf, id=2432, 883.3pt x 87.32625pt>
 File: ./stm32/timers/figs/sr-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/sr-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/sr-eps-converted-to.pdf  used on i
@@ -3055,17 +3055,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [124 <./stm32/timers/figs/sr-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./stm32/timers/figs/cr2.eps>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 262985 bytes
 (epstopdf)             Output file: <./stm32/timers/figs/cr2-eps-converted-to.p
 df>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 8517 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/timers/figs/cr2-ep
 s-converted-to.pdf ./stm32/timers/figs/cr2.eps>
 (epstopdf)             \includegraphics on input line 562.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/timers/figs/cr2-eps-converted-to.pdf, id=2451, 865.2325pt x 76.285pt>
+<./stm32/timers/figs/cr2-eps-converted-to.pdf, id=2452, 865.2325pt x 76.285pt>
 File: ./stm32/timers/figs/cr2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/timers/figs/cr2-eps-converted-to.pdf>
 Package pdftex.def Info: ./stm32/timers/figs/cr2-eps-converted-to.pdf  used on 
@@ -3091,7 +3091,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [126]
-<./stm32/clocks/figs/rcc_cr.png, id=2490, 901.11656pt x 193.47281pt>
+<./stm32/clocks/figs/rcc_cr.png, id=2492, 901.11656pt x 193.47281pt>
 File: ./stm32/clocks/figs/rcc_cr.png Graphic file (type png)
 <use ./stm32/clocks/figs/rcc_cr.png>
 Package pdftex.def Info: ./stm32/clocks/figs/rcc_cr.png  used on input line 369
@@ -3101,7 +3101,7 @@ Package pdftex.def Info: ./stm32/clocks/figs/rcc_cr.png  used on input line 369
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./stm32/clocks/figs/rcc_cfgr.png, id=2492, 898.10532pt x 174.6525pt>
+<./stm32/clocks/figs/rcc_cfgr.png, id=2494, 898.10532pt x 174.6525pt>
 File: ./stm32/clocks/figs/rcc_cfgr.png Graphic file (type png)
 <use ./stm32/clocks/figs/rcc_cfgr.png>
 Package pdftex.def Info: ./stm32/clocks/figs/rcc_cfgr.png  used on input line 3
@@ -3236,17 +3236,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [138]
 Package epstopdf Info: Source file: <./stm32/adc/figs/smpr1.eps>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 543204 bytes
 (epstopdf)             Output file: <./stm32/adc/figs/smpr1-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 18251 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/adc/figs/smpr1-eps
 -converted-to.pdf ./stm32/adc/figs/smpr1.eps>
 (epstopdf)             \includegraphics on input line 387.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/adc/figs/smpr1-eps-converted-to.pdf, id=2678, 846.16125pt x 157.58875p
+<./stm32/adc/figs/smpr1-eps-converted-to.pdf, id=2684, 846.16125pt x 157.58875p
 t>
 File: ./stm32/adc/figs/smpr1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/adc/figs/smpr1-eps-converted-to.pdf>
@@ -3254,17 +3254,17 @@ Package pdftex.def Info: ./stm32/adc/figs/smpr1-eps-converted-to.pdf  used on i
 nput line 387.
 (pdftex.def)             Requested size: 433.62001pt x 80.75633pt.
 Package epstopdf Info: Source file: <./stm32/adc/figs/sqr3.eps>
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 596888 bytes
 (epstopdf)             Output file: <./stm32/adc/figs/sqr3-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2023-06-25 14:51:06
+(epstopdf)                    date: 2023-06-25 15:17:18
 (epstopdf)                    size: 15621 bytes
 (epstopdf)             Command: <repstopdf --outfile=./stm32/adc/figs/sqr3-eps-
 converted-to.pdf ./stm32/adc/figs/sqr3.eps>
 (epstopdf)             \includegraphics on input line 410.
 Package epstopdf Info: Output file is already uptodate.
-<./stm32/adc/figs/sqr3-eps-converted-to.pdf, id=2680, 709.65125pt x 127.47626pt
+<./stm32/adc/figs/sqr3-eps-converted-to.pdf, id=2686, 709.65125pt x 127.47626pt
 >
 File: ./stm32/adc/figs/sqr3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./stm32/adc/figs/sqr3-eps-converted-to.pdf>
@@ -3308,134 +3308,152 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BABDABF0B68C6117F43DC8FF685A08F8;7888.
  ) 
 Here is how much of TeX's memory you used:
- 45721 strings out of 479304
- 1018201 string characters out of 5869780
- 1893185 words of memory out of 5000000
+ 45727 strings out of 479304
+ 1018270 string characters out of 5869780
+ 1893216 words of memory out of 5000000
  60374 multiletter control sequences out of 15000+600000
  431020 words of font info for 135 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  117i,19n,116p,778b,1923s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.396.1} has been referenced but does not exi
+pdfTeX warning (dest): name{table.401.1} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.394.1} has been referenced but does not exis
+pdfTeX warning (dest): name{figure.399.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.392.1} has been referenced but does not exis
+pdfTeX warning (dest): name{figure.397.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.376.2} has been referenced but does not exist
+pdfTeX warning (dest): name{table.381.2} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{table.375.1} has been referenced but does not exist
+pdfTeX warning (dest): name{table.380.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.378.1} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{table.373.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{table.367.2} has been referenced but does not exist
+pdfTeX warning (dest): name{table.372.2} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{table.361.1} has been referenced but does not exist
+pdfTeX warning (dest): name{table.367.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.353.1} has been referenced but does not exis
+pdfTeX warning (dest): name{table.366.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.359.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.348.1} has been referenced but does not exist
+pdfTeX warning (dest): name{figure.358.1} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.355.1} has been referenced but does not exist
 , replaced by a fixed one
+
+pdfTeX warning (dest): name{table.354.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.353.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.350.1} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.345.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.340.1} has been referenced but does not exis
+pdfTeX warning (dest): name{figure.343.1} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.338.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.331.1} has been referenced but does not exis
+pdfTeX warning (dest): name{figure.337.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.325.1} has been referenced but does not exis
+pdfTeX warning (dest): name{figure.336.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.323.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.319.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.316.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.309.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.309.1} has been referenced but does not exis
+pdfTeX warning (dest): name{figure.330.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.305.1} has been referenced but does not exist
+pdfTeX warning (dest): name{table.328.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.300.1} has been referenced but does not exis
+pdfTeX warning (dest): name{table.322.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.321.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.314.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.314.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.294.1} has been referenced but does not exist
+pdfTeX warning (dest): name{figure.305.1} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.299.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{table.282.1} has been referenced but does not exist
+pdfTeX warning (dest): name{table.288.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{table.270.1} has been referenced but does not exist
+pdfTeX warning (dest): name{table.287.1} has been referenced but does not exist
 , replaced by a fixed one
+
+pdfTeX warning (dest): name{table.275.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.269.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.266.1} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{table.264.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.261.1} has been referenced but does not exis
+pdfTeX warning (dest): name{table.262.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.261.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.244.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.259.1} has been referenced but does not exist
+pdfTeX warning (dest): name{table.239.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{table.256.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.239.1} has been referenced but does not exis
+pdfTeX warning (dest): name{figure.238.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.234.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.233.1} has been referenced but does not exis
+pdfTeX warning (dest): name{figure.225.2} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.230.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.220.2} has been referenced but does not exis
+pdfTeX warning (dest): name{figure.225.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.220.1} has been referenced but does not exis
+pdfTeX warning (dest): name{table.225.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.219.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.219.1} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.220.1} has been referenced but does not exist
+pdfTeX warning (dest): name{table.187.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{table.214.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.214.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.210.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.182.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.172.1} has been referenced but does not exist
+pdfTeX warning (dest): name{table.177.1} has been referenced but does not exist
 , replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
@@ -3463,10 +3481,10 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
 xmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publ
 ic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095
 .pfb>
-Output written on main.pdf (153 pages, 7229929 bytes).
+Output written on main.pdf (153 pages, 7229952 bytes).
 PDF statistics:
- 3108 PDF objects out of 3580 (max. 8388607)
- 2843 compressed objects within 29 object streams
- 1403 named destinations out of 1440 (max. 500000)
+ 3116 PDF objects out of 3580 (max. 8388607)
+ 2851 compressed objects within 29 object streams
+ 1409 named destinations out of 1440 (max. 500000)
  1189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

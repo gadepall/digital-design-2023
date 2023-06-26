@@ -67,6 +67,7 @@
 \contentsline {subsection}{\numberline {9.5.2}Setting up the Display}{88}{subsection.9.5.2}%
 \contentsline {subsection}{\numberline {9.5.3}Measuring the resistance}{89}{subsection.9.5.3}%
 \contentsline {subsection}{\numberline {9.5.4}Explanation}{92}{subsection.9.5.4}%
+\contentsline {section}{\numberline {9.6}Problems}{92}{section.9.6}%
 \contentsline {chapter}{\numberline {10}Vaman-FPGA}{93}{chapter.10}%
 \contentsline {section}{\numberline {10.1}Setup}{93}{section.10.1}%
 \contentsline {subsection}{\numberline {10.1.1}Software}{93}{subsection.10.1.1}%

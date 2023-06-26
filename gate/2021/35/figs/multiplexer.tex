@@ -1,0 +1,24 @@
+\begin{tikzpicture}
+\draw (0,0) -- (4,0) -- (4,4) -- (0,4) -- cycle;
+% Draw the input lines
+\draw (0,3.2) -- (-1.0,3.2) node [left] {$Z{W^\prime}$};
+\draw (0.3,3.2) node [right] {$I_3$};
+\draw (0,2.4) -- (-1.0,2.4) node [left] {$ZW$};
+\draw (0.3,2.4) node [right] {$I_2$};
+\draw (0,1.6) -- (-1.0,1.6) node [left] {$0$};
+\draw (0.3,1.6) node [right] {$I_1$};
+\draw (0,0.8) -- (-1.0,0.8) node [left] {${Z^\prime}+W$};
+\draw (0.3,0.8) node [right] {$I_0$};
+% Draw the selector lines
+\draw (1.3,0) -- (1.3,-1.0) node [below] {$X$};
+\draw (1.3,0.1) node [above] {$S_1$};
+\draw (2.6,0) -- (2.6,-1.0) node [below] {$Y$};
+\draw (2.6,0.1) node [above] {$S_0$};
+% Draw the output line
+\draw [-stealth](4,2.0) -- (5,2.0) node [right] {$F$};
+% Draw the multiplexer symbol
+\draw (1.7,2.2)  node{$4$};
+\draw (2.0,2.2)  node{to};
+\draw (2.3,2.2)  node{$1$};
+\draw (2.0,1.5)  node{MUX};
+\end{tikzpicture}

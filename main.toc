@@ -25,106 +25,107 @@
 \contentsline {section}{\numberline {4.4}Dont Care}{30}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Don't Care Conditions}{31}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Problems}{34}{section.4.6}%
-\contentsline {chapter}{\numberline {5}7474}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Components}{47}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Decade Counter}{47}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Problems}{49}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Finite State Machine}{53}{chapter.6}%
-\contentsline {section}{\numberline {6.1}The Decade Counter}{53}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Finite State Machine}{53}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Problems}{54}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Assembly Programming}{61}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Software Installation}{61}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Seven Segment Display}{63}{section.7.2}%
-\contentsline {section}{\numberline {7.3}7447}{65}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Components}{65}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Boolean Operations}{66}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Controlling the Display}{67}{subsection.7.3.3}%
-\contentsline {section}{\numberline {7.4}Timer}{68}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Components}{69}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Blink through TIMER}{69}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}Blink through Cycle Delays}{71}{subsection.7.4.3}%
-\contentsline {section}{\numberline {7.5}Memory}{72}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Embedded C}{75}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Blink}{75}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Components}{75}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Blink}{75}{subsection.8.1.2}%
-\contentsline {section}{\numberline {8.2}Display Control}{76}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Input}{76}{section.8.3}%
-\contentsline {section}{\numberline {8.4}GCC-Assembly}{77}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Components}{77}{subsection.8.4.1}%
-\contentsline {subsection}{\numberline {8.4.2}GCC with Assembly}{77}{subsection.8.4.2}%
-\contentsline {section}{\numberline {8.5}LCD}{78}{section.8.5}%
-\contentsline {subsection}{\numberline {8.5.1}Components}{79}{subsection.8.5.1}%
-\contentsline {subsection}{\numberline {8.5.2}Display Number on LCD}{79}{subsection.8.5.2}%
-\contentsline {chapter}{\numberline {9}Vaman-ESP32}{81}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Software}{81}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Flash Vaman-ESP32 using Arduino}{81}{section.9.2}%
-\contentsline {section}{\numberline {9.3}OTA}{84}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Onboard LED}{85}{section.9.4}%
-\contentsline {section}{\numberline {9.5}LCD}{86}{section.9.5}%
-\contentsline {subsection}{\numberline {9.5.1}Components}{86}{subsection.9.5.1}%
-\contentsline {subsection}{\numberline {9.5.2}Setting up the Display}{86}{subsection.9.5.2}%
-\contentsline {subsection}{\numberline {9.5.3}Measuring the resistance}{87}{subsection.9.5.3}%
-\contentsline {subsection}{\numberline {9.5.4}Explanation}{90}{subsection.9.5.4}%
-\contentsline {chapter}{\numberline {10}Vaman-FPGA}{91}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Setup}{91}{section.10.1}%
-\contentsline {subsection}{\numberline {10.1.1}Software}{91}{subsection.10.1.1}%
-\contentsline {subsection}{\numberline {10.1.2}Setup}{91}{subsection.10.1.2}%
-\contentsline {subsection}{\numberline {10.1.3}Frequency}{92}{subsection.10.1.3}%
-\contentsline {section}{\numberline {10.2}Seven Segment Display}{94}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}Software}{94}{subsection.10.2.1}%
-\contentsline {subsection}{\numberline {10.2.2}Setup}{94}{subsection.10.2.2}%
-\contentsline {subsection}{\numberline {10.2.3}Examples}{96}{subsection.10.2.3}%
-\contentsline {section}{\numberline {10.3}Boolean Logic}{97}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}Software}{97}{subsection.10.3.1}%
-\contentsline {subsection}{\numberline {10.3.2}Setup}{97}{subsection.10.3.2}%
-\contentsline {subsection}{\numberline {10.3.3}Decade Counter}{99}{subsection.10.3.3}%
-\contentsline {section}{\numberline {10.4}LCD}{99}{section.10.4}%
-\contentsline {subsection}{\numberline {10.4.1}Display the addition of two numbers on LCD}{100}{subsection.10.4.1}%
-\contentsline {chapter}{\numberline {11}Vaman-ARM}{103}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Setup}{103}{section.11.1}%
-\contentsline {subsection}{\numberline {11.1.1}Software}{103}{subsection.11.1.1}%
-\contentsline {subsection}{\numberline {11.1.2}Setup}{103}{subsection.11.1.2}%
-\contentsline {subsection}{\numberline {11.1.3}Delay}{103}{subsection.11.1.3}%
-\contentsline {section}{\numberline {11.2}Seven Segment Display}{105}{section.11.2}%
-\contentsline {subsection}{\numberline {11.2.1}Software}{105}{subsection.11.2.1}%
-\contentsline {subsection}{\numberline {11.2.2}Setup}{105}{subsection.11.2.2}%
-\contentsline {subsection}{\numberline {11.2.3}Examples}{107}{subsection.11.2.3}%
-\contentsline {section}{\numberline {11.3}FSM}{107}{section.11.3}%
-\contentsline {subsection}{\numberline {11.3.1}Software}{108}{subsection.11.3.1}%
-\contentsline {subsection}{\numberline {11.3.2}Setup}{108}{subsection.11.3.2}%
-\contentsline {subsection}{\numberline {11.3.3}Decade Counter }{110}{subsection.11.3.3}%
-\contentsline {chapter}{\numberline {12}STM-32}{111}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Setup}{111}{section.12.1}%
-\contentsline {subsection}{\numberline {12.1.1}Software}{111}{subsection.12.1.1}%
-\contentsline {section}{\numberline {12.2}Seven Segment Display}{113}{section.12.2}%
-\contentsline {subsection}{\numberline {12.2.1}Components}{114}{subsection.12.2.1}%
-\contentsline {subsection}{\numberline {12.2.2}Hardware}{114}{subsection.12.2.2}%
-\contentsline {subsection}{\numberline {12.2.3}Software}{115}{subsection.12.2.3}%
-\contentsline {section}{\numberline {12.3}Timers}{117}{section.12.3}%
-\contentsline {subsection}{\numberline {12.3.1}Components}{117}{subsection.12.3.1}%
-\contentsline {subsection}{\numberline {12.3.2}Systick timer}{118}{subsection.12.3.2}%
-\contentsline {subsection}{\numberline {12.3.3}TIMER-1}{120}{subsection.12.3.3}%
-\contentsline {subsection}{\numberline {12.3.4}TIMER-2}{124}{subsection.12.3.4}%
-\contentsline {subsection}{\numberline {12.3.5}Master-Slave Configuration}{125}{subsection.12.3.5}%
-\contentsline {subsubsection}{\numberline {12.3.5.1}Blink}{125}{subsubsection.12.3.5.1}%
-\contentsline {subsubsection}{\numberline {12.3.5.2}Decade Counter}{126}{subsubsection.12.3.5.2}%
-\contentsline {section}{\numberline {12.4}Clocks}{126}{section.12.4}%
-\contentsline {subsection}{\numberline {12.4.1}Components}{126}{subsection.12.4.1}%
-\contentsline {subsection}{\numberline {12.4.2}HSE}{127}{subsection.12.4.2}%
-\contentsline {subsection}{\numberline {12.4.3}PLL}{128}{subsection.12.4.3}%
-\contentsline {section}{\numberline {12.5}GPIO}{129}{section.12.5}%
-\contentsline {subsection}{\numberline {12.5.1}Components}{129}{subsection.12.5.1}%
-\contentsline {subsection}{\numberline {12.5.2}Hardware Setup}{129}{subsection.12.5.2}%
-\contentsline {subsection}{\numberline {12.5.3}GPIO Output}{130}{subsection.12.5.3}%
-\contentsline {subsection}{\numberline {12.5.4}GPIO Input}{132}{subsection.12.5.4}%
-\contentsline {section}{\numberline {12.6}LCD}{133}{section.12.6}%
-\contentsline {subsection}{\numberline {12.6.1}Components}{134}{subsection.12.6.1}%
-\contentsline {subsection}{\numberline {12.6.2}Hardware}{134}{subsection.12.6.2}%
-\contentsline {subsection}{\numberline {12.6.3}Software}{135}{subsection.12.6.3}%
-\contentsline {subsection}{\numberline {12.6.4}Project}{137}{subsection.12.6.4}%
-\contentsline {section}{\numberline {12.7}ADC}{137}{section.12.7}%
-\contentsline {subsection}{\numberline {12.7.1}Components}{137}{subsection.12.7.1}%
-\contentsline {subsection}{\numberline {12.7.2}Internal Temperature Sensor}{138}{subsection.12.7.2}%
-\contentsline {subsection}{\numberline {12.7.3}Measuring an Unkown Resistance}{140}{subsection.12.7.3}%
+\contentsline {chapter}{\numberline {5}7474}{49}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Components}{49}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Decade Counter}{49}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Problems}{51}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Finite State Machine}{55}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The Decade Counter}{55}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Finite State Machine}{55}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Problems}{56}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Assembly Programming}{63}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Software Installation}{63}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Seven Segment Display}{65}{section.7.2}%
+\contentsline {section}{\numberline {7.3}7447}{67}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Components}{67}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Boolean Operations}{68}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Controlling the Display}{69}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Timer}{70}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Components}{71}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Blink through TIMER}{71}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Blink through Cycle Delays}{73}{subsection.7.4.3}%
+\contentsline {section}{\numberline {7.5}Memory}{74}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Embedded C}{77}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Blink}{77}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Components}{77}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Blink}{77}{subsection.8.1.2}%
+\contentsline {section}{\numberline {8.2}Display Control}{78}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Input}{78}{section.8.3}%
+\contentsline {section}{\numberline {8.4}GCC-Assembly}{79}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Components}{79}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}GCC with Assembly}{79}{subsection.8.4.2}%
+\contentsline {section}{\numberline {8.5}LCD}{80}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Components}{81}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Display Number on LCD}{81}{subsection.8.5.2}%
+\contentsline {chapter}{\numberline {9}Vaman-ESP32}{83}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Software}{83}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Flash Vaman-ESP32 using Arduino}{83}{section.9.2}%
+\contentsline {section}{\numberline {9.3}OTA}{86}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Onboard LED}{87}{section.9.4}%
+\contentsline {section}{\numberline {9.5}LCD}{88}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Components}{88}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.2}Setting up the Display}{88}{subsection.9.5.2}%
+\contentsline {subsection}{\numberline {9.5.3}Measuring the resistance}{89}{subsection.9.5.3}%
+\contentsline {subsection}{\numberline {9.5.4}Explanation}{92}{subsection.9.5.4}%
+\contentsline {section}{\numberline {9.6}Problems}{92}{section.9.6}%
+\contentsline {chapter}{\numberline {10}Vaman-FPGA}{93}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Setup}{93}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Software}{93}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Setup}{93}{subsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.1.3}Frequency}{94}{subsection.10.1.3}%
+\contentsline {section}{\numberline {10.2}Seven Segment Display}{96}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Software}{96}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Setup}{96}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}Examples}{98}{subsection.10.2.3}%
+\contentsline {section}{\numberline {10.3}Boolean Logic}{99}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Software}{99}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Setup}{99}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}Decade Counter}{101}{subsection.10.3.3}%
+\contentsline {section}{\numberline {10.4}LCD}{101}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Display the addition of two numbers on LCD}{102}{subsection.10.4.1}%
+\contentsline {chapter}{\numberline {11}Vaman-ARM}{105}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Setup}{105}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}Software}{105}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.1.2}Setup}{105}{subsection.11.1.2}%
+\contentsline {subsection}{\numberline {11.1.3}Delay}{105}{subsection.11.1.3}%
+\contentsline {section}{\numberline {11.2}Seven Segment Display}{107}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Software}{107}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Setup}{107}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}Examples}{109}{subsection.11.2.3}%
+\contentsline {section}{\numberline {11.3}FSM}{109}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}Software}{110}{subsection.11.3.1}%
+\contentsline {subsection}{\numberline {11.3.2}Setup}{110}{subsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.3.3}Decade Counter }{112}{subsection.11.3.3}%
+\contentsline {chapter}{\numberline {12}STM-32}{113}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Setup}{113}{section.12.1}%
+\contentsline {subsection}{\numberline {12.1.1}Software}{113}{subsection.12.1.1}%
+\contentsline {section}{\numberline {12.2}Seven Segment Display}{115}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}Components}{116}{subsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.2.2}Hardware}{116}{subsection.12.2.2}%
+\contentsline {subsection}{\numberline {12.2.3}Software}{117}{subsection.12.2.3}%
+\contentsline {section}{\numberline {12.3}Timers}{119}{section.12.3}%
+\contentsline {subsection}{\numberline {12.3.1}Components}{119}{subsection.12.3.1}%
+\contentsline {subsection}{\numberline {12.3.2}Systick timer}{120}{subsection.12.3.2}%
+\contentsline {subsection}{\numberline {12.3.3}TIMER-1}{122}{subsection.12.3.3}%
+\contentsline {subsection}{\numberline {12.3.4}TIMER-2}{126}{subsection.12.3.4}%
+\contentsline {subsection}{\numberline {12.3.5}Master-Slave Configuration}{127}{subsection.12.3.5}%
+\contentsline {subsubsection}{\numberline {12.3.5.1}Blink}{127}{subsubsection.12.3.5.1}%
+\contentsline {subsubsection}{\numberline {12.3.5.2}Decade Counter}{128}{subsubsection.12.3.5.2}%
+\contentsline {section}{\numberline {12.4}Clocks}{128}{section.12.4}%
+\contentsline {subsection}{\numberline {12.4.1}Components}{128}{subsection.12.4.1}%
+\contentsline {subsection}{\numberline {12.4.2}HSE}{129}{subsection.12.4.2}%
+\contentsline {subsection}{\numberline {12.4.3}PLL}{130}{subsection.12.4.3}%
+\contentsline {section}{\numberline {12.5}GPIO}{131}{section.12.5}%
+\contentsline {subsection}{\numberline {12.5.1}Components}{131}{subsection.12.5.1}%
+\contentsline {subsection}{\numberline {12.5.2}Hardware Setup}{131}{subsection.12.5.2}%
+\contentsline {subsection}{\numberline {12.5.3}GPIO Output}{132}{subsection.12.5.3}%
+\contentsline {subsection}{\numberline {12.5.4}GPIO Input}{134}{subsection.12.5.4}%
+\contentsline {section}{\numberline {12.6}LCD}{135}{section.12.6}%
+\contentsline {subsection}{\numberline {12.6.1}Components}{136}{subsection.12.6.1}%
+\contentsline {subsection}{\numberline {12.6.2}Hardware}{136}{subsection.12.6.2}%
+\contentsline {subsection}{\numberline {12.6.3}Software}{137}{subsection.12.6.3}%
+\contentsline {subsection}{\numberline {12.6.4}Project}{139}{subsection.12.6.4}%
+\contentsline {section}{\numberline {12.7}ADC}{139}{section.12.7}%
+\contentsline {subsection}{\numberline {12.7.1}Components}{139}{subsection.12.7.1}%
+\contentsline {subsection}{\numberline {12.7.2}Internal Temperature Sensor}{140}{subsection.12.7.2}%
+\contentsline {subsection}{\numberline {12.7.3}Measuring an Unkown Resistance}{142}{subsection.12.7.3}%

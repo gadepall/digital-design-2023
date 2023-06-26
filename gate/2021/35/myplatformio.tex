@@ -1,0 +1,18 @@
+ A $4 \times 1$ multiplexer with two selector lines is used to realize a Boolean function $F$ having four Boolean variables $X$, $Y$, $Z$, and $W$ as shown below. $S_0$ and $S_1$ denote the least significant bit (LSB) and most significant bit (MSB) of the selector lines of the multiplexer, respectively. $I_0$, $I_1$, $I_2$, $I_3$ are the input lines of the multiplexer.
+\begin{figure}[H]
+\begin{center}
+\input{gate/2021/35/figs/multiplexer.tex}
+\caption{$4\times 1$ multiplexer}
+\end{center}
+\label{fig:4MUX}
+\hfill (GATE IN-2021)
+\end{figure}
+
+The canonical sum of product representation of $F$ is:
+
+\begin{enumerate}[label=(\Alph*)]
+  \item $F(X, Y, Z, W) = \Sigma m(0,1,3,14,15)$
+  \item $F(X, Y, Z, W) = \Sigma m(0,1,3,11,14)$
+  \item $F(X, Y, Z, W) = \Sigma m(2,5,9,11,14)$
+  \item $F(X, Y, Z, W) = \Sigma m(1,3,7,9,15)$
+\end{enumerate}

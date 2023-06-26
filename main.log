@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.5.22)  26 JUN 2023 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.5.22)  26 JUN 2023 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2619,7 +2619,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91])
-(./vaman/esp32/lcd/problems.tex)
+(./vaman/esp32/lcd/problem.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3318,8 +3318,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 811A682C1FC9F70A8B75B59C0AEE302A;7944.
  ) 
 Here is how much of TeX's memory you used:
- 45711 strings out of 479304
- 1018283 string characters out of 5869779
+ 45712 strings out of 479304
+ 1018287 string characters out of 5869779
  1893420 words of memory out of 5000000
  60386 multiletter control sequences out of 15000+600000
  431020 words of font info for 135 fonts, out of 8000000 for 9000

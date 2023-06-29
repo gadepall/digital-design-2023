@@ -427,4 +427,58 @@ Consider the 2-bit multiplexer(MUX) shown in the figure. For output to be the XO
         \end{enumerate}
 \item
 \input{gate/2021/35/myplatformio.tex}
+\item
+        \label{prob:2019 EE 35}
+	The output expression for the Karnaugh map shown below is
+                \hfill(GATE EE 2019)
+        \begin{figure}[H]
+                \begin{center}
+\begin{tikzpicture}
+\draw (0,0) grid (4,4);
+  \draw (0,4) -- node [pos=0.6,above right,anchor=south west] {PQ} node [pos=0.6,below left,anchor=north east]
+        {RS} ++(135:1.5);
+  % Draw vertical lines
+  \foreach \x in {0,1,2,3,4}
+    \draw (\x,0) -- (\x,4);
+  % Draw horizontal lines
+  \foreach \y in {0,1,2,3,4}
+    \draw (0,\y) -- (4,\y);
+  % Draw cell labels
+  %4th row
+  \node at (0.5,0.5) {0};
+  \node at (1.5,0.5) {0};
+  \node at (2.5,0.5) {0};
+  \node at (3.5,0.5) {0};
+  %3rd row
+  \node at (0.5,1.5) {1};
+  \node at (1.5,1.5) {1};
+  \node at (2.5,1.5) {1};
+  \node at (3.5,1.5) {1};
+  %2nd row
+  \node at (0.5,2.5) {1};
+  \node at (1.5,2.5) {1};
+  \node at (2.5,2.5) {1};
+  \node at (3.5,2.5) {1};
+  %1st row
+  \node at (0.5,3.5) {0};
+  \node at (1.5,3.5) {1};
+  \node at (2.5,3.5) {1};
+  \node at (3.5,3.5) {0};
+  % Draw index labels
+  \foreach \x/\val in {0/00,1/01,2/11,3/10}
+    \node at (\x+0.5,4.5) {\val};
+   % Draw index labels    
+  \foreach \y/\val in {3/00,2/01,1/11,0/10}
+    \node at (-0.5,\y+0.5) {\val};
+\end{tikzpicture}
+                        \caption{}
+                        \label{fig:kmap}
+\end{center}
+\end{figure}
+\begin{enumerate}
+  \item QR'+S
+  \item QR+S
+    \item QR'+S'
+    \item QR+S'
+\end{enumerate}
 \end{enumerate}

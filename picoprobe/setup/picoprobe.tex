@@ -1,0 +1,36 @@
+This section enumerates the steps needed to create a debugger probe from a
+Raspberry Pi Pico, called the Picoprobe. For further details refer to the
+\href{https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#debugging-using-another-raspberry-pi-pico}{documentation}.
+
+Note that all instructions in this chapter are for Linux systems running
+Debian-based distributions only. For other operating systems refer to the above
+link.
+
+\begin{enumerate}
+    \item Setup the Raspberry Pi Pico environment on your laptop by entering the
+    following commands at a terminal window.
+
+    \begin{lstlisting}
+sudo apt update && sudo apt upgrade
+sudo apt install pkg-config
+cd
+wget https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh
+chmod +x ./pico_setup.sh
+SKIP_VSCODE=1 INCLUDE_PICOPROBE=1 ./pico_setup.sh
+    \end{lstlisting}
+
+    \item Download the picoprobe UF2 file from this 
+    \href{https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#debugging-using-another-raspberry-pi-pico}{link}.
+    \item Connect the Raspberry Pi Pico board to be used as the debugger
+    (henceforth referred to as the ``debugger'') to your laptop and
+    simultaneously press the BOOTSEL button to boot the debugger in bootloader
+    mode.
+    \item Flash the downloaded \texttt{picoprobe.uf2} file using
+    \texttt{picotool} to the debugger as follows.
+    \begin{lstlisting}
+picotool save /path/to/picoprobe.uf2
+    \end{lstlisting}
+\end{enumerate}
+
+This will convert the Raspberry Pi Pico board into a Picoprobe debugger which we
+can use to flash and debug programs on other boards.

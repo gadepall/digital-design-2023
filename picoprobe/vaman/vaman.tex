@@ -1,0 +1,88 @@
+This section enumerates the steps needed to use the Picoprobe to debug an LC
+Vaman board from  the command line using OpenOCD and GDB.
+
+\subsection{Components}
+\begin{table}[!ht]
+    \input{picoprobe/vaman/tables/vaman-components.tex}
+    \caption{List of components needed to debug Vaman with a Picoprobe.}
+    \label{tab:vaman-comp}
+\end{table}
+
+\subsection{Wiring}
+Wire the debugger to the other Raspberry Pi Pico board by following the
+wiring diagram in \autoref{tab:vaman-wiring}.
+\begin{table}[!ht]
+    \input{picoprobe/vaman/tables/vaman-wiring.tex}
+    \caption{Connections required to debug Vaman with a Picoprobe.}
+    \label{tab:vaman-wiring}
+\end{table}
+
+\subsection{Building}
+\begin{enumerate}
+    \item Build a debuggable ELF file to load onto the Vaman by entering the
+    following commands at a terminal window.
+    \begin{lstlisting}
+cd vaman/arm/codes/setup/blink/GCC_Project
+make -j4
+    \end{lstlisting}
+    \item A successful build should generate the debuggable ELF file
+    \begin{lstlisting}
+vaman/arm/codes/setup/blink/GCC_Project/output/bin
+    \end{lstlisting}
+\end{enumerate}
+
+\subsection{Debugging}
+\begin{enumerate}
+    \item Connect the debugger and Vaman to the laptop simultaneously.
+    \item In a terminal window, start an OpenOCD server by entering the
+    following commands.
+    \begin{lstlisting}
+cd pico/openocd
+sudo src/openocd -f tcl/interface/cmsis-dap.cfg -f tcl/target/eos_s3.cfg -s tcl
+    \end{lstlisting}
+    A successful execution of these commands will result in the following
+    (truncated) output.
+    \begin{lstlisting}
+Info: Listening on port 3333 for gdb connections
+    \end{lstlisting}
+    \item In \emph{another} terminal window, start \texttt{gdb} with the ELF
+    file as follows.
+    \begin{lstlisting}
+cd vaman/arm/codes/setup/blink/GCC_Project/output/bin
+gdb-multiarch blink.elf
+(gdb) target extended-remote localhost:3333
+(gdb) break main
+(gdb) layout src
+(gdb) continue
+    \end{lstlisting}
+    Here, you should see the source code for the program flashed onto the Vaman
+
+    \emph{(Optional)} You can also use \texttt{tmux} instead of two separate
+    terminal instances.
+    \item You can execute instruction by instruction by typing \texttt{next} at
+    the GDB prompt. Alternatively, you can step into functions called from the
+    main function by \texttt{step}. 
+    \item To reset to the start of the program and reach the main breakpoint
+    again, type the following.
+    \begin{lstlisting}
+(gdb) monitor reset init
+(gdb) load
+(gdb) continue
+    \end{lstlisting}
+    To quit from gdb, type the following.
+    \begin{lstlisting}
+(gdb) quit
+    \end{lstlisting}
+    For other functionalities type \texttt{help} at the GDB prompt.
+    \item To see serial output, attach a terminal to the debugger by typing the
+    following commands at a terminal window.
+    \begin{lstlisting}
+sudo minicom -D /dev/ttyACM0 -b 115200
+    \end{lstlisting}
+    Note that if the debugger is not present at \texttt{/dev/ttyACM0}, then you
+    can find the correct port by inspecting the output produced by the
+    following command.
+    \begin{lstlisting}
+sudo dmesg -w
+    \end{lstlisting}
+\end{enumerate}

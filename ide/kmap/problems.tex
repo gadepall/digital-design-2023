@@ -604,5 +604,36 @@ Consider the 2-bit multiplexer(MUX) shown in the figure. For output to be the XO
                         \item$X_1Y_1+X_0\overline{Y_0}Y_1+X_0\overline{Y_0}\overline{X_1}$
                   \end{enumerate}
             \hfill(GATE IN 2019)
-
+          \item
+	  \label{prob:gate IN 22}
+           The figure below shows the $i^{th}$ full-adder block of a binary adder circuit.$C_{i}$  is the input carry and $C_{i+1}$ is the output carry of the circuit. Assume that each logic gate has a delay of $2$ nanosecond, with no additional time delay due to the interconnecting wires. Of the inputs $A_{i}$ , $B_{i}$ are available and stable throughout the carry propagation, the maximum time taken for an input $C_{i}$ to produce a steady-state output $C_{i+1}$ is $\underline{\hspace{2cm}}$ nanosecond.
+	   \hfill(GATE IN 2019)
+	   \begin{figure}[H]
+    \begin{circuitikz}
+    \draw (1.5, 1.5) node[xor port] (xor1) {};
+    \draw (xor1.in 1) -- ++(-1.0,0) node[anchor=east] {$A_i$};
+    \draw (xor1.in 2) -- ++(-1.0,0) node[anchor=east] {$B_i$};
+    \draw (1.5, 1.5) -- (3.0, 1.5);
+    \draw (-0.1, 1.3) -- (-0.1, -1.2);
+    \draw (-0.5, 1.8 ) -- (-0.5, -1.8);
+    \draw (-0.1, -1.2) -- (0.5, -1.2);
+    \draw (-0.5, -1.8) -- (0.5, -1.8);
+    \draw (1.8, -1.5) node[and port] (and 1) {};
+    \draw (4.1, 1.2) node[xor port] (xor2)  {};
+    \draw (2.8, 0.9) -- (2.8, -3.3);
+    \draw (2.8, -3.3) -- (-1.0, -3.3);
+    \draw (-1.0,-3.3) node[anchor=east] {$C_in$};
+    \draw (2.0, 1.5) -- (2.0, -0.3);
+    \draw (2.0, -0.3) -- (3.1, -0.3);
+    \draw (4.2, -0.6) node[and port] (and 2) {};
+    \draw (1.8, -1.5) -- (5.8, -1.5);
+    \draw (4.2, -0.6) -- (6.0, -0.6);
+    \draw (7.2, -0.9) node[xor port] (xor3) {};
+    \draw (5.8, -1.5) -- (5.8, -1.2);
+    \draw (4.8, 1.2) node[anchor = east] {$S_i$};
+    \draw (8.7, -0.9) node[anchor=east] {$C_i+1$};
+     \end{circuitikz}
+     	\caption{}
+		\label{figure}
+	\end{figure}
 \end{enumerate}

@@ -1,1 +1,19 @@
 
+\begin{enumerate}
+
+\item
+\label{prob:gate IN 45}
+ A portion of an assembly language program written for an $8$-bit microprocessor is given below along with explanations. The code is intended to introduce a software time delay. The processor is driven by a $5$ MHz clock. The time delay (in $\mu$s) introduced by the program is \vspace{12 pt}
+
+
+MVI B, $64$H; Move immediate the given byte into register B. Takes $7$ clock periods.\vspace{12 pt}
+
+
+LOOP: DCR B ; Decrement register B. Affects Flags. Takes $4$ clock periods. \vspace{12 pt}
+
+
+JNZ LOOP ; Jump to address with Label LOOP if zero flag is not set. Takes $10$ clock periods when jump is performed and $7$ clock periods when jump is not performed.
+
+\hfill(GATE IN 2018)
+
+\end{enumerate}

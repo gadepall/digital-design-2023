@@ -685,7 +685,27 @@ where, $\overline{A},\overline{B}$ and $\overline{C}$ are the complements of the
 \end{enumerate}
 \hfill(GATE EC 2018)
 
+\newpage
+    \item 
+  \label{prob:gate  CS-5}
 
+In the Karnaugh map shown below, X denotes a don't care term. What is the minimal form of the function represented by the Karnaugh map?
+\centering
+\begin{karnaugh-map}[4][4][1][$ba$][$cd$]
+    \maxterms{3,5,6,7,11,13,14,15}
+    \minterms{0,1,2,8,9}
+    \terms{4,10,12}{X} 
+    % note: posistion for start of \draw is (0, Y) where Y is
+    % the Y size(number of cells high) in this case Y=2
+   \end{karnaugh-map}
+\begin{enumerate}[label=(\Alph*)]
+  \item $ b'd'+a'd' $
+  \item $ a'b'+b'd'+a'bd' $
+  \item $ b'd'+a'bd' $
+  \item $ a'b'+b'd'+a'd' $
+
+\end{enumerate}
+\hfill(GATE EC 2008)
 
 
     \item 

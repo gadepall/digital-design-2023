@@ -185,4 +185,56 @@ Consider the sequential circuit shown in the figure, where both flip-flops used 
            \item $333.33 , 3$
     \end{enumerate}
 \hfill(GATE EC 2023)
+\label{prob:GATE EC 2023}
+\item In a given sequential circuit, initial states are $Q1 = 1$ and $Q2 = 0$. For a clock frequency of $1 MHz$, the frequency of signal $Q2$ in kHz, is(rounded off to the nearest integer)
+    
+\begin{figure}[H]
+    \centering
+\begin{tikzpicture}              
+
+%Drawing flip-flops
+\draw (1.6,1.9) node {D Flip Flop};
+\draw (0,0)--(3,0)--(3,4)--(0,4)--(0,0);
+\draw(0.5,3.5) node{$D_1$};
+\draw(2.5,3.5) node{$Q_1$};
+\draw(2.5,0.5) node{$\bar{Q_1}$};
+\draw(3.1,0.5) node{$\circ$};
+
+\draw (8.6,1.9) node {D Flip Flop};
+\draw(7,0)--(7,4)--(10,4)--(10,0)--(7,0);
+\draw(7.5,3.5) node{$D_2$};
+\draw(9.5,3.5) node{$Q_2$};
+\draw(9.5,0.5) node{$\bar{Q_2}$};
+\draw(10.1,0.5) node{$\circ$};
+
+%connecting them
+\draw(3.2,0.5)--(4.0,0.5);
+\draw(10.2,0.5)--(10.9,0.5);
+\draw(7.0,3.5)--(6.0,3.5);
+\draw(4.0,0.5) -- (6.0,3.5);
+\draw(10.0,3.5) -- (10.9,3.5);
+\draw(4.0,3.5) --(3.0,3.5);
+
+\draw(-1.1,-1.2)-- (8.5,-1.2);
+
+%drawing clk
+\draw (-1.0,-1.7)node{CLK =1Mhz};
+
+
+%connecting clk 
+\draw(1.5,-1.2) -- (1.5,0.0);
+\draw(8.5,-1.2) -- (8.5,0.0);
+
+%drawing clk edges
+\draw(1.1,0.0) -- (1.48,0.4) -- (1.9,0.0);
+\draw(8.1,0.0) -- (8.48,0.4) -- (8.9,0.0);
+
+% Drawing Q2, D1,
+\draw(10.9,3.5)--(10.9,5.4);
+\draw(10.9,5.4)--(-1.0,5.4);
+\draw(-1.0,5.4)--(-1.0,3.5);
+\draw(0,3.5)--(-1.0,3.5);
+\end{tikzpicture}
+\end{figure}
+\hfill(GATE EC 2023)
 \end{enumerate}

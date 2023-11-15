@@ -14,11 +14,16 @@ ADD R0,R1
 \item 
 Consider the given C-code and its corresponding assembly code, with a few operands U1-U4 being unknown. Some useful information as well as the semantics of each unique assembly instruction is annotated as inline comments in the code.  
 
-\begin{figure}[H]
-\includegraphics[width=\columnwidth]{figs/cse.jpeg} 
-\caption{code}                                       
-\label{fig:code}
-\end{figure}
+\begin{lstlisting}
+jeq $t1,$t2,end
+ldi $t5,0($t4)
+lsl $t5,$t5,3
+sw $t5,0($t3)
+add $t3,$t3,4
+add $t4,$t4,4
+add $t1,$t1,1
+jmp label L01
+\end{lstlisting}
 
 \item Which one of the following options is a CORRECT replacement 
 for operands in the position (U1,U2,U3,U4) in the above 

@@ -15,6 +15,19 @@ ADD R0,R1
 Consider the given C-code and its corresponding assembly code, with a few operands U1-U4 being unknown. Some useful information as well as the semantics of each unique assembly instruction is annotated as inline comments in the code.  
 
 \begin{lstlisting}
+L01:jeq r1,r2,end
+L02:lw r5,0(r4)
+L03:shl r5,r5,U1
+L04:sw r5,0(r3)
+L05:add r3,r3,U2
+L06:add r4,r4,U3
+L07:add r1,r1,1
+L08:jmp U4
+L09:end
+\end{lstlisting}
+
+
+\begin{lstlisting}
 je $t1,$t2,end
 ldi $t5,0($t4)
 lsl $t5,$t5,3

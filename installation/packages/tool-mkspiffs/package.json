@@ -1,0 +1,21 @@
+{
+  "name": "tool-mkspiffs",
+  "version": "2.230.0",
+  "description": "Tool to build and unpack SPIFFS images",
+  "keywords": [
+    "tools",
+    "build tools",
+    "filesystem"
+  ],
+  "license": "MIT",
+  "system": [
+    "linux_armv6l",
+    "linux_armv7l",
+    "linux_armv8l",
+    "linux_aarch64"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igrr/mkspiffs"
+  }
+}

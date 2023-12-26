@@ -1,0 +1,291 @@
+\section{Enable Serial Communication}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item On the RPi, 
+\begin{lstlisting}
+sudo raspi-config
+\end{lstlisting}
+\item Select Interfacing Options
+\item Then select Serial Port
+\item Reply no to login shell over serial
+\item Say yes to running hardware over serial port.
+\item Connect the rpi tx (pin 8) and rx (pin 10).  See \figref{fig:rpi-gpio}
+	\begin{figure}[!h]
+		\includegraphics[width=\columnwidth]{rpi/figs/rpi-gpio.png}
+		\caption{}
+		\label{fig:rpi-gpio}
+	\end{figure}
+\item Install minicom and start it
+\begin{lstlisting}
+sudo apt install minicom
+minicom -b 115200 -o -D /dev/serial0
+\end{lstlisting}
+Type namaste.  If you see it displayed on screen, your serial port is working.
+\end{enumerate}
+
+\section{Flash Vaman-ESP}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item Since the RPi supports UART through its GPIO pins, a separate USB UART adapter is not required.  Make connections according to
+		\tabref{table:rpi-vaman-uart}
+			\begin{table}[!h]
+		\input{vaman/uart/tables/rpi-vaman-uart.tex}
+		\caption{}
+		\label{table:rpi-vaman-uart}
+	\end{table}
+	On RPi, the pin numbers for serial communication are Tx=8, Rx=10.
+\item Connect the Vaman-ESP pins to the seven segment display  according to Table 
+		\ref{table:esp-display}
+	\begin{table}[!h]
+		\input{vaman/uart/tables/esp-display.tex}
+		\caption{}
+		\label{table:esp-display}
+	\end{table}
+	The GPIO pins are listed in Table 
+		\ref{table:esp-pins}
+	\begin{table}[!h]
+		\input{vaman/uart/tables/esp-pins.tex}
+		\caption{}
+		\label{table:esp-pins}
+	\end{table}
+	Note that these pins can be used for several functions, refer to the ESP32 datasheet
+		for details. 
+	\item On termux, execute the blink program.
+\item Transfer the ini and bin files to the rpi 
+\begin{lstlisting}
+scp platformio.ini pi@192.168.50.252:./hi/platformio.ini
+
+scp .pio/build/esp32doit-devkit-v1/firmware.bin pi@192.168.50.252:./hi/.pio/build/esp32doit-devkit-v1/firmware.bin
+\end{lstlisting}
+\item On rpi,
+modify your platformio.ini file by adding the line 
+\begin{lstlisting}
+upload_port = /dev/serial0
+\end{lstlisting}
+\item Now execute the following on the rpi.
+\begin{lstlisting}
+cd /home/pi/hi
+pio run -t nobuild -t upload
+\end{lstlisting}
+While the dots and dashes are printed on the screen, disconnect the EN wire from GND.   Make sure that the Vaman board is not powering any device while flashing.  The Vaman-ESP should now flash.
+\item After flashing, disconnect pin 0 on Vaman-ESP from GND. Power on Vaman and the appropriate LED will blink.
+\end{enumerate}
+\iffalse
+
+\section{Hardware Setup}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item Connect the USB-UART to raspberry pi through USB.  
+\item On the rpi
+\begin{lstlisting}
+dmesg | tail
+lsusb
+\end{lstlisting}
+you should see the USB-UART connector detected. 
+\item Connect the USB-UART pins to the Vaman ESP32 pins according to Table 
+		\ref{table:vaman-uart}
+		%\input{vaman/uart/vaman/uart/tables/rpi-vaman-uart.tex}
+	\begin{table}[!h]
+		\input{vaman/uart/tables/vaman-uart.tex}
+		\caption{}
+		\label{table:vaman-uart}
+	\end{table}
+
+		Fig. \ref{fig:lc}
+	\begin{figure}[!h]
+		\includegraphics[width=\columnwidth]{vaman/uart/figs/lc.jpg}
+		\caption{}
+		\label{fig:lc}
+	\end{figure}
+\end{enumerate}
+%
+\section{Blink LED}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item On termux on your phone, 
+\begin{lstlisting}
+svn co https://github.com/gadepall/vaman/trunk/esp32/setup/codes/ide/blink
+cd blink
+pio run
+\end{lstlisting}
+\end{enumerate}
+
+\section{ESP IDF}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item Earlier, we were using the arduino framework, where the programming language was arduino.  In the following directory, the same functionality is achieved through a C program.
+\begin{lstlisting}
+svn co https://github.com/gadepall/vaman/trunk/esp32/setup/codes/idf/blink
+cd blink
+pio run
+\end{lstlisting}
+\item The flashing process remains the same.
+\end{enumerate}
+\section{OTA}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item Flash the following code through USB-UART using a laptop.  We faced some issues with RPi.
+\begin{lstlisting}
+https://github.com/gadepall/vaman/tree/master/esp32/codes/ide/ota/setup
+\end{lstlisting}
+		after entering your wifi username and password (in quotes below)
+\begin{lstlisting}
+#define STASSID "..." // Add your network credentials
+#define STAPSK  "..."
+\end{lstlisting}
+in src/main.cpp file
+\item You should be able to find the ip address of your vaman-esp using 
+\begin{lstlisting}
+ifconfig
+nmap -sn 192.168.231.1/24
+\end{lstlisting}
+where your computer's ip address is the output of ifconfig and given by 192.168.231.x
+\item Assuming that the username is gvv and password is abcd, flash the following code wirelessly
+\begin{lstlisting}
+https://github.com/gadepall/vaman/tree/master/esp32/codes/ide/blink
+\end{lstlisting}
+through 
+\begin{lstlisting}
+pio run 
+pio run -t nobuild -t upload --upload-port 192.168.231.245
+\end{lstlisting}
+where you may replace the above ip address with the ip address of your vaman-esp.
+\item Connect pin 2 to an LED  to see it blinking.
+
+
+\end{enumerate}
+	\fi
+\section{OTA}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item Connect the pins between Vaman-ESP32 and Vaman-PYGMY as per Table \ref{table:onboard}
+\begin{table}[h]
+\centering
+\input{./vaman/uart/tables/onboard.tex}
+\caption{}
+\label{table:onboard}
+\end{table}
+\item Flash the following code OTA
+\begin{lstlisting}
+https://github.com/gadepall/vaman/tree/master/esp32/codes/ide/ota/blinkt
+\end{lstlisting}
+You should see the onboard green LED blinking.
+\item Change the blink duration to 100 ms.
+\end{enumerate}
+
+
+%\section{Delay}
+%
+%\renewcommand{\theequation}{\theenumi}
+%\renewcommand{\thefigure}{\theenumi}
+%\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+%\numberwithin{equation}{enumi}
+%\numberwithin{figure}{enumi}
+%\numberwithin{table}{enumi}
+%\item See the following lines of the code below
+%\label{सम:क्रमादेश}
+%\begin{lstlisting}
+%codes/setup/blink/src/main.c
+%\end{lstlisting}
+%%की  इन पङ्क्तियों पर ध्यान दें । 
+%%
+%\begin{lstlisting}
+%    PyHal_Set_GPIO(18,1);//blue
+%    PyHal_Set_GPIO(21,1);//green
+%    PyHal_Set_GPIO(22,1);//red
+%        HAL_DelayUSec(2000000);
+%    PyHal_Set_GPIO(18,0);
+%    PyHal_Set_GPIO(21,0);
+%    PyHal_Set_GPIO(22,0);
+%\end{lstlisting}
+%%
+%We may conclude that the blink delay is 2000 000us = 2 s.
+%%इससे हम ज्ञात कर सकते हैं की वामन के दीप का शमीलनकाल 2000 000us = 2 s।  
+%\item Replace the following line in \ref{सम:क्रमादेश}  
+%\label{सम:द्विआधार}
+%\begin{lstlisting}
+%        HAL_DelayUSec(2000000);
+%\end{lstlisting}
+%%
+%with
+%\begin{lstlisting}
+%        HAL_DelayUSec(1000000);
+%\end{lstlisting}
+%and execute.  Can you see any difference in the blink period?
+%%से प्रतिस्थापित कर क्रमादेश का चालयन करें ।  क्या श्मीलनकाल में कोई परिवर्तन द्रश्य है?
+%\item To obtain red colour, execute the following code.
+%%रक्तिम रंगोत्पदन के लिए निम्न गूढ़ का चालयन करें।  
+%\begin{lstlisting}
+%codes/setup/red/src/main.c
+%\end{lstlisting}
+%Now obtain blue colour.
+%%इदान हरित एवं नील रंग में दीप को श्मीलित करें।
+%
+%\item Now obtain green colour without blink.
+%%इदान  आर्म-जीसीसी  के द्वारा दीप में स्थायी रूप से  हरित वर्ण को उपलब्ध करें।
+%\\
+%\solution Execute the following code.
+%\begin{lstlisting}
+%codes/setup/onoff/src/main.c
+%\end{lstlisting}
+%%
+%\item  Using Table  \ref{table:input} and Fig.  \ref{fig:pin_sheet}, use an input pin to control the onboard LED.  
+%%एक अन्य कुश को निर्गत रूप देकर किसी बाह्य दीप को प्रकाशोर्जित करें.
+%
+%\begin{table}[]
+%\centering
+%\begin{tabular}{|l|l|l|}
+%\hline
+%Type & Pin  &  Destination\\ \hline
+%Input &  IO\_5 &  GND\\ \hline
+%%आगत &  IO\_28 &  GND\\ \hline
+%%निर्गत  & IO\_11  &  LED\\ \hline
+%\end{tabular}
+%\caption{Pygmy control through external input.}
+%\label{table:input}
+%\end{table}
+%
+%\begin{figure*}[!ht]
+%\centering
+%\includegraphics[width = \textwidth]{vaman/uart/figs/pin_sheet.png}
+%\caption{Pin Diagram}
+%\label{fig:pin_sheet}
+%\end{figure*}
+%\solution Execute the following code.  You should see the LED blinking pink. Disconnecting the wire from GND will result in the LED blinking white 
+%and green alternately.
+%\begin{lstlisting}
+%codes/setup/gpio/src/main.c
+%\end{lstlisting}
+%
+%\end{enumerate}
+
+

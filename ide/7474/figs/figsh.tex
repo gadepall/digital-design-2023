@@ -1,0 +1,32 @@
+\begin{circuitikz}
+\draw (7,1)coordinate (E) -- (8,1)coordinate (F) -- (8,-1)coordinate (G) -- (7,-1)coordinate (H) -- (7,1)coordinate (E);
+\draw (11,2)coordinate (I) -- (13,2)coordinate (J) -- (13,-1)coordinate (K) -- (11,-1)coordinate (L) -- (11,2)coordinate (I);
+ \draw ($(J)!0.5!(K)$)--++(0:2)node[right]{$Y$};
+ \draw ($(L)!0.5!(K)$)node[anchor=south]{$S0$}--++(90:-2)--++(1:-10)node[left]{$T$};
+ \draw ($(H)!0.5!(G)$)node[anchor=south]{$S0$}--++(90:-2)--++(1:0)node[left]{};
+\draw (4,2) node[and port] (myand1) {};
+\draw (myand1.in 1) node (A1)     [anchor=east,xshift=-1cm]           {$P$}
+(myand1.in 1) -- (A1);
+\draw(4,-2) node[and port] (myand2) {}
+(myand2.in 2) node (B2)     [anchor=east,xshift=-1cm]           {$S$};
+\draw(myand2.in 2) -- (B2);
+\draw (10,0) node[and port] (myand3) {};
+\draw (4,0) node[xor port] (myxor) {};
+\draw (myand1.in 2) node (B1)     [anchor=east,xshift=-1cm,yshift=-.7cm]  {$Q$};
+\draw (B1) -- ++(1.25cm,0);
+\draw (myxor.in 1) node (B1)     [anchor=east,xshift=-1cm,yshift=-1.3cm]  {$R$};
+\draw (B1) -- ++(1.25cm,0);
+
+\draw (myand1.in 2) |- (myxor.in 1);
+\draw (myand2.in 1) |- (myxor.in 2);
+
+\draw (myxor.out) |- ($(E)!0.2!(H)$)--++(0:0)node[right]{$0$};
+\draw(myand1.out) |- ($(I)!0.2!(L)$)--++ (0:0)node[right]{$0$};
+\draw (myand1.out) -| (myand3.in 1);
+\draw(myand3.out) -| ($(I)!0.7!(L)$)--++(0:0)node[right]{$1$};
+\draw ($(F)!0.6!(G)$)--++(0:0)node[right]{} -| (myand3.in 2) ;
+\draw (myand2.out) |- ($(E)!0.7!(H)$)--++(0:0)node[right]{$1$};
+
+\end{circuitikz}
+~
+

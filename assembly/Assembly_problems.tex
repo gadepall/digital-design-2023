@@ -34,4 +34,24 @@ JNZ LOOP ; Jump to address with Label LOOP if zero flag is not set. Takes $10$ c
     \item 0xC8500000
 \end{enumerate}
 
+\item The content of the registers are $R_1 = 25H$, $R_2 = 30H$ and $R_3 = 40H$. The following machine instructions are executed.
+\begin{align*}
+  PUSH \cbrak {R_2}  
+  \\PUSH \cbrak {R_2}
+  \\PUSH \cbrak {R_3} 
+  \\POP \cbrak {R_1} 
+  \\POP \cbrak {R_2} 
+  \\POP \cbrak {R_3} 
+\end{align*}
+
+After execution, the content of registers $R_1$, $R_2$, $R_3$ are
+\hfill(GATE-EC2021,32)
+
+\begin{enumerate}
+    \item $R_1 = 40H, R_2 = 30H,R_3 = 25H$
+    \item $R_1 = 25H, R_2 = 30H,R_3 = 40H$
+    \item $R_1 = 30H, R_2 = 40H,R_3 = 25H$
+    \item $R_1 = 40H, R_2 = 25H,R_3 = 30H$
+\end{enumerate}
+
 \end{enumerate}

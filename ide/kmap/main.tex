@@ -421,5 +421,21 @@ Table \ref{table:disp_dec} is the truth table for the display decoder in Fig.
 Use K-maps to obtain the minimized expressions for $a,b,c,d,e,f,g$ in terms of $A,B,C,D$ with and without don't care conditions
 %
 \input{ide/kmap/figs/disp_dec}
+\begin{enumerate}
+\item A $ 4\times1$ multiplexer with two selector lines is used to realize a Boolean function $F$ having four Boolean variables $X, Y, Z$ and $W$ as shown below. $S_0$ and $S_1$ denote the least significant bit $\brak{LSB}$ and most significant bit $\brak{MSB}$ of the selector lines of the multiplexer respectively.$I_o, I_1, I_2,I_3$ Is are the input lines of the multiplexer.
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=\columnwidth]{figs/Gate_image-removebg-preview.png}
+  \caption{}
+  \label{fig:figure1}
+\end{figure}
+\textbf{The canonical sum of product representations of $\textbf{F}$ is} 
+ \begin{enumerate}[label=(\Alph*)]
+        \item  $F\brak{X,Y,Z,W} = \sum m \brak{0,1,3,14,15}$
+        \item  $F\brak{X,Y,Z,W} = \sum m \brak{0,1,3,11,14}$
+        \item  $F\brak{X,Y,Z,W} = \sum m \brak{2,5,9,11,14}$
+        \item  $F\brak{X,Y,Z,W} = \sum m \brak{1,3,7,9,15}$
+    \end{enumerate}
+\end {enumerate}
 \end{enumerate}
 

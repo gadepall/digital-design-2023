@@ -1072,6 +1072,41 @@ maximum value of $Y$ for any given digital inputs, $A_1A_0$ and $B_1B_0$ ?
 \item $00$
 \item $11$
 \end{enumerate}
+\item Match the Boolean expression with its minimal realization.
+
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+\hline
+
+   & Boolean expression &   &  Minimal realization \\
+	\hline 
+
+	$P$ & $\bar{X}\bar{Y}\bar{Z}$ + $\bar{X}Y\bar{Z}$ + $\bar{X}YZ$ & $K$ &  $X(Y+Z)$ \\
+
+	\hline 
+
+	$Q$ & $XYZ$ + $X\bar{Y}Z$ +$XY\bar{Z}$ & $L$ & $\bar{X}(Y+\bar{Z})$ \\
+
+	\hline 
+
+	$R$ & $XY + XYZ +XY\bar{Z} + \bar{X}YZ$ & $M$ & $Z$ \\
+
+	\hline
+
+	$S$ & $\bar{X}\bar{Y}Z + \bar{X}YZ + X\bar{Y}Z$ + $XYZ$ & $N$ & $Y(X+Z)$ \\
+
+	\hline 
+\end{tabular}
+		
+	\end{table}
+		\hfill(GATE BM 2020)
+	\begin{enumerate}[label=(\Alph*)]
+			\item $P-K$, $Q-L$ ,$R-N$ , $S-M$ \\
+			\item $P-L$, $Q-K$, $R-N$, $S-M$ \\
+			\item $P-L$ ,$Q-N$, $R-M$, $S-K$ \\
+			\item $P-M$, $Q-K$, $R-L$, $S-N$ \\
+	\end{enumerate}
 
 \end{enumerate}
 

@@ -1,0 +1,22 @@
+             \begin{circuitikz}
+              
+                  \draw (2,5) node[not port,scale=2] (not) {};
+                  \draw (not.in) -- ++(-0.5,0);
+                  \draw (not.out) -- ++(0.5,0) ;
+                  
+                
+                
+                \draw (7.5,3) node[or port,scale=2] (orgate) {};
+                  \draw (orgate.in 1) -- ++(-0.5,0) ;
+                  \draw (orgate.in 2) -- ++(-0.5,0);
+                  \draw (orgate.out) -- ++(0.5,0) ;
+                
+                 \draw (2,1) node[not port,scale=2] (notgate) {};
+                  \draw (notgate.in) -- ++(-0.5,0) ;
+                  \draw (notgate.out) -- ++(0.5,0) ;
+                
+                \draw (notgate.out) -- ([xshift=0.5cm]notgate.out) |-(orgate.in 2);
+                  
+                \draw (not.out) -- ([xshift=0.5cm]not.out) |-(orgate.in 1);
+                  
+            \end{circuitikz}

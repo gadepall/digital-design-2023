@@ -1,0 +1,27 @@
+ \begin{circuitikz}
+            \draw (2,2)coordinate(w)--(5,2)coordinate(x)--(5,6)coordinate(x)--(2,6)coordinate(z)--(2,2)coordinate(w);
+            \draw (1,5.5)--(2,5.5);
+           \draw (1,5.8)node[]{$A^{\prime}+B^{\prime}$};
+            \draw (2,5.5)node[right]{$J_A$};
+            \draw (5,5.5)node[left]{$A$};
+            \draw (5,5.5)--(5.5,5.5);
+            \draw (1,2.5)--(2,2.5);
+            \draw (1,2.8)node[]{$A+B$};
+            \draw(2,2.5)node[right]{$K_A$};
+            \draw(5,2.5)node[left]{$A^{\prime}$};
+           \draw(5,2.5)--(5.5,2.5);
+           \draw[->] (0,4)--(2,4);
+            \draw (0,4)--(0,0);
+            \draw (-1,0)--(7,0);
+            \draw (0,0.3)node[left]{$\text{clock}$};
+            \draw  (2,4.5)--(2.5,4)--(2,3.5);
+            
+             \draw (8,2)rectangle(10,6); 
+             \draw (8,4.5)--(8.3,4)--(8,3.5);
+             \draw (7,5.5)--(8,5.5)node[right]{$T_{B}$};
+             \draw (10,5.5)node[left]{$B$}--(10.5,5.5);
+             \draw (10,2.5)node[left]{$B^{\prime}$}--(10.5,2.5);
+             \draw[->] (7,4)--(8,4);
+             \draw (7,4)--(7,0);
+            
+        \end{circuitikz}

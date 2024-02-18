@@ -1,0 +1,24 @@
+\begin{circuitikz}
+	%nodes
+	\draw (-1,0) node[xor port, rotate=180,scale =1.5](xor1) {};
+	\draw (2,-3) node[rectangle, scale = 2,draw, outer sep = 0] (a) {A};
+	\draw (3,-3) node[rectangle, scale = 2,draw, anchor = west, outer sep = 0] (b) at (a.east) {B};
+	\draw (4,-3) node[rectangle, scale = 2,draw, anchor = west, outer sep = 0] (c) at (b.east) {C};
+	\draw (5,-3) node[rectangle, scale = 2,draw, anchor = west, outer sep = 0] (d) at (c.east) {D};
+        
+        %connection
+        \draw (xor1.out) to (-2,0)
+        (-2,0) to (-2,-2.75)
+        (-2,-2.75) to (1.4,-2.75);
+        \draw (xor1.in 1) to (2,-0.43)
+        (2,-0.43) to (2,-2.45);
+        \draw (1.4,-3.25) to (0.25,-3.25);
+        \draw (xor1.in 2) to (5.5,0.43)
+        (5.5,0.43) to (5.5,-2.45) ;
+        
+        %naming
+        \draw (-1,-2.5) node[rectangle, scale = 1.5]{$\text{D}_{\text{in}}$};
+        \draw (0.25,-3.5) node[rectangle, scale = 1.5] {Clock};
+        
+\end{circuitikz}
+

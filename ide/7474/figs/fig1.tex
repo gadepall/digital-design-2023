@@ -1,0 +1,34 @@
+
+\begin{circuitikz}
+
+\draw (7,2)coordinate (E) -- (9,2)coordinate (F) -- (9,-1)coordinate (G) -- (7,-1)coordinate (H) -- (7,2)coordinate (E);
+\draw (11,2)coordinate (I) -- (13,2)coordinate (J) -- (13,-1)coordinate (K) -- (11,-1)coordinate (L) -- (11,2)coordinate (I);
+% AND Gate
+\draw (6,1.5) node[and port] (and) {};
+\draw (and.in 1) node[left] {};
+\draw (and.in 2) node[left] {};
+\draw (and.out) |- ($(E)!0.2!(H)$)--++(0:0)node[right]{$D1$}; % and gate output is connected to d1.
+
+%clock
+\draw ($(L)!0.5!(K)$)node[anchor=south]{$clk$};
+\draw ($(H)!0.5!(G)$)node[anchor=south]{$clk$};
+\draw(6,-2) node[above]{$12 \textsl{KHz}$} |- (12,-2);
+\draw ($(H)!0.5!(G)$)node[anchor=south,xshift=6]{}--++(90:-1)--++(0:0)node[left]{};
+\draw ($(L)!0.5!(K)$)node[anchor=south,xshift=6]{}--++(90:-1)--++(0:0)node[left]{};
+
+\draw($(F)!0.2!(G)$)node[left]{$Q1$} -- ($(I)!0.2!(L)$)node[right]{$D2$}; % q1 is connected to d2.
+    
+\draw($(F)!0.8!(G)$)node[left]{$\overline{Q1}$};
+    
+\draw($(J)!0.2!(K)$)node[left]{$Q2$};
+    
+\draw($(J)!0.8!(K)$)node[left]{$\overline{Q2}$};
+    
+    
+\draw ($(J)!0.2!(K)$)--++(0:1)node[right]{};
+    
+\draw(and.in 1) --++(90:2)-|(9.5,1)|-($(F)!0.8!(G)$)(0:0)node[left]{}; % and gate input 1 is connected to q1 bar.
+    
+\draw(and.in 2) --++(-90:4)-|(13.5,-0.5)|- ($(J)!0.8!(K)$);  % and gate input 2 is connected to q2 bar.
+    
+\end{circuitikz}

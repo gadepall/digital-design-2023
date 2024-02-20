@@ -1,0 +1,26 @@
+\begin{circuitikz}
+
+\draw (0.5,1) node[nand port] (nand) {};
+\draw (nand.in 1) -- ++(-1.7,0) node[left] {};
+\draw (nand.in 2) -- ++(-2.2,0) node[left] {EN};
+\draw (nand.out) -- ++(0.5,0) node[midway, above] {};
+\draw (0.5,-3) node[nor port] (nor) {};
+\draw (nor.in 1) node[left] {};
+\draw (nor.in 2) --++(-2.2,0) node[left] {D};
+\draw (nor.out) -- ++(0.5,0) node[midway, above] {};
+\draw (-1.6,-1) node[rotate=270,not port] (not) {};
+\draw (not.in) |-(nand.in 2);
+\draw  (nor.in 1) -| (not.out);
+\draw (2,1) node[pmos] (pmos) {};
+\draw (2,-3) node[nmos] (nmos) {};
+\draw (nand.out) -- (pmos.gate);
+\draw (nor.out) -- (nmos.gate);
+\draw(nand.in 1) -- ++(-1.7,0) |- (nor.in 2) -- ++(-1,0);
+\draw (pmos.drain) -- (nmos.drain);
+\draw (pmos.drain)--++(90:-1)--++(2:1)node[left, yshift=0.2cm]{$F$};
+\draw (nmos.source) -- (nmos.source |- 0,-4) node[ground] {};
+\draw(2,1.7) node[rground,yscale=-1] {};
+\draw(2,2.3) node(right) {$V_{DD}$};
+
+\end{circuitikz}
+

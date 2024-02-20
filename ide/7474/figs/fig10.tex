@@ -1,0 +1,35 @@
+\begin{circuitikz}
+    \draw (2,2)rectangle(4,6);
+    \draw (6,2)rectangle(8,6);
+    \draw (10,2)rectangle(12,6);
+    \draw (14,2)rectangle(16,6);
+    \draw (0,0)node[left]{$1$}--(16,0);
+    \draw (0,-0.3)node[right]{$logic~high $};
+     \draw (2,5.5)node[right]{$J$}--(1.5,5.5)--(1.5,0);
+     \draw (6,5.5)node[right]{$J$}--(5.5,5.5)--(5.5,0);
+     \draw (10,5.5)node[right]{$J$}--(9.5,5.5)--(9.5,0);
+     \draw (14,5.5)node[right]{$J$}--(13.5,5.5)--(13.5,0);
+     \draw (2,2.5)node[right]{$K$}--(1.5,2.5);
+     \draw (6,2.5)node[right]{$K$}--(5.5,2.5);
+     \draw (10,2.5)node[right]{$K$}--(9.5,2.5);
+     \draw (14,2.5)node[right]{$K$}--(13.5,2.5);
+     \draw (4,5.5)node[left]{$Q$}--(5,5.5)--(5,4)--(6,4)node[right]{$ck$};
+     \draw (8,5.5)node[left]{$Q$}--(9,5.5)--(9,4)--(10,4)node[right]{$ck$};
+     \draw (12,5.5)node[left]{$Q$}--(13,5.5)--(13,4)--(14,4)node[right]{$ck$};
+     \draw (4.5,5.5)--(4.5,7.5)node[above]{$Q0$};
+     \draw (8.5,5.5)--(8.5,7.5)node[above]{$Q1$};
+     \draw (12.5,5.5)--(12.5,7.5)node[above]{$Q2$};
+     \draw (16,5.5)node[left]{$Q$}--(16.5,5.5)--(16.5,7.5)node[above]{$Q3$};
+     \draw (2,4)node[right]{$ck$}--(0.5,4)node[left]{$Input$};
+         \draw (4,2.5)node[left]{$\overline{Q}$};
+         \draw (8,2.5)node[left]{$\overline{Q}$};
+         \draw (12,2.5)node[left]{$\overline{Q}$};
+         \draw (16,2.5)node[left]{$\overline{Q}$};
+         \draw(4.5,-4)--(5,-4)--(5,-3.5)--(5.5,-3.5)--(5.5,-4)--(6,-4)--(6,-3.5)--(6.5,-3.5)--(6.5,-4)--(7,-4)--(7,-3.5)--(7.5,-3.5)--(7.5,-4)--(8,-4)--(8,-3.5)--(8.5,-3.5)--(8.5,-4)--(9,-4)--(9,-3.5)--(9.5,-3.5)--(9.5,-4)-- (10,-4)--(10,-3.5)--(10.5,-3.5)--(10.5,-4)--(11,-4)--(11,-3.5)--(11.5,-3.5)--(11.5,-4)--(12,-4)--(12,-3.5)--(12.5,-3.5)--(12.5,-4)--(13,-4);
+         \draw (8,-1) node[]{$ 4-\textsl{bit ripple counter}$};
+         \draw[->] (5.5,-4.5)--(6.5,-4.5)node[right]{$t$};
+         \draw (7,-5)node[right]{$\textsl{Input~signal}$};
+         \draw (4.75,-3.575)--(4.75,-4.6)node[right]{$t_0$};
+         \draw (12.75,-3.575)--(12.75,-4.6)node[right]{$t_1$};
+\end {circuitikz}
+

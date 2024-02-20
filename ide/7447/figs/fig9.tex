@@ -1,0 +1,36 @@
+\begin{circuitikz}
+    \draw (0,0) node[xor port] (xor1) {};
+    \draw (xor1.out)  node[right] {};
+    \draw (xor1.in 1) -- ++(-0.52,0) node[left] {$B_i$};
+    \draw (xor1.in 2) -- ++(-1,0) node[left] {$A_i$};
+    
+    \draw (5,0) node[xor port] (xor2) {};
+    \draw (xor2.out) node[right] {$S_i$};
+    \draw (xor2.in 1)  node[left] {};
+    \draw (xor2.in 2) |- (2,-2.29) node[below] {$C_i$};
+    % First AND gate
+    \draw (6,-2) node[and port] (and1) {};
+    \draw (and1.out) node[right] {};
+    \draw (and1.in 1) node[left] {};
+    \draw (and1.in 2)  node[left] {};
+    
+    % Second AND gate
+    \draw (0,-2) node[and port] (and2) {};
+    \draw (and2.out)  node[right] {};
+    \draw (and2.in 1)  node[left] {};
+    \draw (and2.in 2)  node[left] {};
+    \draw (9,-3) node[or port] (or) {};
+    \draw (or.out) -- ++(0,0) node[right] {$C_{i+1}$};
+    \draw (or.in 1) -- ++(-0.5,0) node[left] {};
+    \draw (or.in 2) -- ++(-0.5,0) node[left] {};
+   \draw (xor1.in 1) -- ++(-0.5,0) |- (and2.in 1);
+   \draw (xor1.in 2) -- ++(-1,0) |- (and2.in 2);
+    \draw(xor1.out)  --++(1,0)   |- (xor2.in 1);
+    \draw(xor2.in 1)--++(-2,0)   |-(and1.in 1);
+   % \draw(xor2.in 2)--++(-3,0)   |-(and1.in 2);
+    \draw (and1.out)--++(0,-0.7) |-(or.in 1);
+     \draw (and2.out)--++(0,-0.7) |-(or.in 2);
+     \draw(xor2.in 2) |-(and1.in 2);
+    \end{circuitikz}
+
+

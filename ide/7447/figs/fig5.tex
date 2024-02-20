@@ -1,0 +1,30 @@
+
+\begin{circuitikz}
+    % Draw PMOS transistors
+     \draw (2,1) node [pmos] (pmos1) {};
+    \draw (2,0) node [pmos,rotate=180] (pmos2) {};
+    \draw (0,-2) node [nmos,rotate=180] (nmos1) {};
+    \draw (4,-2) node [nmos] (nmos2) {};
+    
+    % connections
+     \draw(pmos1.gate)  -- (nmos1.gate);
+      \draw(pmos2.gate) -- (nmos2.gate);
+     \draw (pmos1.drain) -- (pmos2.drain);
+    \draw (nmos1.source) -- (nmos2.drain);
+    \draw (nmos1.gate) --(nmos2.source);
+    \draw (nmos2.gate) -- (nmos1.drain);
+    \draw (pmos2.source) -- (2,-1.22);
+    \draw (nmos2.drain) -- (4,-1.22) node[circ]{};
+    \draw (nmos2.drain)node[anchor=east,xshift=0.45cm,yshift=-0cm] 
+    {$F$};
+    %%B
+    \draw (nmos2.source) node[circ]{};
+    \draw (nmos2.source)node[anchor=east,xshift=0.48cm,yshift=-0cm] {$B$};
+    %%A
+    \draw (nmos1.drain)node[circ]{};
+     \draw (nmos1.drain)node[anchor=east,xshift=0cm,yshift=-0cm] {$A$};
+     %%vdd
+    \draw (2,1.75) node[rground,yscale=-1] {};
+    \draw (2.5,1.8) node(right) {$V_{DD}$};
+\end{circuitikz}
+

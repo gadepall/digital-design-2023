@@ -1,0 +1,29 @@
+\begin{circuitikz}
+            \draw (2,2)coordinate(w)--(5,2)coordinate(x)--(5,6)coordinate(x)--(2,6)coordinate(z)--(2,2)coordinate(w);
+            \draw (1,5.5)--(2,5.5);
+           \draw (1,5.5)node[left]{$1$};
+            \draw (2,5.5)node[right]{$J$};
+            \draw (5,5.5)node[left]{$Q$};
+            \draw (5,5.5)--(5.5,5.5);
+            \draw (1,2.5)--(2,2.5);
+            \draw (1,2.5)node[left]{$1$};
+            \draw(2,2.5)node[right]{$K$};
+	   \draw[->] (1,4)--(2,4);
+            \draw [->] (5.5,5.5)--(6.5,5.5)--(6.5,4)--(8,4);
+	    \draw  (2,4.5)--(2.5,4)node[right]{$CLK$}--(2,3.5);
+            
+             \draw (8,2)rectangle(11,6); 
+             \draw (8,4.5)--(8.5,4)node[right]{$CLK$}--(8,3.5);
+             \draw (7.5,5.5)node[left]{$1$}--(8,5.5)node[right]{$J$};
+             \draw (11,5.5)node[left]{$Q$}--(11.5,5.5);
+	     \draw (7.5,2.5)node[left]{1}--(8,2.5)node[right]{$K$};
+             
+	     \draw[-o](5.5,5.5)--(5.5,7)--(13,7)--(13,4);
+	     \draw[-o] (11.5,5.5)--(12,5.5)--(12,4);
+	  \draw(12.5,2.7)node[]{$Output$}; 
+             \draw(12,3.5)node[]{$X$};
+             \draw (13,3.5)node[]{$Y$};
+             \draw (-1.5,3.5)--(-1,3.5)--(-1,4.5)--(-0.5,4.5)--(-0.5,3.5)--(0,3.5)--(0,4.5)--(0.5,4.5)--(0.5,3.5)--(1,3.5);
+            
+        \end{circuitikz}
+

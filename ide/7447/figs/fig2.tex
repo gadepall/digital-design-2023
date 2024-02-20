@@ -1,0 +1,17 @@
+\begin{circuitikz}
+    % Draw AND gate
+    \draw (0,0) node[and port] (and) {AND};
+    
+    % Draw XOR gate
+    \draw (4,-0.2) node[xor port] (xor) {XOR};
+    
+    % Connect AND output to XOR input
+    \draw (and.out) -- (xor.in 1);
+    
+    % Draw input wires
+    \draw (and.in 1) -- ++(-1,0) node[left] {$f_1$};
+    \draw (and.in 2) -- ++(-1,0) node[left] {$f_2$};
+    \draw (xor.in 2)--++(-90:2) --++(-5,0) node[left] {$f_3$};    % Draw XOR output
+    \draw (xor.out) -- ++(1,0) node[right] {$f$};
+\end{circuitikz}
+

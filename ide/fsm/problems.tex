@@ -193,8 +193,34 @@ Assuming the initial state of the counter given by $PQR$ as $000$,what are the n
 \end{figure}
 
 \end{enumerate}
+\item An $8085$ microprocessor accesses two memory locations $\brak{2001H}$ and $\brak{2002H}$, that contain $8$-bit numbers $98$H and $B1$H, respectively.The following program is executed:
+\begin{verbatim}LXI H,2001H
+MVI A,21H
+INX H
+ADD M
+INX H
+MOV M,A
+HLT
+\end{verbatim}
+At the end of this program, the memory location $2003$H contains the number in decimal $\brak{base 10}$ form $\underline{\hspace{2cm}}$.
+
+$\hfill\brak{GATE\enspace EE2020-54}$
+
+\item A sequence detector is designed to detect precisely $3$ digital inputs, with overlapping sequences detectable. For the sequence $\brak{1,0,1}$ and input data $\brak{1,1,0,1,0,0,1,1,0,1,0,1,1,0}$.
+$\hfill\brak{GATE\enspace EE2020-15}$
+   \begin{enumerate}
+  \item  $\brak{1,1,0,0,0,0,1,1,0,1,0,0}$
+  \item $\brak{0,1,0,0,0,0,0,1,0,1,0,0}$
+  \item $\brak{0,1,0,0,0,0,0,1,0,1,1,0}$
+  \item $\brak{0,1,0,0,0,0,0,0,1,0,0,0}$
 
 \end{enumerate}
+\item A $16$-bit synchronous binary up-counter is clocked with the frequency $\vec{f}_{\text{CLK}}$. The two most significant bits are $\vec{OR}$-ed together to form an output $Y$. Measurements show that $Y$ is periodic, and the duration for which $Y$ remains high in each period is $24$ ms. The clock frequency\underline{\hspace{2cm}}MHz.\\ {(Round off to $2$ decimal places.)}
+\hfill{\brak{GATE \enspace EE2021-22}}
+
+
+\end{enumerate}
+
 \end{document}
 
 

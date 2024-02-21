@@ -1,0 +1,41 @@
+\begin{center}
+
+
+
+    \begin{circuitikz}[circuit logic IEC]
+        
+        \node[and gate, inputs={nnnn}, and gate IEC symbol={}, text height=6cm, text width=3cm] (A) at  (0,0){}; 
+        \draw (-2.55,0.62) -- ++(-3.2,0);
+        \draw (-2.55,-0.62) -- ++(-3.2,0); 
+        \draw (-2.55,-1.85) -- ++(-5.5,0); 
+        \draw (-5.7,-0.65) -- ++(0,2.5); 
+        \draw (-8,-1.9) -- ++(0,3.72); 
+        \node at (0.6,2.5) [anchor=north east] {4:1};
+        \node at (0.8,2) [anchor=north east] {Mux};
+        \node[anchor=east] at ([xshift=0.6cm]A.input 1) {$I_0$};
+        \node[anchor=east] at ([xshift=0.6cm]A.input 2) {$I_1$};
+        \node[anchor=east] at ([xshift=0.6cm]A.input 3) {$I_2$};
+        \node[anchor=east] at ([xshift=0.6cm]A.input 4) {$I_3$};
+       \draw ([xshift=-0.6cm]A.output) node[right] {$O$};
+
+        \draw (A.output) -- ++(0.2,0); 
+        \foreach \i in {1,...,4}
+            \draw (A.input \i) -- ++(-1,0);
+        \draw (A.output) -- ++(1,0);
+        \node[not port] (not_gate) at (-4.5,1.85) {};
+        \draw (not_gate.out) -- ++(1.2,0);
+        \draw (not_gate.in) -- ++(-1,0);
+        \node[not port] (not_gate) at (-6.9,1.85) {};
+        \draw (not_gate.in) -- ++(-1.9,0);
+        \draw (-9.49,-1.67) -- ++(0,3.5); 
+        \draw (-9.49,-1.67) node[ground] {};
+        \path (A.south) -- ++(0,-0.5) coordinate (bottom_center);
+    
+        \draw (A.south) ++(-0.5,0) -- ++(0,-0.5) node[below] {$s_1$};
+        \draw (A.south) ++(0.5,0) -- ++(0,-0.5) node[below] {$s_0$};
+      
+        \node[below] at ($(A.south) + (-0.7,-0.9)$) {MSB};
+       
+        \node[below] at ($(A.south) + (0.7,-0.9)$) {LSB};
+    \end{circuitikz}
+\end{center}

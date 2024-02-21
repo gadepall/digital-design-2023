@@ -2,7 +2,8 @@
 \item Obtain the Boolean Expression for the Logic circuit shown below
 \label{prob:2013/c/6/b}
 \hfill (CBSE 2013)
-	  	
+	\usetikzlibrary{circuits.logic.IEC,calc}
+
 	   \begin{circuitikz} \draw
 (0,2) node[or port]  (myor1) {}
 (0,0) node[and port] (myand) {}
@@ -575,6 +576,44 @@ Which of the following Boolean expressions is/are equivalent to $\overline{F}$ (
 	\input{ide/7447/figs/fig9.tex}
 	\caption{Full Adder}
 \end{figure}
+\item The Boolean operation performed by the following  circuit at the output $O$ is \underline{\hspace{2cm}}
+    $\hfill\brak{GATE \enspace IN2020-12}$
+
+\begin{figure}[H]
+\input{ide/7447/figs/fig13.tex}
+\caption{Circuit Diagram}
+\label{fig:figure13}
+\end{figure}
+
+\begin{enumerate}
+
+            \item  $O=S_1\oplus S_0$ 
+            
+            \item  $O=S_1\bullet\overline{\rm S_0}$
+            
+            \item  $O=S_1 + S_0$
+            
+            \item $O=S_0\bullet\overline{\rm S _1}$
+ \end{enumerate}
+\item  The chip select logic for a certain DRAM chip in a memory system design is shown below. Assume that the memory system has 16 address lines denoted by ${A_{15}}$ to ${A_0}$. What is the range of addresses (in hexadecimal) of the memory system that can get enabled by the chip select (CS) signal?
+\hfill{\brak{GATE \enspace CS2019-2}}
+
+\begin{figure}[H]
+\input{ide/7447/figs/fig14.tex}
+\caption{Logic Diagram}
+\label{fig:figure14}
+\end{figure}
+
+\begin{enumerate}
+\item ${C800}$ to ${CFFF}$
+\item ${CA00}$ to ${CAFF}$
+\item ${CA00}$ to ${C8FF}$
+\item ${DA00}$ to ${DFFF}$
+\end{enumerate}  
+
+
+\item A $6{\frac{1}{2}}$ digit time counter is set in the time period mode of operation and range is set as 'ns'. For an input signalthe time-counter displays $1000000$. with the same input signal,The time countr is changed to 'frequency' mode of operation and the range is set as 'HZ'.The display will be show the number$\underline{\hspace{2cm}}$.
+\hfill{\brak{GATE \enspace IN2020-43}}
 
 \end{enumerate}
 

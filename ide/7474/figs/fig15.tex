@@ -1,0 +1,51 @@
+\begin{center}
+ \begin{circuitikz}
+    % Universal Flip-flop with custom pin names
+    \draw (0,0) node[flipflop,external pins width=0, name=FF1,scale=1] {};
+    
+    % Custom pin names
+    \node [right,font=] at (FF1.bpin 1) {\textsl{Ta}};
+    %\node [right,font=] at (FF.bpin 2) {\textsl{clk}};
+    
+    \draw (FF1.west) ++(0,-0.6) -- ++(0.2,-0.2) -- ++(-0.2,-0.2) -- cycle;
+    \draw (FF1.pin 3) -- ++(-0.75,0);
+    \draw (-1.6,-0.85) -- ++(0,-6);
+    \node [left,font=] at (-1.2,-7) {\textsl{clk}};
+    \node [left,font=] at (FF1.bpin 6) {\textsl{A}};
+    \node[right] at (FF1.pin 3) {clk};
+    
+    \draw (0,-4) node[flipflop, name=FF2, external pins width=0,scale=1] {};
+    
+    % Custom pin names
+    \node [right,font=] at (FF2.bpin 1) {\textsl{Tb}};
+    %\node [right,font=] at (FF.bpin 2) {\textsl{clk}};
+    \draw (FF2.west) ++(0,-0.6) -- ++(0.2,-0.2) -- ++(-0.2,-0.2) -- cycle;
+    \draw (FF2.pin 3) -- ++(-0.75,0);
+    \node [left,font=] at (FF2.bpin 6) {\textsl{B}};
+    \draw (FF2.pin 6) -- ++(1.9,0)  {};
+    \node[right] at (FF2.pin 3) {clk};
+
+     % NAND gate
+    \draw (-2,1) node[nand port] (NAND) {};
+    \draw (NAND.in 1) -- ++(-1,0) node[left] {X};
+    \draw (-4.2,1.25) -- ++ (0,-4) |- (FF2.pin 1);
+    %\draw (NAND.in 2) -- (NAND.in 2 -| FF2.pin 6);
+    \draw (NAND.in 2) -- ++(-0.3,0)  -- ++(0,-3) -- ++(5,0) -- ++ (0,-0.9);
+    
+    \draw (NAND.out) -- ++ (0,0) ;
+    %\draw (FF1.pin 1) -- ++(0,0) |- (NAND.out);
+    %\draw (FF1.pin 1) -- ++(-2,1) ;
+    \draw (NAND.out) -- (NAND.out -| FF1.pin 1);
+
+
+
+    \draw (5,1) node[or port] (OR) {};
+    \draw (FF2.pin 6) -- ++(2,0) |- (OR.in 2);
+    \draw (FF1.pin 6) -- ++(1,0) |- (OR.in 1);
+    \node[circ] at (-4.2,1.25) {};
+    \node[circ] at (-1.6,-4.85) {};
+  
+    % OR gate output
+    \draw (OR.out) -- ++(0.5,0) node[right] {y};
+\end{circuitikz}
+\end{center}

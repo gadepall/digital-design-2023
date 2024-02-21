@@ -1,0 +1,54 @@
+\begin{circuitikz}
+
+\draw (0,0) node[op amp] (opamp1) {};
+\draw (opamp1.-)  node[left]{};
+\draw (opamp1.+) node[left]{};
+\draw (opamp1.out) node[right]{} ;
+\draw (0,5) node[op amp] (opamp2) {};
+\draw (opamp2.-)  node[left]{};
+\draw (opamp2.+)  node[left]{};
+\draw (opamp2.out) node[right]{};
+\draw (3.5,5) node[not port] (notgate1) {};
+\draw (notgate1.in) node[left] {};
+\draw (notgate1.out) node[right] {};
+\draw (3.5,2) node[not port] (notgate2) {};
+\draw (notgate2.in) node[left] {};
+\draw (notgate2.out) node[right] {};
+\draw (6.5,3.5) node[and port] (andgate1) {};
+\draw (andgate1.in 1) node[left] {};
+\draw (andgate1.in 2)  node[left] {};
+\draw (andgate1.out) node[right] {};
+\draw (6.5,0.5) node[and port] (andgate2) {};
+\draw (andgate2.in 1) node[left] {};
+\draw (andgate2.in 2)  node[left] {};
+\draw (andgate2.out) node[right] {};
+\draw (8,2) node[or port] (orgate) {};
+\draw (orgate.in 1) node[left] {};
+\draw (orgate.in 2)  node[left] {};
+\draw (orgate.out) node[right] {$out$};
+\draw (andgate1.out) -| (orgate.in 1);
+\draw (andgate2.out) -| (orgate.in 2);
+\draw (notgate1.out) -| (andgate1.in 1);
+\draw (notgate2.out) -| (andgate1.in 2);
+\draw (opamp2.out) -|(notgate1.in);
+\draw (opamp1.out) -| (andgate2.in 2);
+\draw(opamp2.out)--++(90:0)|-(andgate2.in 1);
+\draw(notgate2.in)--++(50:0)|-(opamp1.out);
+\draw(opamp1.-)--++(90:0)-|(-3,2)|-(opamp2.-);
+\draw(opamp2.+)--++(0,-1) node[rground,rotate=180,yscale=-1]{};
+\draw (-1.2,2.8)node(right) {$3V$};
+\draw(opamp1.+)--++(0,-1) node[ground,rotate=180,yscale=-1]{};
+\draw (-5,5.5) to[sV] (-5,0)node[ground,rotate=180,yscale=-1]{};
+\draw (-5,5.5) -- (opamp2.-);
+\draw (-6,3)node(right) {$6 \sin{\omega t}$};
+\draw (0,5.5) -- (0,6.2)node(right) {};
+\draw (0,6.5) node(right) {$HIGH$};
+\draw (0,4.5) -- (0,3.8)node(right) {};
+\draw(0,3.5) node(right) {LOW};
+\draw (0,0.5) -- (0,1.2)node(right) {};
+\draw (0,1.5) node(right) {$HIGH$};
+\draw (0,-0.5) -- (0,-1.2)node(right) {};
+\draw (0,-1.5) node(right) {$LOW$};
+
+\end{circuitikz}
+

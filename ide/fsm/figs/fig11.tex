@@ -1,0 +1,24 @@
+\begin{circuitikz}
+            \draw (2,2)coordinate(w)--(5,2)coordinate(x)--(5,6)coordinate(x)--(2,6)coordinate(z)--(2,2)coordinate(w);
+            \draw (0.85,5.5)--(2,5.5);
+            \draw (2,5.5)node[right]{$D$};
+            \draw (1,0)--(1,2.5)--(2,2.5);
+            \draw (1,-0.5)node[]{$CLK$};
+            \draw (2,2.25)--(2.3,2.5)--(2,2.75);
+            \draw (5,5.5)node[left]{$Q$}--(8,5.5)node[right]{$1$};
+            \draw (5,2.5)node[left]{$\overline{Q}$}--(8,2.5)node[right]{$0$};
+              % Reversed NAND gate (horizontally flipped)
+    \draw (5,8) node[nand port,scale=-1] (nand) {};
+    %\draw (nand.in 1) node[left] {};
+%\draw (nand.in 2) node[left] {};
+    
+    % Output
+    
+    \draw (nand.out) -- ++(-4,0) -- ++(0,-2.5) node[above]{};
+    % Inputs
+    \draw (nand.in 1) -- ++(0,-2.2) node[below]{};
+    \draw (nand.in 2) -- ++(4,0)--++(0,-4.2)--++(-0.86,0) node[below]{};
+    \draw (8,2)--(8,6)--(9.5,5)--(9.5,3)--(8,2);
+    \draw [->](9,0)node[right]{$A$}--(9,2.7);
+    
+\end{circuitikz}

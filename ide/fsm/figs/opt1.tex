@@ -1,0 +1,12 @@
+\begin{circuitikz}
+[-latex ,node distance=4cm and 2cm,thick,state/.style={circle,draw, minimum width =1cm}] 
+
+\node[state] (Q0) {$Q=0$};
+\node[state] (Q1) [right of=Q0]{$Q=1$};
+\path (Q0) edge [bend left] node [above=0.15] {A = 1} (Q1);
+\path (Q0) edge [loop above ,out=100 ,in=150,distance=2cm] node {A = 0} (Q0);
+\path  (Q1) edge [bend left] node [below=0.15] {A = 1} (Q0);
+\path (Q1) edge [loop above ,in=60,out=120,distance=2cm] node {A=0} (Q1);
+        
+\end{circuitikz}
+

@@ -1,0 +1,51 @@
+\begin{circuitikz}
+  %input nodes
+\draw(0,1.2)node[left](A){$A$};
+\draw(1,-0.5)node[left](G){$G$};
+\draw(0,-2.2)node[left](B){$B$};
+\draw(4,2)node[left](C){$C$};
+ \draw(6,1.25)node[left](){};
+ \draw(6.5,-1.5)node[left](){};
+  \draw(6.5,-0.75)node[left](){};
+  \draw(8,0.9)node[left](){};
+  \draw(6,-2.23)node[left](){};
+  \draw(4,-2.75)node[left](P){$P$};
+  \draw(9,1.1)node[left](){};
+   \draw(9.15,-0.)node[left](){};
+  \draw(12,1.2)node[left](X){$X$};
+  \draw(9,-1.75)node[left](){};
+  \draw(8,-0)node[left](){};
+  \draw(11,-0)node[left](){};
+  \draw(12,-1.75)node[left](Y){$Y$};
+  %AND gates
+  \draw(3,1)node[and port,scale=0.75](notea){};
+  \draw (A) -- (notea.in 1);
+  \draw(3,-2)node[and port,scale=0.75](noteb){};
+\draw(B)--(noteb.in 2);
+\draw(notea.in 2)--(noteb.in 1);
+  
+  %XOR gates
+  \draw(6,1.25) node[or port,scale=0.75](notec){};
+  \draw(notea.out)-| (notec.in 2);
+  \draw(notec.in 1)-| (C);
+  \draw(6,-2.23)node[or port,scale=0.75](noded){};
+  \draw (noteb.out) -- (noded.in 1);
+  \draw(noded.in 2)-| (P);
+  \draw(9,1.1)node[nor port,scale=0.75](nodee){};
+  \draw(notec.out)--(nodee.in 1);
+  \draw(8,0.9)--(nodee.in 2);
+  \draw(nodee.out)--(9.15,-0);
+  \draw(9,-1.75)node[nor port,scale=0.75](nodef){};
+   \draw(noded.out)-|(nodef.in 2);
+  \draw(6.5,-1.5)--(nodef.in 1);
+   \draw(6.5,-1.5)--(6.5,-0.75);
+   \draw(Y)-| (11,-0);
+   \draw(11,-0)--(8,-0);
+   \draw(8,-0)-| (nodee.in 2);
+%coordinates
+ \draw(G)--(2,-0.5);
+ \draw(6.5,-0.75)-| (9.15,-0);
+  \draw(nodee.out)--(X);
+  \draw(nodef.out)--(Y);
+
+ \end{circuitikz}

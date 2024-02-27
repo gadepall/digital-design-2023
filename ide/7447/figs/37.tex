@@ -1,0 +1,44 @@
+\begin{circuitikz} 
+\draw (2,0) node[nmos] {} (3,0)
+(4,0) node[nmos] {} (5,0)
+(4,-0.375) node[ground] {}
+(2,-0.375) node[ground] {}
+;
+\ctikzset{diodes/scale=0.6} 
+\draw  (1,3) to[empty diode] (2,2.25)
+(3,1.5) to[empty diode ] (4,0.75)
+;
+\ctikzset{diodes/scale=1} 
+
+\draw [very thick](1.75,3.75) -- (2,4.25) -- (2.25,3.75) -- cycle
+(3.75,3.75) -- (4,4.25) -- (4.25,3.75) -- cycle
+(0,0) -- (2,0) -- (5,0)
+(0,1.5) node[anchor=east] {W1}--  (5,1.5)
+(0,0) -- (0,0.625)
+(-0.25,1.2) node[anchor=north] {VDD}
+(2,4.25) -- (2,4.6) node[anchor=south] {B0}
+(4,4.25) -- (4,4.6) node[anchor=south] {B1}
+(-0.15,0.55) -- (0,0.625) --(0.15,0.7)
+(0,3) node[anchor=east] {W0}  -- (5,3)
+(2,0.25) --  (2,3.75)
+(4,0.25) -- (4,3.75)
+(8.125,1.75) -- (8,1.75) -- (8,3) --(8.125,3)
+(9.625,1.75) -- (9.75,1.75) -- (9.75,3) --(9.625,3);
+\node (mynode) at (3,4) {\scalebox{0.5}{Sense amps}};
+ \filldraw[fill=black, draw=black] (1,3) circle [radius=0.1];
+ \filldraw[fill=black, draw=black] (2,2.25) circle [radius=0.1];
+ \filldraw[fill=black, draw=black] (3,1.5) circle [radius=0.1];
+ \filldraw[fill=black, draw=black] (4,0.75) circle [radius=0.1];
+ %matrix code
+\node at (8.5,3.5) {$B_{0}$};
+\node at (9.25,3.5) {$B_{1}$} ;
+\node at (7.4,2.75) {$W_{0}$};
+\node at (8.5,2.75) {$D_{00}$};
+\node at (9.25,2.75) {$D_{01}$};
+\node at (7.4,2) {$W_{1}$};
+\node at (8.5,2) {$D_{10}$};
+\node at (9.25,2) {$D_{11}$};
+\node at (8.7,1) {Bits stored in the ROM Array};
+
+
+\end{circuitikz}

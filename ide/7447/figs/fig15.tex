@@ -1,0 +1,27 @@
+\begin{circuitikz}
+    %input nodes
+  \draw (0,0) node[circ] (A) {};
+  \draw (0,-0.6) node[circ] (Qb) {};
+  \draw (0,-1.6) node[circ] (Q) {};
+  \draw (0,-2.2) node[circ] (B) {};
+      \draw (A) ++(180:0.5) node {A};
+      \draw (Qb) ++(240:0.5) node {$\bar{Q}$};
+      \draw (Q) ++(210:0.5) node {Q};
+      \draw (B) ++(200:0.5) node {B};    
+  %and Gate
+  \draw (2,-0.3) node[and port] (anda){};
+  \draw (A) -- (anda.in 1);
+  \draw (Qb) -- (anda.in 2);
+  \draw (2,-1.9) node[and port] (andb){};
+  \draw (Q) -- (andb.in 1);
+  \draw (B) -- (andb.in 2);
+  
+  %latch
+  \draw (4,-1.1) node[flipflop SR] (SR) {\tiny R-S Latch};
+  \draw (anda.out) |- (SR.pin 1);
+  \draw (andb.out) |- (SR.pin 3);
+  
+  \draw (Qb) to ++(-1,0) to[crossing] ++(0,-2) to ++(7,0) to[short,-*] ++(0,0.65) |- (SR.pin 4);
+  \draw (0,-1.6) to ++(-1.5,0) to ++(0,+2) to ++(7.5,0) to[short,-*] ++(0,-0.65) |- (SR.pin 6);
+  
+   \end{circuitikz}

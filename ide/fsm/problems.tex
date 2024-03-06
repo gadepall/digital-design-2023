@@ -240,8 +240,16 @@ $\hfill\brak{GATE\enspace PH2020,6}$
   \item $111001$
 \end{enumerate}
 
-\end{enumerate}
+\item A finite state machine (FSM) is implemented using the D flip-flops $A$ and $B$, and logic gates, as shown in the figure below. The four possible states of the FSM are $Q_AQ_B = 00, 01, 10$ and	 $11$.  
 
-\end{document}
+	\input{ide/fsm/figs/circuit.tex}
+Assume that $X_{IN}$ is held at a constant logic level throughout the operation of the FSM. When the FSM is initialized to the state $Q_AQ_B = 00$ and clocked, after a few clock cycles, it starts cycling through
+\begin{enumerate}
+\item all of the four possible states if $X_{IN} = 1$
+\item three of the four possible states if $X_{IN} = 0$
+\item only two of the four possible states if $X_{IN} = 1$
+\item only two of the four possible states if $X_{IN} = 0$
 \end{enumerate}
+\hfill{(GATE EC 2017)}
 
+\end{enumerate}

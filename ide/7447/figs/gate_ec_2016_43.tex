@@ -1,0 +1,54 @@
+
+\begin{circuitikz}[scale=1.1]
+\tikzstyle{every node}=[font=\large]
+\draw  (5,10.75) rectangle (7.75,7);
+\draw [](4.75,16) to[short] (11.75,16);
+\draw [](4.75,14.75) to[short] (11.75,14.75);
+\draw [](4.75,13.25) to[short] (11.75,13.25);
+\draw [](4.75,17.5) to[short] (11.75,17.5);
+\draw (11.5,17.5) node[ieeestd buffer port, anchor=in](port){} (port.out) to[short] (13.25,17.5);
+\draw (port.in) to[short] (11.25,17.5);
+\draw (11.5,16) node[ieeestd buffer port, anchor=in](port){} (port.out) to[short] (13.5,16);
+\draw (port.in) to[short] (11,16);
+\draw (11.5,14.75) node[ieeestd buffer port, anchor=in](port){} (port.out) to[short] (13,14.75);
+\draw (port.in) to[short] (11.5,14.75);
+\draw (11.5,13.25) node[ieeestd buffer port, anchor=in](port){} (port.out) to[short] (13.25,13.25);
+\draw (port.in) to[short] (11.25,13.25);
+\draw [](12.25,17.25) to[short] (12.25,16.75);
+\draw[] (12.25,16.75) to[short] (9.25,16.75);
+\draw [](9.25,16.75) to[short] (9.25,10.25);
+\draw[] (9.25,10.25) to[short] (7.75,10.25);
+\draw [](12.25,15.75) to[short] (12.25,15.5);
+\draw[] (12.25,15.5) to[short] (10,15.5);
+\draw [](10,15.5) to[short] (10,9.75);
+\draw[] (10,9.75) to[short] (7.75,9.75);
+\draw [](12.25,14.5) to[short] (12.25,14);
+\draw[] (12.25,14) to[short] (10.75,14);
+\draw [](10.75,14) to[short] (10.75,9.25);
+\draw [](10.75,9.25) to[short] (10.75,8.75);
+\draw[] (10.75,8.75) to[short] (7.75,8.75);
+\draw [](12.25,13) to[short] (12.25,7.75);
+\draw[] (12.25,7.75) to[short] (7.75,7.75);
+\draw [](4,10) to[short] (5,10);
+\draw [](4,8) to[short] (5,8);
+\draw [](13.25,17.5) to[short] (13.75,17.5);
+\draw [](13.75,17.5) to[short] (13.75,13.25);
+\draw [](13.25,13.25) to[short] (13.75,13.25);
+\draw [](13,14.75) to[short] (13.75,14.75);
+\draw [](13.5,16) to[short] (13.75,16);
+\draw [](13.75,15.5) to[short] (15.25,15.5);
+\node [font=\LARGE] at (4.75,18) {P};
+\node [font=\LARGE] at (4.75,16.75) {Q};
+\node [font=\LARGE] at (4.75,15.25) {R};
+\node [font=\LARGE] at (4.75,13.75) {S};
+\node [font=\LARGE] at (3.75,10.5) {$C_1$};
+\node [font=\LARGE] at (3.5,8.5) {$C_2$};
+\node [font=\LARGE] at (15.25,15.75) {Y};
+\node [font=\LARGE] at (8.75,10.75) {$O_0$};
+\node [font=\LARGE] at (9,9.25) {$O_1$};
+\node [font=\LARGE] at (9,8.25) {$O_2$};
+\node [font=\LARGE] at (8.75,6.75) {$O_3$};
+\draw [](6.25,7) to[short] (6.25,5.25);
+\node [font=\large] at (4.5,6) {Enable=1};
+\end{circuitikz}
+

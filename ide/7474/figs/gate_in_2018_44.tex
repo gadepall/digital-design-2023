@@ -1,0 +1,53 @@
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\small]
+\draw [short] (3.75,13.5) -- (3.75,11);
+\draw [short] (3.75,11) -- (3.75,9.75);
+\draw [short] (3.75,13.5) -- (6.25,13.5);
+\draw [short] (6.25,13.5) -- (6.25,9.75);
+\draw [short] (3.75,9.75) -- (6.25,9.75);
+\draw [short] (12.5,13.5) -- (12.5,9.75);
+\draw [short] (12.5,9.75) -- (15,9.75);
+\draw [short] (15,9.75) -- (15,13.5);
+\draw [short] (12.5,13.5) -- (15,13.5);
+\draw [short] (3.75,12) -- (4,11.75);
+\draw [short] (4,11.75) -- (3.75,11.5);
+\draw [short] (12.5,12) -- (12.75,11.75);
+\draw [short] (12.75,11.75) -- (12.5,11.5);
+\draw[] (3.75,11.75) to[short] (1.25,11.75);
+\draw [](6.25,13) to[short] (7.5,13);
+\draw [](2.5,13) to[short] (3.75,13);
+\draw [](3,10.5) to[short] (3.75,10.5);
+\draw [](11.25,13) to[short] (12.5,13);
+\draw [](11.5,10.25) to[short] (12.5,10.25);
+\node [font=\small] at (4.25,13) {$J$};
+\node [font=\small] at (4.25,10.5) {$K$};
+\node [font=\small] at (5.75,13) {$Q$};
+\node [font=\small] at (5.75,10.5) {$\overline{Q}$};
+\node [font=\small] at (5,13.25) {SET};
+\node [font=\small] at (5,10) {CLR};
+\node [font=\small] at (8,13) {$Q_1$};
+\node [font=\small] at (1.75,13) {$Q_{1}+Q_{2}$};
+\node [font=\small] at (2,10.5) {$\overline{Q_1}+\overline{Q_2}$};
+\draw[] (1.25,11.75) to[short] (0.75,11.75);
+\draw [](0.75,11.75) to[short] (0.75,7.25);
+\draw [](0.75,7.25) to[short] (1.5,7.25);
+\draw [](0,7.25) to[short] (0.75,7.25);
+\node [font=\small] at (-1,7.25) {Clock};
+\node [font=\small] at (13,13) {$J$};
+\node [font=\small] at (13,10.25) {$K$};
+\node [font=\small] at (14.5,13) {$Q$};
+\node [font=\small] at (14.5,10.25) {$\overline{Q}$};
+\node [font=\small] at (13.75,13.25) {SET};
+\node [font=\small] at (13.75,10) {CLR};
+\node [font=\small] at (10,13) {$\overline{Q_1}+Q_2$};
+\node [font=\small] at (10.25,10.25) {$Q_1+\overline{Q_2}$};
+\draw (0,7.25) to[short] (0.75,7.25);
+\draw [](15,13) to[short] (15.5,13);
+\node [font=\small] at (15.75,13) {Q2};
+\draw [](1.5,7.25) to[short] (8.5,7.25);
+\draw [](8.5,7.25) to[short] (8.5,11.25);
+\draw [](8.5,11.25) to[short] (8.5,11.5);
+\draw[] (12.5,11.75) to[short] (8.5,11.75);
+\draw [](8.5,11.75) to[short] (8.5,11.5);
+\end{circuitikz}
+

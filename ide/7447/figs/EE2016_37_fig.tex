@@ -1,0 +1,57 @@
+\begin{circuitikz}[american voltages, american resistors]
+    % Resistor network and voltage source
+    \draw
+    (0,9.5) -- (0,10) node[above] {$3V$}
+    to[R, l=100$\Omega$] (0,7) % Resistor 100 Ohm
+    to[R, l=200$\Omega$] (0,4) % Resistor 200 Ohm
+    to[R, l=200$\Omega$] (0,1) % Resistor 200 Ohm
+    to[R, l=100$\Omega$] (0,-2); % Resistor 100 Ohm
+    
+    % Nodes for the tap points
+    \node at (0,7) [circle,fill,inner sep=2pt]{};
+    \node at (0,4) [circle,fill,inner sep=2pt]{};
+    \node at (0,1) [circle,fill,inner sep=2pt]{};
+
+    % Op-amps with feedback loop as in the provided design
+    % Op-amp 2
+    \draw (6,6.5) node[op amp, noinv input up] (opamp2) {}
+    (opamp2.+) to[short] ++(-1.25,0) to[short] ++(0,-4)
+    (opamp2.-) to[short] ++(-3.25,0) to[short] ++(0,1) to[short] ++(-1.5,0);
+    % Power supply connections
+    \draw (opamp2.up) -- ++(0,0.4);
+    \draw (opamp2.down) -- ++(0,-0.4)
+    (opamp2.out) to[short] ++(0,0) node[above] {$X_2$} -- ($(opamp2.out)+(0.5,0)$);
+    
+    % Op-amp 1
+    \draw (6,3.5) node[op amp, noinv input up] (opamp1) {}
+    (opamp1.+) to[short] ++(-1.25,0) to[short] ++(0,-4)
+    (opamp1.-) to[short] ++(-3.25,0) to[short] ++(0,1) to[short] ++(-1.5,0);
+    % Power supply connections
+    \draw (opamp1.up) -- ++(0,0.4);
+    \draw (opamp1.down) -- ++(0,-0.4)
+    (opamp1.out) to[short] ++(0,0) node[above] {$X_1$} -- ($(opamp1.out)+(0.5,0)$);
+    
+    % Op-amp 0
+    \draw (6,0.5) node[op amp, noinv input up] (opamp0) {}
+    (opamp0.+) to[short] ++(-1.25,0) to[short] ++(0,-2.5) node[ above right] {$V_{IN}$}
+    (opamp0.-) to[short] ++(-3.25,0) to[short] ++(0,1) to[short] ++(-1.5,0);
+    % Power supply connections
+    \draw (opamp0.up) -- ++(0,0.4);
+    \draw (opamp0.down) -- ++(0,-0.4)
+    (opamp0.out) to[short] ++(0,0) node[above] {$X_0$} -- ($(opamp0.out)+(0.5,0)$);
+
+    % Nodes for the tap points
+    \node at (3.55,7) [circle,fill,inner sep=2pt]{};
+    \node at (3.55,4) [circle,fill,inner sep=2pt]{};
+    \node at (3.55,1) [circle,fill,inner sep=2pt]{};
+
+    % Digital circuit block
+    \draw[thick] ($(opamp2.out)+(0.5,0.5)$) rectangle ($(opamp0.out)+(2,-0.5)$);
+    \node at (8.425,3.5) {Digital};
+    \node at (8.425,3.2) {Circuit};
+
+    % Outputs from the digital circuit
+    \draw ($(opamp2.out)+(2,-2.5)$) -- ++(0.5,0) node[right] {$B_1$};
+    \draw ($(opamp0.out)+(2,2.5)$) -- ++(0.5,0) node[right] {$B_0$};
+
+\end{circuitikz}

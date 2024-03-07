@@ -1,0 +1,57 @@
+\begin{figure}[!ht]
+\centering
+\resizebox{1\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\Large]
+
+\draw [, line width=0.9pt](4,6) to[short] (17,6);
+\draw (4,6) to[short] (17,6);
+\draw [, line width=0.9pt ] (5,7) rectangle (9,11);
+\draw [, line width=0.9pt ] (15,7) rectangle (19,11);
+\draw (11,10) to[short] (11.5,10);
+\draw (11,9.5) to[short] (11.5,9.5);
+\draw (11.5,10) node[ieeestd nand port, anchor=in 1, scale=0.89](port){} (port.out) to[short] (13.5,9.75);
+\draw [, line width=0.9pt](11,9.5) to[short] (11,8.75);
+\draw [, line width=0.9pt](9,10) to[short] (11,10);
+\draw [, line width=0.9pt](13.5,9.75) to[short] (14,9.75);
+\draw [, line width=0.9pt](14,9.75) to[short] (14,10);
+\draw [, line width=0.9pt](14,10) to[short] (15,10);
+\draw [, line width=0.9pt](19,10) to[short] (20.5,10);
+\draw [, line width=0.9pt](20,10) to[short] (20,12);
+\draw [, line width=0.9pt](20,12) to[short] (20,13);
+\draw[, line width=0.9pt] (20,13) to[short] (10,13);
+\draw [, line width=0.9pt](10,10) to[short] (10,12);
+\draw (9,13) to[short] (8.75,13);
+\draw (9,12.5) to[short] (8.75,12.5);
+\draw (8.75,13) node[ieeestd xor port, anchor=in 2, scale=0.89, rotate=180](port){} (port.out) to[short] (6.75,12.75);
+\draw[, line width=0.9pt] (10,13) to[short] (8.75,13);
+\draw [, line width=0.9pt](10,12) to[short] (10,12.5);
+\draw[, line width=0.9pt] (10,12.5) to[short] (9,12.5);
+\draw[, line width=0.9pt] (6.75,12.75) to[short] (4,12.75);
+\draw [, line width=0.9pt](4,12.75) to[short] (4,10);
+\draw [, line width=0.9pt](4,10) to[short] (5,10);
+\node [font=\Large] at (7,9) {A};
+\node [font=\Large] at (17,9) {B};
+\node [font=\Large] at (5.25,10) {D};
+\node [font=\Large] at (15.25,10) {D};
+\node [font=\Large] at (18.5,10) {Q};
+\node [font=\Large] at (8.5,10) {Q};
+\node [font=\Large] at (8.5,8) {$\bar Q$};
+\node [font=\Large] at (18.5,8) {$\bar Q$};
+\node [font=\Large] at (6,7.75) {CK};
+\node [font=\Large] at (16,8) {CK};
+\node [font=\Large] at (3.25,6) {CLK};
+\node [font=\Large] at (11,8.5) {Xin};
+\draw [, line width=0.9pt](6.75,6) to[short] (6.75,7);
+\draw [, line width=0.9pt](17,6) to[short] (17,7);
+\draw [line width=0.9pt, short] (6.25,7) -- (6.75,7.75);
+\draw [line width=0.9pt, short] (6.75,7.75) -- (7.25,7);
+\draw [line width=0.9pt, short] (16.5,7) -- (17,7.75);
+\draw [line width=0.9pt, short] (17,7.75) -- (17.5,7);
+\node [font=\Large] at (11.5,10.5) {$Q_A$};
+\node [font=\Large] at (20.25,9.5) {$Q_B$};
+\end{circuitikz}
+}%
+
+\label{fig:ide/fsm/figs/circuit}
+\end{figure}

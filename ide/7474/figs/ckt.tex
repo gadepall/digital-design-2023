@@ -1,0 +1,83 @@
+
+    \begin{circuitikz}
+              \draw(0,0) node[left]{$D_{in}$} to [short,o-](0.5,0) node[right]{D};
+              \draw(0.25,0) to [short,*-](0.25,1);
+              \draw(0.25,1) to (4,1);
+              \draw(0.5,0.5) to (0.5,-2.5);
+              \draw(0.5,0.5) to (3,0.5);
+              \draw(0.5,-2.5) to (3,-2.5);
+              \draw(3,-2.5) to (3,0.5);
+              \draw(1.6,-2.5) to (1.75,-2);
+              \draw(1.75,-2) to (1.9,-2.5);
+              \draw(3,0) node[left]{Q} to (3.5,0);
+              \draw(3.5,0) to (3.5,0.5);
+              \draw(3.5,0.5) to (4,0.5);
+            \draw(1.75,-3) to (1.75,-2.5);
+            \draw(0.75,-1) node[right]{D Flip Flop};
+            \draw(1.75,-3) to [short,-o] (0,-3) node[left]{CK};
+            \draw(5,0.75) node[xor port,scale=0.87]{};
+            ;
+
+    \draw (1.75,-1.80) node[]{$CLK$};
+    \draw (5,0.75) to [short,-o] (5.5,0.75) node[right]{X};
+    
+        \draw(5,-1) to (5.5,-1);
+        \draw(5.5,-1) to (5.5,-0.5);
+        \draw(5.5,-0.5) to (7,-0.5);
+        \draw(7,-0.5) to (7,-1);
+        \draw(7,-1) to (8.5,-1);
+        \draw(8.5,-1) to (8.5,-0.5);
+        \draw(8.5,-0.5) to (10,-0.5);
+        \draw(10,-0.5) to (10,-1);
+        \draw(10,-1) to (11.5,-1);
+        \draw(11.5,-1) to (11.5,-0.5);
+        \draw(11.5,-0.5) to (13,-0.5);
+        \draw(13,-0.5) to (13,-1);
+        \draw(13,-1) to (13.5,-1);
+        \draw(5,-0.75) node[left]{CK};
+
+        \draw(5,-1.5) to (5.95,-1.5);
+        \draw(5.95,-1.5) to (6.05,-2);
+        \draw(6.05,-2) to (8.95,-2);
+        \draw(8.95,-2) to (9.05,-1.5);
+        \draw(9.05,-1.5) to (11.95,-1.5);
+        \draw(11.95,-1.5) to (12.05,-2);
+        \draw(12.05,-2) to (13.5,-2);
+    
+        \draw(5,-2) to (5.95,-2);
+        \draw(5.95,-2) to (6.05,-1.5);
+        \draw(6.05,-1.5) to (8.95,-1.5);
+        \draw(8.95,-1.5) to (9.05,-2);
+        \draw(9.05,-2) to (11.95,-2);
+        \draw(11.95,-2) to (12.05,-1.5);
+        \draw(12.05,-1.5) to (13.5,-1.5);
+        \draw(5,-1.75) node[left]{$D_{in}$};
+    
+        \draw[dotted](5.5,0) to (5.5,-2.75);
+        \draw[dotted](6,0) to (6,-2.75);
+        \draw[dotted](8.5,0) to (8.5,-2.75);
+        \draw[dotted](9,0) to (9,-2.75);
+        \draw[dotted](11.5,0) to (11.5,-2.75);
+        \draw[dotted](12,0) to (12,-2.75);
+        
+        \draw(5.5,-2.5) to (5.5,-2.75);
+        \draw(6,-2.5) to (6,-2.75);
+        \draw(8.5,-2.5) to (8.5,-2.75);
+        \draw(9,-2.5) to (9,-2.75);
+        \draw(11.5,-2.5) to (11.5,-2.75);
+        \draw(12,-2.5) to (12,-2.75);
+        \draw(5.5,0) to (5.5,-0.25);
+        \draw(8.5,0) to (8.5,-0.25);
+        \draw(5.75,-3) node[]{$\triangle T$};
+        \draw(8.75,-3) node[]{$\triangle T$};
+        \draw(11.75,-3) node[]{$\triangle T$};
+        \draw(7,-0.125) node[]{$T_{CK}$};
+        \draw(6.25,-0.125) node[]{$\longleftarrow$};
+        \draw(7.75,-0.125) node[]{$\longrightarrow$};
+        \draw(5.25,-2.652) node[]{$\rightarrow$};
+        \draw(6.25,-2.652) node[]{$\leftarrow$};
+        \draw(8.25,-2.652) node[]{$\rightarrow$};
+        \draw(9.25,-2.652) node[]{$\leftarrow$};
+        \draw(11.25,-2.652) node[]{$\rightarrow$};
+        \draw(12.25,-2.652) node[]{$\leftarrow$};
+    \end{circuitikz}

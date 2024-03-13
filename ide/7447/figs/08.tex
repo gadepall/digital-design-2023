@@ -1,0 +1,24 @@
+\begin{circuitikz}
+    % Input nodes
+    \node (a) at (0,-0.15) {$a$};
+    \node (b) at (0,-1) {$b$};
+    \node (c) at (0,-3) {$c$};
+
+    % NOT gate
+    \node [not port] at (2,-1) (not) {};
+    \draw (b) -- (not.in);
+
+    % AND gate
+    \node [and port] at (5,-2.75) (and) {};
+    \draw (not.out) -| (and.in 1);
+    \draw (c) -- (and.in 2);
+
+    % OR gate
+    \node [or port] at (8,-0.45) (or) {};
+    \draw (a) -- (or.in 1);
+    \draw (and.out) -| (or.in 2);
+
+    % Output
+    \node (z) at (9,-0.5) {$z$};
+    \draw (or.out) -- (z);
+\end{circuitikz}

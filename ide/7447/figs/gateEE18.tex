@@ -1,0 +1,20 @@
+\begin{circuitikz}
+        %Input nodes
+\draw(0,3.7) node[left](a) {$A$};
+\draw(0,3.3) node[left](b) {$B$};
+\draw(0,1.7) node[left](c) {$C$};
+\draw(0,1.3) node[left](d) {$D$};
+%nand
+\draw(2.5,3.5) node[nand  port,scale=0.75](nand 1){};
+\draw(2.7,1.5) node[nand  port,scale=0.75](nand 2){};
+\draw(4,2.5)   node[nand  port,scale=0.75](nand 3){};
+%output
+\draw(nand 3.out) -- ++(1,0) node[near end,above](y){$Y$};
+%Connect nodes
+\draw(a) -| (nand 1.in 1);
+\draw(b) -| (nand 1.in 2);
+\draw(c) -| (nand 2.in 1);
+\draw(d) -| (nand 2.in 2);
+\draw(nand 3.in 1) -| (nand 1.out);
+\draw(nand 3.in 2) -| (nand 2.out);
+\end{circuitikz}

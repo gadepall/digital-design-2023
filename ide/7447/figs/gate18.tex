@@ -1,0 +1,46 @@
+\begin{circuitikz}
+    %Input nodes
+    \draw(0,3) node[left] (p) {$X_0$};
+    \draw(0,0.7) node[left] (q) {$X_1$};
+    \draw(0,0.3) node[left] (r) {$X_2$};
+    \draw(0,-1) node[left] (s) {$X_3$};
+
+    %co-ordinates
+    \draw(0.5,2) coordinate(a);
+    \draw(0.5,-2) coordinate(b);
+    \draw(2.6,1.6) coordinate(c);
+    \draw(5.1,3) coordinate(d);
+
+    %NOT Gate
+    \draw(2,3) node[not port,scale=0.75] (notp) {};
+    \draw(2,-1) node[not port,scale=0.75] (nots) {};
+
+    %XOR Gate
+    \draw(2.5,0.5) node[xor port,scale=0.75](xor){};
+    
+    %AND Gate
+    \draw(5,1.8) node[and port,scale=0.75](and){};
+    
+    %OR node
+    \draw(8,-0.8) node[or port,scale=0.75](or){};
+    
+    %Output node
+    \draw(or.out) --++(1,0) node[near end,above](y){$Y$};
+
+    %Connect nodes
+    \draw(p) -- (notp.in);
+    \draw(q) -|(xor.in 1);
+    \draw(r) -|(xor.in 2);
+    \draw(s) -- (nots.in);
+    \draw(a) -| (and.in 1);
+    \draw(a) to [short,-*] (0.5,3);
+    \draw(nots.out) -| (xor.out);
+    \draw(c) -| (and.in 2);
+    \draw (c) to [short,-*] (2.6,0.5);
+    \draw(b) to [short,-*](0.5,-1);
+    \draw(b) -| (or.in 2);
+    \draw(d) -- (notp.out);
+    \draw(d) to [short,-*] (and.out);
+    \draw(and.out) -| (or.in 1);
+    
+\end{circuitikz}

@@ -1,0 +1,47 @@
+\begin{circuitikz}
+    
+    \draw (0,0) node[left] (x1) {$X$};
+    \draw (2,0) node[not port,scale=0.75] (not1) {};
+    \draw (x1) --(not1.in);
+    \draw (5,0) node[pmos](pmos1){};
+    \draw (not1.out) -- (pmos1.G);
+    \draw (pmos1.S) -- (6,0.75)-- (6,1.5)node[vcc] {$V_{\text{DD}}$};
+    \draw (7,0)node[pmos ,xscale=-1](pmos3){};
+    \draw (6,0.75) -- (pmos3.S);
+    \draw (10,0) node[right] (x2) {$X$};
+    \draw (pmos3.G) -- (x2);
+    \draw (5,-1.5) node[pmos](pmos2){};
+    \draw (pmos1.D) -- (pmos2.S);
+    \draw (0,-1.5) node[left](y1) {$Y$};
+    \draw (y1) -- (pmos2.G);
+    \draw (7,-1.5) node[pmos ,xscale=-1](pmos4){};
+    \draw (pmos3.D) -- (pmos4.S);
+    \draw (8.5,-1.5)node[not port,scale=0.75,rotate=180] (not3){};
+    \draw (pmos4.G) -- (not3.out);
+    \draw (10,-1.5) node[right] (y2){$Y$};
+    \draw (not3.in) -- (y2);
+    \draw (pmos2.D) -- (pmos4.D);
+    \draw (6,-2.25) -- (6,-3.75);
+
+    \draw (5,-4.5)node[nmos](nmos1){};
+    \draw (5,-6)node[nmos](nmos2){};
+    \draw (nmos1.S) -- (nmos2.D);
+    \draw (3,-6) node[not port,scale=0.75] (not2) {};
+    \draw (3,0) -- (3,-4.5);
+    \draw (3,-4.5) -- (nmos1.G);
+    \draw (2,-1.5) -- (2,-6);
+    \draw (2,-6) -- (not2.in);
+    \draw (not2.out) -- (nmos2.G);
+
+    \draw (7,-4.5)node[nmos ,xscale=-1](nmos3){};
+    \draw (nmos3.G) -- (9.5,-4.5);
+    \draw (9.5,-4.5) -- (9.5,0);
+    \draw (7,-6)node[nmos ,xscale=-1](nmos4){};
+    \draw (nmos4.G) -- (9,-6);
+    \draw (9,-6)--(not3.in);
+    \draw (nmos2.S) -- (nmos4.S);
+    \draw (6,-6.75)-- (6,-7)node[ground]{};
+    \draw (nmos1.D) --(nmos3.D);
+    
+    \draw (6,-3)--(7,-3) node[right] (output){$f\brak{X,Y}$};    
+\end{circuitikz}

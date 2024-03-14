@@ -1,0 +1,51 @@
+\begin{circuitikz}
+
+ % Input nodes
+ \draw (0,0) node[left] (C){$C$};
+
+  %co-ordinates
+\draw(1,-2.71) coordinate(a);
+\draw(1,0) coordinate(b);
+\draw(6.65,0) coordinate(q);
+\draw(6.65,-2.3) coordinate(r);
+
+   
+    % NOT gates
+\draw (5,0) node[not port,scale=0.75] (notx){};
+    
+
+    % NOR gates
+\draw (3,-1) node[nor port,scale=0.75] (norx){};
+
+   % OR gate
+   
+\draw (5,-2.5) node[or port,scale=0.75] (orx){};
+\draw (6.5,-4) node[or port,scale=0.75] (ory){};
+
+
+  % AND gates
+\draw (4.5,-4.19) node[and port,scale=0.75] (andx){};
+
+     % NAND gates
+\draw (8.5,-2.5) node[nand port,scale=0.80] (nandx){};
+
+ % Connect nodes
+\draw (C) -- (notx.in);
+\draw (norx.out) |- (orx.in 1);
+\draw (orx.out) -| (ory.in 1);
+\draw (ory.out) |- (nandx.in 2);
+\draw (notx.out) --(q);
+\draw (q) --(r);
+\draw (r) --(nandx.in 1);
+ 
+\draw (andx.out) -- (ory.in 2);
+\draw (a) -- (orx.in 2);
+\draw (a) -- (b);
+ % inputs and output ports
+\draw (nandx.out) -- ++(0.5,0) node[right](d){$Y$};
+\draw (norx.in 1) -- ++(-0.2,0) node[left](e){$A$};
+\draw (norx.in 2) -- ++(-0.2,0) node[left](f){$B$};
+\draw (andx.in 1) -- ++(-0.2,0) node[left](g){$A$};
+\draw (andx.in 2) -- ++(-0.2,0) node[left](g){$B$}; 
+ 
+\end{circuitikz}

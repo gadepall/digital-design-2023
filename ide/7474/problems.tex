@@ -524,7 +524,48 @@ When the shift control is high,what will be the binary content of the shift regi
 \end{figure}
  If the probability of input data bit ($D_{in}$) transition in each clock period is $0.3$, the average
     value (in volts, accurate to two decimal places) of the voltage at node $X$, is $..........$.
+    
+ \item Assume that all the digital gates in the circuit shown in the figure are ideal,the resistor $R$=$10k\Omega $ and the supply voltages is $5V$.The $D$ flip-flops $D_1,D_2,D_3,D_4$ and $D_5$ are intialized with logic values $0,1,0,1,$ and $0,$ respectively.The clock has a $30\%$ duty cycle.
+ 
+    \begin{circuitikz}[scale=0.8]
 
+      \tikzset{flipflop AB/.style={flipflop,
+    flipflop def={t1=D,t6=Q,td={\texttt{CLK}}},
+ }}
+     \draw(0,0) node[flipflop AB](D1){D1} ;
+     \draw(3,0) node[flipflop AB](D2){D2};
+     \draw(6,0) node[flipflop AB](D3){D3};
+     \draw(9,0) node[flipflop AB](D4){D4};
+     \draw(12,0) node[flipflop AB](D5){D5};
+     \draw (D1.pin 6) --  (D2.pin 1);
+     \draw (D2.pin 6) --  (D3.pin 1);
+     \draw (D3.pin 6) --  (D4.pin 1);
+     \draw (D4.pin 6) --  (D5.pin 1);
+     \draw (15.2,5) node[or port] (or) {};
+     \draw (or.in 1) node[left]{};
+     \draw (or.in 2) node[left]{};
+     \draw (or.out) node[right]{};
+     \draw (D5.pin 6) -- (or.in 2);
+     \draw (-3,1.05) -- (D1.pin 1);
+     \draw (-3,1.05) -- (-3,-3);
+     \draw (-3,-3) --   (13.45,-3);
+     \draw (13.4,-3) -- (D5.pin 6);
+     \draw (7.3,5.3) -- (or.in 1);
+     \draw (7.3,1.05) -- (7.3,5.25);
+     \draw (0,-2) -- (0,-1.5);
+     \draw (0,-2) -- (3,-2);
+     \draw (3,-2) -- (6,-2);
+     \draw (6,-2) -- (9,-2);
+     \draw (9,-2) -- (12,-2);
+     \draw (15.4,5) to[R, l=$10\, \text{k}\Omega$] (15.4,0);
+     \draw (15.38,0) node[ground]{};
+     \draw (-1,-2) node[left](q){$Clock$};
+     \draw (q) -- (0,-2);
+\end{circuitikz}
+
+The average power dissipated $\brak {in mW}$  in the resistor R is 
+\hfill{(GATE EC 2016)}
+ 
 
 
 
